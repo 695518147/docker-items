@@ -1,0 +1,68 @@
+2024-04-03 19:12:33,665 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2024-04-03 19:12:33,798 INFO initializing Raft sub-system
+
+2024-04-03 19:12:33,799 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2024-04-03 19:12:33,801 INFO cache loaded, datum count: 0, current term: 0
+
+2024-04-03 19:12:33,801 INFO finish to load data from disk, cost: 3 ms.
+
+2024-04-03 19:12:33,813 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2024-04-03 19:12:34,498 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2024-04-03 19:12:35,918 INFO Raft group naming_persistent_service has leader null
+
+2024-04-03 19:12:36,548 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2024-04-03 19:12:39,275 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2024-04-03 19:12:42,581 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-03 19:12:47,870 INFO leader timeout, start voting,leader: null, term: 0
+
+2024-04-03 19:12:50,186 INFO received illegitimate vote, voter-term:1, votee-term:1
+
+2024-04-03 19:12:50,315 INFO received approve from peer: {"ip":"nacos2:8848","voteFor":"nacos2:8848","term":1,"leaderDueMs":5025,"heartbeatDueMs":4000,"state":"CANDIDATE"}
+
+2024-04-03 19:12:50,412 INFO received approve from peer: {"ip":"nacos1:8848","voteFor":"nacos1:8848","term":1,"leaderDueMs":13122,"heartbeatDueMs":3500,"state":"CANDIDATE"}
+
+2024-04-03 19:12:55,679 INFO vote nacos2:8848 as leader, term: 2
+
+2024-04-03 19:12:58,922 WARN start to close old raft protocol!!!
+
+2024-04-03 19:12:58,922 WARN stop old raft protocol task for notifier
+
+2024-04-03 19:12:58,922 WARN stop old raft protocol task for master task
+
+2024-04-03 19:12:58,922 WARN stop old raft protocol task for heartbeat task
+
+2024-04-03 19:12:58,922 WARN clean old cache datum for old raft
+
+2024-04-03 19:12:58,922 WARN start to close old raft protocol!!!
+
+2024-04-03 19:12:58,922 WARN stop old raft protocol task for notifier
+
+2024-04-03 19:12:58,922 WARN stop old raft protocol task for master task
+
+2024-04-03 19:12:58,922 WARN stop old raft protocol task for heartbeat task
+
+2024-04-03 19:12:58,922 WARN clean old cache datum for old raft
+
+2024-04-03 19:12:58,922 WARN start to move old raft protocol metadata
+
+2024-04-03 19:12:58,922 WARN start to move old raft protocol metadata
+
+2024-04-03 19:13:00,684 INFO add listener: com.alibaba.nacos.naming.iplist.9bb315a4-49ac-4188-9641-71c57a5a4bea##DEFAULT_GROUP@@nacos-gateway
+
+2024-04-03 19:21:51,440 INFO Raft group naming_persistent_service has leader null
+
+2024-04-03 19:21:58,211 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-03 22:52:06,093 INFO Raft group naming_persistent_service has leader null
+
+2024-04-03 22:52:06,689 INFO snapshot load from : /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_1/naming_persistent
+
+2024-04-03 22:52:12,747 INFO Raft group naming_persistent_service has leader nacos2:7848
+

@@ -1,0 +1,50 @@
+2024-04-03 19:12:37,113 INFO distro notifier started
+
+2024-04-03 19:13:44,306 INFO [Client-Add] Received distro client sync data 1712142772259_192.168.65.1_19728
+
+2024-04-03 19:20:45,757 ERROR [NACOS-DISTRO] Error while handling notifying task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.DistroConsistencyServiceImpl$Notifier.run(DistroConsistencyServiceImpl.java:412)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 19:22:32,879 INFO [Client-Add] Received distro client sync data 1712143331421_192.168.65.1_22099, revision=1
+
+2024-04-03 19:22:32,883 INFO [processBatchInstanceDistroData] BatchInstanceData is null , clientId is :1712143331421_192.168.65.1_22099
+
+2024-04-03 19:24:36,215 INFO Target nacos2:8848 verify client 1712143474994_192.168.65.1_22362 failed, sync new client
+
+2024-04-03 19:24:36,217 INFO Target nacos3:8848 verify client 1712143474994_192.168.65.1_22362 failed, sync new client
+
+2024-04-03 19:32:01,399 INFO Target nacos3:8848 verify client 1712143920953_192.168.65.1_23181 failed, sync new client
+
+2024-04-03 19:32:01,399 INFO Target nacos2:8848 verify client 1712143920953_192.168.65.1_23181 failed, sync new client
+
+2024-04-03 19:33:31,465 INFO Target nacos3:8848 verify client 1712144009666_192.168.65.1_23346 failed, sync new client
+
+2024-04-03 19:33:31,466 INFO Target nacos2:8848 verify client 1712144009666_192.168.65.1_23346 failed, sync new client
+
+2024-04-03 19:37:11,536 INFO Target nacos2:8848 verify client 1712144230466_192.168.65.1_23768 failed, sync new client
+
+2024-04-03 19:37:11,538 INFO Target nacos3:8848 verify client 1712144230466_192.168.65.1_23768 failed, sync new client
+
+2024-04-03 22:51:29,347 WARN [DISTRO] Cancel distro sync caused by target server nacos3:8848 unhealthy, key: DistroKey{resourceKey='1712144289212_192.168.65.1_23879', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-04-03 22:51:29,350 WARN [DISTRO] Cancel distro sync caused by target server nacos2:8848 unhealthy, key: DistroKey{resourceKey='1712144289212_192.168.65.1_23879', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 22:52:48,363 INFO [Client-Add] Received distro client sync data 1712155944491_192.168.65.1_16941, revision=1
+
+2024-04-03 22:52:48,369 INFO [processBatchInstanceDistroData] BatchInstanceData is null , clientId is :1712155944491_192.168.65.1_16941
+
+2024-04-03 23:38:46,187 INFO Target nacos2:8848 verify client 1712158725627_192.168.65.1_25790 failed, sync new client
+
+2024-04-03 23:38:46,187 INFO Target nacos3:8848 verify client 1712158725627_192.168.65.1_25790 failed, sync new client
+

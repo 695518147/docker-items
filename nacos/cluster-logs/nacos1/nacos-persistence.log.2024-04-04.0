@@ -1,0 +1,26 @@
+2024-04-04 05:05:51,012 WARN [master-db] jdbc:mysql://192.168.0.103:2306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2024-04-04 05:07:43,989 WARN [master-db] jdbc:mysql://192.168.0.103:2306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2024-04-04 08:45:23,132 ERROR [db-error] master db 192.168.0.103 down.
+
+2024-04-04 08:59:21,190 ERROR [db-error] master db 192.168.0.103 down.
+
+2024-04-04 09:01:25,520 ERROR [db-error] master db 192.168.0.103 down.
+
+2024-04-04 09:05:14,680 ERROR [db-error] master db 192.168.0.103 down.
+
+2024-04-04 11:01:00,456 ERROR [db-error] master db 192.168.0.103 down.
+
+2024-04-04 12:18:45,921 ERROR [db-error] master db 192.168.0.103 down.
+
+2024-04-04 13:36:38,751 ERROR [db-error] master db 192.168.0.103 down.
+
+2024-04-04 14:20:56,598 ERROR [db-error] master db 192.168.0.103 down.
+
+2024-04-04 16:05:08,023 ERROR [db-error] master db 192.168.0.103 down.
+
+2024-04-04 20:01:54,504 ERROR [db-error] master db 192.168.0.103 down.
+
+2024-04-04 20:59:35,154 ERROR [db-error] master db 192.168.0.103 down.
+

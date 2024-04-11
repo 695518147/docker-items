@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.java": "java",
+        ".zshrc": "shellscript",
+        "plyconfig.json": "jsonc"
+    },
+    "cSpell.words": [
+        "rediscluster"
+    ]
+}

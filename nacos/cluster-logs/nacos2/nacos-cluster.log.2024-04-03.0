@@ -1,0 +1,704 @@
+2024-04-03 19:12:33,727 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2024-04-03 19:12:33,733 WARN [serverlist] updated to : [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2024-04-03 19:12:33,783 WARN [serverlist] updated to : [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2024-04-03 19:12:40,315 WARN [ClusterRpcClientProxy] success to refresh cluster rpc client on start up,members =[Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}] 
+
+2024-04-03 19:12:49,185 INFO This node is ready to provide external services
+
+2024-04-03 19:12:52,780 INFO start a new rpc client to member - > : Member{ip='nacos3', port=8848, state=UP, extendInfo={lastRefreshTime=1712142772732, raftMetaData={metaDataMap={naming_instance_metadata={leader=nacos3:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, readyToUpgrade=true, version=2.0.3}}
+
+2024-04-03 19:12:56,583 INFO start a new rpc client to member - > : Member{ip='nacos1', port=8848, state=UP, extendInfo={lastRefreshTime=1712142776579, raftMetaData={metaDataMap={naming_instance_metadata={leader=nacos3:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, readyToUpgrade=true, version=2.0.3}}
+
+2024-04-03 19:20:44,895 ERROR failed to report new info to target node : nacos1:8848, error : caused: Request cannot be executed; I/O reactor status: STOPPED;
+
+2024-04-03 19:21:49,298 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2024-04-03 19:21:49,305 INFO [serverlist] changed to : [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848, readyToUpgrade=true}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848, readyToUpgrade=true, version=2.3.1}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, readyToUpgrade=true}}]
+
+2024-04-03 19:21:56,939 INFO start a new rpc client to member - > : Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, readyToUpgrade=true}}
+
+2024-04-03 19:21:57,625 INFO start a new rpc client to member - > : Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848, readyToUpgrade=true}}
+
+2024-04-03 19:21:58,021 INFO [ClusterRpcClientProxy] success to refresh cluster rpc client on start up,members =[Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, readyToUpgrade=true}}, Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848, readyToUpgrade=true}}] 
+
+2024-04-03 19:22:10,413 INFO This node is ready to provide external services
+
+2024-04-03 19:22:39,664 INFO [serverlist] membercount=3
+
+2024-04-03 19:23:29,998 INFO [serverlist] membercount=3
+
+2024-04-03 19:24:20,293 INFO [serverlist] membercount=3
+
+2024-04-03 19:25:10,601 INFO [serverlist] membercount=3
+
+2024-04-03 19:26:00,917 INFO [serverlist] membercount=3
+
+2024-04-03 19:26:51,197 INFO [serverlist] membercount=3
+
+2024-04-03 19:27:41,546 INFO [serverlist] membercount=3
+
+2024-04-03 19:28:31,812 INFO [serverlist] membercount=3
+
+2024-04-03 19:29:22,118 INFO [serverlist] membercount=3
+
+2024-04-03 19:30:12,392 INFO [serverlist] membercount=3
+
+2024-04-03 19:31:02,614 INFO [serverlist] membercount=3
+
+2024-04-03 19:31:52,768 INFO [serverlist] membercount=3
+
+2024-04-03 19:32:43,127 INFO [serverlist] membercount=3
+
+2024-04-03 19:33:33,385 INFO [serverlist] membercount=3
+
+2024-04-03 19:34:23,640 INFO [serverlist] membercount=3
+
+2024-04-03 19:35:13,898 INFO [serverlist] membercount=3
+
+2024-04-03 19:36:04,100 INFO [serverlist] membercount=3
+
+2024-04-03 19:36:54,319 INFO [serverlist] membercount=3
+
+2024-04-03 19:37:44,613 INFO [serverlist] membercount=3
+
+2024-04-03 19:38:34,844 INFO [serverlist] membercount=3
+
+2024-04-03 19:39:26,151 INFO [serverlist] membercount=3
+
+2024-04-03 19:40:16,515 INFO [serverlist] membercount=3
+
+2024-04-03 19:41:06,800 INFO [serverlist] membercount=3
+
+2024-04-03 19:41:57,064 INFO [serverlist] membercount=3
+
+2024-04-03 19:42:47,291 INFO [serverlist] membercount=3
+
+2024-04-03 19:43:37,551 INFO [serverlist] membercount=3
+
+2024-04-03 19:44:27,857 INFO [serverlist] membercount=3
+
+2024-04-03 19:45:18,669 INFO [serverlist] membercount=3
+
+2024-04-03 19:46:08,938 INFO [serverlist] membercount=3
+
+2024-04-03 19:46:59,208 INFO [serverlist] membercount=3
+
+2024-04-03 19:47:49,506 INFO [serverlist] membercount=3
+
+2024-04-03 19:48:39,790 INFO [serverlist] membercount=3
+
+2024-04-03 19:49:30,095 INFO [serverlist] membercount=3
+
+2024-04-03 19:50:20,383 INFO [serverlist] membercount=3
+
+2024-04-03 19:51:10,685 INFO [serverlist] membercount=3
+
+2024-04-03 19:52:00,932 INFO [serverlist] membercount=3
+
+2024-04-03 19:52:51,285 INFO [serverlist] membercount=3
+
+2024-04-03 19:53:41,614 INFO [serverlist] membercount=3
+
+2024-04-03 19:54:31,935 INFO [serverlist] membercount=3
+
+2024-04-03 19:55:22,212 INFO [serverlist] membercount=3
+
+2024-04-03 19:56:12,499 INFO [serverlist] membercount=3
+
+2024-04-03 19:57:02,809 INFO [serverlist] membercount=3
+
+2024-04-03 19:57:53,081 INFO [serverlist] membercount=3
+
+2024-04-03 19:58:43,423 INFO [serverlist] membercount=3
+
+2024-04-03 19:59:33,674 INFO [serverlist] membercount=3
+
+2024-04-03 20:00:23,970 INFO [serverlist] membercount=3
+
+2024-04-03 20:01:14,232 INFO [serverlist] membercount=3
+
+2024-04-03 20:02:04,495 INFO [serverlist] membercount=3
+
+2024-04-03 20:02:54,786 INFO [serverlist] membercount=3
+
+2024-04-03 20:03:45,035 INFO [serverlist] membercount=3
+
+2024-04-03 20:04:35,343 INFO [serverlist] membercount=3
+
+2024-04-03 20:05:25,654 INFO [serverlist] membercount=3
+
+2024-04-03 20:06:15,982 INFO [serverlist] membercount=3
+
+2024-04-03 20:07:06,231 INFO [serverlist] membercount=3
+
+2024-04-03 20:07:56,513 INFO [serverlist] membercount=3
+
+2024-04-03 20:08:46,822 INFO [serverlist] membercount=3
+
+2024-04-03 20:09:37,117 INFO [serverlist] membercount=3
+
+2024-04-03 20:10:27,394 INFO [serverlist] membercount=3
+
+2024-04-03 20:11:17,675 INFO [serverlist] membercount=3
+
+2024-04-03 20:12:07,982 INFO [serverlist] membercount=3
+
+2024-04-03 20:12:58,271 INFO [serverlist] membercount=3
+
+2024-04-03 20:13:48,548 INFO [serverlist] membercount=3
+
+2024-04-03 20:14:38,840 INFO [serverlist] membercount=3
+
+2024-04-03 20:15:29,116 INFO [serverlist] membercount=3
+
+2024-04-03 20:16:19,397 INFO [serverlist] membercount=3
+
+2024-04-03 20:17:09,673 INFO [serverlist] membercount=3
+
+2024-04-03 20:17:59,930 INFO [serverlist] membercount=3
+
+2024-04-03 20:18:50,211 INFO [serverlist] membercount=3
+
+2024-04-03 20:19:40,544 INFO [serverlist] membercount=3
+
+2024-04-03 20:20:30,825 INFO [serverlist] membercount=3
+
+2024-04-03 20:21:21,112 INFO [serverlist] membercount=3
+
+2024-04-03 20:22:11,421 INFO [serverlist] membercount=3
+
+2024-04-03 20:23:01,722 INFO [serverlist] membercount=3
+
+2024-04-03 20:23:52,032 INFO [serverlist] membercount=3
+
+2024-04-03 20:24:42,317 INFO [serverlist] membercount=3
+
+2024-04-03 20:25:32,610 INFO [serverlist] membercount=3
+
+2024-04-03 20:26:22,906 INFO [serverlist] membercount=3
+
+2024-04-03 20:27:13,216 INFO [serverlist] membercount=3
+
+2024-04-03 20:28:03,467 INFO [serverlist] membercount=3
+
+2024-04-03 20:28:53,693 INFO [serverlist] membercount=3
+
+2024-04-03 20:29:43,975 INFO [serverlist] membercount=3
+
+2024-04-03 20:30:34,242 INFO [serverlist] membercount=3
+
+2024-04-03 20:31:24,512 INFO [serverlist] membercount=3
+
+2024-04-03 20:32:14,775 INFO [serverlist] membercount=3
+
+2024-04-03 20:33:05,053 INFO [serverlist] membercount=3
+
+2024-04-03 20:33:55,343 INFO [serverlist] membercount=3
+
+2024-04-03 20:34:45,612 INFO [serverlist] membercount=3
+
+2024-04-03 20:35:35,879 INFO [serverlist] membercount=3
+
+2024-04-03 20:36:26,126 INFO [serverlist] membercount=3
+
+2024-04-03 20:37:16,408 INFO [serverlist] membercount=3
+
+2024-04-03 20:38:06,682 INFO [serverlist] membercount=3
+
+2024-04-03 20:38:56,986 INFO [serverlist] membercount=3
+
+2024-04-03 20:39:47,321 INFO [serverlist] membercount=3
+
+2024-04-03 20:40:37,575 INFO [serverlist] membercount=3
+
+2024-04-03 20:41:27,847 INFO [serverlist] membercount=3
+
+2024-04-03 20:42:18,081 INFO [serverlist] membercount=3
+
+2024-04-03 20:43:08,364 INFO [serverlist] membercount=3
+
+2024-04-03 20:43:58,595 INFO [serverlist] membercount=3
+
+2024-04-03 20:44:48,836 INFO [serverlist] membercount=3
+
+2024-04-03 20:45:39,122 INFO [serverlist] membercount=3
+
+2024-04-03 20:46:29,407 INFO [serverlist] membercount=3
+
+2024-04-03 20:47:19,679 INFO [serverlist] membercount=3
+
+2024-04-03 20:48:09,969 INFO [serverlist] membercount=3
+
+2024-04-03 20:49:00,250 INFO [serverlist] membercount=3
+
+2024-04-03 20:49:50,535 INFO [serverlist] membercount=3
+
+2024-04-03 20:50:40,829 INFO [serverlist] membercount=3
+
+2024-04-03 20:51:31,049 INFO [serverlist] membercount=3
+
+2024-04-03 20:52:21,336 INFO [serverlist] membercount=3
+
+2024-04-03 20:53:11,619 INFO [serverlist] membercount=3
+
+2024-04-03 20:54:01,899 INFO [serverlist] membercount=3
+
+2024-04-03 20:54:52,168 INFO [serverlist] membercount=3
+
+2024-04-03 20:55:42,434 INFO [serverlist] membercount=3
+
+2024-04-03 20:56:32,704 INFO [serverlist] membercount=3
+
+2024-04-03 20:57:23,013 INFO [serverlist] membercount=3
+
+2024-04-03 20:58:13,281 INFO [serverlist] membercount=3
+
+2024-04-03 20:59:03,548 INFO [serverlist] membercount=3
+
+2024-04-03 20:59:53,792 INFO [serverlist] membercount=3
+
+2024-04-03 21:00:44,077 INFO [serverlist] membercount=3
+
+2024-04-03 21:01:34,385 INFO [serverlist] membercount=3
+
+2024-04-03 21:02:24,670 INFO [serverlist] membercount=3
+
+2024-04-03 21:03:14,926 INFO [serverlist] membercount=3
+
+2024-04-03 21:04:05,216 INFO [serverlist] membercount=3
+
+2024-04-03 21:04:55,511 INFO [serverlist] membercount=3
+
+2024-04-03 21:05:45,765 INFO [serverlist] membercount=3
+
+2024-04-03 21:06:36,033 INFO [serverlist] membercount=3
+
+2024-04-03 21:07:26,290 INFO [serverlist] membercount=3
+
+2024-04-03 21:08:16,580 INFO [serverlist] membercount=3
+
+2024-04-03 21:09:06,855 INFO [serverlist] membercount=3
+
+2024-04-03 21:09:57,120 INFO [serverlist] membercount=3
+
+2024-04-03 21:10:47,366 INFO [serverlist] membercount=3
+
+2024-04-03 21:11:37,616 INFO [serverlist] membercount=3
+
+2024-04-03 21:12:27,903 INFO [serverlist] membercount=3
+
+2024-04-03 21:13:18,169 INFO [serverlist] membercount=3
+
+2024-04-03 21:14:08,428 INFO [serverlist] membercount=3
+
+2024-04-03 21:14:58,694 INFO [serverlist] membercount=3
+
+2024-04-03 21:15:48,941 INFO [serverlist] membercount=3
+
+2024-04-03 21:16:39,217 INFO [serverlist] membercount=3
+
+2024-04-03 21:17:29,475 INFO [serverlist] membercount=3
+
+2024-04-03 21:18:19,751 INFO [serverlist] membercount=3
+
+2024-04-03 21:19:10,002 INFO [serverlist] membercount=3
+
+2024-04-03 21:20:00,269 INFO [serverlist] membercount=3
+
+2024-04-03 21:20:50,538 INFO [serverlist] membercount=3
+
+2024-04-03 21:21:40,823 INFO [serverlist] membercount=3
+
+2024-04-03 21:22:31,093 INFO [serverlist] membercount=3
+
+2024-04-03 21:23:21,368 INFO [serverlist] membercount=3
+
+2024-04-03 21:24:11,642 INFO [serverlist] membercount=3
+
+2024-04-03 21:25:01,938 INFO [serverlist] membercount=3
+
+2024-04-03 21:25:52,227 INFO [serverlist] membercount=3
+
+2024-04-03 21:26:42,482 INFO [serverlist] membercount=3
+
+2024-04-03 21:27:32,733 INFO [serverlist] membercount=3
+
+2024-04-03 21:28:23,003 INFO [serverlist] membercount=3
+
+2024-04-03 21:29:13,285 INFO [serverlist] membercount=3
+
+2024-04-03 21:30:03,567 INFO [serverlist] membercount=3
+
+2024-04-03 21:30:53,814 INFO [serverlist] membercount=3
+
+2024-04-03 21:31:44,083 INFO [serverlist] membercount=3
+
+2024-04-03 21:32:34,325 INFO [serverlist] membercount=3
+
+2024-04-03 21:33:24,584 INFO [serverlist] membercount=3
+
+2024-04-03 21:34:14,850 INFO [serverlist] membercount=3
+
+2024-04-03 21:35:05,085 INFO [serverlist] membercount=3
+
+2024-04-03 21:35:55,332 INFO [serverlist] membercount=3
+
+2024-04-03 21:36:45,580 INFO [serverlist] membercount=3
+
+2024-04-03 21:37:35,831 INFO [serverlist] membercount=3
+
+2024-04-03 21:38:26,104 INFO [serverlist] membercount=3
+
+2024-04-03 21:39:16,355 INFO [serverlist] membercount=3
+
+2024-04-03 21:40:06,602 INFO [serverlist] membercount=3
+
+2024-04-03 21:40:56,881 INFO [serverlist] membercount=3
+
+2024-04-03 21:41:47,159 INFO [serverlist] membercount=3
+
+2024-04-03 21:42:37,423 INFO [serverlist] membercount=3
+
+2024-04-03 21:43:27,655 INFO [serverlist] membercount=3
+
+2024-04-03 21:44:17,873 INFO [serverlist] membercount=3
+
+2024-04-03 21:45:08,093 INFO [serverlist] membercount=3
+
+2024-04-03 21:45:58,369 INFO [serverlist] membercount=3
+
+2024-04-03 21:46:48,634 INFO [serverlist] membercount=3
+
+2024-04-03 21:47:38,872 INFO [serverlist] membercount=3
+
+2024-04-03 21:48:29,094 INFO [serverlist] membercount=3
+
+2024-04-03 21:49:19,374 INFO [serverlist] membercount=3
+
+2024-04-03 21:50:09,630 INFO [serverlist] membercount=3
+
+2024-04-03 21:50:59,904 INFO [serverlist] membercount=3
+
+2024-04-03 21:51:50,184 INFO [serverlist] membercount=3
+
+2024-04-03 21:52:40,443 INFO [serverlist] membercount=3
+
+2024-04-03 21:53:30,686 INFO [serverlist] membercount=3
+
+2024-04-03 21:54:20,929 INFO [serverlist] membercount=3
+
+2024-04-03 21:55:11,158 INFO [serverlist] membercount=3
+
+2024-04-03 21:56:01,406 INFO [serverlist] membercount=3
+
+2024-04-03 21:56:51,644 INFO [serverlist] membercount=3
+
+2024-04-03 21:57:41,882 INFO [serverlist] membercount=3
+
+2024-04-03 21:58:32,117 INFO [serverlist] membercount=3
+
+2024-04-03 21:59:22,360 INFO [serverlist] membercount=3
+
+2024-04-03 22:00:12,584 INFO [serverlist] membercount=3
+
+2024-04-03 22:01:02,805 INFO [serverlist] membercount=3
+
+2024-04-03 22:01:53,007 INFO [serverlist] membercount=3
+
+2024-04-03 22:02:43,274 INFO [serverlist] membercount=3
+
+2024-04-03 22:03:33,549 INFO [serverlist] membercount=3
+
+2024-04-03 22:04:23,760 INFO [serverlist] membercount=3
+
+2024-04-03 22:05:13,977 INFO [serverlist] membercount=3
+
+2024-04-03 22:06:04,221 INFO [serverlist] membercount=3
+
+2024-04-03 22:06:54,449 INFO [serverlist] membercount=3
+
+2024-04-03 22:07:44,687 INFO [serverlist] membercount=3
+
+2024-04-03 22:08:34,935 INFO [serverlist] membercount=3
+
+2024-04-03 22:09:25,202 INFO [serverlist] membercount=3
+
+2024-04-03 22:10:15,457 INFO [serverlist] membercount=3
+
+2024-04-03 22:11:05,701 INFO [serverlist] membercount=3
+
+2024-04-03 22:11:55,983 INFO [serverlist] membercount=3
+
+2024-04-03 22:12:46,198 INFO [serverlist] membercount=3
+
+2024-04-03 22:13:36,454 INFO [serverlist] membercount=3
+
+2024-04-03 22:14:26,713 INFO [serverlist] membercount=3
+
+2024-04-03 22:15:16,953 INFO [serverlist] membercount=3
+
+2024-04-03 22:16:07,168 INFO [serverlist] membercount=3
+
+2024-04-03 22:16:57,398 INFO [serverlist] membercount=3
+
+2024-04-03 22:17:47,649 INFO [serverlist] membercount=3
+
+2024-04-03 22:18:37,896 INFO [serverlist] membercount=3
+
+2024-04-03 22:19:28,154 INFO [serverlist] membercount=3
+
+2024-04-03 22:20:18,381 INFO [serverlist] membercount=3
+
+2024-04-03 22:21:08,621 INFO [serverlist] membercount=3
+
+2024-04-03 22:21:58,874 INFO [serverlist] membercount=3
+
+2024-04-03 22:22:49,110 INFO [serverlist] membercount=3
+
+2024-04-03 22:23:39,363 INFO [serverlist] membercount=3
+
+2024-04-03 22:24:29,585 INFO [serverlist] membercount=3
+
+2024-04-03 22:25:19,805 INFO [serverlist] membercount=3
+
+2024-04-03 22:26:10,034 INFO [serverlist] membercount=3
+
+2024-04-03 22:27:00,269 INFO [serverlist] membercount=3
+
+2024-04-03 22:27:50,504 INFO [serverlist] membercount=3
+
+2024-04-03 22:28:40,750 INFO [serverlist] membercount=3
+
+2024-04-03 22:29:30,961 INFO [serverlist] membercount=3
+
+2024-04-03 22:30:21,150 INFO [serverlist] membercount=3
+
+2024-04-03 22:31:11,393 INFO [serverlist] membercount=3
+
+2024-04-03 22:32:01,620 INFO [serverlist] membercount=3
+
+2024-04-03 22:32:51,855 INFO [serverlist] membercount=3
+
+2024-04-03 22:33:42,107 INFO [serverlist] membercount=3
+
+2024-04-03 22:34:32,329 INFO [serverlist] membercount=3
+
+2024-04-03 22:35:22,561 INFO [serverlist] membercount=3
+
+2024-04-03 22:36:12,782 INFO [serverlist] membercount=3
+
+2024-04-03 22:37:03,006 INFO [serverlist] membercount=3
+
+2024-04-03 22:37:53,239 INFO [serverlist] membercount=3
+
+2024-04-03 22:38:43,474 INFO [serverlist] membercount=3
+
+2024-04-03 22:39:33,699 INFO [serverlist] membercount=3
+
+2024-04-03 22:40:23,926 INFO [serverlist] membercount=3
+
+2024-04-03 22:41:14,182 INFO [serverlist] membercount=3
+
+2024-04-03 22:42:04,444 INFO [serverlist] membercount=3
+
+2024-04-03 22:42:54,700 INFO [serverlist] membercount=3
+
+2024-04-03 22:43:44,943 INFO [serverlist] membercount=3
+
+2024-04-03 22:44:35,167 INFO [serverlist] membercount=3
+
+2024-04-03 22:45:25,414 INFO [serverlist] membercount=3
+
+2024-04-03 22:46:15,647 INFO [serverlist] membercount=3
+
+2024-04-03 22:47:05,839 INFO [serverlist] membercount=3
+
+2024-04-03 22:47:56,082 INFO [serverlist] membercount=3
+
+2024-04-03 22:48:46,324 INFO [serverlist] membercount=3
+
+2024-04-03 22:49:36,572 INFO [serverlist] membercount=3
+
+2024-04-03 22:50:27,482 INFO [serverlist] membercount=3
+
+2024-04-03 22:51:18,344 INFO [serverlist] membercount=3
+
+2024-04-03 22:51:28,889 ERROR failed to report new info to target node by grpc : nacos3:8848, error : caused: Client not connected, current status:UNHEALTHY;
+
+2024-04-03 22:52:04,103 INFO Current addressing mode selection : FileConfigMemberLookup
+
+2024-04-03 22:52:04,116 INFO [serverlist] changed to : [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848, readyToUpgrade=true}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848, readyToUpgrade=true, version=2.3.1}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, readyToUpgrade=true}}]
+
+2024-04-03 22:52:12,372 INFO start a new rpc client to member - > : Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, readyToUpgrade=true}}
+
+2024-04-03 22:52:12,805 INFO start a new rpc client to member - > : Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848, readyToUpgrade=true}}
+
+2024-04-03 22:52:12,970 INFO [ClusterRpcClientProxy] success to refresh cluster rpc client on start up,members =[Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848, readyToUpgrade=true}}, Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848, readyToUpgrade=true}}] 
+
+2024-04-03 22:52:22,218 INFO This node is ready to provide external services
+
+2024-04-03 22:52:55,412 INFO [serverlist] membercount=3
+
+2024-04-03 22:53:45,714 INFO [serverlist] membercount=3
+
+2024-04-03 22:54:36,014 INFO [serverlist] membercount=3
+
+2024-04-03 22:55:26,281 INFO [serverlist] membercount=3
+
+2024-04-03 22:56:16,524 INFO [serverlist] membercount=3
+
+2024-04-03 22:57:06,723 INFO [serverlist] membercount=3
+
+2024-04-03 22:57:56,932 INFO [serverlist] membercount=3
+
+2024-04-03 22:58:47,138 INFO [serverlist] membercount=3
+
+2024-04-03 22:59:37,356 INFO [serverlist] membercount=3
+
+2024-04-03 23:00:27,576 INFO [serverlist] membercount=3
+
+2024-04-03 23:01:17,829 INFO [serverlist] membercount=3
+
+2024-04-03 23:02:08,124 INFO [serverlist] membercount=3
+
+2024-04-03 23:02:58,343 INFO [serverlist] membercount=3
+
+2024-04-03 23:03:48,566 INFO [serverlist] membercount=3
+
+2024-04-03 23:04:38,834 INFO [serverlist] membercount=3
+
+2024-04-03 23:05:29,165 INFO [serverlist] membercount=3
+
+2024-04-03 23:06:19,374 INFO [serverlist] membercount=3
+
+2024-04-03 23:07:09,637 INFO [serverlist] membercount=3
+
+2024-04-03 23:07:59,793 INFO [serverlist] membercount=3
+
+2024-04-03 23:08:49,991 INFO [serverlist] membercount=3
+
+2024-04-03 23:09:40,229 INFO [serverlist] membercount=3
+
+2024-04-03 23:10:30,451 INFO [serverlist] membercount=3
+
+2024-04-03 23:11:20,693 INFO [serverlist] membercount=3
+
+2024-04-03 23:12:10,905 INFO [serverlist] membercount=3
+
+2024-04-03 23:13:01,135 INFO [serverlist] membercount=3
+
+2024-04-03 23:13:51,312 INFO [serverlist] membercount=3
+
+2024-04-03 23:14:41,699 INFO [serverlist] membercount=3
+
+2024-04-03 23:15:31,892 INFO [serverlist] membercount=3
+
+2024-04-03 23:16:22,098 INFO [serverlist] membercount=3
+
+2024-04-03 23:17:12,348 INFO [serverlist] membercount=3
+
+2024-04-03 23:18:02,559 INFO [serverlist] membercount=3
+
+2024-04-03 23:18:52,848 INFO [serverlist] membercount=3
+
+2024-04-03 23:19:43,091 INFO [serverlist] membercount=3
+
+2024-04-03 23:20:33,275 INFO [serverlist] membercount=3
+
+2024-04-03 23:21:23,456 INFO [serverlist] membercount=3
+
+2024-04-03 23:22:13,650 INFO [serverlist] membercount=3
+
+2024-04-03 23:23:03,839 INFO [serverlist] membercount=3
+
+2024-04-03 23:23:54,120 INFO [serverlist] membercount=3
+
+2024-04-03 23:24:44,585 INFO [serverlist] membercount=3
+
+2024-04-03 23:25:34,763 INFO [serverlist] membercount=3
+
+2024-04-03 23:26:24,989 INFO [serverlist] membercount=3
+
+2024-04-03 23:27:15,140 INFO [serverlist] membercount=3
+
+2024-04-03 23:28:05,329 INFO [serverlist] membercount=3
+
+2024-04-03 23:28:55,529 INFO [serverlist] membercount=3
+
+2024-04-03 23:29:45,753 INFO [serverlist] membercount=3
+
+2024-04-03 23:30:35,986 INFO [serverlist] membercount=3
+
+2024-04-03 23:31:26,224 INFO [serverlist] membercount=3
+
+2024-04-03 23:32:16,424 INFO [serverlist] membercount=3
+
+2024-04-03 23:33:06,882 INFO [serverlist] membercount=3
+
+2024-04-03 23:33:57,046 INFO [serverlist] membercount=3
+
+2024-04-03 23:34:47,268 INFO [serverlist] membercount=3
+
+2024-04-03 23:35:37,501 INFO [serverlist] membercount=3
+
+2024-04-03 23:36:27,710 INFO [serverlist] membercount=3
+
+2024-04-03 23:37:17,876 INFO [serverlist] membercount=3
+
+2024-04-03 23:38:08,084 INFO [serverlist] membercount=3
+
+2024-04-03 23:38:58,275 INFO [serverlist] membercount=3
+
+2024-04-03 23:39:48,497 INFO [serverlist] membercount=3
+
+2024-04-03 23:40:38,730 INFO [serverlist] membercount=3
+
+2024-04-03 23:41:28,942 INFO [serverlist] membercount=3
+
+2024-04-03 23:42:19,129 INFO [serverlist] membercount=3
+
+2024-04-03 23:43:09,354 INFO [serverlist] membercount=3
+
+2024-04-03 23:43:59,592 INFO [serverlist] membercount=3
+
+2024-04-03 23:44:49,803 INFO [serverlist] membercount=3
+
+2024-04-03 23:45:40,021 INFO [serverlist] membercount=3
+
+2024-04-03 23:46:30,271 INFO [serverlist] membercount=3
+
+2024-04-03 23:47:20,632 INFO [serverlist] membercount=3
+
+2024-04-03 23:48:10,864 INFO [serverlist] membercount=3
+
+2024-04-03 23:49:01,085 INFO [serverlist] membercount=3
+
+2024-04-03 23:49:51,317 INFO [serverlist] membercount=3
+
+2024-04-03 23:50:41,557 INFO [serverlist] membercount=3
+
+2024-04-03 23:51:31,774 INFO [serverlist] membercount=3
+
+2024-04-03 23:52:22,072 INFO [serverlist] membercount=3
+
+2024-04-03 23:53:12,297 INFO [serverlist] membercount=3
+
+2024-04-03 23:54:02,553 INFO [serverlist] membercount=3
+
+2024-04-03 23:54:52,780 INFO [serverlist] membercount=3
+
+2024-04-03 23:55:42,991 INFO [serverlist] membercount=3
+
+2024-04-03 23:56:33,235 INFO [serverlist] membercount=3
+
+2024-04-03 23:57:23,451 INFO [serverlist] membercount=3
+
+2024-04-03 23:58:13,736 INFO [serverlist] membercount=3
+
+2024-04-03 23:59:03,934 INFO [serverlist] membercount=3
+
+2024-04-03 23:59:54,198 INFO [serverlist] membercount=3
+

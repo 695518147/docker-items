@@ -1,0 +1,865 @@
+2024-04-03 19:12:34,560 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2024-04-03 19:12:34,560 WARN Using naming.distro config to replace core.distro config
+
+2024-04-03 19:12:35,351 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-03 19:12:37,125 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2024-04-03 19:12:37,127 INFO listen for service meta change
+
+2024-04-03 19:12:37,158 INFO upgrade.state file is not exist
+
+2024-04-03 19:12:37,412 INFO upgrade check result false
+
+2024-04-03 19:12:40,382 WARN Exception while request: http://nacos2:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+org.apache.http.conn.HttpHostConnectException: Connect to nacos2:8848 [nacos2/172.18.0.4] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.alibaba.nacos.common.http.client.request.DefaultHttpClientRequest.execute(DefaultHttpClientRequest.java:55)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchange(NacosRestTemplate.java:447)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:119)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:82)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:183)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 23 common frames omitted
+2024-04-03 19:12:40,383 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://nacos2:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to nacos2:8848 [nacos2/172.18.0.4] failed: Connection refused (Connection refused)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:321)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:183)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 19:12:41,791 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-04-03 19:12:41,796 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.CmdbLabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-04-03 19:12:42,272 WARN [STATUS-SYNCHRONIZE] failed to request serverStatus, remote server: nacos3:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 19:12:42,278 WARN [STATUS-SYNCHRONIZE] failed to request serverStatus, remote server: nacos2:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 19:12:42,338 INFO upgrade check result false
+
+2024-04-03 19:12:42,517 INFO Check whether close double write
+
+2024-04-03 19:12:43,255 INFO Load instance extension handler []
+
+2024-04-03 19:12:44,149 WARN Exception while request: http://nacos3:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+org.apache.http.conn.HttpHostConnectException: Connect to nacos3:8848 [nacos3/172.18.0.3] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.alibaba.nacos.common.http.client.request.DefaultHttpClientRequest.execute(DefaultHttpClientRequest.java:55)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchange(NacosRestTemplate.java:447)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:119)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:82)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:183)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 23 common frames omitted
+2024-04-03 19:12:44,150 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://nacos3:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to nacos3:8848 [nacos3/172.18.0.3] failed: Connection refused (Connection refused)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:321)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:183)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 19:12:44,164 WARN Exception while request: http://nacos2:8848/nacos/v1/ns/distro/datums, caused: {}
+
+org.apache.http.conn.HttpHostConnectException: Connect to nacos2:8848 [nacos2/172.18.0.4] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.alibaba.nacos.common.http.client.request.DefaultHttpClientRequest.execute(DefaultHttpClientRequest.java:55)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchange(NacosRestTemplate.java:447)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:119)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:82)
+	at com.alibaba.nacos.naming.misc.NamingProxy.getAllData(NamingProxy.java:140)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.component.DistroHttpAgent.getDatumSnapshot(DistroHttpAgent.java:98)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:103)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 26 common frames omitted
+2024-04-03 19:12:44,198 WARN Exception while request: http://nacos3:8848/nacos/v1/ns/distro/datums, caused: {}
+
+org.apache.http.conn.HttpHostConnectException: Connect to nacos3:8848 [nacos3/172.18.0.3] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.alibaba.nacos.common.http.client.request.DefaultHttpClientRequest.execute(DefaultHttpClientRequest.java:55)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchange(NacosRestTemplate.java:447)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:119)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:82)
+	at com.alibaba.nacos.naming.misc.NamingProxy.getAllData(NamingProxy.java:140)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.component.DistroHttpAgent.getDatumSnapshot(DistroHttpAgent.java:98)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:103)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 26 common frames omitted
+2024-04-03 19:12:44,233 WARN [STATUS-SYNCHRONIZE] failed to request serverStatus, remote server: nacos2:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 19:12:44,233 WARN [STATUS-SYNCHRONIZE] failed to request serverStatus, remote server: nacos3:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 19:12:46,146 WARN Exception while request: http://nacos2:8848/nacos/v1/ns/operator/cluster/state, caused: {}
+
+org.apache.http.conn.HttpHostConnectException: Connect to nacos2:8848 [nacos2/172.18.0.4] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.alibaba.nacos.common.http.client.request.DefaultHttpClientRequest.execute(DefaultHttpClientRequest.java:55)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchange(NacosRestTemplate.java:447)
+	at com.alibaba.nacos.naming.misc.HttpClient.request(HttpClient.java:119)
+	at com.alibaba.nacos.naming.misc.HttpClient.httpGet(HttpClient.java:82)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:306)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:183)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+	... 23 common frames omitted
+2024-04-03 19:12:46,146 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://nacos2:8848/nacos/v1/ns/operator/cluster/state. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to nacos2:8848 [nacos2/172.18.0.4] failed: Connection refused (Connection refused)
+	at com.alibaba.nacos.naming.misc.NamingProxy.reqCommon(NamingProxy.java:321)
+	at com.alibaba.nacos.naming.cluster.ServerListManager$ServerInfoUpdater.run(ServerListManager.java:183)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 19:12:46,247 WARN [STATUS-SYNCHRONIZE] failed to request serverStatus, remote server: nacos3:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 19:12:46,276 WARN [STATUS-SYNCHRONIZE] failed to request serverStatus, remote server: nacos2:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 19:12:47,331 INFO upgrade check result false
+
+2024-04-03 19:12:50,156 INFO receive config info: unknown#nacos2:8848#1712142769497#4
+
+
+2024-04-03 19:12:50,188 INFO receive config info: unknown#nacos3:8848#1712142769500#4
+
+
+2024-04-03 19:12:50,200 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-03 19:12:50,209 INFO member change, event: MembersChangeEvent{members=[Member{ip='nacos3', port=8848, state=UP, extendInfo={lastRefreshTime=1712142770195, raftPort=7848, site=unknown, weight=4}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={lastRefreshTime=1712142770188, raftPort=7848, site=unknown, weight=4}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={lastRefreshTime=1712142769243, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@1e65ad70, raftPort=7848, readyToUpgrade=true, version=2.0.3}}], triggers=[Member{ip='nacos2', port=8848, state=UP, extendInfo={lastRefreshTime=1712142770188, raftPort=7848, site=unknown, weight=4}}], no=5}
+
+2024-04-03 19:12:50,231 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-03 19:12:50,231 INFO member change, event: MembersChangeEvent{members=[Member{ip='nacos3', port=8848, state=UP, extendInfo={lastRefreshTime=1712142770195, raftPort=7848, site=unknown, weight=4}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={lastRefreshTime=1712142770188, raftPort=7848, site=unknown, weight=4}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={lastRefreshTime=1712142769243, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@1e65ad70, raftPort=7848, readyToUpgrade=true, version=2.0.3}}], triggers=[Member{ip='nacos3', port=8848, state=UP, extendInfo={lastRefreshTime=1712142770195, raftPort=7848, site=unknown, weight=4}}], no=6}
+
+2024-04-03 19:12:51,555 INFO receive config info: unknown#nacos2:8848#1712142771525#4
+
+
+2024-04-03 19:12:51,611 INFO receive config info: unknown#nacos3:8848#1712142771540#4
+
+
+2024-04-03 19:12:52,295 INFO Client connection 1712142772259_192.168.65.1_19728 connect
+
+2024-04-03 19:12:52,334 INFO upgrade check result false
+
+2024-04-03 19:12:53,547 INFO receive config info: unknown#nacos2:8848#1712142773542#4
+
+
+2024-04-03 19:12:53,595 INFO receive config info: unknown#nacos3:8848#1712142773590#4
+
+
+2024-04-03 19:12:54,837 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-03 19:12:54,837 INFO member change, event: MembersChangeEvent{members=[Member{ip='nacos3', port=8848, state=UP, extendInfo={lastRefreshTime=1712142774667, raftMetaData={metaDataMap={naming_instance_metadata={leader=nacos3:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, readyToUpgrade=true, version=2.0.3}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={lastRefreshTime=1712142773549, naming={voteFor=nacos2:8848, ip=nacos2:8848, heartbeatDueMs=2000, term=1, leaderDueMs=3525, state=CANDIDATE}, raftPort=7848, site=unknown, weight=4}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={lastRefreshTime=1712142769243, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@1e65ad70, raftPort=7848, readyToUpgrade=true, version=2.0.3}}], triggers=[Member{ip='nacos3', port=8848, state=UP, extendInfo={lastRefreshTime=1712142774667, raftMetaData={metaDataMap={naming_instance_metadata={leader=nacos3:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, readyToUpgrade=true, version=2.0.3}}], no=7}
+
+2024-04-03 19:12:55,550 INFO receive config info: unknown#nacos2:8848#1712142775544#4
+
+
+2024-04-03 19:12:56,366 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-03 19:12:56,366 INFO member change, event: MembersChangeEvent{members=[Member{ip='nacos3', port=8848, state=UP, extendInfo={lastRefreshTime=1712142774667, raftMetaData={metaDataMap={naming_instance_metadata={leader=nacos3:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, readyToUpgrade=true, version=2.0.3}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={lastRefreshTime=1712142776242, naming={voteFor=nacos2:8848, ip=nacos2:8848, heartbeatDueMs=5000, term=2, leaderDueMs=19416, state=LEADER}, raftMetaData={metaDataMap={naming_instance_metadata={leader=nacos3:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, readyToUpgrade=true, version=2.0.3}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={lastRefreshTime=1712142769243, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@1e65ad70, raftPort=7848, readyToUpgrade=true, version=2.0.3}}], triggers=[Member{ip='nacos2', port=8848, state=UP, extendInfo={lastRefreshTime=1712142776242, naming={voteFor=nacos2:8848, ip=nacos2:8848, heartbeatDueMs=5000, term=2, leaderDueMs=19416, state=LEADER}, raftMetaData={metaDataMap={naming_instance_metadata={leader=nacos3:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, readyToUpgrade=true, version=2.0.3}}], no=8}
+
+2024-04-03 19:12:57,331 INFO upgrade check result true
+
+2024-04-03 19:12:57,331 INFO Upgrade to 2.0.X
+
+2024-04-03 19:12:59,359 INFO Client change for service Service{namespace='9bb315a4-49ac-4188-9641-71c57a5a4bea', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=0}, 1712142772259_192.168.65.1_19728
+
+2024-04-03 19:13:00,377 INFO double write for service Service{namespace='9bb315a4-49ac-4188-9641-71c57a5a4bea', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}, content INSTANCE
+
+2024-04-03 19:13:00,380 INFO creating empty service 9bb315a4-49ac-4188-9641-71c57a5a4bea:DEFAULT_GROUP@@nacos-gateway
+
+2024-04-03 19:13:00,484 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@nacos-gateway","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"9bb315a4-49ac-4188-9641-71c57a5a4bea","ipDeleteTimeout":30000,"lastModifiedMillis":1712142780383,"checksum":"5b97c02c7fb4afcacb63a094ad11a6fb","clusterMap":{},"empty":true}
+
+2024-04-03 19:13:00,495 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.9bb315a4-49ac-4188-9641-71c57a5a4bea##DEFAULT_GROUP@@nacos-gateway, value: {"instanceList":[{"ip":"192.168.0.103","port":15010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@nacos-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1712142780486,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2024-04-03 19:13:00,499 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.0.103","port":15010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@nacos-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1712142780486,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2024-04-03 19:13:44,276 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.9bb315a4-49ac-4188-9641-71c57a5a4bea##DEFAULT_GROUP@@nacos-gateway, value: {"instanceList":[{"ip":"192.168.0.103","port":15010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@nacos-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1712142780486,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2024-04-03 19:18:09,962 INFO Client connection 1712142772138_192.168.65.1_19727 disconnect, remove instances and subscribers
+
+2024-04-03 19:18:09,963 INFO Client connection 1712142772259_192.168.65.1_19728 disconnect, remove instances and subscribers
+
+2024-04-03 19:18:11,009 INFO double write for service Service{namespace='9bb315a4-49ac-4188-9641-71c57a5a4bea', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}, content INSTANCE
+
+2024-04-03 19:18:11,012 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.9bb315a4-49ac-4188-9641-71c57a5a4bea##DEFAULT_GROUP@@nacos-gateway, value: {"instanceList":[]}
+
+2024-04-03 19:18:18,780 INFO Client connection 1712143098760_192.168.65.1_20169 connect
+
+2024-04-03 19:18:19,605 INFO Client change for service Service{namespace='9bb315a4-49ac-4188-9641-71c57a5a4bea', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}, 1712143098760_192.168.65.1_20169
+
+2024-04-03 19:18:20,628 INFO double write for service Service{namespace='9bb315a4-49ac-4188-9641-71c57a5a4bea', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}, content INSTANCE
+
+2024-04-03 19:18:20,629 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.9bb315a4-49ac-4188-9641-71c57a5a4bea##DEFAULT_GROUP@@nacos-gateway, value: {"instanceList":[{"ip":"192.168.0.103","port":15010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@nacos-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1712143100629,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2024-04-03 19:20:44,309 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2024-04-03 19:20:44,357 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2024-04-03 19:20:44,415 INFO Client connection 1712143098760_192.168.65.1_20169 disconnect, remove instances and subscribers
+
+2024-04-03 19:20:44,426 INFO Client connection 1712142776597_172.18.0.4_58502 disconnect, remove instances and subscribers
+
+2024-04-03 19:20:44,429 INFO Client connection 1712143095737_192.168.65.1_20167 disconnect, remove instances and subscribers
+
+2024-04-03 19:20:44,432 INFO Client connection 1712142774597_172.18.0.3_37016 disconnect, remove instances and subscribers
+
+2024-04-03 19:20:45,469 INFO double write for service Service{namespace='9bb315a4-49ac-4188-9641-71c57a5a4bea', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=4}, content INSTANCE
+
+2024-04-03 19:20:45,624 ERROR [HEALTH-CHECK] error while process health check for DEFAULT_GROUP@@nacos-gateway:DEFAULT
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverMemberManager' defined in URL [jar:file:/home/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-core-2.0.3.jar!/com/alibaba/nacos/core/cluster/ServerMemberManager.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.servlet.ServletContext' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:143)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1174)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:143)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1174)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:224)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1144)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:419)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:348)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:341)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1124)
+	at com.alibaba.nacos.sys.utils.ApplicationUtils.getBean(ApplicationUtils.java:150)
+	at com.alibaba.nacos.naming.healthcheck.HealthCheckTask.run(HealthCheckTask.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.servlet.ServletContext' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1685)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1242)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 53 common frames omitted
+2024-04-03 19:20:45,694 WARN Exception while processing client beat time out.
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ProtocolManager' defined in URL [jar:file:/home/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-core-2.0.3.jar!/com/alibaba/nacos/core/distributed/ProtocolManager.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverMemberManager' defined in URL [jar:file:/home/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-core-2.0.3.jar!/com/alibaba/nacos/core/cluster/ServerMemberManager.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.servlet.ServletContext' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolvePreparedArguments(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:143)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1174)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:224)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1144)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:419)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:348)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:341)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1124)
+	at com.alibaba.nacos.sys.utils.ApplicationUtils.getBean(ApplicationUtils.java:150)
+	at com.alibaba.nacos.naming.healthcheck.ClientBeatCheckTask.run(ClientBeatCheckTask.java:85)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'serverMemberManager' defined in URL [jar:file:/home/nacos/target/nacos-server.jar!/BOOT-INF/lib/nacos-core-2.0.3.jar!/com/alibaba/nacos/core/cluster/ServerMemberManager.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.servlet.ServletContext' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:514)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:319)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 39 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'javax.servlet.ServletContext' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1685)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1242)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1196)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 53 common frames omitted
+2024-04-03 19:20:47,061 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 19:20:47,061 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 19:20:47,639 ERROR Close double write failed
+
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2c8d66b2 has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1090)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1123)
+	at com.alibaba.nacos.sys.utils.ApplicationUtils.getBean(ApplicationUtils.java:150)
+	at com.alibaba.nacos.naming.core.v2.upgrade.doublewrite.delay.DoubleWriteEventListener$DoubleWriteEnabledChecker.run(DoubleWriteEventListener.java:148)
+2024-04-03 19:21:49,896 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-03 19:22:01,169 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-04-03 19:22:01,169 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-04-03 19:22:01,170 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-04-03 19:22:01,170 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-04-03 19:22:02,385 INFO Load instance extension handler []
+
+2024-04-03 19:22:11,451 INFO Client connection 1712143331421_192.168.65.1_22099 connect
+
+2024-04-03 19:22:13,063 INFO Client change for service Service{namespace='9bb315a4-49ac-4188-9641-71c57a5a4bea', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=0}, 1712143331421_192.168.65.1_22099
+
+2024-04-03 19:22:15,251 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-03 19:22:17,261 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-03 19:23:17,121 INFO Client connection 1712143331530_192.168.65.1_22100 disconnect, remove instances and subscribers
+
+2024-04-03 19:23:17,123 INFO Client connection 1712143331421_192.168.65.1_22099 disconnect, remove instances and subscribers
+
+2024-04-03 19:23:26,812 INFO Client connection 1712143406789_192.168.65.1_22251 connect
+
+2024-04-03 19:23:27,776 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=0}, 1712143406789_192.168.65.1_22251
+
+2024-04-03 19:24:23,938 INFO Client connection 1712143402580_192.168.65.1_22231 disconnect, remove instances and subscribers
+
+2024-04-03 19:24:23,948 INFO Client connection 1712143406789_192.168.65.1_22251 disconnect, remove instances and subscribers
+
+2024-04-03 19:24:31,621 WARN namespace : 9bb315a4-49ac-4188-9641-71c57a5a4bea, [DEFAULT_GROUP@@nacos-gateway] services are automatically cleaned
+
+2024-04-03 19:24:35,019 INFO Client connection 1712143474994_192.168.65.1_22362 connect
+
+2024-04-03 19:24:36,021 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway1', ephemeral=true, revision=0}, 1712143474994_192.168.65.1_22362
+
+2024-04-03 19:25:31,623 WARN namespace : a9808f4a-493d-4d64-9f2d-4d0f554fbe87, [DEFAULT_GROUP@@nacos-gateway] services are automatically cleaned
+
+2024-04-03 19:25:52,079 INFO Client connection 1712143474994_192.168.65.1_22362 disconnect, remove instances and subscribers
+
+2024-04-03 19:25:52,085 INFO Client connection 1712143470357_192.168.65.1_22360 disconnect, remove instances and subscribers
+
+2024-04-03 19:26:01,553 INFO Client connection 1712143561527_192.168.65.1_22527 connect
+
+2024-04-03 19:26:02,440 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=0}, 1712143561527_192.168.65.1_22527
+
+2024-04-03 19:27:21,794 INFO Client connection 1712143561527_192.168.65.1_22527 disconnect, remove instances and subscribers
+
+2024-04-03 19:27:21,800 INFO Client connection 1712143557165_192.168.65.1_22525 disconnect, remove instances and subscribers
+
+2024-04-03 19:27:31,627 WARN namespace : a9808f4a-493d-4d64-9f2d-4d0f554fbe87, [DEFAULT_GROUP@@nacos-gateway1] services are automatically cleaned
+
+2024-04-03 19:27:31,799 INFO Client connection 1712143651778_192.168.65.1_22692 connect
+
+2024-04-03 19:27:33,780 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}, 1712143651778_192.168.65.1_22692
+
+2024-04-03 19:31:50,500 INFO Client connection 1712143651778_192.168.65.1_22692 disconnect, remove instances and subscribers
+
+2024-04-03 19:31:50,504 INFO Client connection 1712143647081_192.168.65.1_22690 disconnect, remove instances and subscribers
+
+2024-04-03 19:32:00,970 INFO Client connection 1712143920953_192.168.65.1_23181 connect
+
+2024-04-03 19:32:01,726 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=4}, 1712143920953_192.168.65.1_23181
+
+2024-04-03 19:33:12,581 INFO Client connection 1712143920953_192.168.65.1_23181 disconnect, remove instances and subscribers
+
+2024-04-03 19:33:12,588 INFO Client connection 1712143916359_192.168.65.1_23161 disconnect, remove instances and subscribers
+
+2024-04-03 19:33:29,728 INFO Client connection 1712144009666_192.168.65.1_23346 connect
+
+2024-04-03 19:33:30,460 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=6}, 1712144009666_192.168.65.1_23346
+
+2024-04-03 19:34:21,732 INFO Client connection 1712144061715_192.168.65.1_23441 connect
+
+2024-04-03 19:34:21,853 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=0}, 1712144061715_192.168.65.1_23441
+
+2024-04-03 19:35:08,401 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=1}, 1712144061715_192.168.65.1_23441
+
+2024-04-03 19:35:08,433 INFO Client connection 1712144061715_192.168.65.1_23441 disconnect, remove instances and subscribers
+
+2024-04-03 19:35:08,703 INFO Client remove for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}, 1712144009666_192.168.65.1_23346
+
+2024-04-03 19:35:08,886 INFO Client connection 1712144058018_192.168.65.1_23438 disconnect, remove instances and subscribers
+
+2024-04-03 19:35:08,892 INFO Client connection 1712144061378_192.168.65.1_23440 disconnect, remove instances and subscribers
+
+2024-04-03 19:35:09,045 INFO Client connection 1712144009666_192.168.65.1_23346 disconnect, remove instances and subscribers
+
+2024-04-03 19:35:11,557 INFO Client connection 1712144006558_192.168.65.1_23326 disconnect, remove instances and subscribers
+
+2024-04-03 19:36:31,585 WARN namespace : public, [DEFAULT_GROUP@@nacos-service1] services are automatically cleaned
+
+2024-04-03 19:36:31,585 WARN namespace : a9808f4a-493d-4d64-9f2d-4d0f554fbe87, [DEFAULT_GROUP@@nacos-gateway] services are automatically cleaned
+
+2024-04-03 19:37:10,492 INFO Client connection 1712144230466_192.168.65.1_23768 connect
+
+2024-04-03 19:37:11,347 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=0}, 1712144230466_192.168.65.1_23768
+
+2024-04-03 19:38:00,257 INFO Client remove for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}, 1712144230466_192.168.65.1_23768
+
+2024-04-03 19:38:00,594 INFO Client connection 1712144230466_192.168.65.1_23768 disconnect, remove instances and subscribers
+
+2024-04-03 19:38:03,056 INFO Client connection 1712144227570_192.168.65.1_23766 disconnect, remove instances and subscribers
+
+2024-04-03 19:38:09,229 INFO Client connection 1712144289212_192.168.65.1_23879 connect
+
+2024-04-03 19:38:09,917 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}, 1712144289212_192.168.65.1_23879
+
+2024-04-03 22:51:28,072 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2024-04-03 22:51:28,196 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2024-04-03 22:51:28,302 INFO Client connection 1712143331180_172.18.0.4_52020 disconnect, remove instances and subscribers
+
+2024-04-03 22:51:28,311 INFO Client connection 1712144289212_192.168.65.1_23879 disconnect, remove instances and subscribers
+
+2024-04-03 22:51:28,318 INFO Client connection 1712144286923_192.168.65.1_23860 disconnect, remove instances and subscribers
+
+2024-04-03 22:51:28,324 INFO Client connection 1712143331853_172.18.0.3_56442 disconnect, remove instances and subscribers
+
+2024-04-03 22:51:29,579 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-03 22:52:05,284 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-03 22:52:15,493 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-04-03 22:52:15,493 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-04-03 22:52:15,495 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-04-03 22:52:15,495 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-04-03 22:52:17,404 INFO Load instance extension handler []
+
+2024-04-03 22:52:24,513 INFO Client connection 1712155944491_192.168.65.1_16941 connect
+
+2024-04-03 22:52:25,066 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=0}, 1712155944491_192.168.65.1_16941
+
+2024-04-03 22:52:28,124 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-03 22:52:29,259 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-03 23:06:43,690 INFO Client connection 1712156803664_192.168.65.1_18826 connect
+
+2024-04-03 23:06:45,566 INFO Client connection 1712156803664_192.168.65.1_18826 disconnect, remove instances and subscribers
+
+2024-04-03 23:06:48,313 INFO Client connection 1712156800227_192.168.65.1_18807 disconnect, remove instances and subscribers
+
+2024-04-03 23:08:30,788 INFO Client connection 1712155944491_192.168.65.1_16941 disconnect, remove instances and subscribers
+
+2024-04-03 23:08:30,790 INFO Client connection 1712155946233_192.168.65.1_16960 disconnect, remove instances and subscribers
+
+2024-04-03 23:08:58,527 INFO Client connection 1712156938507_192.168.65.1_19315 connect
+
+2024-04-03 23:08:59,516 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}, 1712156938507_192.168.65.1_19315
+
+2024-04-03 23:14:10,080 INFO Client connection 1712156938507_192.168.65.1_19315 disconnect, remove instances and subscribers
+
+2024-04-03 23:14:10,092 INFO Client connection 1712156934460_192.168.65.1_19296 disconnect, remove instances and subscribers
+
+2024-04-03 23:15:46,174 WARN namespace : a9808f4a-493d-4d64-9f2d-4d0f554fbe87, [DEFAULT_GROUP@@nacos-gateway] services are automatically cleaned
+
+2024-04-03 23:17:52,524 INFO Client connection 1712157466261_192.168.65.1_21229 disconnect, remove instances and subscribers
+
+2024-04-03 23:18:17,908 INFO Client connection 1712157494832_192.168.65.1_21321 disconnect, remove instances and subscribers
+
+2024-04-03 23:19:01,054 INFO Client connection 1712157541016_192.168.65.1_21486 connect
+
+2024-04-03 23:19:01,933 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=0}, 1712157541016_192.168.65.1_21486
+
+2024-04-03 23:19:37,626 INFO Client connection 1712157577614_192.168.65.1_21645 connect
+
+2024-04-03 23:19:37,746 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=0}, 1712157577614_192.168.65.1_21645
+
+2024-04-03 23:38:37,941 INFO Client connection 1712157541016_192.168.65.1_21486 disconnect, remove instances and subscribers
+
+2024-04-03 23:38:37,948 INFO Client connection 1712157537973_192.168.65.1_21485 disconnect, remove instances and subscribers
+
+2024-04-03 23:38:45,659 INFO Client connection 1712158725627_192.168.65.1_25790 connect
+
+2024-04-03 23:38:46,516 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}, 1712158725627_192.168.65.1_25790
+
+2024-04-03 23:39:50,390 INFO Client connection 1712158725627_192.168.65.1_25790 disconnect, remove instances and subscribers
+
+2024-04-03 23:39:50,392 INFO Client connection 1712158722833_192.168.65.1_25789 disconnect, remove instances and subscribers
+
+2024-04-03 23:39:57,028 INFO Client connection 1712158796987_192.168.65.1_26063 connect
+
+2024-04-03 23:39:57,945 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=4}, 1712158796987_192.168.65.1_26063
+
+2024-04-03 23:42:00,593 INFO Client connection 1712158796987_192.168.65.1_26063 disconnect, remove instances and subscribers
+
+2024-04-03 23:42:00,596 INFO Client connection 1712158793853_192.168.65.1_26044 disconnect, remove instances and subscribers
+
+2024-04-03 23:42:02,631 INFO Client connection 1712157577614_192.168.65.1_21645 disconnect, remove instances and subscribers
+
+2024-04-03 23:42:02,634 INFO Client connection 1712157577148_192.168.65.1_21634 disconnect, remove instances and subscribers
+
+2024-04-03 23:42:02,637 INFO Client connection 1712157572699_192.168.65.1_21614 disconnect, remove instances and subscribers
+
+2024-04-03 23:42:23,834 INFO Client connection 1712158943791_192.168.65.1_26590 connect
+
+2024-04-03 23:42:23,948 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=2}, 1712158943791_192.168.65.1_26590
+
+2024-04-03 23:42:31,831 INFO Client connection 1712158951809_192.168.65.1_26611 connect
+
+2024-04-03 23:42:32,626 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=6}, 1712158951809_192.168.65.1_26611
+
+2024-04-03 23:44:01,438 INFO Client connection 1712158951809_192.168.65.1_26611 disconnect, remove instances and subscribers
+
+2024-04-03 23:44:01,441 INFO Client connection 1712158949086_192.168.65.1_26610 disconnect, remove instances and subscribers
+
+2024-04-03 23:44:08,374 INFO Client connection 1712159048350_192.168.65.1_26974 connect
+
+2024-04-03 23:44:09,326 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=8}, 1712159048350_192.168.65.1_26974
+
+2024-04-03 23:45:26,496 INFO Client connection 1712159048350_192.168.65.1_26974 disconnect, remove instances and subscribers
+
+2024-04-03 23:45:26,517 INFO Client connection 1712159045349_192.168.65.1_26955 disconnect, remove instances and subscribers
+
+2024-04-03 23:45:34,053 INFO Client connection 1712159134034_192.168.65.1_27283 connect
+
+2024-04-03 23:45:34,966 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=10}, 1712159134034_192.168.65.1_27283
+
+2024-04-03 23:48:58,676 INFO Client connection 1712158943327_192.168.65.1_26589 disconnect, remove instances and subscribers
+
+2024-04-03 23:48:58,678 INFO Client connection 1712158938905_192.168.65.1_26569 disconnect, remove instances and subscribers
+
+2024-04-03 23:48:58,681 INFO Client connection 1712158943791_192.168.65.1_26590 disconnect, remove instances and subscribers
+
+2024-04-03 23:49:06,829 INFO Client connection 1712159346821_192.168.65.1_28066 connect
+
+2024-04-03 23:49:06,951 INFO Client change for service Service{namespace='84f4954e-77ec-440e-819c-b99889fb4759', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=0}, 1712159346821_192.168.65.1_28066
+
+2024-04-03 23:50:46,184 WARN namespace : public, [DEFAULT_GROUP@@nacos-service1] services are automatically cleaned
+
+2024-04-03 23:51:09,371 INFO Client connection 1712159130144_192.168.65.1_27264 disconnect, remove instances and subscribers
+
+2024-04-03 23:51:09,375 INFO Client connection 1712159134034_192.168.65.1_27283 disconnect, remove instances and subscribers
+
+2024-04-03 23:51:16,603 INFO Client connection 1712159476563_192.168.65.1_28551 connect
+
+2024-04-03 23:51:17,624 INFO Client change for service Service{namespace='a9808f4a-493d-4d64-9f2d-4d0f554fbe87', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=12}, 1712159476563_192.168.65.1_28551
+
+2024-04-03 23:54:12,394 INFO Client connection 1712159473020_192.168.65.1_28531 disconnect, remove instances and subscribers
+
+2024-04-03 23:54:12,396 INFO Client connection 1712159476563_192.168.65.1_28551 disconnect, remove instances and subscribers
+
+2024-04-03 23:54:18,265 INFO Client connection 1712159346440_192.168.65.1_28065 disconnect, remove instances and subscribers
+
+2024-04-03 23:54:18,267 INFO Client connection 1712159342510_192.168.65.1_28045 disconnect, remove instances and subscribers
+
+2024-04-03 23:54:18,269 INFO Client connection 1712159346821_192.168.65.1_28066 disconnect, remove instances and subscribers
+
+2024-04-03 23:54:21,926 INFO Client connection 1712159661908_192.168.65.1_29206 connect
+
+2024-04-03 23:54:23,740 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=0}, 1712159661908_192.168.65.1_29206
+
+2024-04-03 23:54:30,310 INFO Client connection 1712159670300_192.168.65.1_29247 connect
+
+2024-04-03 23:54:30,433 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=0}, 1712159670300_192.168.65.1_29247
+
+2024-04-03 23:55:46,194 WARN namespace : 84f4954e-77ec-440e-819c-b99889fb4759, [DEFAULT_GROUP@@nacos-service1] services are automatically cleaned
+
+2024-04-03 23:55:46,195 WARN namespace : a9808f4a-493d-4d64-9f2d-4d0f554fbe87, [DEFAULT_GROUP@@nacos-gateway] services are automatically cleaned
+
+2024-04-03 23:59:06,334 INFO Client connection 1712159665180_192.168.65.1_29226 disconnect, remove instances and subscribers
+
+2024-04-03 23:59:06,343 INFO Client connection 1712159670300_192.168.65.1_29247 disconnect, remove instances and subscribers
+
+2024-04-03 23:59:06,361 INFO Client connection 1712159669964_192.168.65.1_29246 disconnect, remove instances and subscribers
+
+2024-04-03 23:59:18,387 INFO Client connection 1712159958373_192.168.65.1_30296 connect
+
+2024-04-03 23:59:18,512 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=2}, 1712159958373_192.168.65.1_30296
+
+2024-04-03 23:59:27,843 INFO Client connection 1712159967833_192.168.65.1_30337 connect
+
+2024-04-03 23:59:27,981 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=3}, 1712159967833_192.168.65.1_30337
+

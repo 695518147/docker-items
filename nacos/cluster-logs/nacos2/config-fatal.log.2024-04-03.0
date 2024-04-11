@@ -1,0 +1,6 @@
+2024-04-03 19:12:32,327 WARN [master-db] jdbc:mysql://192.168.0.103:2306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+
+2024-04-03 19:12:40,176 WARN isQuickStart:false
+
+2024-04-03 19:20:45,563 ERROR [db-error] master db 192.168.0.103 down.
+

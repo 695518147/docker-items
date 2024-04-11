@@ -1,0 +1,1182 @@
+2024-04-04 00:00:19,892 INFO [PUSH-SUCC] 37ms, all delay time 610ms, SLA 610ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=5}, originalSize=3, DataSize=3, target=192.168.0.103
+
+2024-04-04 01:36:19,649 INFO [PUSH-SUCC] 96ms, all delay time 662ms, SLA 664ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=6}, originalSize=2, DataSize=2, target=192.168.0.103
+
+2024-04-04 01:41:51,152 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}
+
+2024-04-04 01:41:51,251 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}
+
+2024-04-04 01:41:51,462 INFO [PUSH-SUCC] 26ms, all delay time 551ms, SLA 211ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.0.103
+
+2024-04-04 01:50:14,867 INFO [PUSH-SUCC] 301ms, all delay time 811ms for subscriber 172.21.0.2, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 01:50:16,021 INFO [PUSH-SUCC] 26ms, all delay time 616ms, SLA 616ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.21.0.2
+
+2024-04-04 01:52:28,605 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}
+
+2024-04-04 01:52:28,706 INFO [PUSH-SUCC] 50ms, all delay time 633ms, SLA 101ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.21.0.2
+
+2024-04-04 01:58:11,439 INFO [PUSH-SUCC] 69ms, all delay time 599ms for subscriber 172.21.0.2, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}, originalSize=0, DataSize=0
+
+2024-04-04 01:58:11,982 INFO [PUSH-SUCC] 9ms, all delay time 558ms, SLA 563ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.21.0.2
+
+2024-04-04 01:58:40,381 INFO [PUSH-SUCC] 13ms, all delay time 611ms for subscriber 172.21.0.2, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 02:03:55,305 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=6}
+
+2024-04-04 02:03:55,885 INFO [PUSH-SUCC] 202ms, all delay time 756ms for subscriber 172.21.0.3, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}, originalSize=0, DataSize=0
+
+2024-04-04 02:03:55,962 INFO [PUSH-SUCC] 279ms, all delay time 833ms for subscriber 172.21.0.2, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}, originalSize=0, DataSize=0
+
+2024-04-04 02:03:56,249 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=8}
+
+2024-04-04 02:03:56,406 INFO [PUSH-SUCC] 16ms, all delay time 528ms, SLA 157ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=8}, originalSize=2, DataSize=2, target=172.21.0.2
+
+2024-04-04 02:03:56,431 INFO [PUSH-SUCC] 40ms, all delay time 553ms, SLA 182ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=8}, originalSize=2, DataSize=2, target=172.21.0.3
+
+2024-04-04 02:05:31,710 INFO [PUSH-SUCC] 5ms, all delay time 600ms for subscriber 172.21.0.3, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 02:09:58,493 INFO [PUSH-SUCC] 22ms, all delay time 620ms for subscriber 192.168.0.103, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service2', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 02:10:55,528 INFO [PUSH-SUCC] 9ms, all delay time 581ms, SLA 581ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=172.21.0.3
+
+2024-04-04 02:11:19,987 INFO [PUSH-SUCC] 66ms, all delay time 594ms for subscriber 172.21.0.3, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=10}, originalSize=0, DataSize=0
+
+2024-04-04 02:11:20,638 INFO [PUSH-SUCC] 9ms, all delay time 605ms, SLA 605ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=172.21.0.3
+
+2024-04-04 02:12:49,578 INFO [PUSH-SUCC] 139ms, all delay time 700ms for subscriber 172.21.0.3, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=12}, originalSize=0, DataSize=0
+
+2024-04-04 02:12:50,166 INFO [PUSH-SUCC] 11ms, all delay time 576ms, SLA 576ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=172.21.0.3
+
+2024-04-04 02:14:00,496 INFO [PUSH-SUCC] 12ms, all delay time 539ms for subscriber 172.21.0.3, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=1}, originalSize=1, DataSize=1
+
+2024-04-04 02:16:55,687 INFO [PUSH-SUCC] 43ms, all delay time 580ms for subscriber 192.168.0.103, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service2', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 02:18:10,704 INFO [PUSH-SUCC] 29ms, all delay time 625ms, SLA 625ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=172.21.0.3
+
+2024-04-04 02:18:58,539 INFO [PUSH-SUCC] 23ms, all delay time 584ms for subscriber 192.168.0.103, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service2', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 02:19:34,864 INFO [PUSH-SUCC] 6ms, all delay time 516ms, SLA 516ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.21.0.3
+
+2024-04-04 02:20:12,623 INFO [PUSH-SUCC] 104ms, all delay time 670ms for subscriber 172.21.0.3, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=14}, originalSize=0, DataSize=0
+
+2024-04-04 02:20:13,338 INFO [PUSH-SUCC] 12ms, all delay time 522ms, SLA 522ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=172.21.0.3
+
+2024-04-04 02:20:43,656 INFO [PUSH-SUCC] 11ms, all delay time 560ms for subscriber 172.21.0.3, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=4}, originalSize=2, DataSize=2
+
+2024-04-04 02:25:29,145 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=6}
+
+2024-04-04 02:26:06,896 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=8}
+
+2024-04-04 02:26:07,046 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=9}
+
+2024-04-04 02:26:39,986 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=11}
+
+2024-04-04 02:26:40,005 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=12}
+
+2024-04-04 02:26:53,347 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=14}
+
+2024-04-04 02:26:53,354 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=15}
+
+2024-04-04 02:28:48,524 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=17}
+
+2024-04-04 02:29:54,377 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=20}
+
+2024-04-04 02:29:54,420 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=21}
+
+2024-04-04 02:30:39,595 INFO [PUSH-SUCC] 598ms, all delay time 1158ms for subscriber 172.23.0.6, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 02:30:40,670 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}
+
+2024-04-04 02:30:40,821 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=24}
+
+2024-04-04 02:30:41,582 INFO [PUSH-SUCC] 396ms, all delay time 912ms, SLA 912ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}, originalSize=1, DataSize=1, target=172.23.0.6
+
+2024-04-04 02:31:24,769 INFO [PUSH-SUCC] 17ms, all delay time 607ms for subscriber 172.23.0.6, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=25}, originalSize=5, DataSize=5
+
+2024-04-04 02:40:11,440 INFO [PUSH-SUCC] 39ms, all delay time 612ms, SLA 612ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=26}, originalSize=4, DataSize=4, target=172.23.0.6
+
+2024-04-04 02:40:42,478 INFO [PUSH-SUCC] 30ms, all delay time 539ms for subscriber 192.168.0.103, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service2', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 02:45:13,645 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=28}
+
+2024-04-04 02:45:13,669 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=29}
+
+2024-04-04 02:45:13,707 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=30}
+
+2024-04-04 02:45:14,204 INFO [PUSH-SUCC] 27ms, all delay time 559ms, SLA 500ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=30}, originalSize=0, DataSize=0, target=172.23.0.6
+
+2024-04-04 02:46:07,405 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=32}
+
+2024-04-04 02:46:08,698 INFO [PUSH-SUCC] 560ms, all delay time 1117ms for subscriber 172.23.0.6, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}, originalSize=0, DataSize=0
+
+2024-04-04 02:46:11,003 INFO [PUSH-SUCC] 59ms, all delay time 656ms, SLA 656ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=4}, originalSize=1, DataSize=1, target=172.23.0.6
+
+2024-04-04 02:47:30,546 INFO [PUSH-SUCC] 12ms, all delay time 585ms for subscriber 172.23.0.6, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=34}, originalSize=4, DataSize=4
+
+2024-04-04 02:57:02,212 INFO [PUSH-SUCC] 34ms, all delay time 539ms for subscriber 192.168.0.103, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service2', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 02:58:24,609 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=36}
+
+2024-04-04 02:58:24,647 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=37}
+
+2024-04-04 02:58:24,672 INFO [PUSH] Task merge for Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=38}
+
+2024-04-04 02:58:25,188 INFO [PUSH-SUCC] 10ms, all delay time 586ms, SLA 517ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=38}, originalSize=0, DataSize=0, target=172.23.0.6
+
+2024-04-04 02:59:41,309 INFO [PUSH-SUCC] 240ms, all delay time 802ms for subscriber 172.23.0.6, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}, originalSize=0, DataSize=0
+
+2024-04-04 02:59:41,918 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=4}
+
+2024-04-04 02:59:42,495 INFO [PUSH-SUCC] 13ms, all delay time 543ms, SLA 548ms, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=6}, originalSize=1, DataSize=1, target=172.23.0.6
+
+2024-04-04 03:00:23,002 INFO [PUSH-SUCC] 7ms, all delay time 583ms for subscriber 172.23.0.6, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 03:01:31,426 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=6}
+
+2024-04-04 03:01:31,461 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=7}
+
+2024-04-04 03:01:31,469 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=8}
+
+2024-04-04 03:01:33,307 INFO [PUSH-SUCC] 23ms, all delay time 581ms for subscriber 192.168.0.103, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service2', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 03:03:08,492 INFO [PUSH-SUCC] 174ms, all delay time 694ms for subscriber 172.24.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 03:03:09,560 INFO [PUSH-SUCC] 29ms, all delay time 538ms, SLA 538ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.24.0.6
+
+2024-04-04 03:03:10,725 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=4}
+
+2024-04-04 03:04:54,361 INFO [PUSH-SUCC] 7ms, all delay time 531ms for subscriber 172.24.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=4}, originalSize=4, DataSize=4
+
+2024-04-04 03:22:03,608 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=6}
+
+2024-04-04 03:22:03,636 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=7}
+
+2024-04-04 03:22:03,683 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=8}
+
+2024-04-04 03:22:04,166 INFO [PUSH-SUCC] 25ms, all delay time 579ms, SLA 483ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=8}, originalSize=0, DataSize=0, target=172.24.0.6
+
+2024-04-04 03:22:55,754 INFO [PUSH-SUCC] 316ms, all delay time 876ms for subscriber 172.24.0.7, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2024-04-04 03:22:56,591 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=11}
+
+2024-04-04 03:22:57,496 INFO [PUSH-SUCC] 32ms, all delay time 548ms, SLA 549ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.24.0.7
+
+2024-04-04 03:23:01,817 INFO [PUSH-SUCC] 9ms, all delay time 555ms for subscriber 172.24.0.7, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=12}, originalSize=4, DataSize=4
+
+2024-04-04 03:35:28,660 INFO [PUSH-SUCC] 14ms, all delay time 567ms, SLA 568ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=13}, originalSize=3, DataSize=3, target=172.24.0.7
+
+2024-04-04 03:36:07,086 INFO [PUSH-SUCC] 9ms, all delay time 536ms, SLA 537ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=14}, originalSize=4, DataSize=4, target=172.24.0.7
+
+2024-04-04 03:42:47,992 INFO [PUSH-SUCC] 46ms, all delay time 599ms for subscriber 192.168.0.103, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service2', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 03:43:58,609 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=16}
+
+2024-04-04 03:43:58,625 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=17}
+
+2024-04-04 03:43:58,731 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=18}
+
+2024-04-04 03:43:59,328 INFO [PUSH-SUCC] 87ms, all delay time 732ms, SLA 596ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=18}, originalSize=0, DataSize=0, target=172.24.0.7
+
+2024-04-04 03:45:30,354 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=20}
+
+2024-04-04 03:45:30,906 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=22}
+
+2024-04-04 03:45:31,767 INFO [PUSH-SUCC] 106ms, all delay time 686ms for subscriber 172.24.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=4}, originalSize=0, DataSize=0
+
+2024-04-04 03:45:32,586 INFO [PUSH-SUCC] 17ms, all delay time 527ms, SLA 528ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.24.0.6
+
+2024-04-04 03:46:13,173 INFO [PUSH-SUCC] 21ms, all delay time 573ms for subscriber 172.24.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=22}, originalSize=4, DataSize=4
+
+2024-04-04 04:08:07,194 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=24}
+
+2024-04-04 04:08:07,245 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=25}
+
+2024-04-04 04:08:07,326 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=26}
+
+2024-04-04 04:08:54,731 INFO [PUSH-SUCC] 301ms, all delay time 846ms for subscriber 172.24.0.4, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=6}, originalSize=0, DataSize=0
+
+2024-04-04 04:08:56,115 INFO [PUSH-SUCC] 54ms, all delay time 603ms, SLA 603ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=172.24.0.4
+
+2024-04-04 04:50:06,494 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=32}
+
+2024-04-04 04:50:06,501 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=33}
+
+2024-04-04 04:50:06,505 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=34}
+
+2024-04-04 04:50:11,167 ERROR [PUSH-FAIL] 81ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=8}, reason=errCode: 601, errMsg: too much bytes on sending queue of this stream. , target=172.24.0.4
+
+2024-04-04 04:50:11,207 ERROR Reason detail:
+
+com.alibaba.nacos.common.remote.exception.ConnectionBusyException: errCode: 601, errMsg: too much bytes on sending queue of this stream.
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendQueueBlockCheck(GrpcConnection.java:123)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:72)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:152)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:175)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:72)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:120)
+2024-04-04 04:50:16,130 ERROR [PUSH-FAIL] 5046ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=8}, reason=Timeout After 5000 milliseconds, requestId=92, connectionId=1712174930979_192.168.65.1_28903, target=172.24.0.4
+
+2024-04-04 04:50:16,136 ERROR Reason detail:
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=92, connectionId=1712174930979_192.168.65.1_28903
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-04 04:51:16,874 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=37}
+
+2024-04-04 04:52:32,323 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=40}
+
+2024-04-04 04:52:32,340 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=41}
+
+2024-04-04 04:52:32,346 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=42}
+
+2024-04-04 04:53:19,567 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=44}
+
+2024-04-04 04:53:19,757 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=45}
+
+2024-04-04 04:55:22,472 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=48}
+
+2024-04-04 04:55:22,480 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=49}
+
+2024-04-04 04:55:22,508 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=50}
+
+2024-04-04 04:56:06,153 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=52}
+
+2024-04-04 04:56:06,663 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=54}
+
+2024-04-04 04:56:50,605 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=56}
+
+2024-04-04 04:56:50,654 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=57}
+
+2024-04-04 04:56:50,657 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=58}
+
+2024-04-04 04:57:42,595 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=61}
+
+2024-04-04 04:57:45,736 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}
+
+2024-04-04 04:57:46,135 INFO [PUSH-SUCC] 247ms, all delay time 780ms, SLA 399ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.24.0.6
+
+2024-04-04 04:59:51,916 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=64}
+
+2024-04-04 04:59:51,924 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=65}
+
+2024-04-04 04:59:51,933 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=66}
+
+2024-04-04 05:01:38,936 INFO [PUSH-SUCC] 120ms, all delay time 628ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2024-04-04 05:01:39,842 INFO [PUSH-SUCC] 14ms, all delay time 552ms, SLA 552ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.25.0.6
+
+2024-04-04 05:03:54,013 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=72}
+
+2024-04-04 05:03:54,036 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=73}
+
+2024-04-04 05:03:54,047 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=74}
+
+2024-04-04 05:04:42,797 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=76}
+
+2024-04-04 05:04:42,827 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=77}
+
+2024-04-04 05:04:43,396 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=79}
+
+2024-04-04 05:04:45,361 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=82}
+
+2024-04-04 05:04:45,481 INFO [PUSH-SUCC] 128ms, all delay time 668ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=4}, originalSize=0, DataSize=0
+
+2024-04-04 05:04:46,285 INFO [PUSH-SUCC] 24ms, all delay time 540ms, SLA 540ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.25.0.6
+
+2024-04-04 05:04:47,074 INFO [PUSH-SUCC] 6ms, all delay time 607ms, SLA 607ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=6}, originalSize=0, DataSize=0, target=172.25.0.6
+
+2024-04-04 05:08:52,305 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=4}
+
+2024-04-04 05:08:52,616 INFO [PUSH-SUCC] 161ms, all delay time 708ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 05:08:53,374 INFO [PUSH-SUCC] 9ms, all delay time 553ms, SLA 553ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.25.0.6
+
+2024-04-04 05:11:15,996 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=6}
+
+2024-04-04 05:11:16,036 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=7}
+
+2024-04-04 05:11:16,055 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=8}
+
+2024-04-04 05:12:02,027 INFO [PUSH-SUCC] 236ms, all delay time 805ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2024-04-04 05:12:03,535 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=11}
+
+2024-04-04 05:12:03,892 INFO [PUSH-SUCC] 52ms, all delay time 616ms, SLA 619ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.25.0.6
+
+2024-04-04 05:15:18,524 INFO [PUSH-SUCC] 50ms, all delay time 600ms for subscriber 192.168.0.103, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service2', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 05:16:14,286 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=14}
+
+2024-04-04 05:16:14,479 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=15}
+
+2024-04-04 05:16:14,518 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=16}
+
+2024-04-04 05:17:46,419 INFO [PUSH-SUCC] 593ms, all delay time 1132ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 05:17:48,100 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=4}
+
+2024-04-04 05:17:48,104 INFO [PUSH-SUCC] 39ms, all delay time 589ms, SLA 589ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.25.0.6
+
+2024-04-04 05:19:05,990 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}
+
+2024-04-04 05:19:06,230 INFO [PUSH-SUCC] 19ms, all delay time 536ms, SLA 240ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=172.25.0.6
+
+2024-04-04 05:19:06,247 INFO [PUSH-SUCC] 36ms, all delay time 553ms, SLA 257ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}, originalSize=2, DataSize=2, target=192.168.0.103
+
+2024-04-04 05:20:23,819 INFO [PUSH-SUCC] 15ms, all delay time 519ms, SLA 519ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.25.0.6
+
+2024-04-04 05:20:57,501 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=6}
+
+2024-04-04 05:20:57,528 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=7}
+
+2024-04-04 05:20:57,557 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=8}
+
+2024-04-04 05:20:59,518 INFO [PUSH-SUCC] 0ms, all delay time 524ms, SLA 526ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=4}, originalSize=0, DataSize=0, target=172.25.0.6
+
+2024-04-04 05:25:13,856 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=14}
+
+2024-04-04 05:25:13,880 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=15}
+
+2024-04-04 05:25:14,163 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=16}
+
+2024-04-04 05:26:11,341 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=18}
+
+2024-04-04 05:26:12,423 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=20}
+
+2024-04-04 05:26:22,047 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=22}
+
+2024-04-04 05:26:22,056 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=23}
+
+2024-04-04 05:26:22,059 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=24}
+
+2024-04-04 05:27:14,466 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=27}
+
+2024-04-04 05:27:14,651 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=28}
+
+2024-04-04 05:28:46,904 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=30}
+
+2024-04-04 05:28:46,936 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=31}
+
+2024-04-04 05:28:46,973 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=32}
+
+2024-04-04 05:29:32,977 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=35}
+
+2024-04-04 05:29:33,097 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=36}
+
+2024-04-04 05:33:16,185 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=38}
+
+2024-04-04 05:33:16,208 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=39}
+
+2024-04-04 05:33:16,220 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=40}
+
+2024-04-04 05:34:09,544 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=44}
+
+2024-04-04 05:34:09,572 INFO [PUSH-SUCC] 177ms, all delay time 706ms for subscriber 172.25.0.7, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 05:34:10,637 INFO [PUSH-SUCC] 31ms, all delay time 619ms, SLA 619ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=172.25.0.7
+
+2024-04-04 05:34:25,746 INFO [PUSH-SUCC] 20ms, all delay time 592ms for subscriber 172.25.0.7, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=44}, originalSize=4, DataSize=4
+
+2024-04-04 05:38:22,568 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=46}
+
+2024-04-04 05:38:22,628 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=47}
+
+2024-04-04 05:38:22,680 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=48}
+
+2024-04-04 05:38:23,111 INFO [PUSH-SUCC] 30ms, all delay time 551ms, SLA 431ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=48}, originalSize=0, DataSize=0, target=172.25.0.7
+
+2024-04-04 05:39:17,827 INFO [PUSH-SUCC] 196ms, all delay time 751ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}, originalSize=0, DataSize=0
+
+2024-04-04 05:39:17,930 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=50}
+
+2024-04-04 05:39:19,603 INFO [PUSH-SUCC] 42ms, all delay time 583ms, SLA 584ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=172.25.0.6
+
+2024-04-04 05:39:30,502 INFO [PUSH-SUCC] 21ms, all delay time 613ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=52}, originalSize=4, DataSize=4
+
+2024-04-04 05:48:54,380 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=55}
+
+2024-04-04 05:48:54,387 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=55}
+
+2024-04-04 05:48:54,470 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=56}
+
+2024-04-04 05:48:54,930 INFO [PUSH-SUCC] 13ms, all delay time 565ms, SLA 460ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=56}, originalSize=0, DataSize=0, target=172.25.0.6
+
+2024-04-04 05:49:54,240 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=59}
+
+2024-04-04 05:49:56,068 INFO [PUSH-SUCC] 75ms, all delay time 585ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=4}, originalSize=0, DataSize=0
+
+2024-04-04 05:49:56,919 INFO [PUSH-SUCC] 15ms, all delay time 576ms, SLA 577ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=172.25.0.6
+
+2024-04-04 05:50:08,023 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=62}
+
+2024-04-04 05:50:08,102 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=63}
+
+2024-04-04 05:50:08,165 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=64}
+
+2024-04-04 05:50:56,962 INFO [PUSH-SUCC] 160ms, all delay time 730ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=6}, originalSize=0, DataSize=0
+
+2024-04-04 05:50:58,719 INFO [PUSH-SUCC] 45ms, all delay time 627ms, SLA 630ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=172.25.0.6
+
+2024-04-04 05:50:59,775 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=68}
+
+2024-04-04 05:58:40,987 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=70}
+
+2024-04-04 05:58:41,019 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=71}
+
+2024-04-04 05:58:41,044 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=72}
+
+2024-04-04 05:59:41,489 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=74}
+
+2024-04-04 05:59:43,243 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=76}
+
+2024-04-04 05:59:43,293 INFO [PUSH-SUCC] 158ms, all delay time 722ms for subscriber 172.25.0.7, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=8}, originalSize=0, DataSize=0
+
+2024-04-04 05:59:44,170 INFO [PUSH-SUCC] 22ms, all delay time 549ms, SLA 550ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=172.25.0.7
+
+2024-04-04 06:01:49,615 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=78}
+
+2024-04-04 06:01:49,622 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=79}
+
+2024-04-04 06:01:49,664 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=80}
+
+2024-04-04 06:02:42,353 INFO [PUSH-SUCC] 354ms, all delay time 941ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=10}, originalSize=0, DataSize=0
+
+2024-04-04 06:02:43,317 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=84}
+
+2024-04-04 06:02:43,681 INFO [PUSH-SUCC] 58ms, all delay time 599ms, SLA 602ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=172.25.0.6
+
+2024-04-04 06:07:20,699 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=86}
+
+2024-04-04 06:07:20,740 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=87}
+
+2024-04-04 06:07:20,788 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=88}
+
+2024-04-04 06:08:09,304 INFO [PUSH-SUCC] 1315ms, all delay time 1968ms for subscriber 172.25.0.7, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=12}, originalSize=0, DataSize=0
+
+2024-04-04 06:08:11,569 INFO [PUSH-SUCC] 68ms, all delay time 601ms, SLA 602ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=172.25.0.7
+
+2024-04-04 06:08:13,383 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=91}
+
+2024-04-04 06:08:52,441 INFO [PUSH-SUCC] 16ms, all delay time 562ms for subscriber 172.25.0.7, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=92}, originalSize=4, DataSize=4
+
+2024-04-04 06:10:12,879 INFO [PUSH-SUCC] 27ms, all delay time 629ms for subscriber 192.168.0.103, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service2', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 06:10:50,111 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=94}
+
+2024-04-04 06:10:50,206 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=95}
+
+2024-04-04 06:10:50,227 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=96}
+
+2024-04-04 06:10:50,579 INFO [PUSH-SUCC] 9ms, all delay time 550ms, SLA 356ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=96}, originalSize=0, DataSize=0, target=172.25.0.7
+
+2024-04-04 06:11:32,700 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=99}
+
+2024-04-04 06:11:35,729 INFO [PUSH-SUCC] 54ms, all delay time 632ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=14}, originalSize=0, DataSize=0
+
+2024-04-04 06:11:36,392 INFO [PUSH-SUCC] 9ms, all delay time 555ms, SLA 555ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=172.25.0.6
+
+2024-04-04 06:13:51,256 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=102}
+
+2024-04-04 06:13:51,284 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=103}
+
+2024-04-04 06:13:51,287 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=104}
+
+2024-04-04 06:14:32,718 INFO [PUSH-SUCC] 205ms, all delay time 805ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=16}, originalSize=0, DataSize=0
+
+2024-04-04 06:14:34,012 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=106}
+
+2024-04-04 06:14:34,338 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=107}
+
+2024-04-04 06:14:34,386 INFO [PUSH-SUCC] 43ms, all delay time 632ms, SLA 632ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=17}, originalSize=1, DataSize=1, target=172.25.0.6
+
+2024-04-04 06:21:34,705 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=110}
+
+2024-04-04 06:21:34,739 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=111}
+
+2024-04-04 06:21:34,760 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=112}
+
+2024-04-04 06:22:24,175 INFO [PUSH-SUCC] 332ms, all delay time 832ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=18}, originalSize=0, DataSize=0
+
+2024-04-04 06:22:25,291 INFO [PUSH-SUCC] 30ms, all delay time 556ms, SLA 556ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=19}, originalSize=1, DataSize=1, target=172.25.0.6
+
+2024-04-04 06:22:27,430 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=115}
+
+2024-04-04 06:22:27,660 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=116}
+
+2024-04-04 06:23:03,330 INFO [PUSH-SUCC] 12ms, all delay time 519ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=116}, originalSize=4, DataSize=4
+
+2024-04-04 06:36:57,414 INFO [PUSH-SUCC] 49ms, all delay time 616ms for subscriber 192.168.0.103, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service2', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 06:38:40,993 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=118}
+
+2024-04-04 06:38:41,031 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=119}
+
+2024-04-04 06:38:41,123 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=120}
+
+2024-04-04 06:38:41,517 INFO [PUSH-SUCC] 27ms, all delay time 530ms, SLA 394ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=120}, originalSize=0, DataSize=0, target=172.25.0.6
+
+2024-04-04 06:39:38,430 INFO [PUSH-SUCC] 117ms, all delay time 625ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=20}, originalSize=0, DataSize=0
+
+2024-04-04 06:39:38,501 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=123}
+
+2024-04-04 06:39:39,541 INFO [PUSH-SUCC] 13ms, all delay time 561ms, SLA 562ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=21}, originalSize=1, DataSize=1, target=172.25.0.6
+
+2024-04-04 06:40:10,499 INFO [PUSH-SUCC] 12ms, all delay time 524ms for subscriber 172.25.0.6, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=124}, originalSize=4, DataSize=4
+
+2024-04-04 07:24:31,639 INFO [PUSH-SUCC] 33ms, all delay time 566ms for subscriber 192.168.0.103, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service2', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 07:27:08,119 INFO [PUSH-SUCC] 30ms, all delay time 535ms for subscriber 192.168.0.103, Service{namespace='public', group='DEFAULT_GROUP', name='nacos-service2', ephemeral=true, revision=0}, originalSize=0, DataSize=0
+
+2024-04-04 07:36:19,583 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=22}
+
+2024-04-04 07:36:19,898 INFO [PUSH-SUCC] 29ms, all delay time 623ms, SLA 315ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=22}, originalSize=2, DataSize=2, target=192.168.0.103
+
+2024-04-04 07:36:20,017 INFO [PUSH-SUCC] 146ms, all delay time 742ms, SLA 434ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=22}, originalSize=2, DataSize=2, target=172.25.0.6
+
+2024-04-04 07:45:32,247 INFO [PUSH-SUCC] 104ms, all delay time 682ms, SLA 683ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=23}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 07:49:17,728 INFO [PUSH-SUCC] 22ms, all delay time 617ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=124}, originalSize=4, DataSize=4
+
+2024-04-04 07:51:01,512 INFO [PUSH-SUCC] 96ms, all delay time 617ms, SLA 617ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=125}, originalSize=5, DataSize=5, target=192.168.0.103
+
+2024-04-04 07:54:22,046 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=127}
+
+2024-04-04 07:54:22,061 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=128}
+
+2024-04-04 07:54:22,175 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=129}
+
+2024-04-04 07:54:22,735 INFO [PUSH-SUCC] 203ms, all delay time 745ms, SLA 560ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=129}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 07:58:38,446 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=25}
+
+2024-04-04 07:58:38,945 INFO [PUSH-SUCC] 15ms, all delay time 530ms, SLA 530ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=25}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 07:58:39,046 INFO [PUSH-SUCC] 13ms, all delay time 612ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=129}, originalSize=1, DataSize=1
+
+2024-04-04 08:08:35,942 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=27}
+
+2024-04-04 08:08:36,246 INFO [PUSH-SUCC] 51ms, all delay time 602ms, SLA 604ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=27}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 08:08:36,505 INFO [PUSH-SUCC] 78ms, all delay time 650ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=130}, originalSize=0, DataSize=0
+
+2024-04-04 08:08:38,372 INFO [PUSH-SUCC] 84ms, all delay time 668ms, SLA 675ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=131}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 08:43:14,083 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=29}
+
+2024-04-04 08:43:14,648 INFO [PUSH-SUCC] 65ms, all delay time 638ms, SLA 638ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=29}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 08:43:14,682 INFO [PUSH-SUCC] 96ms, all delay time 638ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=133}, originalSize=1, DataSize=1
+
+2024-04-04 08:44:37,652 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=31}
+
+2024-04-04 08:44:37,937 INFO [PUSH-SUCC] 43ms, all delay time 604ms, SLA 606ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=31}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 08:44:38,325 INFO [PUSH-SUCC] 190ms, all delay time 729ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=135}, originalSize=1, DataSize=1
+
+2024-04-04 08:45:56,185 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=137}
+
+2024-04-04 08:45:56,216 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=33}
+
+2024-04-04 08:45:56,544 INFO [PUSH-SUCC] 30ms, all delay time 583ms, SLA 583ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=137}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 08:45:56,751 INFO [PUSH-SUCC] 36ms, all delay time 622ms, SLA 622ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=33}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 08:46:33,761 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=139}
+
+2024-04-04 08:46:34,566 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=35}
+
+2024-04-04 08:46:35,159 INFO [PUSH-SUCC] 50ms, all delay time 636ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=139}, originalSize=1, DataSize=1
+
+2024-04-04 08:46:35,163 INFO [PUSH-SUCC] 53ms, all delay time 672ms, SLA 673ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=35}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 08:49:12,711 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=141}
+
+2024-04-04 08:49:16,043 INFO [PUSH-SUCC] 1835ms, all delay time 3739ms, SLA 694ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=142}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 08:49:19,368 ERROR [PUSH-FAIL] 5160ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=143}, reason=Timeout After 5000 milliseconds, requestId=96, connectionId=1712191593583_192.168.65.1_38938, target=192.168.0.103
+
+2024-04-04 08:49:19,384 ERROR Reason detail:
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=96, connectionId=1712191593583_192.168.65.1_38938
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-04 08:49:20,552 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=37}
+
+2024-04-04 08:49:21,095 INFO [PUSH-SUCC] 24ms, all delay time 581ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=143}, originalSize=1, DataSize=1
+
+2024-04-04 08:49:21,103 INFO [PUSH-SUCC] 31ms, all delay time 622ms, SLA 622ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=37}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 08:50:04,793 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=145}
+
+2024-04-04 08:50:04,814 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=39}
+
+2024-04-04 08:50:04,984 INFO [PUSH-SUCC] 14ms, all delay time 551ms, SLA 551ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=145}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 08:50:05,311 INFO [PUSH-SUCC] 22ms, all delay time 547ms, SLA 547ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=39}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 08:51:55,812 ERROR [PUSH-FAIL] 6748ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=146}, reason=Timeout After 5000 milliseconds, requestId=103, connectionId=1712191802271_192.168.65.1_39588, target=192.168.0.103
+
+2024-04-04 08:52:12,857 ERROR Reason detail:
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=103, connectionId=1712191802271_192.168.65.1_39588
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-04 08:53:10,450 INFO [PUSH-SUCC] 81386ms, all delay time 82310ms, SLA 82310ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=146}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 08:53:17,675 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=43}
+
+2024-04-04 08:53:18,233 INFO [PUSH-SUCC] 15ms, all delay time 580ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=149}, originalSize=1, DataSize=1
+
+2024-04-04 08:53:18,257 INFO [PUSH-SUCC] 36ms, all delay time 635ms, SLA 636ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=43}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 09:23:42,353 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=151}
+
+2024-04-04 09:23:42,393 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}
+
+2024-04-04 09:23:42,839 INFO [PUSH-SUCC] 10ms, all delay time 529ms, SLA 529ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=151}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 09:23:42,866 INFO [PUSH-SUCC] 33ms, all delay time 547ms, SLA 548ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 09:24:52,539 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=153}
+
+2024-04-04 09:24:52,558 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}
+
+2024-04-04 09:24:53,156 INFO [PUSH-SUCC] 14ms, all delay time 639ms, SLA 639ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 09:24:53,158 INFO [PUSH-SUCC] 15ms, all delay time 648ms, SLA 648ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=153}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 09:43:45,493 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=155}
+
+2024-04-04 09:43:45,515 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}
+
+2024-04-04 09:43:46,033 INFO [PUSH-SUCC] 14ms, all delay time 554ms, SLA 555ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=155}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 09:43:46,037 INFO [PUSH-SUCC] 17ms, all delay time 571ms, SLA 571ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 10:00:13,972 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}
+
+2024-04-04 10:00:14,449 INFO [PUSH-SUCC] 7ms, all delay time 575ms, SLA 577ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 10:00:14,555 INFO [PUSH-SUCC] 12ms, all delay time 605ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=157}, originalSize=1, DataSize=1
+
+2024-04-04 10:06:41,124 INFO [PUSH-SUCC] 60ms, all delay time 609ms, SLA 615ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=158}, originalSize=0, DataSize=0, target=192.168.0.103
+
+2024-04-04 10:22:09,609 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=1}
+
+2024-04-04 10:22:09,620 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}
+
+2024-04-04 10:22:10,013 INFO [PUSH-SUCC] 5ms, all delay time 554ms, SLA 555ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 10:22:10,114 INFO [PUSH-SUCC] 5ms, all delay time 544ms, SLA 544ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 10:23:18,256 INFO [PUSH-SUCC] 0ms, all delay time 530ms, SLA 530ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=2}, originalSize=0, DataSize=0, target=192.168.0.103
+
+2024-04-04 10:23:19,407 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=3}
+
+2024-04-04 10:23:19,430 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}
+
+2024-04-04 10:23:19,948 INFO [PUSH-SUCC] 12ms, all delay time 593ms, SLA 596ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 10:23:19,952 INFO [PUSH-SUCC] 15ms, all delay time 577ms, SLA 577ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 10:38:54,498 INFO [PUSH-SUCC] 628ms, all delay time 1191ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2024-04-04 10:38:54,789 INFO [PUSH-SUCC] 180ms, all delay time 789ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2024-04-04 10:40:01,605 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}
+
+2024-04-04 10:55:30,948 INFO [PUSH-SUCC] 407ms, all delay time 929378ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2024-04-04 10:55:30,997 INFO [PUSH-SUCC] 451ms, all delay time 929460ms, SLA 929460ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 10:56:39,774 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=9}
+
+2024-04-04 10:56:39,810 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=7}
+
+2024-04-04 10:56:40,331 INFO [PUSH-SUCC] 9ms, all delay time 610ms, SLA 610ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 10:56:40,432 INFO [PUSH-SUCC] 9ms, all delay time 599ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=9}, originalSize=1, DataSize=1
+
+2024-04-04 11:01:12,682 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=9}
+
+2024-04-04 11:01:12,846 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=11}
+
+2024-04-04 11:01:13,150 INFO [PUSH-SUCC] 52ms, all delay time 621ms, SLA 621ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 11:01:13,224 INFO [PUSH-SUCC] 15ms, all delay time 561ms, SLA 561ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 11:06:59,619 INFO [PUSH-SUCC] 56ms, all delay time 573ms, SLA 818ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=10}, originalSize=0, DataSize=0, target=192.168.0.103
+
+2024-04-04 11:07:02,617 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=13}
+
+2024-04-04 11:22:20,918 INFO [PUSH-SUCC] 76ms, all delay time 918350ms, SLA 918350ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 11:22:20,921 INFO [PUSH-SUCC] 65ms, all delay time 918329ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=11}, originalSize=1, DataSize=1
+
+2024-04-04 11:23:25,982 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=15}
+
+2024-04-04 11:23:26,454 INFO [PUSH-SUCC] 11ms, all delay time 543ms, SLA 543ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 11:23:26,554 INFO [PUSH-SUCC] 9ms, all delay time 600ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=13}, originalSize=1, DataSize=1
+
+2024-04-04 11:32:03,322 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=17}
+
+2024-04-04 11:32:03,839 INFO [PUSH-SUCC] 16ms, all delay time 557ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=15}, originalSize=1, DataSize=1
+
+2024-04-04 11:32:03,845 INFO [PUSH-SUCC] 22ms, all delay time 585ms, SLA 586ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=17}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 12:00:54,522 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=1}
+
+2024-04-04 12:00:54,567 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}
+
+2024-04-04 12:00:54,972 INFO [PUSH-SUCC] 4ms, all delay time 548ms, SLA 548ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 12:00:55,083 INFO [PUSH-SUCC] 10ms, all delay time 577ms, SLA 577ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 12:02:00,763 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=3}
+
+2024-04-04 12:02:00,788 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}
+
+2024-04-04 12:02:01,265 INFO [PUSH-SUCC] 10ms, all delay time 548ms, SLA 548ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 12:02:01,276 INFO [PUSH-SUCC] 22ms, all delay time 542ms, SLA 542ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 12:18:47,840 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}
+
+2024-04-04 12:18:47,908 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=5}
+
+2024-04-04 12:18:47,959 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=5}
+
+2024-04-04 12:18:48,005 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}
+
+2024-04-04 12:18:48,151 INFO [PUSH-SUCC] 16ms, all delay time 573ms, SLA 370ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 12:18:48,161 INFO [PUSH-SUCC] 24ms, all delay time 606ms, SLA 319ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 12:29:23,244 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=9}
+
+2024-04-04 12:29:23,824 INFO [PUSH-SUCC] 46ms, all delay time 640ms, SLA 642ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 12:29:23,828 INFO [PUSH-SUCC] 49ms, all delay time 615ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+
+2024-04-04 12:46:41,499 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=7}
+
+2024-04-04 12:46:41,854 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=11}
+
+2024-04-04 12:46:41,881 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=7}
+
+2024-04-04 12:46:41,909 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=11}
+
+2024-04-04 12:46:41,933 INFO [PUSH-SUCC] 16ms, all delay time 540ms, SLA 434ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 12:46:42,030 INFO [PUSH-SUCC] 11ms, all delay time 574ms, SLA 177ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 13:03:03,698 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=13}
+
+2024-04-04 13:03:04,218 INFO [PUSH-SUCC] 22ms, all delay time 543ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=8}, originalSize=0, DataSize=0
+
+2024-04-04 13:03:04,226 INFO [PUSH-SUCC] 29ms, all delay time 579ms, SLA 579ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 13:03:04,869 INFO [PUSH-SUCC] 14ms, all delay time 565ms, SLA 565ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 13:20:03,429 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=11}
+
+2024-04-04 13:20:03,457 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=15}
+
+2024-04-04 13:20:03,982 INFO [PUSH-SUCC] 10ms, all delay time 579ms, SLA 580ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 13:20:04,012 INFO [PUSH-SUCC] 40ms, all delay time 609ms, SLA 609ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 13:36:40,540 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=13}
+
+2024-04-04 13:36:40,619 ERROR [PUSH-FAIL] 14ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=13}, reason=errCode: 601, errMsg: too much bytes on sending queue of this stream. , target=192.168.0.103
+
+2024-04-04 13:36:40,626 ERROR Reason detail:
+
+com.alibaba.nacos.common.remote.exception.ConnectionBusyException: errCode: 601, errMsg: too much bytes on sending queue of this stream.
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendQueueBlockCheck(GrpcConnection.java:123)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:72)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:152)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:175)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:72)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:120)
+2024-04-04 13:36:40,998 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=17}
+
+2024-04-04 13:36:41,023 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=13}
+
+2024-04-04 13:36:41,046 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=17}
+
+2024-04-04 13:36:41,133 INFO [PUSH-SUCC] 15ms, all delay time 522ms, SLA 135ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=17}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 13:36:41,231 INFO [PUSH-SUCC] 11ms, all delay time 595ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=13}, originalSize=1, DataSize=1
+
+2024-04-04 13:51:48,834 ERROR [PUSH-FAIL] 908229ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=13}, reason=Timeout After 5000 milliseconds, requestId=282, connectionId=1712208001493_192.168.65.1_56206, target=192.168.0.103
+
+2024-04-04 13:51:49,326 ERROR Reason detail:
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=282, connectionId=1712208001493_192.168.65.1_56206
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-04 13:52:59,618 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=15}
+
+2024-04-04 13:52:59,639 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=19}
+
+2024-04-04 13:53:00,165 INFO [PUSH-SUCC] 13ms, all delay time 566ms, SLA 566ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 13:53:00,167 INFO [PUSH-SUCC] 15ms, all delay time 578ms, SLA 578ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=19}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 14:04:09,605 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=21}
+
+2024-04-04 14:04:09,999 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=17}
+
+2024-04-04 14:04:10,085 INFO [PUSH-SUCC] 25ms, all delay time 574ms, SLA 576ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=21}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 14:04:15,062 ERROR [PUSH-FAIL] 5002ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=17}, reason=Timeout After 5000 milliseconds, requestId=304, connectionId=1712210647106_192.168.65.1_57030, target=192.168.0.103
+
+2024-04-04 14:04:15,066 ERROR Reason detail:
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=304, connectionId=1712210647106_192.168.65.1_57030
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-04 14:04:16,147 INFO [PUSH-SUCC] 13ms, all delay time 1080ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=17}, originalSize=1, DataSize=1
+
+2024-04-04 14:21:00,552 INFO [PUSH-SUCC] 51ms, all delay time 624ms, SLA 625ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=18}, originalSize=0, DataSize=0, target=192.168.0.103
+
+2024-04-04 14:21:02,611 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=19}
+
+2024-04-04 14:21:02,634 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=23}
+
+2024-04-04 14:21:03,154 INFO [PUSH-SUCC] 35ms, all delay time 567ms, SLA 568ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=19}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 14:21:03,178 INFO [PUSH-SUCC] 59ms, all delay time 584ms, SLA 584ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=23}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 14:35:20,420 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=21}
+
+2024-04-04 14:35:20,435 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=25}
+
+2024-04-04 14:35:20,952 INFO [PUSH-SUCC] 22ms, all delay time 547ms, SLA 532ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=21}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 14:35:20,978 INFO [PUSH-SUCC] 48ms, all delay time 611ms, SLA 611ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=25}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 15:40:53,709 INFO [PUSH-SUCC] 868ms, all delay time 1783ms, SLA 1785ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=22}, originalSize=0, DataSize=0, target=192.168.0.103
+
+2024-04-04 15:40:59,610 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=27}
+
+2024-04-04 15:41:00,084 INFO [PUSH-SUCC] 18ms, all delay time 519ms, SLA 520ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=27}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 15:56:16,108 ERROR [PUSH-FAIL] 915940ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=23}, reason=Timeout After 5000 milliseconds, requestId=330, connectionId=1712216456423_192.168.65.1_41370, target=192.168.0.103
+
+2024-04-04 15:56:16,178 ERROR Reason detail:
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=330, connectionId=1712216456423_192.168.65.1_41370
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-04 15:56:17,244 INFO [PUSH-SUCC] 13ms, all delay time 1064ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=23}, originalSize=1, DataSize=1
+
+2024-04-04 15:57:23,925 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=25}
+
+2024-04-04 15:57:23,951 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=29}
+
+2024-04-04 15:57:24,473 INFO [PUSH-SUCC] 24ms, all delay time 562ms, SLA 564ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=25}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 15:57:29,452 ERROR [PUSH-FAIL] 5003ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=29}, reason=Timeout After 5000 milliseconds, requestId=340, connectionId=1712217442817_192.168.65.1_41610, target=192.168.0.103
+
+2024-04-04 15:57:29,458 ERROR Reason detail:
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=340, connectionId=1712217442817_192.168.65.1_41610
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-04 15:57:30,521 INFO [PUSH-SUCC] 20ms, all delay time 1061ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=29}, originalSize=1, DataSize=1
+
+2024-04-04 16:05:11,690 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=27}
+
+2024-04-04 16:05:11,714 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=31}
+
+2024-04-04 16:05:12,281 INFO [PUSH-SUCC] 27ms, all delay time 614ms, SLA 614ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=31}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 16:05:12,293 INFO [PUSH-SUCC] 38ms, all delay time 629ms, SLA 629ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=27}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 16:33:58,124 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}
+
+2024-04-04 16:33:59,789 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}
+
+2024-04-04 16:33:59,912 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=2}
+
+2024-04-04 16:34:00,304 INFO [PUSH-SUCC] 11ms, all delay time 540ms, SLA 392ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=2}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 16:34:00,321 INFO [PUSH-SUCC] 24ms, all delay time 572ms, SLA 573ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 20:01:26,439 ERROR [PUSH-FAIL] 2900ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=4}, reason=errCode: 601, errMsg: too much bytes on sending queue of this stream. , target=192.168.0.103
+
+2024-04-04 20:01:26,480 ERROR Reason detail:
+
+com.alibaba.nacos.common.remote.exception.ConnectionBusyException: errCode: 601, errMsg: too much bytes on sending queue of this stream.
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendQueueBlockCheck(GrpcConnection.java:123)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestNoAck(GrpcConnection.java:72)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.sendRequestInner(GrpcConnection.java:152)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.asyncRequest(GrpcConnection.java:175)
+	at com.alibaba.nacos.core.remote.RpcPushService.pushWithCallback(RpcPushService.java:55)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorRpcImpl.doPushWithCallback(PushExecutorRpcImpl.java:54)
+	at com.alibaba.nacos.naming.push.v2.executor.PushExecutorDelegate.doPushWithCallback(PushExecutorDelegate.java:53)
+	at com.alibaba.nacos.naming.push.v2.task.PushExecuteTask.run(PushExecuteTask.java:72)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:120)
+2024-04-04 20:01:26,888 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}
+
+2024-04-04 20:01:27,093 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=6}
+
+2024-04-04 20:01:28,691 ERROR [PUSH-FAIL] 5152ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=6}, reason=Timeout After 5000 milliseconds, requestId=364, connectionId=1712219637627_192.168.65.1_42309, target=192.168.0.103
+
+2024-04-04 20:01:28,701 ERROR Reason detail:
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=364, connectionId=1712219637627_192.168.65.1_42309
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-04 20:01:28,793 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}
+
+2024-04-04 20:01:28,864 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}
+
+2024-04-04 20:01:36,327 INFO [PUSH-SUCC] 175ms, all delay time 7491ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=2}, originalSize=1, DataSize=1
+
+2024-04-04 20:01:36,333 INFO [PUSH-SUCC] 184ms, all delay time 7628ms, SLA 7540ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 20:17:45,803 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=2}
+
+2024-04-04 20:17:46,321 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=3}
+
+2024-04-04 20:17:46,341 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}
+
+2024-04-04 20:17:46,500 INFO [PUSH-SUCC] 43ms, all delay time 623ms, SLA 626ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=3}, originalSize=0, DataSize=0, target=192.168.0.103
+
+2024-04-04 20:17:46,867 INFO [PUSH-SUCC] 6ms, all delay time 572ms, SLA 573ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 20:17:48,913 INFO [PUSH-SUCC] 24ms, all delay time 610ms, SLA 610ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=4}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 20:18:52,961 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}
+
+2024-04-04 20:18:53,480 INFO [PUSH-SUCC] 28ms, all delay time 540ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=6}, originalSize=1, DataSize=1
+
+2024-04-04 20:18:53,509 INFO [PUSH-SUCC] 56ms, all delay time 594ms, SLA 594ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 20:35:30,865 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}
+
+2024-04-04 20:35:31,383 INFO [PUSH-SUCC] 6ms, all delay time 530ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=6}, originalSize=1, DataSize=1
+
+2024-04-04 20:35:31,402 INFO [PUSH-SUCC] 25ms, all delay time 567ms, SLA 567ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 20:41:19,212 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=9}
+
+2024-04-04 20:41:19,782 INFO [PUSH-SUCC] 18ms, all delay time 581ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=6}, originalSize=1, DataSize=1
+
+2024-04-04 20:41:20,007 INFO [PUSH-SUCC] 243ms, all delay time 815ms, SLA 816ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 20:42:25,565 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=8}
+
+2024-04-04 20:42:25,583 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=11}
+
+2024-04-04 20:42:26,009 INFO [PUSH-SUCC] 4ms, all delay time 598ms, SLA 598ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=8}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 20:42:26,112 INFO [PUSH-SUCC] 6ms, all delay time 593ms, SLA 595ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 20:59:37,509 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=13}
+
+2024-04-04 20:59:38,048 INFO [PUSH-SUCC] 6ms, all delay time 552ms, SLA 552ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 20:59:43,043 ERROR [PUSH-FAIL] 5001ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=8}, reason=Timeout After 5000 milliseconds, requestId=404, connectionId=1712235575325_192.168.65.1_51257, target=192.168.0.103
+
+2024-04-04 20:59:43,045 ERROR Reason detail:
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=404, connectionId=1712235575325_192.168.65.1_51257
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-04 20:59:44,110 INFO [PUSH-SUCC] 10ms, all delay time 1065ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=8}, originalSize=1, DataSize=1
+
+2024-04-04 21:16:53,661 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=10}
+
+2024-04-04 21:16:53,668 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=15}
+
+2024-04-04 21:16:54,202 INFO [PUSH-SUCC] 4ms, all delay time 549ms, SLA 549ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 21:16:54,204 INFO [PUSH-SUCC] 6ms, all delay time 597ms, SLA 597ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=10}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 21:32:58,678 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}
+
+2024-04-04 21:32:59,206 INFO [PUSH-SUCC] 4ms, all delay time 544ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=10}, originalSize=1, DataSize=1
+
+2024-04-04 21:32:59,209 INFO [PUSH-SUCC] 7ms, all delay time 562ms, SLA 562ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 21:34:03,896 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=12}
+
+2024-04-04 21:34:04,436 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}
+
+2024-04-04 21:34:04,988 INFO [PUSH-SUCC] 8ms, all delay time 605ms, SLA 605ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 21:34:04,992 INFO [PUSH-SUCC] 12ms, all delay time 579ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=12}, originalSize=1, DataSize=1
+
+2024-04-04 21:50:42,558 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}
+
+2024-04-04 21:50:43,144 INFO [PUSH-SUCC] 3ms, all delay time 602ms, SLA 602ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=7}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 21:50:48,142 ERROR [PUSH-FAIL] 5001ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=12}, reason=Timeout After 5000 milliseconds, requestId=418, connectionId=1712238640797_192.168.65.1_52140, target=192.168.0.103
+
+2024-04-04 21:50:48,144 ERROR Reason detail:
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=418, connectionId=1712238640797_192.168.65.1_52140
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-04 21:50:49,205 INFO [PUSH-SUCC] 2ms, all delay time 1060ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=12}, originalSize=1, DataSize=1
+
+2024-04-04 22:00:04,199 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=9}
+
+2024-04-04 22:00:04,670 INFO [PUSH-SUCC] 2ms, all delay time 523ms, SLA 524ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=9}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 22:00:04,772 INFO [PUSH-SUCC] 3ms, all delay time 593ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=12}, originalSize=1, DataSize=1
+
+2024-04-04 22:01:13,671 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=14}
+
+2024-04-04 22:01:13,677 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=11}
+
+2024-04-04 22:01:14,225 INFO [PUSH-SUCC] 3ms, all delay time 557ms, SLA 557ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=14}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 22:01:14,229 INFO [PUSH-SUCC] 7ms, all delay time 565ms, SLA 565ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 22:17:19,587 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=13}
+
+2024-04-04 22:17:20,097 INFO [PUSH-SUCC] 3ms, all delay time 519ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=14}, originalSize=1, DataSize=1
+
+2024-04-04 22:17:20,099 INFO [PUSH-SUCC] 4ms, all delay time 530ms, SLA 530ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=13}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 22:18:26,723 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=15}
+
+2024-04-04 22:18:27,310 INFO [PUSH-SUCC] 3ms, all delay time 601ms, SLA 601ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=15}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 22:18:32,308 ERROR [PUSH-FAIL] 5001ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=16}, reason=Timeout After 5000 milliseconds, requestId=440, connectionId=1712240304464_192.168.65.1_52840, target=192.168.0.103
+
+2024-04-04 22:18:32,310 ERROR Reason detail:
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=440, connectionId=1712240304464_192.168.65.1_52840
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-04 22:18:33,371 INFO [PUSH-SUCC] 2ms, all delay time 1060ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=16}, originalSize=1, DataSize=1
+
+2024-04-04 22:34:32,229 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=17}
+
+2024-04-04 22:34:32,533 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=18}
+
+2024-04-04 22:34:32,800 INFO [PUSH-SUCC] 3ms, all delay time 583ms, SLA 583ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=17}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 22:34:32,802 INFO [PUSH-SUCC] 5ms, all delay time 578ms, SLA 269ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=18}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 22:47:15,388 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=1}
+
+2024-04-04 22:47:15,416 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}
+
+2024-04-04 22:47:15,851 INFO [PUSH-SUCC] 9ms, all delay time 570ms, SLA 570ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 22:47:15,950 INFO [PUSH-SUCC] 6ms, all delay time 569ms, SLA 569ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=1}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 22:48:24,110 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=3}
+
+2024-04-04 22:48:24,414 INFO [PUSH-SUCC] 2ms, all delay time 518ms, SLA 303ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 22:48:26,851 INFO [PUSH-SUCC] 13ms, all delay time 519ms, SLA 519ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=4}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 23:01:06,570 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=6}
+
+2024-04-04 23:01:06,578 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}
+
+2024-04-04 23:01:06,984 INFO [PUSH-SUCC] 3ms, all delay time 515ms, SLA 515ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=6}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 23:01:07,085 INFO [PUSH-SUCC] 3ms, all delay time 543ms, SLA 544ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=3}, originalSize=1, DataSize=1, target=192.168.0.103
+
+2024-04-04 23:02:14,341 INFO [PUSH] Task merge for Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}
+
+2024-04-04 23:02:14,907 INFO [PUSH-SUCC] 5ms, all delay time 573ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=6}, originalSize=1, DataSize=1
+
+2024-04-04 23:02:19,902 ERROR [PUSH-FAIL] 5000ms, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}, reason=Timeout After 5000 milliseconds, requestId=467, connectionId=1712242932169_192.168.65.1_53763, target=192.168.0.103
+
+2024-04-04 23:02:19,905 ERROR Reason detail:
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=467, connectionId=1712242932169_192.168.65.1_53763
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-04 23:02:20,964 INFO [PUSH-SUCC] 3ms, all delay time 1059ms for subscriber 192.168.0.103, Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}, originalSize=1, DataSize=1
+

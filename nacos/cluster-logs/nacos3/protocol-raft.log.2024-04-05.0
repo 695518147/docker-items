@@ -1,0 +1,180 @@
+2024-04-05 14:33:02,582 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:33:02,808 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=114, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:33:02,589 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:33:02,955 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=117, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:33:03,105 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:33:03,835 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=118, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:33:03,878 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=115, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:33:07,132 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:33:07,339 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:33:07,689 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=119, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:33:07,704 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=125, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:39:46,198 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=125, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:39:46,553 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:39:46,962 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:39:46,990 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:39:47,045 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:39:47,113 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:39:47,189 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=116, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:39:47,290 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:39:47,322 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:39:47,389 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:39:47,459 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=120, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:39:47,622 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=119, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:39:47,729 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=126, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:39:47,844 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-04-05 14:39:47,872 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:40:54,402 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=120, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:40:59,148 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:253)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:496)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-05 14:48:33,450 ERROR Fail to refresh raft metadata info for group : naming_instance_metadata, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:253)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:496)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-05 14:48:34,062 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:253)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:496)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-05 14:48:34,068 ERROR Fail to refresh raft metadata info for group : naming_service_metadata, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:253)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:496)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-05 14:48:34,980 ERROR Fail to refresh raft metadata info for group : naming_persistent_service_v2, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:253)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:496)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-05 14:48:45,893 ERROR Fail to refresh raft metadata info for group : naming_instance_metadata, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:253)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:496)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-05 14:48:45,893 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-04-05 14:48:45,904 ERROR Fail to refresh raft metadata info for group : naming_service_metadata, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:253)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:496)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-05 14:48:46,019 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:253)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:496)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-05 14:48:46,220 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=127, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:48:46,497 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=121, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:48:46,657 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-04-05 14:48:46,897 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-04-05 14:48:47,065 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=118, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-04-05 14:48:47,449 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=121, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+

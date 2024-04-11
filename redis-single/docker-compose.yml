@@ -1,0 +1,19 @@
+version: "3.8"
+
+name: redis-single
+
+services:
+  redis-single:
+    image: redis:7.2.4
+    container_name: redis-single
+    restart: always
+    environment:
+      - TZ=Asia/Shanghai
+
+    volumes:
+      - ./redis-single/etc_rc.local:/etc/rc.local
+      - ./redis-single/redis.conf:/etc/redis/redis.conf
+      - ./redis-single/data:/data
+    ports:
+      - 7378:7378
+    command: redis-server /etc/redis/redis.conf --port 7378 # 覆盖容器启动后默认执行的命令

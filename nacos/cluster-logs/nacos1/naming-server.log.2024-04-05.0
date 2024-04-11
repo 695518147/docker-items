@@ -1,0 +1,134 @@
+2024-04-05 12:47:43,538 INFO Client connection 1712292463453_192.168.65.1_31961 connect
+
+2024-04-05 12:47:43,768 INFO Client change for service Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=6}, 1712292463453_192.168.65.1_31961
+
+2024-04-05 12:47:45,208 INFO Client connection 1712292465104_192.168.65.1_31964 connect
+
+2024-04-05 12:47:45,334 INFO Client change for service Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=7}, 1712292465104_192.168.65.1_31964
+
+2024-04-05 12:47:45,618 INFO Client connection 1712292465473_192.168.65.1_31967 connect
+
+2024-04-05 12:47:45,749 INFO Client change for service Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=8}, 1712292465473_192.168.65.1_31967
+
+2024-04-05 12:47:45,887 INFO Client connection 1712292465662_192.168.65.1_31965 connect
+
+2024-04-05 12:47:47,286 INFO Client connection 1712292467218_192.168.65.1_31969 connect
+
+2024-04-05 12:47:47,438 INFO Client change for service Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=9}, 1712292467218_192.168.65.1_31969
+
+2024-04-05 12:47:48,096 INFO Client change for service Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=5}, 1712292465662_192.168.65.1_31965
+
+2024-04-05 14:33:03,112 INFO Client connection 1712243254850_192.168.65.1_53948 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:34,675 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-05 14:48:35,582 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-05 14:48:35,947 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-05 14:48:37,989 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-05 14:48:42,809 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos3:8848]
+
+2024-04-05 14:48:44,875 INFO Client connection 1712299723322_192.168.65.1_55158 connect
+
+2024-04-05 14:48:45,365 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos3:8848], new: [nacos1:8848]
+
+2024-04-05 14:48:46,020 INFO Client connection 1712299715579_192.168.65.1_55072 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:47,073 INFO Client change for service Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=10}, 1712299723322_192.168.65.1_55158
+
+2024-04-05 14:48:47,480 INFO Client connection 1712298782548_192.168.65.1_54112 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:48,372 INFO Client connection 1712292446358_192.168.65.1_31785 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:48,380 INFO Client connection 1712242104031_192.168.65.1_53439 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:48,389 INFO Client connection 1712299727093_192.168.65.1_55374 connect
+
+2024-04-05 14:48:48,418 INFO Client connection 1712292467218_192.168.65.1_31969 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:48,529 INFO Client connection 1712299727915_192.168.65.1_55411 connect
+
+2024-04-05 14:48:48,730 INFO Client connection 1712299726733_192.168.65.1_55351 connect
+
+2024-04-05 14:48:48,732 INFO Client connection 1712292435440_192.168.65.1_31695 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:49,097 INFO Client connection 1712299728380_192.168.65.1_55401 connect
+
+2024-04-05 14:48:49,823 INFO Client change for service Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=6}, 1712299727915_192.168.65.1_55411
+
+2024-04-05 14:48:49,895 INFO Client connection 1712292436188_192.168.65.1_31696 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:49,966 INFO Client connection 1712292466502_192.168.65.1_31968 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:49,987 INFO Client connection 1712242865375_192.168.65.1_53639 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:50,054 INFO Client connection 1712299723323_192.168.65.1_55168 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:50,105 INFO Client connection 1712292462038_192.168.65.1_31958 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:50,120 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848], new: [nacos1:8848, nacos3:8848]
+
+2024-04-05 14:48:50,213 INFO Client connection 1712292463453_192.168.65.1_31961 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:50,459 INFO Client connection 1712299730291_192.168.65.1_55434 connect
+
+2024-04-05 14:48:50,560 INFO Client connection 1712292463235_192.168.65.1_31960 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:50,672 INFO Client change for service Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=14}, 1712299727093_192.168.65.1_55374
+
+2024-04-05 14:48:50,724 WARN task com.alibaba.nacos.naming.push.v2.task.PushExecuteTask@7e1d5ef8 takes 2481ms
+
+2024-04-05 14:48:50,742 INFO Client connection 1712292463988_192.168.65.1_31963 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:50,776 INFO Client connection 1712299726834_192.168.65.1_55356 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:50,778 INFO Client connection 1712243255530_172.18.0.2_49958 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:50,827 INFO Client connection 1712242932169_192.168.65.1_53763 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:50,860 INFO Client connection 1712292465662_192.168.65.1_31965 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:50,903 INFO Client connection 1712292465473_192.168.65.1_31967 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:50,958 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-04-05 14:48:50,987 INFO Client connection 1712299730931_192.168.65.1_55438 connect
+
+2024-04-05 14:48:51,172 INFO Client connection 1712292465104_192.168.65.1_31964 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:51,451 INFO Client connection 1712292436793_192.168.65.1_31697 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:51,455 INFO Client connection 1712242865107_192.168.65.1_53640 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:51,467 INFO Client connection 1712299726266_192.168.65.1_55234 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:51,609 INFO Client connection 1712292435206_192.168.65.1_31694 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:51,773 INFO Client change for service Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-gateway', ephemeral=true, revision=9}, 1712299726733_192.168.65.1_55351
+
+2024-04-05 14:48:51,821 INFO Client connection 1712299730945_192.168.65.1_55432 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:51,923 INFO Client connection 1712242104077_172.18.0.3_44870 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:52,090 INFO Client connection 1712299731077_192.168.65.1_55437 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:52,470 INFO Client connection 1712299731865_192.168.65.1_55440 disconnect, remove instances and subscribers
+
+2024-04-05 14:48:52,473 INFO Client change for service Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=17}, 1712299728380_192.168.65.1_55401
+
+2024-04-05 14:48:52,834 INFO Client change for service Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=18}, 1712299730931_192.168.65.1_55438
+
+2024-04-05 14:48:53,753 INFO Client change for service Service{namespace='59411576-d28b-4749-92de-5b77ba271b4e', group='DEFAULT_GROUP', name='nacos-service1', ephemeral=true, revision=19}, 1712299730291_192.168.65.1_55434
+
+2024-04-05 15:31:03,694 INFO Client connection 1712299723322_192.168.65.1_55158 disconnect, remove instances and subscribers
+
+2024-04-05 15:31:03,710 INFO Client connection 1712299730943_192.168.65.1_55429 disconnect, remove instances and subscribers
+
+2024-04-05 15:31:03,715 INFO Client connection 1712299731626_192.168.65.1_55439 disconnect, remove instances and subscribers
+
+2024-04-05 15:31:03,718 INFO Client connection 1712299729502_192.168.65.1_55431 disconnect, remove instances and subscribers
+
+2024-04-05 15:31:03,723 INFO Client connection 1712299727915_192.168.65.1_55411 disconnect, remove instances and subscribers
+

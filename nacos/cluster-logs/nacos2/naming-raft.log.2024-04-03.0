@@ -1,0 +1,98 @@
+2024-04-03 19:12:33,934 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2024-04-03 19:12:34,166 INFO initializing Raft sub-system
+
+2024-04-03 19:12:34,167 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2024-04-03 19:12:34,168 INFO cache loaded, datum count: 0, current term: 0
+
+2024-04-03 19:12:34,168 INFO finish to load data from disk, cost: 2 ms.
+
+2024-04-03 19:12:34,182 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2024-04-03 19:12:34,733 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={raftPort=7848}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={raftPort=7848, version=2.0.3}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={raftPort=7848}}]
+
+2024-04-03 19:12:36,002 INFO Raft group naming_persistent_service has leader null
+
+2024-04-03 19:12:36,616 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2024-04-03 19:12:39,180 INFO leader timeout, start voting,leader: null, term: 0
+
+2024-04-03 19:12:39,336 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2024-04-03 19:12:40,139 ERROR error while sending vote to server: nacos1:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 19:12:40,140 ERROR error while sending vote to server: nacos3:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 19:12:42,872 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-03 19:12:50,268 INFO received illegitimate vote, voter-term:1, votee-term:1
+
+2024-04-03 19:12:50,271 INFO received illegitimate vote, voter-term:1, votee-term:1
+
+2024-04-03 19:12:55,673 INFO leader timeout, start voting,leader: null, term: 1
+
+2024-04-03 19:12:55,684 INFO received approve from peer: {"ip":"nacos1:8848","voteFor":"nacos2:8848","term":2,"leaderDueMs":19122,"heartbeatDueMs":3000,"state":"FOLLOWER"}
+
+2024-04-03 19:12:55,688 INFO received approve from peer: {"ip":"nacos3:8848","voteFor":"nacos2:8848","term":2,"leaderDueMs":17334,"heartbeatDueMs":2500,"state":"FOLLOWER"}
+
+2024-04-03 19:12:55,690 INFO nacos2:8848 has become the LEADER
+
+2024-04-03 19:12:55,690 INFO nacos2:8848 has become the LEADER
+
+2024-04-03 19:12:59,184 WARN start to close old raft protocol!!!
+
+2024-04-03 19:12:59,184 WARN stop old raft protocol task for notifier
+
+2024-04-03 19:12:59,184 WARN stop old raft protocol task for master task
+
+2024-04-03 19:12:59,184 WARN stop old raft protocol task for heartbeat task
+
+2024-04-03 19:12:59,184 WARN clean old cache datum for old raft
+
+2024-04-03 19:12:59,185 WARN start to close old raft protocol!!!
+
+2024-04-03 19:12:59,185 WARN stop old raft protocol task for notifier
+
+2024-04-03 19:12:59,185 WARN stop old raft protocol task for master task
+
+2024-04-03 19:12:59,185 WARN stop old raft protocol task for heartbeat task
+
+2024-04-03 19:12:59,185 WARN clean old cache datum for old raft
+
+2024-04-03 19:12:59,185 WARN start to move old raft protocol metadata
+
+2024-04-03 19:12:59,185 WARN start to move old raft protocol metadata
+
+2024-04-03 19:13:00,733 INFO add listener: com.alibaba.nacos.naming.iplist.9bb315a4-49ac-4188-9641-71c57a5a4bea##DEFAULT_GROUP@@nacos-gateway
+
+2024-04-03 19:20:44,901 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={lastRefreshTime=1712143241247, raftMetaData={metaDataMap={naming_instance_metadata={leader=nacos3:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, readyToUpgrade=true, version=2.0.3}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={lastRefreshTime=1712142779185, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@613b8ffa, raftPort=7848, readyToUpgrade=true, version=2.0.3}}, Member{ip='nacos1', port=8848, state=SUSPICIOUS, extendInfo={lastRefreshTime=1712143241203, raftMetaData={metaDataMap={naming_instance_metadata={leader=nacos3:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_persistent_service_v2={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}, naming_service_metadata={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, readyToUpgrade=true, version=2.0.3}}]
+
+2024-04-03 19:21:51,590 INFO Raft group naming_persistent_service has leader null
+
+2024-04-03 19:21:58,154 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-03 22:52:06,091 INFO Raft group naming_persistent_service has leader null
+
+2024-04-03 22:52:06,691 INFO snapshot load from : /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_1/naming_persistent
+
+2024-04-03 22:52:12,965 INFO Raft group naming_persistent_service has leader nacos2:7848
+

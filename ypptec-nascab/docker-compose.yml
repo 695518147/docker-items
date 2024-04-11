@@ -1,0 +1,23 @@
+version: "3.8"
+name: nascab
+services:
+  nascab:
+   image: ypptec/nascab:latest
+   container_name: nascab
+   restart: always
+   volumes:
+     - movies:/movies
+     - photo:/photo
+     - nascab:/root/local/share/nascab
+     - tv:/tv
+   ports:
+    - 81:80
+    - 444:443
+
+volumes:
+  movies:
+  photo:
+  nascab:
+  tv:
+
+

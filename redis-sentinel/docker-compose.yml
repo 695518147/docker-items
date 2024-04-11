@@ -1,0 +1,116 @@
+version: '3'
+name: redis-sentinel
+
+services:
+  redis-master:
+    image: redis:latest
+    container_name: redis-master
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+      - 36379:36379
+    command: redis-server /etc/redis/redis.conf  --requirepass redis_pwd --masterauth redis_pwd
+    volumes:
+      - ./redis-master-data:/data
+      - ./redis-master-data/redis.conf:/etc/redis/redis.conf
+      - ./logs/redis-master:/var/redis/log
+
+  redis-slave1:
+    image: redis:latest
+    container_name: redis-slave1
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+      - 36380:36380
+    command: redis-server /etc/redis/redis.conf --replicaof redis-master 36379  --requirepass redis_pwd --masterauth redis_pwd
+    volumes:
+      - ./redis-slave1-data:/data
+      - ./redis-slave1-data/redis.conf:/etc/redis/redis.conf
+      - ./logs/redis-slave1:/var/redis/log
+    depends_on:
+      - redis-master
+    links:
+      - redis-master
+
+  redis-slave2:
+    image: redis:latest
+    container_name: redis-slave2
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+      - 36381:36381
+    command: redis-server /etc/redis/redis.conf --replicaof redis-master 36379  --requirepass redis_pwd --masterauth redis_pwd
+    volumes:
+      - ./redis-slave2-data:/data
+      - ./redis-slave2-data/redis.conf:/etc/redis/redis.conf
+      - ./logs/redis-slave2:/var/redis/log
+    depends_on:
+      - redis-master
+    links:
+      - redis-master
+
+  sentinel1:
+    image: redis:latest
+    container_name: redis-sentinel-1
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+      - 26379:26379
+    command: redis-sentinel /etc/redis/sentinel.conf
+    volumes:
+      - ./redis-sentinel-1/conf:/etc/redis
+      - ./logs/redis-sentinel-1:/var/redis/log
+    depends_on:
+      - redis-master
+      - redis-slave1
+      - redis-slave2
+    links:
+      - redis-master
+      - redis-slave1
+      - redis-slave2
+
+  sentinel2:
+    image: redis:latest
+    container_name: redis-sentinel-2
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+    - 26380:26380
+    command: redis-sentinel /etc/redis/sentinel.conf
+    volumes:
+      - ./redis-sentinel-2/conf:/etc/redis
+      - ./logs/redis-sentinel-2:/var/redis/log
+    depends_on:
+      - redis-master
+      - redis-slave1
+      - redis-slave2
+    links:
+      - redis-master
+      - redis-slave1
+      - redis-slave2
+
+  sentinel3:
+    image: redis:latest
+    container_name: redis-sentinel-3
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+      - 26381:26381
+    command: redis-sentinel /etc/redis/sentinel.conf
+    volumes:
+      - ./redis-sentinel-3/conf:/etc/redis
+      - ./logs/redis-sentinel-3:/var/redis/log
+    depends_on:
+      - redis-master
+      - redis-slave1
+      - redis-slave2
+    links:
+      - redis-master
+      - redis-slave1
+      - redis-slave2

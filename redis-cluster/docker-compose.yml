@@ -1,0 +1,114 @@
+version: "3.8"
+name: redis-cluster
+# 定义服务，可以多个
+services:
+  redis-start:
+    image: redis:7.2.4
+    command: redis-cli --cluster create 192.168.0.103:6379 192.168.0.103:6380 192.168.0.103:6381 192.168.0.103:6382 192.168.0.103:6383 192.168.0.103:6384 --cluster-replicas 1  --cluster-yes
+    depends_on:
+      - redis-1
+      - redis-2
+      - redis-3
+      - redis-4
+      - redis-5
+      - redis-6
+  redis-1: # 服务名称
+    image: redis:7.2.4 # 创建容器时所需的镜像
+    container_name: redis-1 # 容器名称
+    restart: always # 容器总是重新启动
+    # networks:
+    #   redis:
+    #     ipv4_address: 172.19.0.11
+    ports:
+      - "6379:6379"
+      - "16379:16379"
+    volumes: # 数据卷，目录挂载
+      - ./redis-1/redis.conf:/etc/redis/redis.conf
+      - ./redis-1/data:/data
+    command: redis-server /etc/redis/redis.conf
+
+  redis-2:
+    image: redis:7.2.4
+    container_name: redis-2
+    restart: always # 容器总是重新启动
+    # networks:
+    #   redis:
+    #     ipv4_address: 172.19.0.12
+    ports:
+      - "6380:6380"
+      - "16380:16380"
+    volumes:
+      - ./redis-2/redis.conf:/etc/redis/redis.conf
+      - ./redis-2/data:/data
+    command: redis-server /etc/redis/redis.conf
+  redis-3:
+    image: redis:7.2.4
+    container_name: redis-3
+    restart: always # 容器总是重新启动
+    # networks:
+    #   redis:
+    #     ipv4_address: 192.168.0.103
+    ports:
+      - "6381:6381"
+      - "16381:16381"
+    volumes:
+      - ./redis-3/redis.conf:/etc/redis/redis.conf
+      - ./redis-3/data:/data
+    command: redis-server /etc/redis/redis.conf
+  redis-4:
+    image: redis:7.2.4
+    container_name: redis-4
+    restart: always # 容器总是重新启动
+    # networks:
+    #   redis:
+    #     ipv4_address: 192.168.0.103
+    ports:
+      - "6382:6382"
+      - "16382:16382"
+    volumes:
+      - ./redis-4/redis.conf:/etc/redis/redis.conf
+      - ./redis-4/data:/data
+    command: redis-server /etc/redis/redis.conf
+  redis-5:
+    image: redis:latest
+    container_name: redis-5
+    restart: always # 容器总是重新启动
+    # networks:
+    #   redis:
+    #     ipv4_address: 172.19.0.15
+    ports:
+      - "6383:6383"
+      - "16383:16383"
+    volumes:
+      - ./redis-5/redis.conf:/etc/redis/redis.conf
+      - ./redis-5/data:/data
+    command: redis-server /etc/redis/redis.conf
+  redis-6:
+    image: redis:latest
+    container_name: redis-6
+    restart: always # 容器总是重新启动
+    # networks:
+    #   redis:
+    #     ipv4_address: 172.19.0.16
+    ports:
+      - "6384:6384"
+      - "16384:16384"
+    volumes:
+      - ./redis-6/redis.conf:/etc/redis/redis.conf
+      - ./redis-6/data:/data
+    command: redis-server /etc/redis/redis.conf
+
+# # 自动创建网络，并手动指定IP网段
+# networks:
+#   redis:
+#     ipam:
+#       config:
+#         - subnet: 172.19.0.0/16
+
+networks:
+  persist:
+    external: true
+    name: bridge
+
+
+

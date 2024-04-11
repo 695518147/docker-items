@@ -1,0 +1,11 @@
+version: "3.0"
+name: "team-ide"
+services:
+  teamIDE:
+    image: teamide/teamide-server:latest
+    restart: always
+    container_name: teamIDE
+    ports:
+      - 21080:21080
+    volumes:
+      - ./data:/opt/teamide/data

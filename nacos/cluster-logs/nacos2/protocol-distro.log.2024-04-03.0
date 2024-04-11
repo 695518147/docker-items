@@ -1,0 +1,386 @@
+2024-04-03 19:12:36,583 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-04-03 19:12:37,595 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-04-03 19:12:38,610 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-04-03 19:12:39,625 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-04-03 19:12:40,628 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-04-03 19:12:41,629 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-04-03 19:12:42,631 INFO [DISTRO-INIT] load snapshot com.alibaba.nacos.naming.iplist. from nacos1:8848
+
+2024-04-03 19:12:42,641 ERROR [DISTRO-INIT] load snapshot com.alibaba.nacos.naming.iplist. from nacos1:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION]Get snapshot from nacos1:8848 failed.
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.component.DistroHttpAgent.getDatumSnapshot(DistroHttpAgent.java:101)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:103)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: failed to req API: http://nacos1:8848/nacos/v1/ns/distro/datums. code: 500 msg: org.apache.http.conn.HttpHostConnectException: Connect to nacos1:8848 [nacos1/172.18.0.5] failed: Connection refused (Connection refused)
+	at com.alibaba.nacos.naming.misc.NamingProxy.getAllData(NamingProxy.java:150)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.component.DistroHttpAgent.getDatumSnapshot(DistroHttpAgent.java:98)
+	... 10 common frames omitted
+2024-04-03 19:12:42,642 INFO [DISTRO-INIT] load snapshot com.alibaba.nacos.naming.iplist. from nacos3:8848
+
+2024-04-03 19:12:42,648 ERROR [DISTRO-INIT] load snapshot com.alibaba.nacos.naming.iplist. from nacos3:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION]Get snapshot from nacos3:8848 failed.
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.component.DistroHttpAgent.getDatumSnapshot(DistroHttpAgent.java:101)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:103)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: failed to req API: http://nacos3:8848/nacos/v1/ns/distro/datums. code: 500 msg: org.apache.http.conn.HttpHostConnectException: Connect to nacos3:8848 [nacos3/172.18.0.3] failed: Connection refused (Connection refused)
+	at com.alibaba.nacos.naming.misc.NamingProxy.getAllData(NamingProxy.java:150)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.component.DistroHttpAgent.getDatumSnapshot(DistroHttpAgent.java:98)
+	... 10 common frames omitted
+2024-04-03 19:12:46,586 WARN data storage DistroDataStorageImpl has not finished initial step, do not send verify data
+
+2024-04-03 19:12:46,600 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:12:51,611 WARN data storage DistroDataStorageImpl has not finished initial step, do not send verify data
+
+2024-04-03 19:12:51,614 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:12:56,623 WARN data storage DistroDataStorageImpl has not finished initial step, do not send verify data
+
+2024-04-03 19:12:56,624 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:12:59,608 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712142772259_192.168.65.1_19728', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:13:01,625 WARN data storage DistroDataStorageImpl has not finished initial step, do not send verify data
+
+2024-04-03 19:13:01,626 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:13:06,627 WARN data storage DistroDataStorageImpl has not finished initial step, do not send verify data
+
+2024-04-03 19:13:06,628 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:13:11,632 WARN data storage DistroDataStorageImpl has not finished initial step, do not send verify data
+
+2024-04-03 19:13:11,633 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:13:16,634 WARN data storage DistroDataStorageImpl has not finished initial step, do not send verify data
+
+2024-04-03 19:13:16,635 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:13:21,637 WARN data storage DistroDataStorageImpl has not finished initial step, do not send verify data
+
+2024-04-03 19:13:21,639 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:13:26,642 WARN data storage DistroDataStorageImpl has not finished initial step, do not send verify data
+
+2024-04-03 19:13:26,649 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:13:31,657 WARN data storage DistroDataStorageImpl has not finished initial step, do not send verify data
+
+2024-04-03 19:13:31,657 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:13:36,661 WARN data storage DistroDataStorageImpl has not finished initial step, do not send verify data
+
+2024-04-03 19:13:36,663 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:13:41,666 WARN data storage DistroDataStorageImpl has not finished initial step, do not send verify data
+
+2024-04-03 19:13:41,667 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:13:42,667 INFO [DISTRO-INIT] load snapshot com.alibaba.nacos.naming.iplist. from nacos1:8848
+
+2024-04-03 19:13:42,698 INFO [DISTRO-INIT] load snapshot com.alibaba.nacos.naming.iplist. from nacos1:8848 result: true
+
+2024-04-03 19:13:42,700 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2024-04-03 19:13:42,711 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 result: true
+
+2024-04-03 19:13:42,712 INFO [DISTRO-INIT] load snapshot data success
+
+2024-04-03 19:18:10,199 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712142772259_192.168.65.1_19728', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:18:19,846 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712143098760_192.168.65.1_20169', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:22:00,697 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-04-03 19:22:01,699 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-04-03 19:22:02,703 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2024-04-03 19:22:02,711 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos1:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-03 19:22:02,724 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848
+
+2024-04-03 19:22:02,725 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos3:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-03 19:22:05,698 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:22:10,737 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:22:14,228 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712143331421_192.168.65.1_22099', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:22:15,740 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:22:20,743 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:22:25,751 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:22:30,761 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 19:22:32,726 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2024-04-03 19:22:32,765 INFO [DISTRO-INIT] it took 39 ms to load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 and snapshot size is 538.
+
+2024-04-03 19:22:32,768 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 result: true
+
+2024-04-03 19:22:32,769 INFO [DISTRO-INIT] load snapshot data success
+
+2024-04-03 19:23:18,229 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712143331421_192.168.65.1_22099', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:23:28,815 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712143406789_192.168.65.1_22251', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:24:25,003 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712143406789_192.168.65.1_22251', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:24:36,247 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712143474994_192.168.65.1_22362', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:25:53,117 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712143474994_192.168.65.1_22362', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:26:03,499 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712143561527_192.168.65.1_22527', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:27:22,807 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712143561527_192.168.65.1_22527', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:27:34,829 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712143651778_192.168.65.1_22692', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:31:51,550 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712143651778_192.168.65.1_22692', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:32:01,483 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712143920953_192.168.65.1_23181', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:32:02,798 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712143920953_192.168.65.1_23181', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:33:13,681 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712143920953_192.168.65.1_23181', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:33:31,508 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712144009666_192.168.65.1_23346', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:34:22,886 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712144061715_192.168.65.1_23441', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:35:09,453 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712144061715_192.168.65.1_23441', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:35:09,728 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712144009666_192.168.65.1_23346', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:37:11,607 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712144230466_192.168.65.1_23768', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:38:01,331 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712144230466_192.168.65.1_23768', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 19:38:10,937 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712144289212_192.168.65.1_23879', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 22:51:29,998 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-04-03 22:51:29,998 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-04-03 22:51:29,998 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-04-03 22:51:29,998 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-04-03 22:51:29,997 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-04-03 22:51:29,997 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-04-03 22:51:29,997 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-04-03 22:51:29,999 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-04-03 22:52:15,963 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-04-03 22:52:16,966 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-04-03 22:52:17,975 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2024-04-03 22:52:17,980 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos1:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-03 22:52:17,989 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848
+
+2024-04-03 22:52:17,989 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos3:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos3:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-03 22:52:20,956 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 22:52:25,966 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 22:52:26,210 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712155944491_192.168.65.1_16941', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 22:52:30,970 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 22:52:35,973 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 22:52:40,976 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 22:52:45,978 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-04-03 22:52:47,989 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2024-04-03 22:52:48,016 INFO [DISTRO-INIT] it took 28 ms to load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 and snapshot size is 538.
+
+2024-04-03 22:52:48,020 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 result: true
+
+2024-04-03 22:52:48,022 INFO [DISTRO-INIT] load snapshot data success
+
+2024-04-03 23:06:46,637 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712156803664_192.168.65.1_18826', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:08:31,876 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712155944491_192.168.65.1_16941', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:09:00,573 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712156938507_192.168.65.1_19315', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:14:11,188 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712156938507_192.168.65.1_19315', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:19:02,997 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712157541016_192.168.65.1_21486', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:19:38,785 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712157577614_192.168.65.1_21645', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:38:38,964 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712157541016_192.168.65.1_21486', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:38:46,256 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712158725627_192.168.65.1_25790', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:38:47,595 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712158725627_192.168.65.1_25790', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:39:51,465 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712158725627_192.168.65.1_25790', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:39:59,048 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712158796987_192.168.65.1_26063', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:42:01,684 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712158796987_192.168.65.1_26063', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:42:03,701 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712157577614_192.168.65.1_21645', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:42:24,969 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712158943791_192.168.65.1_26590', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:42:33,773 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712158951809_192.168.65.1_26611', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:44:02,480 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712158951809_192.168.65.1_26611', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:44:10,356 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712159048350_192.168.65.1_26974', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:45:27,585 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712159048350_192.168.65.1_26974', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:45:36,002 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712159134034_192.168.65.1_27283', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:48:59,713 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712158943791_192.168.65.1_26590', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:49:08,007 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712159346821_192.168.65.1_28066', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:51:10,460 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712159134034_192.168.65.1_27283', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:51:18,647 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712159476563_192.168.65.1_28551', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:54:13,541 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712159476563_192.168.65.1_28551', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:54:19,352 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712159346821_192.168.65.1_28066', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:54:24,830 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712159661908_192.168.65.1_29206', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:54:31,503 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712159670300_192.168.65.1_29247', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:59:07,408 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1712159670300_192.168.65.1_29247', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:59:19,527 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712159958373_192.168.65.1_30296', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-04-03 23:59:29,048 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1712159967833_192.168.65.1_30337', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+

@@ -1,0 +1,722 @@
+2024-04-05 00:17:18,197 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 00:17:18,292 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 00:17:18,370 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 00:17:18,394 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 00:47:18,156 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 00:47:18,243 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 00:47:18,320 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 00:47:18,344 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 2 ms.
+
+2024-04-05 01:17:18,172 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 01:17:18,260 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 01:17:18,340 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 01:17:18,362 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 01:47:18,129 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 01:47:18,216 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 01:47:18,296 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 01:47:18,313 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 02:17:18,104 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 02:17:18,198 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 02:17:18,276 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 02:17:18,296 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 02:47:18,103 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 02:47:18,194 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 02:47:18,275 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 02:47:18,296 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 03:17:18,029 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 03:17:18,122 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 03:17:18,200 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 03:17:18,222 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 03:47:18,030 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 03:47:18,124 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 03:47:18,208 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 03:47:18,227 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 04:17:18,044 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 04:17:18,135 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 04:17:18,224 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 04:17:18,237 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 04:47:17,980 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 04:47:18,071 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 04:47:18,165 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 04:47:18,178 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 05:17:17,963 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 05:17:18,051 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 05:17:18,145 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 05:17:18,155 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 1 ms.
+
+2024-04-05 05:47:17,973 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 05:47:18,064 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 05:47:18,153 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 05:47:18,168 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 3 ms.
+
+2024-04-05 06:17:17,956 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 06:17:18,045 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 06:17:18,137 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 06:17:18,143 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 06:47:17,961 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 06:47:18,051 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 06:47:18,147 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 06:47:18,156 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 1 ms.
+
+2024-04-05 07:17:17,931 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 07:17:18,021 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 07:17:18,117 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 07:17:18,122 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 07:47:17,900 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 07:47:17,989 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 07:47:18,087 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 2 ms.
+
+2024-04-05 07:47:18,089 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 1 ms.
+
+2024-04-05 08:17:17,864 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 08:17:17,954 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 08:17:18,048 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 08:17:18,055 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 08:47:17,792 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 08:47:17,880 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 08:47:17,974 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 08:47:17,979 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 09:17:17,841 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 09:17:17,923 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 09:17:18,020 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 09:17:18,028 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 09:47:17,777 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 09:47:17,867 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 09:47:17,964 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 09:47:17,970 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 10:17:17,754 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 10:17:17,838 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 10:17:17,939 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 10:17:17,944 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 10:47:17,732 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 10:47:17,825 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 10:47:17,920 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 10:47:17,924 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 11:17:17,669 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 11:17:17,758 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 11:17:17,859 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 11:17:17,864 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 11:47:17,736 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 11:47:17,811 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 11:47:17,912 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 11:47:17,915 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 12:17:17,683 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 12:17:17,768 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 12:17:17,867 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 12:17:17,867 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 12:47:17,750 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 19 ms.
+
+2024-04-05 12:47:17,771 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 12:47:17,858 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 12:47:17,862 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 3 ms.
+
+2024-04-05 13:17:17,627 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 13:17:17,681 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 13:17:17,779 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 13:17:17,785 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 13:47:17,566 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 2 ms.
+
+2024-04-05 13:47:17,603 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 13:47:17,699 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 13:47:17,709 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 1 ms.
+
+2024-04-05 14:17:17,581 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 14:17:17,634 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 14:17:17,732 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 14:17:17,744 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 14:33:02,596 WARN Node <naming_persistent_service_v2/nacos2:7848> steps down when alive nodes don't satisfy quorum, term=117, deadNodes=nacos3:7848,nacos1:7848, conf=nacos3:7848,nacos1:7848,nacos2:7848.
+
+2024-04-05 14:33:03,017 INFO onLeaderStop: status=Status[ERAFTTIMEDOUT<10001>: Majority of the group dies: 2/3].
+
+2024-04-05 14:33:02,999 INFO Replicator Replicator [state=Replicate, statInfo=<running=IDLE, firstLogIndex=99, lastLogIncluded=0, lastLogIndex=99, lastTermIncluded=0>, peerId=nacos3:7848, groupId=naming_persistent_service_v2, waitId=72, type=Follower] is going to quit
+
+2024-04-05 14:33:03,120 INFO Replicator Replicator [state=Replicate, statInfo=<running=IDLE, firstLogIndex=99, lastLogIncluded=0, lastLogIndex=99, lastTermIncluded=0>, peerId=nacos1:7848, groupId=naming_persistent_service_v2, waitId=71, type=Follower] is going to quit
+
+2024-04-05 14:33:03,140 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos2:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2966)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-05 14:33:03,537 INFO Node <naming_instance_metadata/nacos2:7848> received RequestVoteRequest from nacos3:7848, term=115, currTerm=114.
+
+2024-04-05 14:33:03,541 INFO Node <naming_persistent_service_v2/nacos2:7848> received PreVoteRequest from nacos3:7848, term=118, currTerm=117, granted=true, requestLastLogId=LogId [index=99, term=117], lastLogId=LogId [index=99, term=117].
+
+2024-04-05 14:33:03,559 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos1:7848, term=114, status=Status[EHIGHERTERMRESPONSE<10008>: Raft node receives higher term RequestVoteRequest.]].
+
+2024-04-05 14:33:03,613 INFO Node <naming_persistent_service_v2/nacos2:7848> received RequestVoteRequest from nacos3:7848, term=118, currTerm=117.
+
+2024-04-05 14:33:03,707 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=118, votedFor=0.0.0.0:0, cost time=79 ms
+
+2024-04-05 14:33:03,714 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=118, votedFor=nacos3:7848, cost time=4 ms
+
+2024-04-05 14:33:03,740 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=115, votedFor=0.0.0.0:0, cost time=182 ms
+
+2024-04-05 14:33:03,747 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=115, votedFor=nacos3:7848, cost time=6 ms
+
+2024-04-05 14:33:03,749 INFO Node <naming_instance_metadata/nacos2:7848> received PreVoteRequest from nacos3:7848, term=115, currTerm=115, granted=true, requestLastLogId=LogId [index=98, term=114], lastLogId=LogId [index=98, term=114].
+
+2024-04-05 14:33:07,599 INFO Node <naming_persistent_service/nacos2:7848> received PreVoteRequest from nacos3:7848, term=119, currTerm=118, granted=true, requestLastLogId=LogId [index=98, term=118], lastLogId=LogId [index=98, term=118].
+
+2024-04-05 14:33:07,615 INFO Node <naming_persistent_service/nacos2:7848> received RequestVoteRequest from nacos3:7848, term=119, currTerm=118.
+
+2024-04-05 14:33:07,617 INFO Node <naming_service_metadata/nacos2:7848> received PreVoteRequest from nacos1:7848, term=125, currTerm=124, granted=true, requestLastLogId=LogId [index=98, term=124], lastLogId=LogId [index=98, term=124].
+
+2024-04-05 14:33:07,621 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos1:7848, term=118, status=Status[EHIGHERTERMRESPONSE<10008>: Raft node receives higher term RequestVoteRequest.]].
+
+2024-04-05 14:33:07,631 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service/meta-data, term=119, votedFor=0.0.0.0:0, cost time=12 ms
+
+2024-04-05 14:33:07,636 INFO Node <naming_service_metadata/nacos2:7848> received RequestVoteRequest from nacos1:7848, term=125, currTerm=124.
+
+2024-04-05 14:33:07,639 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service/meta-data, term=119, votedFor=nacos3:7848, cost time=4 ms
+
+2024-04-05 14:33:07,646 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos1:7848, term=124, status=Status[EHIGHERTERMRESPONSE<10008>: Raft node receives higher term RequestVoteRequest.]].
+
+2024-04-05 14:33:07,654 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=125, votedFor=0.0.0.0:0, cost time=13 ms
+
+2024-04-05 14:33:07,678 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=125, votedFor=nacos1:7848, cost time=14 ms
+
+2024-04-05 14:39:45,789 INFO Node <naming_instance_metadata/nacos2:7848> term 115 start preVote.
+
+2024-04-05 14:39:45,803 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos3:7848, term=115, status=Status[ERAFTTIMEDOUT<10001>: Lost connection from leader nacos3:7848.]].
+
+2024-04-05 14:39:45,880 INFO Node <naming_persistent_service/nacos2:7848> term 119 start preVote.
+
+2024-04-05 14:39:45,883 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos3:7848, term=119, status=Status[ERAFTTIMEDOUT<10001>: Lost connection from leader nacos3:7848.]].
+
+2024-04-05 14:39:45,889 INFO Node <naming_persistent_service_v2/nacos2:7848> term 118 start preVote.
+
+2024-04-05 14:39:45,915 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos3:7848, term=118, status=Status[ERAFTTIMEDOUT<10001>: Lost connection from leader nacos3:7848.]].
+
+2024-04-05 14:39:46,496 INFO The channel nacos3:7848 is in state: CONNECTING.
+
+2024-04-05 14:39:46,560 INFO The channel nacos3:7848 is in state: CONNECTING.
+
+2024-04-05 14:39:46,608 INFO Node <naming_persistent_service_v2/nacos2:7848> received PreVoteResponse from nacos1:7848, term=118, granted=true.
+
+2024-04-05 14:39:46,653 INFO Node <naming_persistent_service_v2/nacos2:7848> start vote and grant vote self, term=118.
+
+2024-04-05 14:39:46,673 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos3:7848, term=118, status=Status[ERAFTTIMEDOUT<10001>: A follower's leader_id is reset to NULL as it begins to request_vote.]].
+
+2024-04-05 14:39:46,776 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=119, votedFor=nacos2:7848, cost time=13 ms
+
+2024-04-05 14:39:46,778 WARN Node <naming_persistent_service_v2/nacos2:7848> received invalid PreVoteResponse from nacos3:7848, state not in STATE_FOLLOWER but STATE_CANDIDATE.
+
+2024-04-05 14:39:47,255 INFO Node <naming_persistent_service_v2/nacos2:7848> become leader of group, term=119, conf=nacos3:7848,nacos1:7848,nacos2:7848, oldConf=.
+
+2024-04-05 14:39:47,262 INFO The channel nacos1:7848 is in state: CONNECTING.
+
+2024-04-05 14:39:47,344 INFO The channel nacos1:7848 is in state: CONNECTING.
+
+2024-04-05 14:39:47,291 INFO Node <naming_instance_metadata/nacos2:7848> ignore PreVoteRequest from nacos1:7848, term=116, currTerm=115, because the leader nacos3:7848's lease is still valid.
+
+2024-04-05 14:39:47,298 INFO Node <naming_service_metadata/nacos2:7848> ignore PreVoteRequest from nacos3:7848, term=126, currTerm=125, because the leader nacos1:7848's lease is still valid.
+
+2024-04-05 14:39:47,386 INFO Node <naming_service_metadata/nacos2:7848> received RequestVoteRequest from nacos3:7848, term=126, currTerm=125.
+
+2024-04-05 14:39:47,343 INFO Replicator [group: naming_persistent_service_v2, peer: nacos3:7848, type: Follower] is started
+
+2024-04-05 14:39:47,369 INFO Node <naming_instance_metadata/nacos2:7848> received RequestVoteRequest from nacos1:7848, term=116, currTerm=115.
+
+2024-04-05 14:39:47,405 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=126, votedFor=0.0.0.0:0, cost time=13 ms
+
+2024-04-05 14:39:47,409 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos1:7848, term=125, status=Status[EHIGHERTERMRESPONSE<10008>: Raft node receives higher term RequestVoteRequest.]].
+
+2024-04-05 14:39:47,431 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=116, votedFor=0.0.0.0:0, cost time=16 ms
+
+2024-04-05 14:39:47,432 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=126, votedFor=nacos3:7848, cost time=17 ms
+
+2024-04-05 14:39:47,442 INFO Replicator [group: naming_persistent_service_v2, peer: nacos1:7848, type: Follower] is started
+
+2024-04-05 14:39:47,478 INFO The channel nacos3:7848 is in state: READY.
+
+2024-04-05 14:39:47,513 INFO The channel nacos3:7848 has successfully established.
+
+2024-04-05 14:39:47,500 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=116, votedFor=nacos1:7848, cost time=61 ms
+
+2024-04-05 14:39:47,513 WARN Node <naming_persistent_service_v2/nacos2:7848> received invalid RequestVoteResponse from nacos3:7848, state not in STATE_CANDIDATE but STATE_LEADER.
+
+2024-04-05 14:39:47,568 INFO Node <naming_persistent_service_v2/nacos2:7848> ignore PreVoteRequest from nacos1:7848, term=119, currTerm=119, because the leader nacos2:7848's lease is still valid.
+
+2024-04-05 14:39:47,580 INFO The channel nacos1:7848 is in state: READY.
+
+2024-04-05 14:39:47,585 INFO The channel nacos1:7848 has successfully established.
+
+2024-04-05 14:39:47,590 INFO Peer nacos1:7848 is connected.
+
+2024-04-05 14:39:47,583 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos3:7848, term=115, status=Status[EHIGHERTERMRESPONSE<10008>: Raft node receives higher term RequestVoteRequest.]].
+
+2024-04-05 14:39:47,546 INFO Peer nacos3:7848 is connected.
+
+2024-04-05 14:39:47,615 INFO Node <naming_persistent_service/nacos2:7848> ignore PreVoteRequest from nacos1:7848, term=120, currTerm=119, because the leader nacos3:7848's lease is still valid.
+
+2024-04-05 14:39:47,639 INFO Node <naming_persistent_service/nacos2:7848> received RequestVoteRequest from nacos1:7848, term=120, currTerm=119.
+
+2024-04-05 14:39:47,644 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos3:7848, term=119, status=Status[EHIGHERTERMRESPONSE<10008>: Raft node receives higher term RequestVoteRequest.]].
+
+2024-04-05 14:39:47,667 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service/meta-data, term=120, votedFor=0.0.0.0:0, cost time=25 ms
+
+2024-04-05 14:39:47,694 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service/meta-data, term=120, votedFor=nacos1:7848, cost time=22 ms
+
+2024-04-05 14:39:47,721 WARN Node <naming_persistent_service/nacos2:7848> received invalid PreVoteResponse from nacos3:7848, term=119, currTerm=120.
+
+2024-04-05 14:39:47,722 WARN Node <naming_persistent_service/nacos2:7848> received invalid PreVoteResponse from nacos1:7848, term=119, currTerm=120.
+
+2024-04-05 14:39:47,925 INFO onLeaderStart: term=119.
+
+2024-04-05 14:39:48,049 INFO The channel nacos3:7848 is in state: READY.
+
+2024-04-05 14:39:48,050 INFO The channel nacos3:7848 has successfully established.
+
+2024-04-05 14:39:48,051 INFO Peer nacos3:7848 is connected.
+
+2024-04-05 14:39:48,052 INFO The channel nacos1:7848 is in state: READY.
+
+2024-04-05 14:39:48,057 INFO The channel nacos1:7848 has successfully established.
+
+2024-04-05 14:39:48,060 INFO Peer nacos1:7848 is connected.
+
+2024-04-05 14:39:48,102 WARN Node <naming_instance_metadata/nacos2:7848> received invalid PreVoteResponse from nacos1:7848, term=115, currTerm=116.
+
+2024-04-05 14:39:48,118 WARN Node <naming_instance_metadata/nacos2:7848> received invalid PreVoteResponse from nacos3:7848, term=115, currTerm=116.
+
+2024-04-05 14:39:59,377 WARN Node <naming_persistent_service_v2/nacos2:7848> steps down when alive nodes don't satisfy quorum, term=119, deadNodes=nacos3:7848,nacos1:7848, conf=nacos3:7848,nacos1:7848,nacos2:7848.
+
+2024-04-05 14:40:58,077 INFO Replicator Replicator [state=Replicate, statInfo=<running=IDLE, firstLogIndex=101, lastLogIncluded=0, lastLogIndex=101, lastTermIncluded=0>, peerId=nacos3:7848, groupId=naming_persistent_service_v2, waitId=73, type=Follower] is going to quit
+
+2024-04-05 14:40:58,158 INFO onLeaderStop: status=Status[ERAFTTIMEDOUT<10001>: Majority of the group dies: 2/3].
+
+2024-04-05 14:40:58,891 INFO Node <naming_service_metadata/nacos2:7848> term 126 start preVote.
+
+2024-04-05 14:40:58,891 INFO Node <naming_instance_metadata/nacos2:7848> term 116 start preVote.
+
+2024-04-05 14:40:58,892 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos1:7848, term=116, status=Status[ERAFTTIMEDOUT<10001>: Lost connection from leader nacos1:7848.]].
+
+2024-04-05 14:40:59,989 INFO Replicator Replicator [state=Replicate, statInfo=<running=IDLE, firstLogIndex=101, lastLogIncluded=0, lastLogIndex=101, lastTermIncluded=0>, peerId=nacos1:7848, groupId=naming_persistent_service_v2, waitId=74, type=Follower] is going to quit
+
+2024-04-05 14:41:02,713 INFO Node <naming_persistent_service_v2/nacos2:7848> received PreVoteRequest from nacos3:7848, term=120, currTerm=119, granted=true, requestLastLogId=LogId [index=101, term=119], lastLogId=LogId [index=101, term=119].
+
+2024-04-05 14:41:02,719 INFO Node <naming_persistent_service_v2/nacos2:7848> received PreVoteRequest from nacos3:7848, term=120, currTerm=119, granted=true, requestLastLogId=LogId [index=101, term=119], lastLogId=LogId [index=101, term=119].
+
+2024-04-05 14:40:58,891 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos3:7848, term=126, status=Status[ERAFTTIMEDOUT<10001>: Lost connection from leader nacos3:7848.]].
+
+2024-04-05 14:41:02,725 INFO Node <naming_persistent_service_v2/nacos2:7848> received PreVoteRequest from nacos3:7848, term=120, currTerm=119, granted=true, requestLastLogId=LogId [index=101, term=119], lastLogId=LogId [index=101, term=119].
+
+2024-04-05 14:41:01,173 INFO Node <naming_persistent_service/nacos2:7848> term 120 start preVote.
+
+2024-04-05 14:41:01,172 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos1:7848, term=120, status=Status[ERAFTTIMEDOUT<10001>: Lost connection from leader nacos1:7848.]].
+
+2024-04-05 14:41:01,872 INFO Node <naming_instance_metadata/nacos2:7848> ignore PreVoteRequest from nacos3:7848, term=117, currTerm=116, because the leader nacos1:7848's lease is still valid.
+
+2024-04-05 14:41:02,733 INFO Node <naming_persistent_service/nacos2:7848> received PreVoteRequest from nacos3:7848, term=121, currTerm=120, granted=true, requestLastLogId=LogId [index=100, term=120], lastLogId=LogId [index=100, term=120].
+
+2024-04-05 14:41:02,719 INFO The channel nacos3:7848 is in state: CONNECTING.
+
+2024-04-05 14:41:02,786 INFO The channel nacos1:7848 is in state: CONNECTING.
+
+2024-04-05 14:48:28,980 INFO Node <naming_instance_metadata/nacos2:7848> term 116 start preVote.
+
+2024-04-05 14:48:29,193 INFO Node <naming_persistent_service_v2/nacos2:7848> term 119 start preVote.
+
+2024-04-05 14:48:29,155 INFO The channel nacos3:7848 is in state: READY.
+
+2024-04-05 14:48:29,276 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos1:7848, term=116, status=Status[ERAFTTIMEDOUT<10001>: Lost connection from leader nacos1:7848.]].
+
+2024-04-05 14:48:30,544 INFO The channel nacos3:7848 has successfully established.
+
+2024-04-05 14:48:33,880 INFO Peer nacos3:7848 is connected.
+
+2024-04-05 14:48:29,276 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos3:7848, term=126, status=Status[ERAFTTIMEDOUT<10001>: Lost connection from leader nacos3:7848.]].
+
+2024-04-05 14:48:33,838 WARN Node <naming_persistent_service/nacos2:7848> PreVote to nacos1:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999961847s. [closed=[], open=[[remote_addr=nacos1/172.18.0.5:7848]]]].
+
+2024-04-05 14:48:29,276 INFO Node <naming_service_metadata/nacos2:7848> term 126 start preVote.
+
+2024-04-05 14:48:30,204 WARN Node <naming_service_metadata/nacos2:7848> PreVote to nacos1:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after -441.484982311s. [closed=[], open=[[buffered_nanos=460350449, waiting_for_connection]]]].
+
+2024-04-05 14:48:31,099 WARN Node <naming_instance_metadata/nacos2:7848> PreVote to nacos1:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999971631s. [closed=[], open=[[remote_addr=nacos1/172.18.0.5:7848]]]].
+
+2024-04-05 14:48:29,750 WARN Node <naming_persistent_service/nacos2:7848> PreVote to nacos3:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999858004s. [closed=[], open=[[remote_addr=nacos3/172.18.0.3:7848]]]].
+
+2024-04-05 14:48:29,729 INFO Node <naming_instance_metadata/nacos2:7848> term 116 start preVote.
+
+2024-04-05 14:48:31,040 WARN Node <naming_instance_metadata/nacos2:7848> PreVote to nacos3:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999928425s. [closed=[], open=[[remote_addr=nacos3/172.18.0.3:7848]]]].
+
+2024-04-05 14:48:33,901 WARN Node <naming_service_metadata/nacos2:7848> PreVote to nacos3:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.068284336s. [closed=[], open=[[buffered_nanos=446540993278, remote_addr=nacos3/172.18.0.3:7848]]]].
+
+2024-04-05 14:48:34,573 INFO Node <naming_persistent_service/nacos2:7848> term 120 start preVote.
+
+2024-04-05 14:48:35,253 INFO Node <naming_persistent_service_v2/nacos2:7848> term 119 start preVote.
+
+2024-04-05 14:48:34,892 WARN Node <naming_persistent_service_v2/nacos2:7848> PreVote to nacos1:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999977783s. [closed=[], open=[[remote_addr=nacos1/172.18.0.5:7848]]]].
+
+2024-04-05 14:48:34,925 WARN Node <naming_persistent_service_v2/nacos2:7848> PreVote to nacos3:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999952994s. [closed=[], open=[[remote_addr=nacos3/172.18.0.3:7848]]]].
+
+2024-04-05 14:48:34,989 INFO Node <naming_service_metadata/nacos2:7848> term 126 start preVote.
+
+2024-04-05 14:48:35,016 INFO Node <naming_instance_metadata/nacos2:7848> received PreVoteRequest from nacos3:7848, term=117, currTerm=116, granted=true, requestLastLogId=LogId [index=100, term=116], lastLogId=LogId [index=100, term=116].
+
+2024-04-05 14:48:35,496 INFO The channel nacos1:7848 is in state: READY.
+
+2024-04-05 14:48:35,918 INFO The channel nacos1:7848 has successfully established.
+
+2024-04-05 14:48:35,947 INFO Peer nacos1:7848 is connected.
+
+2024-04-05 14:48:35,580 INFO Node <naming_persistent_service_v2/nacos2:7848> received PreVoteRequest from nacos1:7848, term=120, currTerm=119, granted=true, requestLastLogId=LogId [index=101, term=119], lastLogId=LogId [index=101, term=119].
+
+2024-04-05 14:48:35,989 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_100.
+
+2024-04-05 14:48:35,998 INFO Renaming /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/temp to /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_100.
+
+2024-04-05 14:48:35,728 INFO Node <naming_service_metadata/nacos2:7848> received PreVoteRequest from nacos3:7848, term=127, currTerm=126, granted=true, requestLastLogId=LogId [index=100, term=126], lastLogId=LogId [index=100, term=126].
+
+2024-04-05 14:48:36,020 INFO Node <naming_persistent_service/nacos2:7848> ignore PreVoteRequest from nacos3:7848, term=121, currTerm=120, because the leader nacos1:7848's lease is still valid.
+
+2024-04-05 14:48:36,020 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_98.
+
+2024-04-05 14:48:36,061 INFO Node <naming_persistent_service/nacos2:7848> ignore PreVoteRequest from nacos3:7848, term=121, currTerm=120, because the leader nacos1:7848's lease is still valid.
+
+2024-04-05 14:48:36,075 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_100.
+
+2024-04-05 14:48:36,093 INFO Renaming /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/temp to /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_100.
+
+2024-04-05 14:48:36,104 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_98.
+
+2024-04-05 14:48:36,130 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 99, cost 0 ms.
+
+2024-04-05 14:48:36,159 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 99, cost 1 ms.
+
+2024-04-05 14:48:36,169 INFO Node <naming_persistent_service_v2/nacos2:7848> received PreVoteRequest from nacos1:7848, term=120, currTerm=119, granted=true, requestLastLogId=LogId [index=101, term=119], lastLogId=LogId [index=101, term=119].
+
+2024-04-05 14:48:36,186 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_101.
+
+2024-04-05 14:48:36,413 INFO Renaming /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/temp to /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_101.
+
+2024-04-05 14:48:36,408 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_100.
+
+2024-04-05 14:48:36,431 INFO Renaming /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/temp to /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_100.
+
+2024-04-05 14:48:36,431 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_99.
+
+2024-04-05 14:48:36,459 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_98.
+
+2024-04-05 14:48:36,576 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 100, cost 0 ms.
+
+2024-04-05 14:48:37,379 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 99, cost 230 ms.
+
+2024-04-05 14:48:37,403 INFO Node <naming_instance_metadata/nacos2:7848> received PreVoteRequest from nacos1:7848, term=117, currTerm=116, granted=true, requestLastLogId=LogId [index=100, term=116], lastLogId=LogId [index=100, term=116].
+
+2024-04-05 14:48:37,384 WARN Node <naming_persistent_service_v2/nacos2:7848> received invalid PreVoteResponse from nacos3:7848, term 120, expect=119.
+
+2024-04-05 14:48:37,483 INFO Node <naming_persistent_service/nacos2:7848> ignore PreVoteRequest from nacos1:7848, term=121, currTerm=120, because the leader nacos1:7848's lease is still valid.
+
+2024-04-05 14:48:38,292 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=120, votedFor=0.0.0.0:0, cost time=770 ms
+
+2024-04-05 14:48:38,323 INFO Node <naming_persistent_service_v2/nacos2:7848> received RequestVoteRequest from nacos3:7848, term=120, currTerm=120.
+
+2024-04-05 14:48:38,343 INFO Node <naming_persistent_service/nacos2:7848> received PreVoteResponse from nacos3:7848, term=120, granted=true.
+
+2024-04-05 14:48:39,860 INFO Node <naming_persistent_service/nacos2:7848> start vote and grant vote self, term=120.
+
+2024-04-05 14:48:40,265 INFO Node <naming_instance_metadata/nacos2:7848> term 116 start preVote.
+
+2024-04-05 14:48:40,287 WARN Node <naming_instance_metadata/nacos2:7848> PreVote to nacos3:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999979686s. [closed=[], open=[[remote_addr=nacos3/172.18.0.3:7848]]]].
+
+2024-04-05 14:48:39,866 INFO Node <naming_service_metadata/nacos2:7848> received PreVoteResponse from nacos3:7848, term=126, granted=true.
+
+2024-04-05 14:48:41,230 WARN Node <naming_instance_metadata/nacos2:7848> PreVote to nacos1:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999972570s. [closed=[], open=[[remote_addr=nacos1/172.18.0.5:7848]]]].
+
+2024-04-05 14:48:41,215 WARN Node <naming_instance_metadata/nacos2:7848> PreVote to nacos3:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999895504s. [closed=[], open=[[remote_addr=nacos3/172.18.0.3:7848]]]].
+
+2024-04-05 14:48:41,189 INFO Node <naming_instance_metadata/nacos2:7848> received RequestVoteRequest from nacos1:7848, term=117, currTerm=116.
+
+2024-04-05 14:48:41,179 WARN Node <naming_service_metadata/nacos2:7848> PreVote to nacos1:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999661587s. [closed=[], open=[[buffered_nanos=507122009, remote_addr=nacos1/172.18.0.5:7848]]]].
+
+2024-04-05 14:48:41,045 INFO onStopFollowing: LeaderChangeContext [leaderId=nacos1:7848, term=120, status=Status[ERAFTTIMEDOUT<10001>: A follower's leader_id is reset to NULL as it begins to request_vote.]].
+
+2024-04-05 14:48:40,969 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=120, votedFor=nacos3:7848, cost time=2600 ms
+
+2024-04-05 14:48:41,203 WARN Node <naming_instance_metadata/nacos2:7848> PreVote to nacos1:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999973034s. [closed=[], open=[[remote_addr=nacos1/172.18.0.5:7848]]]].
+
+2024-04-05 14:48:41,204 WARN Node <naming_persistent_service_v2/nacos2:7848> PreVote to nacos1:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999968059s. [closed=[], open=[[remote_addr=nacos1/172.18.0.5:7848]]]].
+
+2024-04-05 14:48:41,766 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=117, votedFor=0.0.0.0:0, cost time=271 ms
+
+2024-04-05 14:48:41,711 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service/meta-data, term=121, votedFor=nacos2:7848, cost time=293 ms
+
+2024-04-05 14:48:41,748 INFO Node <naming_service_metadata/nacos2:7848> start vote and grant vote self, term=126.
+
+2024-04-05 14:48:43,275 WARN Node <naming_persistent_service/nacos2:7848> received invalid PreVoteResponse from nacos1:7848, state not in STATE_FOLLOWER but STATE_CANDIDATE.
+
+2024-04-05 14:48:43,338 INFO Node <naming_persistent_service_v2/nacos2:7848> received PreVoteRequest from nacos3:7848, term=121, currTerm=120, granted=true, requestLastLogId=LogId [index=101, term=119], lastLogId=LogId [index=101, term=119].
+
+2024-04-05 14:48:42,991 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_service_metadata/meta-data, term=127, votedFor=nacos2:7848, cost time=665 ms
+
+2024-04-05 14:48:43,400 WARN Node <naming_service_metadata/nacos2:7848> received invalid PreVoteResponse from nacos3:7848, state not in STATE_FOLLOWER but STATE_CANDIDATE.
+
+2024-04-05 14:48:43,423 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=117, votedFor=nacos1:7848, cost time=1611 ms
+
+2024-04-05 14:48:43,401 INFO Node <naming_service_metadata/nacos2:7848> received PreVoteRequest from nacos3:7848, term=127, currTerm=127, granted=true, requestLastLogId=LogId [index=100, term=126], lastLogId=LogId [index=100, term=126].
+
+2024-04-05 14:48:43,473 INFO Node <naming_service_metadata/nacos2:7848> received PreVoteRequest from nacos1:7848, term=127, currTerm=127, granted=true, requestLastLogId=LogId [index=100, term=126], lastLogId=LogId [index=100, term=126].
+
+2024-04-05 14:48:43,488 INFO Node <naming_service_metadata/nacos2:7848> received RequestVoteRequest from nacos1:7848, term=127, currTerm=127.
+
+2024-04-05 14:48:44,052 INFO Node <naming_service_metadata/nacos2:7848> received PreVoteRequest from nacos1:7848, term=127, currTerm=127, granted=true, requestLastLogId=LogId [index=100, term=126], lastLogId=LogId [index=100, term=126].
+
+2024-04-05 14:48:44,237 INFO Node <naming_persistent_service_v2/nacos2:7848> term 120 start preVote.
+
+2024-04-05 14:48:44,343 INFO Node <naming_persistent_service/nacos2:7848> received PreVoteRequest from nacos3:7848, term=121, currTerm=121, granted=true, requestLastLogId=LogId [index=100, term=120], lastLogId=LogId [index=100, term=120].
+
+2024-04-05 14:48:44,543 INFO Node <naming_instance_metadata/nacos2:7848> received RequestVoteRequest from nacos3:7848, term=117, currTerm=117.
+
+2024-04-05 14:48:44,477 INFO Node <naming_persistent_service/nacos2:7848> received PreVoteRequest from nacos3:7848, term=121, currTerm=121, granted=true, requestLastLogId=LogId [index=100, term=120], lastLogId=LogId [index=100, term=120].
+
+2024-04-05 14:48:45,411 INFO Node <naming_service_metadata/nacos2:7848> become leader of group, term=127, conf=nacos3:7848,nacos1:7848,nacos2:7848, oldConf=.
+
+2024-04-05 14:48:45,906 WARN Node <naming_service_metadata/nacos2:7848> PreVote to nacos1:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999988691s. [closed=[], open=[[remote_addr=nacos1/172.18.0.5:7848]]]].
+
+2024-04-05 14:48:45,946 INFO Replicator [group: naming_service_metadata, peer: nacos3:7848, type: Follower] is started
+
+2024-04-05 14:48:46,003 INFO Replicator [group: naming_service_metadata, peer: nacos1:7848, type: Follower] is started
+
+2024-04-05 14:48:45,984 INFO Node <naming_persistent_service_v2/nacos2:7848> received RequestVoteRequest from nacos3:7848, term=121, currTerm=120.
+
+2024-04-05 14:48:45,978 INFO Node <naming_persistent_service/nacos2:7848> received RequestVoteRequest from nacos1:7848, term=121, currTerm=121.
+
+2024-04-05 14:48:46,192 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=121, votedFor=0.0.0.0:0, cost time=68 ms
+
+2024-04-05 14:48:46,214 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_persistent_service_v2/meta-data, term=121, votedFor=nacos3:7848, cost time=18 ms
+
+2024-04-05 14:48:46,216 WARN Node <naming_instance_metadata/nacos2:7848> PreVote to nacos1:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999986017s. [closed=[], open=[[remote_addr=nacos1/172.18.0.5:7848]]]].
+
+2024-04-05 14:48:46,221 WARN Node <naming_persistent_service/nacos2:7848> RequestVote to nacos1:7848 error: Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 4.999969210s. [closed=[], open=[[remote_addr=nacos1/172.18.0.5:7848]]]].
+
+2024-04-05 14:48:46,222 INFO Node <naming_persistent_service/nacos2:7848> become leader of group, term=121, conf=nacos3:7848,nacos1:7848,nacos2:7848, oldConf=.
+
+2024-04-05 14:48:46,390 INFO Replicator [group: naming_persistent_service, peer: nacos3:7848, type: Follower] is started
+
+2024-04-05 14:48:46,245 INFO Node <naming_instance_metadata/nacos2:7848> received PreVoteRequest from nacos3:7848, term=118, currTerm=117, granted=true, requestLastLogId=LogId [index=100, term=116], lastLogId=LogId [index=100, term=116].
+
+2024-04-05 14:48:46,415 INFO Replicator [group: naming_persistent_service, peer: nacos1:7848, type: Follower] is started
+
+2024-04-05 14:48:46,414 WARN Node <naming_instance_metadata/nacos2:7848> received invalid PreVoteResponse from nacos3:7848, term=116, currTerm=117.
+
+2024-04-05 14:48:46,459 INFO Node <naming_persistent_service_v2/nacos2:7848> ignore PreVoteRequest from nacos1:7848, term=120, currTerm=121.
+
+2024-04-05 14:48:46,464 WARN Node <naming_persistent_service_v2/nacos2:7848> received invalid PreVoteResponse from nacos3:7848, term=120, currTerm=121.
+
+2024-04-05 14:48:46,492 INFO Node <naming_instance_metadata/nacos2:7848> received PreVoteRequest from nacos1:7848, term=118, currTerm=117, granted=true, requestLastLogId=LogId [index=100, term=116], lastLogId=LogId [index=100, term=116].
+
+2024-04-05 14:48:46,494 INFO Node <naming_instance_metadata/nacos2:7848> received RequestVoteRequest from nacos1:7848, term=118, currTerm=117.
+
+2024-04-05 14:48:46,499 ERROR handleRequest group_id: "naming_persistent_service_v2"
+leader_id: "nacos2:7848"
+ failed
+
+java.lang.IllegalStateException: Not leader
+	at com.alipay.sofa.jraft.core.NodeImpl.listPeers(NodeImpl.java:2966)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:58)
+	at com.alipay.sofa.jraft.rpc.impl.cli.GetPeersRequestProcessor.processRequest0(GetPeersRequestProcessor.java:33)
+	at com.alipay.sofa.jraft.rpc.impl.cli.BaseCliRequestProcessor.processRequest(BaseCliRequestProcessor.java:119)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:53)
+	at com.alipay.sofa.jraft.rpc.RpcRequestProcessor.handleRequest(RpcRequestProcessor.java:35)
+	at com.alipay.sofa.jraft.rpc.impl.GrpcServer.lambda$null$1(GrpcServer.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-05 14:48:46,516 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=118, votedFor=0.0.0.0:0, cost time=20 ms
+
+2024-04-05 14:48:46,676 INFO onLeaderStart: term=127.
+
+2024-04-05 14:48:46,678 INFO Node <naming_service_metadata/nacos2:7848> received PreVoteRequest from nacos1:7848, term=128, currTerm=127, granted=false, requestLastLogId=LogId [index=100, term=126], lastLogId=LogId [index=101, term=127].
+
+2024-04-05 14:48:46,734 INFO Save raft meta, path=/home/nacos/data/protocol/raft/naming_instance_metadata/meta-data, term=118, votedFor=nacos1:7848, cost time=52 ms
+
+2024-04-05 14:48:46,767 INFO Node <naming_instance_metadata/nacos2:7848> received RequestVoteRequest from nacos3:7848, term=118, currTerm=118.
+
+2024-04-05 14:48:46,867 WARN Node <naming_persistent_service_v2/nacos2:7848> received invalid PreVoteResponse from nacos1:7848, term=120, currTerm=121.
+
+2024-04-05 14:48:46,898 INFO onLeaderStart: term=121.
+
+2024-04-05 14:48:47,026 WARN Node <naming_service_metadata/nacos2:7848> received invalid RequestVoteResponse from nacos1:7848, state not in STATE_CANDIDATE but STATE_LEADER.
+
+2024-04-05 14:48:49,535 WARN Fail to issue RPC to nacos1:7848, consecutiveErrorTimes=1, error=Status[EINTERNAL<1004>: RPC exception:DEADLINE_EXCEEDED: deadline exceeded after 2.499938645s. [closed=[], open=[[remote_addr=nacos1/172.18.0.5:7848]]]], groupId=naming_service_metadata
+
+2024-04-05 15:18:31,303 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_101.
+
+2024-04-05 15:18:31,304 INFO Renaming /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/temp to /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_101.
+
+2024-04-05 15:18:31,309 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_100.
+
+2024-04-05 15:18:31,325 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service/log from log index 99 to 101, cost 2 ms.
+
+2024-04-05 15:18:31,519 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_102.
+
+2024-04-05 15:18:31,520 INFO Renaming /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/temp to /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_102.
+
+2024-04-05 15:18:31,521 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_persistent_service_v2/snapshot/snapshot_101.
+
+2024-04-05 15:18:31,527 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_persistent_service_v2/log from log index 100 to 102, cost 1 ms.
+
+2024-04-05 15:18:35,057 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_101.
+
+2024-04-05 15:18:35,058 INFO Renaming /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/temp to /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_101.
+
+2024-04-05 15:18:35,061 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_service_metadata/snapshot/snapshot_100.
+
+2024-04-05 15:18:35,067 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_service_metadata/log from log index 99 to 101, cost 1 ms.
+
+2024-04-05 15:18:35,087 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_101.
+
+2024-04-05 15:18:35,087 INFO Renaming /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/temp to /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_101.
+
+2024-04-05 15:18:35,092 INFO Deleting snapshot /home/nacos/data/protocol/raft/naming_instance_metadata/snapshot/snapshot_100.
+
+2024-04-05 15:18:35,108 INFO Truncated prefix logs in data path: /home/nacos/data/protocol/raft/naming_instance_metadata/log from log index 99 to 101, cost 1 ms.
+
+2024-04-05 15:18:46,189 INFO The channel nacos3:7848 is in state: IDLE.
+
+2024-04-05 15:18:46,266 INFO The channel nacos1:7848 is in state: IDLE.
+
+2024-04-05 15:18:46,266 INFO The channel nacos3:7848 is in state: IDLE.
+
+2024-04-05 15:18:46,910 INFO The channel nacos1:7848 is in state: IDLE.
+
+2024-04-05 15:18:48,539 INFO Destroyed peer request context for naming_service_metadata/PeerPair[nacos2:7848 -> nacos3:7848]
+
+2024-04-05 15:18:48,543 INFO Destroyed peer request context for naming_persistent_service/PeerPair[nacos2:7848 -> nacos3:7848]
+
+2024-04-05 15:18:48,546 INFO Destroyed peer request context for naming_instance_metadata/PeerPair[nacos2:7848 -> nacos3:7848]
+
+2024-04-05 15:18:48,554 INFO Destroyed peer request context for naming_persistent_service_v2/PeerPair[nacos2:7848 -> nacos3:7848]
+
+2024-04-05 15:18:50,959 INFO Destroyed peer request context for naming_persistent_service_v2/PeerPair[nacos2:7848 -> nacos3:7848]
+
+2024-04-05 15:18:51,779 INFO Destroyed peer request context for naming_service_metadata/PeerPair[nacos2:7848 -> nacos1:7848]
+
+2024-04-05 15:18:51,780 INFO Destroyed peer request context for naming_persistent_service/PeerPair[nacos2:7848 -> nacos1:7848]
+
+2024-04-05 15:18:51,781 INFO Destroyed peer request context for naming_instance_metadata/PeerPair[nacos2:7848 -> nacos1:7848]
+
+2024-04-05 15:18:51,942 INFO Destroyed peer request context for naming_persistent_service_v2/PeerPair[nacos2:7848 -> nacos3:7848]
+
+2024-04-05 15:18:52,087 INFO Destroyed peer request context for naming_instance_metadata/PeerPair[nacos2:7848 -> nacos1:7848]
+
+2024-04-05 15:18:52,253 INFO Connection disconnected: /172.18.0.5:51352
+

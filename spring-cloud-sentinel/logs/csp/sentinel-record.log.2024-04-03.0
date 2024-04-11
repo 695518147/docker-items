@@ -1,0 +1,303 @@
+2024-04-03 10:34:38.407 INFO App name resolved from property project.name: sentinel-dashboard
+2024-04-03 10:34:38.430 INFO [SentinelConfig] Application type resolved: 0
+2024-04-03 10:34:38.458 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.init.InitFunc, provider=com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit, aliasName=com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.509 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.init.InitFunc, provider=com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc, aliasName=com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.514 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.init.InitFunc, provider=com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc, aliasName=com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.519 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.init.InitFunc, provider=com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit, aliasName=com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.531 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2024-04-03 10:34:38.543 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2024-04-03 10:34:38.553 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2024-04-03 10:34:38.553 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2024-04-03 10:34:38.571 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.transport.CommandCenter, provider=com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter, aliasName=com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.580 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2024-04-03 10:34:38.629 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.BasicInfoCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.BasicInfoCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.674 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchActiveRuleCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchActiveRuleCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.695 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchClusterNodeByIdCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchClusterNodeByIdCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.696 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchClusterNodeHumanCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchClusterNodeHumanCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.709 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchJsonTreeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchJsonTreeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.714 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchOriginCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchOriginCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.722 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchSimpleClusterNodeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchSimpleClusterNodeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.725 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchSystemStatusCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchSystemStatusCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.726 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchTreeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchTreeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.927 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.ModifyRulesCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.ModifyRulesCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.932 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.OnOffGetCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.OnOffGetCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.933 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.OnOffSetCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.OnOffSetCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.935 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.SendMetricCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.SendMetricCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.936 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.VersionCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.VersionCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:38.937 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.cluster.FetchClusterModeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.cluster.FetchClusterModeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:39.143 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.cluster.ModifyClusterModeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.cluster.ModifyClusterModeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:39.146 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.ApiCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.ApiCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:39.161 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.GetParamFlowRulesCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.GetParamFlowRulesCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:39.178 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.ModifyParamFlowRulesCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.ModifyParamFlowRulesCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:39.188 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.adapter.gateway.common.command.UpdateGatewayApiDefinitionGroupCommandHandler, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.command.UpdateGatewayApiDefinitionGroupCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:39.198 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.adapter.gateway.common.command.UpdateGatewayRuleCommandHandler, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.command.UpdateGatewayRuleCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:39.207 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.adapter.gateway.common.command.GetGatewayApiDefinitionGroupCommandHandler, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.command.GetGatewayApiDefinitionGroupCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:39.210 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.adapter.gateway.common.command.GetGatewayRuleCommandHandler, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.command.GetGatewayRuleCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:39.303 WARNING No SPI configuration file, filename=META-INF/services/com.alibaba.csp.sentinel.command.CommandHandlerInterceptor, classloader=org.springframework.boot.loader.LaunchedURLClassLoader@31221be2
+2024-04-03 10:34:39.354 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2024-04-03 10:34:39.355 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2024-04-03 10:34:39.438 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.transport.HeartbeatSender, provider=com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender, aliasName=com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender, isSingleton=true, isDefault=false, order=0
+2024-04-03 10:34:39.570 INFO [SimpleHttpHeartbeatSender] Default console address list retrieved: [Endpoint{protocol=HTTP, host='localhost, port=8858}]
+2024-04-03 10:34:39.571 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2024-04-03 10:34:39.573 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2024-04-03 10:34:39.576 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2024-04-03 10:34:39.579 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2024-04-03 10:34:39.586 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2024-04-03 10:34:39.593 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2024-04-03 10:34:44.691 WARNING [SimpleHttpHeartbeatSender] Failed to send heartbeat to Endpoint{protocol=HTTP, host='localhost, port=8858}
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.alibaba.csp.sentinel.transport.heartbeat.client.SimpleHttpClient.request(SimpleHttpClient.java:98)
+	at com.alibaba.csp.sentinel.transport.heartbeat.client.SimpleHttpClient.post(SimpleHttpClient.java:82)
+	at com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender.sendHeartbeat(SimpleHttpHeartbeatSender.java:74)
+	at com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc$1.run(HeartbeatSenderInitFunc.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 10:34:55.568 INFO Add child <sentinel_default_context> to node <machine-root>
+2024-04-03 10:34:55.572 INFO Add child <sentinel_web_servlet_context> to node <machine-root>
+2024-04-03 10:34:55.593 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.SlotChainBuilder, provider=com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder, aliasName=com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder, isSingleton=true, isDefault=true, order=0
+2024-04-03 10:34:55.731 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2024-04-03 10:34:55.914 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.nodeselector.NodeSelectorSlot, aliasName=com.alibaba.csp.sentinel.slots.nodeselector.NodeSelectorSlot, isSingleton=false, isDefault=false, order=-10000
+2024-04-03 10:34:55.928 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.clusterbuilder.ClusterBuilderSlot, aliasName=com.alibaba.csp.sentinel.slots.clusterbuilder.ClusterBuilderSlot, isSingleton=false, isDefault=false, order=-9000
+2024-04-03 10:34:55.934 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.logger.LogSlot, aliasName=com.alibaba.csp.sentinel.slots.logger.LogSlot, isSingleton=true, isDefault=false, order=-8000
+2024-04-03 10:34:55.936 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.statistic.StatisticSlot, aliasName=com.alibaba.csp.sentinel.slots.statistic.StatisticSlot, isSingleton=true, isDefault=false, order=-7000
+2024-04-03 10:34:55.951 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.authority.AuthoritySlot, aliasName=com.alibaba.csp.sentinel.slots.block.authority.AuthoritySlot, isSingleton=true, isDefault=false, order=-6000
+2024-04-03 10:34:55.953 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.system.SystemSlot, aliasName=com.alibaba.csp.sentinel.slots.system.SystemSlot, isSingleton=true, isDefault=false, order=-5000
+2024-04-03 10:34:55.961 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.flow.FlowSlot, aliasName=com.alibaba.csp.sentinel.slots.block.flow.FlowSlot, isSingleton=true, isDefault=false, order=-2000
+2024-04-03 10:34:55.965 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.degrade.DegradeSlot, aliasName=com.alibaba.csp.sentinel.slots.block.degrade.DegradeSlot, isSingleton=true, isDefault=false, order=-1000
+2024-04-03 10:34:55.968 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.degrade.DefaultCircuitBreakerSlot, aliasName=com.alibaba.csp.sentinel.slots.block.degrade.DefaultCircuitBreakerSlot, isSingleton=true, isDefault=false, order=-1500
+2024-04-03 10:34:55.980 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowSlot, aliasName=com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowSlot, isSingleton=true, isDefault=false, order=-3000
+2024-04-03 10:34:55.995 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.adapter.gateway.common.slot.GatewayFlowSlot, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.slot.GatewayFlowSlot, isSingleton=true, isDefault=false, order=-4000
+2024-04-03 10:34:56.042 INFO Add child </registry/machine> to node <sentinel_web_servlet_context>
+2024-04-03 10:34:56.068 INFO [AuthorityRuleManager] Authority rules loaded: com.alibaba.csp.sentinel.slots.block.RuleManager@45f0070d
+2024-04-03 10:34:56.088 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2024-04-03 10:34:56.099 INFO [GatewayRuleManager] No gateway rules, clearing parameter metrics of previous rules
+2024-04-03 10:34:56.104 INFO [GatewayRuleManager] Gateway flow rules loaded: {}
+2024-04-03 10:34:56.304 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2024-04-03 10:34:56.312 INFO [ParamFlowRuleManager] Parameter flow rules received: com.alibaba.csp.sentinel.slots.block.RuleManager@c804ce9
+2024-04-03 10:34:56.315 INFO [FlowRuleManager] Flow rules loaded: {}
+2024-04-03 10:34:56.329 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2024-04-03 10:34:56.371 INFO [DegradeRuleManager] Degrade rules loaded: com.alibaba.csp.sentinel.slots.block.RuleManager@1affc2c
+2024-04-03 10:34:56.431 INFO [DefaultCircuitBreakerRuleManager] Default circuit breaker rules loaded: []
+2024-04-03 10:34:56.440 WARNING No SPI configuration file, filename=META-INF/services/com.alibaba.csp.sentinel.metric.extension.MetricExtension, classloader=org.springframework.boot.loader.LaunchedURLClassLoader@31221be2
+2024-04-03 10:34:56.447 INFO [MetricExtensionProvider] No existing MetricExtension found
+2024-04-03 10:34:57.415 INFO [MetricWriter] Removing metric file: /root/logs/csp/sentinel-dashboard-metrics.log.2024-04-02
+2024-04-03 10:34:57.424 INFO [MetricWriter] Removing metric index file: /root/logs/csp/sentinel-dashboard-metrics.log.2024-04-02.idx
+2024-04-03 10:34:57.425 INFO [MetricWriter] New metric file created: /root/logs/csp/sentinel-dashboard-metrics.log.2024-04-03
+2024-04-03 10:34:57.425 INFO [MetricWriter] New metric index file created: /root/logs/csp/sentinel-dashboard-metrics.log.2024-04-03.idx
+2024-04-03 14:51:45.261 INFO App name resolved from property project.name: sentinel-dashboard
+2024-04-03 14:51:45.272 INFO [SentinelConfig] Application type resolved: 0
+2024-04-03 14:51:45.294 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.init.InitFunc, provider=com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit, aliasName=com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.376 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.init.InitFunc, provider=com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc, aliasName=com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.383 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.init.InitFunc, provider=com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc, aliasName=com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.388 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.init.InitFunc, provider=com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit, aliasName=com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.423 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2024-04-03 14:51:45.434 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2024-04-03 14:51:45.440 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2024-04-03 14:51:45.440 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2024-04-03 14:51:45.482 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.transport.CommandCenter, provider=com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter, aliasName=com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.497 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2024-04-03 14:51:45.542 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.BasicInfoCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.BasicInfoCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.551 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchActiveRuleCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchActiveRuleCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.560 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchClusterNodeByIdCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchClusterNodeByIdCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.567 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchClusterNodeHumanCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchClusterNodeHumanCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.573 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchJsonTreeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchJsonTreeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.583 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchOriginCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchOriginCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.594 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchSimpleClusterNodeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchSimpleClusterNodeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.595 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchSystemStatusCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchSystemStatusCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.600 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchTreeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchTreeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.605 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.ModifyRulesCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.ModifyRulesCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.613 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.OnOffGetCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.OnOffGetCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.615 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.OnOffSetCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.OnOffSetCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.627 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.SendMetricCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.SendMetricCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.633 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.VersionCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.VersionCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.633 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.cluster.FetchClusterModeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.cluster.FetchClusterModeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.668 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.cluster.ModifyClusterModeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.cluster.ModifyClusterModeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.670 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.ApiCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.ApiCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.681 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.GetParamFlowRulesCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.GetParamFlowRulesCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.690 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.ModifyParamFlowRulesCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.ModifyParamFlowRulesCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.710 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.adapter.gateway.common.command.UpdateGatewayApiDefinitionGroupCommandHandler, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.command.UpdateGatewayApiDefinitionGroupCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.722 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.adapter.gateway.common.command.UpdateGatewayRuleCommandHandler, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.command.UpdateGatewayRuleCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.737 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.adapter.gateway.common.command.GetGatewayApiDefinitionGroupCommandHandler, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.command.GetGatewayApiDefinitionGroupCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.738 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.adapter.gateway.common.command.GetGatewayRuleCommandHandler, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.command.GetGatewayRuleCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.769 WARNING No SPI configuration file, filename=META-INF/services/com.alibaba.csp.sentinel.command.CommandHandlerInterceptor, classloader=org.springframework.boot.loader.LaunchedURLClassLoader@31221be2
+2024-04-03 14:51:45.788 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2024-04-03 14:51:45.793 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2024-04-03 14:51:45.823 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.transport.HeartbeatSender, provider=com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender, aliasName=com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender, isSingleton=true, isDefault=false, order=0
+2024-04-03 14:51:45.874 INFO [SimpleHttpHeartbeatSender] Default console address list retrieved: [Endpoint{protocol=HTTP, host='localhost, port=8858}]
+2024-04-03 14:51:45.879 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2024-04-03 14:51:45.887 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2024-04-03 14:51:45.909 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2024-04-03 14:51:45.910 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2024-04-03 14:51:45.920 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2024-04-03 14:51:45.923 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2024-04-03 14:51:51.071 WARNING [SimpleHttpHeartbeatSender] Failed to send heartbeat to Endpoint{protocol=HTTP, host='localhost, port=8858}
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.alibaba.csp.sentinel.transport.heartbeat.client.SimpleHttpClient.request(SimpleHttpClient.java:98)
+	at com.alibaba.csp.sentinel.transport.heartbeat.client.SimpleHttpClient.post(SimpleHttpClient.java:82)
+	at com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender.sendHeartbeat(SimpleHttpHeartbeatSender.java:74)
+	at com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc$1.run(HeartbeatSenderInitFunc.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 14:52:01.105 INFO Add child <sentinel_default_context> to node <machine-root>
+2024-04-03 14:52:01.106 INFO Add child <sentinel_web_servlet_context> to node <machine-root>
+2024-04-03 14:52:01.120 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.SlotChainBuilder, provider=com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder, aliasName=com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder, isSingleton=true, isDefault=true, order=0
+2024-04-03 14:52:01.124 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2024-04-03 14:52:01.125 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.nodeselector.NodeSelectorSlot, aliasName=com.alibaba.csp.sentinel.slots.nodeselector.NodeSelectorSlot, isSingleton=false, isDefault=false, order=-10000
+2024-04-03 14:52:01.126 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.clusterbuilder.ClusterBuilderSlot, aliasName=com.alibaba.csp.sentinel.slots.clusterbuilder.ClusterBuilderSlot, isSingleton=false, isDefault=false, order=-9000
+2024-04-03 14:52:01.126 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.logger.LogSlot, aliasName=com.alibaba.csp.sentinel.slots.logger.LogSlot, isSingleton=true, isDefault=false, order=-8000
+2024-04-03 14:52:01.126 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.statistic.StatisticSlot, aliasName=com.alibaba.csp.sentinel.slots.statistic.StatisticSlot, isSingleton=true, isDefault=false, order=-7000
+2024-04-03 14:52:01.126 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.authority.AuthoritySlot, aliasName=com.alibaba.csp.sentinel.slots.block.authority.AuthoritySlot, isSingleton=true, isDefault=false, order=-6000
+2024-04-03 14:52:01.127 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.system.SystemSlot, aliasName=com.alibaba.csp.sentinel.slots.system.SystemSlot, isSingleton=true, isDefault=false, order=-5000
+2024-04-03 14:52:01.137 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.flow.FlowSlot, aliasName=com.alibaba.csp.sentinel.slots.block.flow.FlowSlot, isSingleton=true, isDefault=false, order=-2000
+2024-04-03 14:52:01.138 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.degrade.DegradeSlot, aliasName=com.alibaba.csp.sentinel.slots.block.degrade.DegradeSlot, isSingleton=true, isDefault=false, order=-1000
+2024-04-03 14:52:01.143 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.degrade.DefaultCircuitBreakerSlot, aliasName=com.alibaba.csp.sentinel.slots.block.degrade.DefaultCircuitBreakerSlot, isSingleton=true, isDefault=false, order=-1500
+2024-04-03 14:52:01.144 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowSlot, aliasName=com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowSlot, isSingleton=true, isDefault=false, order=-3000
+2024-04-03 14:52:01.153 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.adapter.gateway.common.slot.GatewayFlowSlot, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.slot.GatewayFlowSlot, isSingleton=true, isDefault=false, order=-4000
+2024-04-03 14:52:01.168 INFO Add child </registry/machine> to node <sentinel_web_servlet_context>
+2024-04-03 14:52:01.182 INFO [AuthorityRuleManager] Authority rules loaded: com.alibaba.csp.sentinel.slots.block.RuleManager@184f53f5
+2024-04-03 14:52:01.206 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2024-04-03 14:52:01.222 INFO [GatewayRuleManager] No gateway rules, clearing parameter metrics of previous rules
+2024-04-03 14:52:01.223 INFO [GatewayRuleManager] Gateway flow rules loaded: {}
+2024-04-03 14:52:01.241 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2024-04-03 14:52:01.242 INFO [ParamFlowRuleManager] Parameter flow rules received: com.alibaba.csp.sentinel.slots.block.RuleManager@37806a3e
+2024-04-03 14:52:01.247 INFO [FlowRuleManager] Flow rules loaded: {}
+2024-04-03 14:52:01.258 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2024-04-03 14:52:01.274 INFO [DegradeRuleManager] Degrade rules loaded: com.alibaba.csp.sentinel.slots.block.RuleManager@16ed5cb0
+2024-04-03 14:52:01.282 INFO [DefaultCircuitBreakerRuleManager] Default circuit breaker rules loaded: []
+2024-04-03 14:52:01.286 WARNING No SPI configuration file, filename=META-INF/services/com.alibaba.csp.sentinel.metric.extension.MetricExtension, classloader=org.springframework.boot.loader.LaunchedURLClassLoader@31221be2
+2024-04-03 14:52:01.287 INFO [MetricExtensionProvider] No existing MetricExtension found
+2024-04-03 14:52:02.288 INFO [MetricWriter] Removing metric file: /root/logs/csp/sentinel-dashboard-metrics.log.2024-04-02.1
+2024-04-03 14:52:02.291 INFO [MetricWriter] Removing metric index file: /root/logs/csp/sentinel-dashboard-metrics.log.2024-04-02.1.idx
+2024-04-03 14:52:02.292 INFO [MetricWriter] New metric file created: /root/logs/csp/sentinel-dashboard-metrics.log.2024-04-03.1
+2024-04-03 14:52:02.293 INFO [MetricWriter] New metric index file created: /root/logs/csp/sentinel-dashboard-metrics.log.2024-04-03.1.idx
+2024-04-03 18:50:00.662 INFO App name resolved from property project.name: sentinel-dashboard
+2024-04-03 18:50:00.666 INFO [SentinelConfig] Application type resolved: 0
+2024-04-03 18:50:00.676 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.init.InitFunc, provider=com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit, aliasName=com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.719 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.init.InitFunc, provider=com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc, aliasName=com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.722 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.init.InitFunc, provider=com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc, aliasName=com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.723 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.init.InitFunc, provider=com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit, aliasName=com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.726 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit
+2024-04-03 18:50:00.727 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc
+2024-04-03 18:50:00.727 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc
+2024-04-03 18:50:00.728 INFO [InitExecutor] Found init func: com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit
+2024-04-03 18:50:00.734 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.transport.CommandCenter, provider=com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter, aliasName=com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.739 INFO [CommandCenterProvider] CommandCenter resolved: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2024-04-03 18:50:00.752 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.BasicInfoCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.BasicInfoCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.757 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchActiveRuleCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchActiveRuleCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.760 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchClusterNodeByIdCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchClusterNodeByIdCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.767 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchClusterNodeHumanCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchClusterNodeHumanCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.769 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchJsonTreeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchJsonTreeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.770 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchOriginCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchOriginCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.771 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchSimpleClusterNodeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchSimpleClusterNodeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.773 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchSystemStatusCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchSystemStatusCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.775 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.FetchTreeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.FetchTreeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.776 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.ModifyRulesCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.ModifyRulesCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.777 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.OnOffGetCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.OnOffGetCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.782 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.OnOffSetCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.OnOffSetCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.784 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.SendMetricCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.SendMetricCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.793 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.VersionCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.VersionCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.794 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.cluster.FetchClusterModeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.cluster.FetchClusterModeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.803 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.cluster.ModifyClusterModeCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.cluster.ModifyClusterModeCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.805 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.ApiCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.ApiCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.809 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.GetParamFlowRulesCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.GetParamFlowRulesCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.810 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.command.handler.ModifyParamFlowRulesCommandHandler, aliasName=com.alibaba.csp.sentinel.command.handler.ModifyParamFlowRulesCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.817 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.adapter.gateway.common.command.UpdateGatewayApiDefinitionGroupCommandHandler, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.command.UpdateGatewayApiDefinitionGroupCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.820 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.adapter.gateway.common.command.UpdateGatewayRuleCommandHandler, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.command.UpdateGatewayRuleCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.822 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.adapter.gateway.common.command.GetGatewayApiDefinitionGroupCommandHandler, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.command.GetGatewayApiDefinitionGroupCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.827 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.command.CommandHandler, provider=com.alibaba.csp.sentinel.adapter.gateway.common.command.GetGatewayRuleCommandHandler, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.command.GetGatewayRuleCommandHandler, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.834 WARNING No SPI configuration file, filename=META-INF/services/com.alibaba.csp.sentinel.command.CommandHandlerInterceptor, classloader=org.springframework.boot.loader.LaunchedURLClassLoader@31221be2
+2024-04-03 18:50:00.845 INFO [CommandCenterInit] Starting command center: com.alibaba.csp.sentinel.transport.command.SimpleHttpCommandCenter
+2024-04-03 18:50:00.846 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.CommandCenterInitFunc with order -1
+2024-04-03 18:50:00.855 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.transport.HeartbeatSender, provider=com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender, aliasName=com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender, isSingleton=true, isDefault=false, order=0
+2024-04-03 18:50:00.866 INFO [SimpleHttpHeartbeatSender] Default console address list retrieved: [Endpoint{protocol=HTTP, host='localhost, port=8858}]
+2024-04-03 18:50:00.868 INFO [HeartbeatSenderProvider] HeartbeatSender activated: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2024-04-03 18:50:00.871 INFO [HeartbeatSenderInit] Heartbeat interval not configured in config property or invalid, using sender default: 10000
+2024-04-03 18:50:00.873 INFO [HeartbeatSenderInit] HeartbeatSender started: com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender
+2024-04-03 18:50:00.873 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc with order -1
+2024-04-03 18:50:00.882 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.metric.extension.MetricCallbackInit with order 2147483647
+2024-04-03 18:50:00.884 INFO [InitExecutor] Executing com.alibaba.csp.sentinel.init.ParamFlowStatisticSlotCallbackInit with order 2147483647
+2024-04-03 18:50:05.904 WARNING [SimpleHttpHeartbeatSender] Failed to send heartbeat to Endpoint{protocol=HTTP, host='localhost, port=8858}
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.alibaba.csp.sentinel.transport.heartbeat.client.SimpleHttpClient.request(SimpleHttpClient.java:98)
+	at com.alibaba.csp.sentinel.transport.heartbeat.client.SimpleHttpClient.post(SimpleHttpClient.java:82)
+	at com.alibaba.csp.sentinel.transport.heartbeat.SimpleHttpHeartbeatSender.sendHeartbeat(SimpleHttpHeartbeatSender.java:74)
+	at com.alibaba.csp.sentinel.transport.init.HeartbeatSenderInitFunc$1.run(HeartbeatSenderInitFunc.java:91)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2024-04-03 18:50:09.376 INFO Add child <sentinel_default_context> to node <machine-root>
+2024-04-03 18:50:09.378 INFO Add child <sentinel_web_servlet_context> to node <machine-root>
+2024-04-03 18:50:09.386 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.SlotChainBuilder, provider=com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder, aliasName=com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder, isSingleton=true, isDefault=true, order=0
+2024-04-03 18:50:09.388 INFO [SlotChainProvider] Global slot chain builder resolved: com.alibaba.csp.sentinel.slots.DefaultSlotChainBuilder
+2024-04-03 18:50:09.389 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.nodeselector.NodeSelectorSlot, aliasName=com.alibaba.csp.sentinel.slots.nodeselector.NodeSelectorSlot, isSingleton=false, isDefault=false, order=-10000
+2024-04-03 18:50:09.390 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.clusterbuilder.ClusterBuilderSlot, aliasName=com.alibaba.csp.sentinel.slots.clusterbuilder.ClusterBuilderSlot, isSingleton=false, isDefault=false, order=-9000
+2024-04-03 18:50:09.390 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.logger.LogSlot, aliasName=com.alibaba.csp.sentinel.slots.logger.LogSlot, isSingleton=true, isDefault=false, order=-8000
+2024-04-03 18:50:09.391 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.statistic.StatisticSlot, aliasName=com.alibaba.csp.sentinel.slots.statistic.StatisticSlot, isSingleton=true, isDefault=false, order=-7000
+2024-04-03 18:50:09.393 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.authority.AuthoritySlot, aliasName=com.alibaba.csp.sentinel.slots.block.authority.AuthoritySlot, isSingleton=true, isDefault=false, order=-6000
+2024-04-03 18:50:09.394 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.system.SystemSlot, aliasName=com.alibaba.csp.sentinel.slots.system.SystemSlot, isSingleton=true, isDefault=false, order=-5000
+2024-04-03 18:50:09.395 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.flow.FlowSlot, aliasName=com.alibaba.csp.sentinel.slots.block.flow.FlowSlot, isSingleton=true, isDefault=false, order=-2000
+2024-04-03 18:50:09.396 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.degrade.DegradeSlot, aliasName=com.alibaba.csp.sentinel.slots.block.degrade.DegradeSlot, isSingleton=true, isDefault=false, order=-1000
+2024-04-03 18:50:09.397 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.degrade.DefaultCircuitBreakerSlot, aliasName=com.alibaba.csp.sentinel.slots.block.degrade.DefaultCircuitBreakerSlot, isSingleton=true, isDefault=false, order=-1500
+2024-04-03 18:50:09.399 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowSlot, aliasName=com.alibaba.csp.sentinel.slots.block.flow.param.ParamFlowSlot, isSingleton=true, isDefault=false, order=-3000
+2024-04-03 18:50:09.400 INFO [SpiLoader] Found SPI implementation for SPI com.alibaba.csp.sentinel.slotchain.ProcessorSlot, provider=com.alibaba.csp.sentinel.adapter.gateway.common.slot.GatewayFlowSlot, aliasName=com.alibaba.csp.sentinel.adapter.gateway.common.slot.GatewayFlowSlot, isSingleton=true, isDefault=false, order=-4000
+2024-04-03 18:50:09.404 INFO Add child </> to node <sentinel_web_servlet_context>
+2024-04-03 18:50:09.409 INFO [AuthorityRuleManager] Authority rules loaded: com.alibaba.csp.sentinel.slots.block.RuleManager@3e10d4ec
+2024-04-03 18:50:09.416 INFO [SystemRuleManager] Current system check status: false, highestSystemLoad: 1.797693e+308, highestCpuUsage: 1.797693e+308, maxRt: 9223372036854775807, maxThread: 9223372036854775807, maxQps: 1.797693e+308
+2024-04-03 18:50:09.421 INFO [GatewayRuleManager] No gateway rules, clearing parameter metrics of previous rules
+2024-04-03 18:50:09.421 INFO [GatewayRuleManager] Gateway flow rules loaded: {}
+2024-04-03 18:50:09.423 INFO [ParamFlowRuleManager] No parameter flow rules, clearing all parameter metrics
+2024-04-03 18:50:09.423 INFO [ParamFlowRuleManager] Parameter flow rules received: com.alibaba.csp.sentinel.slots.block.RuleManager@406ce10b
+2024-04-03 18:50:09.425 INFO [FlowRuleManager] Flow rules loaded: {}
+2024-04-03 18:50:09.429 INFO [MetricWriter] Creating new MetricWriter, singleFileSize=52428800, totalFileCount=6
+2024-04-03 18:50:09.436 INFO [DegradeRuleManager] Degrade rules loaded: com.alibaba.csp.sentinel.slots.block.RuleManager@178ca5ca
+2024-04-03 18:50:09.440 INFO [DefaultCircuitBreakerRuleManager] Default circuit breaker rules loaded: []
+2024-04-03 18:50:09.441 WARNING No SPI configuration file, filename=META-INF/services/com.alibaba.csp.sentinel.metric.extension.MetricExtension, classloader=org.springframework.boot.loader.LaunchedURLClassLoader@31221be2
+2024-04-03 18:50:09.442 INFO [MetricExtensionProvider] No existing MetricExtension found
+2024-04-03 18:50:10.440 INFO [MetricWriter] Removing metric file: /root/logs/csp/sentinel-dashboard-metrics.log.2024-04-02.2
+2024-04-03 18:50:10.441 INFO [MetricWriter] Removing metric index file: /root/logs/csp/sentinel-dashboard-metrics.log.2024-04-02.2.idx
+2024-04-03 18:50:10.443 INFO [MetricWriter] New metric file created: /root/logs/csp/sentinel-dashboard-metrics.log.2024-04-03.2
+2024-04-03 18:50:10.443 INFO [MetricWriter] New metric index file created: /root/logs/csp/sentinel-dashboard-metrics.log.2024-04-03.2.idx
+2024-04-03 18:50:10.821 INFO Add child </highLightTitle.png> to node <sentinel_web_servlet_context>
+2024-04-03 18:50:11.174 INFO Add child </version> to node <sentinel_web_servlet_context>
+2024-04-03 18:50:11.363 INFO Add child </assets/img/sentinel-logo.png> to node <sentinel_web_servlet_context>
+2024-04-03 18:50:12.374 INFO Add child </registry/machine> to node <sentinel_web_servlet_context>
+2024-04-03 18:50:21.176 INFO Add child </auth/login> to node <sentinel_web_servlet_context>
+2024-04-03 18:50:21.283 INFO Add child </app/briefinfos.json> to node <sentinel_web_servlet_context>
+2024-04-03 18:50:26.398 INFO Add child </metric/queryTopResourceMetric.json> to node <sentinel_web_servlet_context>
+2024-04-03 18:50:27.168 INFO Add child </app/nacos-service1/machines.json> to node <sentinel_web_servlet_context>
+2024-04-03 18:50:27.209 INFO Add child </resource/machineResource.json> to node <sentinel_web_servlet_context>
+2024-04-03 18:50:35.175 INFO Add child </v1/flow/rules> to node <sentinel_web_servlet_context>
+2024-04-03 18:53:57.437 INFO Add child </degrade/rules.json> to node <sentinel_web_servlet_context>
+2024-04-03 18:53:58.073 INFO Add child </paramFlow/rules> to node <sentinel_web_servlet_context>

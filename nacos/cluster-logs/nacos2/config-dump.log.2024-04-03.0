@@ -1,0 +1,14 @@
+2024-04-03 19:23:12,981 INFO [dump] add formal task. groupKey=nacos-gateway+DEFAULT_GROUP+a9808f4a-493d-4d64-9f2d-4d0f554fbe87
+
+2024-04-03 19:23:12,987 INFO [dump] process formal task. groupKey=nacos-gateway+DEFAULT_GROUP+a9808f4a-493d-4d64-9f2d-4d0f554fbe87
+
+2024-04-03 19:23:13,263 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-gateway+DEFAULT_GROUP+a9808f4a-493d-4d64-9f2d-4d0f554fbe87, newMd5=f77d4384fcc62eabe82731736dcc0394,oldMd5=
+
+2024-04-03 19:23:13,279 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-gateway+DEFAULT_GROUP+a9808f4a-493d-4d64-9f2d-4d0f554fbe87, newMd5=f77d4384fcc62eabe82731736dcc0394,oldMd5=,lastModifiedTs=1712143393000
+
+2024-04-03 22:52:14,389 INFO [dump] md5 changed, save to disk cache ,groupKey=nacos-gateway+DEFAULT_GROUP+a9808f4a-493d-4d64-9f2d-4d0f554fbe87, newMd5=f77d4384fcc62eabe82731736dcc0394,oldMd5=
+
+2024-04-03 22:52:14,391 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=nacos-gateway+DEFAULT_GROUP+a9808f4a-493d-4d64-9f2d-4d0f554fbe87, newMd5=f77d4384fcc62eabe82731736dcc0394,oldMd5=,lastModifiedTs=1712143393000
+
+2024-04-03 22:52:14,396 INFO [dump-all-ok] nacos-gateway+DEFAULT_GROUP, 1712143393000, length=1238,md5UTF8=f77d4384fcc62eabe82731736dcc0394
+

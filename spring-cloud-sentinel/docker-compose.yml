@@ -1,0 +1,18 @@
+version: "3.0"
+name: "spring-cloud-sentinel"
+
+services:
+  cloud_sentinel:
+    image: bladex/sentinel-dashboard:1.8.7
+    container_name: cloud_sentinel
+    restart: always
+    environment:
+      NACOS_SERVER_ADDR: 192.168.0.103:8848
+      NACOS_USERNAME: nacos
+      NACOS_PASSWORD: nacos
+      NACOS_NAMESPACE: public
+    ports:
+      - "8858:8858"
+    volumes:
+      - ./logs:/root/logs
+      - ./logs:/app-logs

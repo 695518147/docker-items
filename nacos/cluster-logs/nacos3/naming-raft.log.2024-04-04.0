@@ -1,0 +1,280 @@
+2024-04-04 05:05:47,746 INFO Raft group naming_persistent_service has leader null
+
+2024-04-04 05:05:48,443 INFO snapshot load from : /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_2/naming_persistent
+
+2024-04-04 05:05:54,423 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 05:07:27,816 INFO Raft group naming_persistent_service has leader null
+
+2024-04-04 05:07:31,281 INFO snapshot load from : /home/nacos/data/protocol/raft/naming_persistent_service/snapshot/snapshot_2/naming_persistent
+
+2024-04-04 05:07:46,272 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 07:58:36,773 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 08:07:08,667 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 08:08:33,175 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 08:43:11,383 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 08:43:55,322 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 08:44:33,231 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 08:45:54,091 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 08:46:33,996 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 08:48:06,375 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 08:48:51,105 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 08:49:14,247 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 08:49:15,414 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 08:50:04,066 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 08:50:41,186 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 08:53:13,017 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 09:05:15,432 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 09:23:38,389 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 09:23:39,411 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 09:24:48,727 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 09:42:39,780 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 09:42:39,803 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 09:43:40,488 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 09:43:43,711 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 09:58:59,856 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 10:00:11,994 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 10:05:32,080 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 10:05:32,367 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 10:06:38,811 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 10:06:40,164 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 10:22:09,261 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 10:22:09,602 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 10:23:17,070 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 10:38:51,256 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 10:39:29,453 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 10:39:59,043 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 10:55:30,834 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 10:55:31,309 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 10:56:37,497 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 10:56:37,575 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 11:00:01,873 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 11:00:02,156 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 11:01:12,064 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 11:05:55,209 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 11:05:55,499 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 11:06:59,435 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 11:22:21,014 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 11:22:21,042 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 11:23:23,241 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 11:30:59,091 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 11:32:00,161 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 11:47:35,301 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 11:47:35,769 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 12:00:59,380 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 12:02:04,236 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 12:17:39,030 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 12:17:39,275 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 12:18:47,180 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 12:28:15,715 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 12:29:21,335 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 12:45:32,374 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 12:46:23,513 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 12:46:40,918 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 13:01:56,203 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 13:03:02,400 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 13:18:56,205 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 13:20:06,503 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 13:36:40,279 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 13:51:49,997 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 13:52:57,307 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 14:02:58,876 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 14:04:03,845 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 14:04:08,035 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 14:19:52,106 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 14:19:52,127 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 14:20:58,915 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 14:34:14,701 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 14:35:08,228 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 14:35:19,953 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 15:39:49,292 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 15:40:55,560 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 15:56:17,064 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 15:57:21,148 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 15:57:22,565 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 16:04:01,500 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 16:05:08,845 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 16:05:09,683 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 16:20:41,665 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 16:21:25,026 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 16:21:47,377 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 16:33:58,304 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:00:25,412 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:00:25,793 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 20:01:27,091 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 20:01:36,403 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 20:01:36,512 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:01:59,341 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:17:45,814 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:18:21,743 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:18:54,144 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 20:34:21,341 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:34:47,249 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:35:34,697 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 20:36:02,160 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:36:03,296 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:41:18,214 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:42:23,021 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:42:23,531 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:58:29,883 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:58:47,418 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 20:59:35,357 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 21:15:42,085 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 21:16:51,240 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 21:17:09,116 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 21:32:57,590 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 21:32:57,614 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 21:34:03,661 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 21:34:03,726 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 21:49:34,459 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 21:50:46,428 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 22:00:03,034 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 22:00:08,815 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 22:00:27,687 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 22:01:12,326 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 22:17:18,592 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 22:17:18,625 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 22:18:24,679 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 22:34:31,140 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 22:47:15,406 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 22:48:24,266 INFO Raft group naming_persistent_service has leader nacos3:7848
+
+2024-04-04 23:01:05,651 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 23:02:12,470 INFO Raft group naming_persistent_service has leader nacos1:7848
+
+2024-04-04 23:02:12,510 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 23:07:35,294 INFO Raft group naming_persistent_service has leader nacos2:7848
+
+2024-04-04 23:07:35,777 INFO Raft group naming_persistent_service has leader nacos1:7848
+
