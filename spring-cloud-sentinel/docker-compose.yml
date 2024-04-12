@@ -7,7 +7,7 @@ services:
     container_name: cloud_sentinel
     restart: always
     environment:
-      NACOS_SERVER_ADDR: 192.168.0.103:8848
+      NACOS_SERVER_ADDR: 192.168.0.100:8848
       NACOS_USERNAME: nacos
       NACOS_PASSWORD: nacos
       NACOS_NAMESPACE: public

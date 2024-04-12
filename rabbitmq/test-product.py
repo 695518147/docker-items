@@ -1,12 +1,13 @@
-import pika
 from json import loads
+
+import pika
 
 
 class Q:
     USERNAME = 'root'
     PASSWORD = '123123'
     VIRTUAL_HOST = '/'
-    HOST = '192.168.0.103'
+    HOST = '192.168.0.100'
     PORT = 5672
 
 

@@ -1,11 +1,12 @@
-from rediscluster import RedisCluster
 from faker import Faker
+from rediscluster import RedisCluster
+
 #构建所有的节点
 startup_nodes = [
-    {"host":"192.168.0.103", "port":6379},  # 主
-    {"host":"192.168.0.103", "port":6380},  # 6379的从数据库
-    {"host":"192.168.0.103", "port":6381},  # 主
-    {"host":"192.168.0.103", "port":6382},  # 6380的从数据库
+    {"host":"192.168.0.100", "port":6379},  # 主
+    {"host":"192.168.0.100", "port":6380},  # 6379的从数据库
+    {"host":"192.168.0.100", "port":6381},  # 主
+    {"host":"192.168.0.100", "port":6382},  # 6380的从数据库
     {"host":"192.168.0.101", "port":6383},  # 主
     {"host":"192.168.0.102", "port":6384}   # 6381的从数据库
 ]

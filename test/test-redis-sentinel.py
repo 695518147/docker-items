@@ -2,9 +2,9 @@ from faker import Faker
 from redis.sentinel import Sentinel
 
 sentinel_list = [
-			("192.168.0.103", 26379),
-			("192.168.0.103", 26380),
-			("192.168.0.103", 26381)
+			("192.168.0.100", 26379),
+			("192.168.0.100", 26380),
+			("192.168.0.100", 26381)
 		]
 mySentinel = Sentinel(sentinel_list, password="redis_pwd")
 master = mySentinel.master_for("mymaster")

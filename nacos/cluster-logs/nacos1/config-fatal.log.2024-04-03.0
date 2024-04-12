@@ -1,4 +1,4 @@
-2024-04-03 19:12:32,748 WARN [master-db] jdbc:mysql://192.168.0.103:2306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+2024-04-03 19:12:32,748 WARN [master-db] jdbc:mysql://192.168.0.100:2306/nacos_devtest?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
 
 2024-04-03 19:12:40,469 WARN isQuickStart:false
 
@@ -72,5 +72,5 @@ Caused by: java.sql.SQLNonTransientConnectionException: Server shutdown in progr
 	at com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:165)
 	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:185)
 	... 53 common frames omitted
-2024-04-03 19:20:45,413 ERROR [db-error] master db 192.168.0.103 down.
+2024-04-03 19:20:45,413 ERROR [db-error] master db 192.168.0.100 down.
 
