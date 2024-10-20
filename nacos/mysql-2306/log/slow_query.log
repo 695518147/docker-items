@@ -1,0 +1,128 @@
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+# Time: 2024-05-22T02:15:06.645044Z
+# User@Host: nacos[nacos] @  [192.168.65.1]  Id:  2639
+# Query_time: 915.882235  Lock_time: 0.000009 Rows_sent: 1  Rows_examined: 0
+use nacos_devtest;
+SET timestamp=1716343190;
+SELECT count(*) FROM roles  WHERE 1 = 1;
+/usr/sbin/mysqld, Version: 8.3.0 (MySQL Community Server - GPL). started with:
+Tcp port: 2306  Unix socket: /data/mysql.sock
+Time                 Id Command    Argument
+# Time: 2024-05-22T19:43:44.765940Z
+# User@Host: nacos[nacos] @  [192.168.65.1]  Id:  2796
+# Query_time: 221.945470  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+use nacos_devtest;
+SET timestamp=1716406802;
+SELECT 1;
+# Time: 2024-05-22T20:18:05.107832Z
+# User@Host: nacos[nacos] @  [192.168.65.1]  Id:  2987
+# Query_time: 26.525364  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1716409058;
+SET SQL_SELECT_LIMIT=50000;
+# Time: 2024-05-22T20:18:05.174041Z
+# User@Host: nacos[nacos] @  [192.168.65.1]  Id:  2984
+# Query_time: 26.526760  Lock_time: 26.152074 Rows_sent: 1  Rows_examined: 0
+SET timestamp=1716409058;
+SELECT count(*) FROM roles  WHERE 1 = 1;
+# Time: 2024-05-22T20:35:34.713537Z
+# User@Host: nacos[nacos] @  [192.168.65.1]  Id:  2985
+# Query_time: 26.123825  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1716410108;
+SELECT count(*) FROM permissions WHERE  role= 'ROLEALIBABA';
+# Time: 2024-05-22T20:51:54.184254Z
+# User@Host: nacos[nacos] @  [192.168.65.1]  Id:  2985
+# Query_time: 927.518094  Lock_time: 0.000033 Rows_sent: 1  Rows_examined: 0
+SET timestamp=1716410186;
+SELECT count(*) FROM users  WHERE 1 = 1;
+# Time: 2024-05-22T22:34:41.190033Z
+# User@Host: nacos[nacos] @  [192.168.65.1]  Id:  3077
+# Query_time: 926.248791  Lock_time: 0.000012 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1716416354;
+SELECT role,username FROM roles  WHERE 1 = 1  LIMIT 0,2147483647;
+# Time: 2024-05-22T22:34:41.985700Z
+# User@Host: nacos[nacos] @  [192.168.65.1]  Id:  3078
+# Query_time: 926.863639  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1716416355;
+SELECT 1;
+# Time: 2024-05-22T22:34:41.987441Z
+# User@Host: nacos[nacos] @  [192.168.65.1]  Id:  3096
+# Query_time: 926.811901  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 0
+SET timestamp=1716416355;
+SELECT count(*) FROM users  WHERE 1 = 1;
+# Time: 2024-05-23T03:12:35.446632Z
+# User@Host: nacos[nacos] @  [192.168.65.1]  Id:  3524
+# Query_time: 80.882309  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1716433874;
+SET SQL_SELECT_LIMIT=50000;
+# Time: 2024-05-23T04:15:42.797006Z
+# User@Host: nacos[nacos] @  [192.168.65.1]  Id:  3567
+# Query_time: 26.139939  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1716437716;
+SET SQL_SELECT_LIMIT=DEFAULT;
+# Time: 2024-05-23T10:11:01.837015Z
+# User@Host: nacos[nacos] @  [192.168.65.1]  Id:  5332
+# Query_time: 925.975483  Lock_time: 0.000009 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1716458135;
+SELECT role,username FROM roles  WHERE 1 = 1  LIMIT 0,2147483647;

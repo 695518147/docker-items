@@ -1,0 +1,111 @@
+# 描述 Compose 文件的版本信息
+version: "3.8"
+name: cluster-host-7379
+
+# 定义服务，可以多个
+services:
+  redis-7379: # 服务名称
+    image: redis:latest # 创建容器时所需的镜像
+    container_name: redis-7379 # 容器名称
+    restart: "no" # 容器总是重新启动
+    hostname: redis-7379
+    ports:
+      - "7379:6379"
+      - "17379:16379"
+    volumes: # 数据卷，目录挂载
+      - ./container/7379/conf/redis.conf:/etc/redis/redis.conf
+      - redis_data_7379:/data
+      - redis_log_7379:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+  redis-7380:
+    image: redis:latest
+    container_name: redis-7380
+    hostname: redis-7380
+    ports:
+      - "7380:6379"
+      - "17380:16379"
+    volumes:
+      - ./container/etc_rc.local:/etc/rc.local
+      - ./container/7380/conf/redis.conf:/etc/redis/redis.conf
+      - redis_data_7380:/data
+      - redis_log_7380:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+  redis-7381:
+    image: redis:latest
+    container_name: redis-7381
+    hostname: redis-7381
+    ports:
+      - "7381:6379"
+      - "17381:16379"
+    volumes:
+      - ./container/etc_rc.local:/etc/rc.local
+      - ./container/7381/conf/redis.conf:/etc/redis/redis.conf
+      - redis_data_7381:/data
+      - redis_log_7381:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+  redis-7382:
+    image: redis:latest
+    container_name: redis-7382
+    hostname: redis-7382
+    ports:
+      - "7382:6379"
+      - "17382:16379"
+    volumes:
+      - ./container/etc_rc.local:/etc/rc.local
+      - ./container/7382/conf/redis.conf:/etc/redis/redis.conf
+      - redis_data_7382:/data
+      - redis_log_7382:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+  redis-7383:
+    image: redis:latest
+    container_name: redis-7383
+    hostname: redis-7383
+    ports:
+      - "7383:6379"
+      - "17383:16379"
+    volumes:
+      - ./container/etc_rc.local:/etc/rc.local
+      - ./container/7383/conf/redis.conf:/etc/redis/redis.conf
+      - redis_data_7383:/data
+      - redis_log_7383:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+  redis-7384:
+    image: redis:latest
+    container_name: redis-7384
+    hostname: redis-7384
+    ports:
+      - "7384:6379"
+      - "17384:16379"
+    volumes:
+      - ./container/etc_rc.local:/etc/rc.local
+      - ./container/7384/conf/redis.conf:/etc/redis/redis.conf
+      - redis_data_7384:/data
+      - redis_log_7384:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+
+volumes:
+  redis_data_7379:
+  redis_log_7379:
+  redis_data_7380:
+  redis_log_7380:
+  redis_data_7381:
+  redis_log_7381:
+  redis_data_7382:
+  redis_log_7382:
+  redis_data_7383:
+  redis_log_7383:
+  redis_data_7384:
+  redis_log_7384:
+# 使用已经存在的bridge网络，或者也可以手动创建一个 替换上面的172.17.0.1
+# 创建方式：docker network create redis --subnet 172.28.0.0/16
+# 当然也有另一种方式，就是用docker-compose自动创建的网络，不过需要手动进入一个容器运行 cluster 创建命令
+networks:
+  persist:
+    external: true
+    name: bridge

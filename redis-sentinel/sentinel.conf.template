@@ -1,0 +1,14 @@
+port ${PORT}
+# bind 192.168.0.105
+dir "/tmp"
+logfile "/var/redis/log/sentinel.log"
+# 指示 Sentinel 去监视一个名为 mymaster 的主服务器， 这个主服务器的 IP 地址为 172.18.0.2 （docker inspect [containerIP]可以获取） 端口号为 6379
+# 将这个主服务器判断为失效至少需要 2 个 Sentinel 同意 （只要同意 Sentinel 的数量不达标，自动故障迁移就不会执行）
+sentinel monitor mymaster 192.168.0.105 36379 2
+
+sentinel auth-pass mymaster redis_pwd
+sentinel deny-scripts-reconfig yes
+
+protected-mode no
+# 固定哨兵模式对外的 ip
+sentinel announce-ip "192.168.0.105"

@@ -1,0 +1,1232 @@
+2024-05-26 00:04:12,644 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=228, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 00:04:12,678 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=222, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 00:04:12,735 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 00:04:12,785 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 00:04:12,791 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=223, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 00:04:12,808 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 00:04:12,819 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=229, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 00:10:12,952 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=220, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 00:10:12,955 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=224, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 00:10:12,961 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=223, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 00:10:13,070 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 00:10:13,110 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 00:10:13,122 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 00:10:13,166 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 00:10:13,200 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 00:10:13,204 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 00:10:13,209 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 00:10:13,219 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 00:10:13,281 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=230, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 00:10:13,298 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=224, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 00:10:13,309 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=225, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 00:10:13,310 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=221, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:10:55,020 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=230, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:10:55,143 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:10:55,143 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:10:55,224 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:10:55,253 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:10:55,261 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:10:55,261 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:10:55,308 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 01:10:55,309 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=226, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:10:55,313 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:10:55,321 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=225, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:10:55,330 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=222, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:10:55,344 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=231, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:26:55,313 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=222, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:26:55,332 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=226, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:26:55,432 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:26:55,466 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:26:55,499 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 01:26:55,509 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:26:55,519 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=232, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:26:55,522 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:26:55,526 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:26:55,530 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 01:26:55,535 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=227, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:26:55,544 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=226, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:26:55,545 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:26:55,547 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=223, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:43:24,245 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=232, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:43:24,424 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=227, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:43:24,477 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 01:43:24,486 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=224, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:43:24,490 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=224, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:43:24,497 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=233, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:43:24,498 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=227, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:43:24,501 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:43:24,503 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=228, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:43:24,512 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=228, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:59:52,187 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=227, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:59:52,191 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=224, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:59:52,241 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:59:52,275 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:59:52,285 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:59:52,287 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=229, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:59:52,288 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=234, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:59:52,296 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=225, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 01:59:52,297 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 01:59:52,311 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=228, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:00:29,034 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 02:00:38,567 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=226, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:16:15,592 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=235, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:16:15,600 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=235, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:16:15,616 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=229, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:16:15,633 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=229, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:16:15,651 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=230, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:16:15,653 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=227, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:16:15,655 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=227, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:17:01,990 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=227, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:17:02,102 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=229, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:17:02,130 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=230, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:17:02,154 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 02:17:02,178 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=228, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:17:02,183 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 02:17:02,197 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 02:17:02,200 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 02:17:02,203 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=231, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:17:02,206 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=230, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:17:02,211 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=236, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:17:02,215 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 02:33:28,212 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=231, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:33:28,279 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=230, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:33:28,294 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=237, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:33:28,304 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=229, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:33:28,307 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 02:33:28,317 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 02:33:28,328 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 02:33:28,329 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=231, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:33:28,330 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=232, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:49:51,404 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=237, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:49:51,449 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=229, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:49:51,565 ERROR Fail to refresh raft metadata info for group : naming_persistent_service, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:253)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:496)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-26 02:49:51,565 ERROR Fail to refresh raft metadata info for group : naming_persistent_service_v2, error is : {}
+
+java.util.concurrent.TimeoutException: null
+	at com.alipay.sofa.jraft.rpc.impl.FutureImpl.get(FutureImpl.java:214)
+	at com.alipay.sofa.jraft.RouteTable.refreshLeader(RouteTable.java:253)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.refreshRouteTable(JRaftServer.java:496)
+	at com.alibaba.nacos.core.distributed.raft.JRaftServer.lambda$createMultiRaftGroup$1(JRaftServer.java:269)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-26 02:49:51,579 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 02:49:51,597 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 02:49:51,604 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 02:49:51,611 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=233, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:49:51,612 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 02:49:51,614 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 02:49:51,618 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 02:49:51,622 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=230, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 02:49:51,626 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=238, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:06:13,219 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=230, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:06:13,287 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=238, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:06:13,323 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=233, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:06:13,370 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=239, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:06:13,373 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=232, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:06:13,379 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=231, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:06:13,391 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 03:06:13,395 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=234, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:06:13,401 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 03:11:11,881 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 03:11:12,041 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 03:11:12,071 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 03:11:12,090 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 03:11:12,094 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=232, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:11:12,105 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 03:11:12,117 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 03:11:12,121 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=233, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:11:12,123 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=235, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:11:12,123 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 03:11:12,133 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=240, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:11:12,137 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=235, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:27:31,405 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=240, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:27:31,415 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 03:27:31,424 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 03:27:31,424 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 03:27:31,506 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 03:27:31,507 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 03:27:31,515 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=233, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:27:31,517 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=236, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:27:31,517 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 03:27:31,518 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 03:27:31,529 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=241, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:27:31,530 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=234, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:27:31,534 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=236, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:43:49,131 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 03:43:49,137 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=237, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:43:49,144 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=234, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:43:49,145 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 03:43:49,149 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=242, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:43:49,154 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=235, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:43:49,159 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=234, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 03:43:49,172 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 03:43:49,643 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=242, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:00:16,443 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,448 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=242, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:00:16,640 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,643 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,645 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 04:00:16,670 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=243, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:00:16,703 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=236, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:00:16,688 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,702 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,704 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=235, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:00:16,702 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,713 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,719 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,724 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,734 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,762 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,776 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,784 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,793 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,798 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,804 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,811 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,822 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,830 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,837 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,848 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,856 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,863 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,869 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,874 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,879 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,885 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,892 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,903 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,910 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,914 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,919 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,924 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,930 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,936 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,940 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,944 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,949 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,954 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,958 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,964 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,972 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,978 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,981 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,986 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,991 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:16,997 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,005 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,011 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,016 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,020 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,026 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,030 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,039 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,046 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,052 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,058 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,064 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,070 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,076 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,081 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,083 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,089 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,094 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,098 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,105 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,109 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,113 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,120 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,130 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,140 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,148 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,153 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,163 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,168 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,174 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,179 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,187 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,194 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,200 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,206 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,211 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,216 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,222 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,226 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,233 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,237 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,240 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,245 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,248 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,253 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,259 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,264 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,268 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,275 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,279 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,283 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,289 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,294 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,297 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,302 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,305 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,311 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,314 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,320 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,323 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,327 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,330 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,333 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,337 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,340 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,343 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,347 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,350 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,355 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,357 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,360 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,363 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,366 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,369 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,373 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,376 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,379 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,382 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,386 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,388 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,393 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,397 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,400 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,404 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,410 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,414 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,417 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,421 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,424 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,427 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,430 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,433 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,436 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,439 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,443 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,446 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,448 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,451 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,455 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,460 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,463 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,466 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,469 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,472 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,476 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,479 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,482 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,486 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,488 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,492 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,506 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,509 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,512 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,516 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,519 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,522 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,528 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,531 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,533 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,536 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,540 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,544 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,547 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,550 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,553 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:17,887 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:00:21,458 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=238, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:10:38,085 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: null]
+
+2024-05-26 04:10:38,814 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=238, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:10:38,845 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=236, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:10:39,075 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=243, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:10:39,076 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 04:10:39,080 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:10:39,097 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=237, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:10:39,100 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:10:39,101 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=244, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:10:39,123 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=239, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:10:39,131 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=236, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:11:17,668 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:11:17,681 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:11:17,766 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:11:17,782 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=237, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:11:17,818 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=238, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:11:17,854 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=245, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:11:17,861 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=240, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:12:42,785 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=245, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:12:42,844 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=240, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:12:42,848 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=237, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:12:42,863 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:12:42,862 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=238, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:12:42,871 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:12:42,874 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:12:42,892 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 04:12:42,910 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:12:43,062 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=239, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:12:43,065 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=238, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:12:43,067 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=238, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:12:43,149 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=246, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:12:43,149 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=241, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:29:05,263 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=238, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:29:05,427 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=242, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:29:05,493 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=240, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:29:05,497 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=242, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:29:05,504 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=239, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:29:05,566 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=247, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:29:05,576 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=239, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:45:25,687 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=240, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:45:25,738 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=242, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:45:25,777 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=247, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:45:26,068 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 04:45:26,076 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=240, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:45:26,111 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=243, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:45:26,129 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=241, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 04:45:26,131 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 04:45:26,173 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=248, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:12:55,535 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=241, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:12:55,562 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=249, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:12:55,565 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=244, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:12:55,568 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=242, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:12:55,574 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=241, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:11,426 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=241, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:11,541 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=242, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:11,574 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:13:11,602 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:13:11,641 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:13:11,649 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=250, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:11,723 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=243, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:12,101 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:13:16,705 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=245, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:28,783 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:13:28,783 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:13:28,996 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=244, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:29,003 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:13:29,006 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:13:29,012 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=244, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:29,023 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=246, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:29,029 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=242, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:29,039 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=251, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:44,200 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=244, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:44,322 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=251, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:44,331 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=242, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:44,388 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:13:44,401 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:13:44,434 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:13:44,437 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:13:44,651 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=252, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:44,653 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=245, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:44,685 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=243, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:13:45,319 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:13:49,527 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=247, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:16:00,325 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=247, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:16:00,523 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:16:00,613 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=246, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:16:00,638 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=244, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:16:00,640 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=253, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:16:00,645 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 05:16:00,651 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 05:16:00,667 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:16:00,668 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:16:00,689 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=248, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:32:21,934 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=246, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:32:21,994 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=253, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:32:22,050 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=244, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:32:22,201 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=254, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:32:22,266 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=249, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:32:22,549 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=247, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:32:22,552 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=245, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:48:42,442 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=249, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:48:42,713 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=255, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:48:42,732 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=248, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:48:42,749 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=246, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 05:48:42,801 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 05:48:42,865 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=250, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:04:57,967 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=246, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:04:58,073 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=255, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:04:58,644 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 06:04:58,655 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 06:04:58,666 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 06:04:58,679 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 06:04:58,679 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 06:04:58,682 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=249, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:04:58,692 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=256, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:04:58,703 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=251, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:04:58,705 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 06:04:58,707 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=247, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:05:16,864 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=247, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:05:16,958 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=250, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:05:16,958 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 06:05:16,987 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=257, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:05:16,998 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=252, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:05:17,003 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 06:05:17,009 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=248, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:15:39,912 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=250, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:15:39,924 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=248, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:15:39,943 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=257, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:15:40,093 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=253, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:15:40,094 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 06:15:40,094 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=249, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:15:40,129 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 06:15:40,154 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 06:15:40,182 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=251, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:15:40,197 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=258, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:32:00,595 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=249, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:32:00,607 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=253, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:32:00,787 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 06:32:00,864 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=252, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:32:00,872 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=259, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:32:00,884 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=254, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:32:00,889 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=250, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 06:48:15,866 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=250, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:03:44,525 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=254, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:03:44,566 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:03:44,579 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:03:44,615 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=253, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:03:44,643 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=251, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:03:44,645 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=255, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:03:45,878 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:03:49,612 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=260, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:04:08,163 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=255, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:04:08,247 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:04:08,335 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=251, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:04:08,365 ERROR Fail to refresh leader for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 07:04:08,370 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=261, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:04:08,386 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=254, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:04:08,394 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:04:08,414 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=252, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:04:08,425 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=256, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:05:28,431 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=254, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:05:28,453 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=252, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:05:28,579 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:05:28,605 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 07:05:28,608 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:05:28,610 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 07:05:28,639 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:05:28,654 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:05:28,660 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=262, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:05:28,731 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=253, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:05:28,742 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=257, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:05:28,744 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=255, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:15:59,101 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=255, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:15:59,284 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:15:59,284 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:15:59,325 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=262, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:15:59,333 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=258, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:15:59,347 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=254, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:15:59,355 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=256, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:15:59,358 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=263, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:32:14,533 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=256, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:32:14,585 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=254, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:32:14,625 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:32:14,632 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:32:14,670 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=258, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:32:14,672 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:32:14,699 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:32:14,750 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=257, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:32:14,785 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=264, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:32:14,799 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=259, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:32:14,837 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=255, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:48:35,507 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=257, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:48:35,658 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:48:35,692 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 07:48:35,711 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=264, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:48:35,708 ERROR Fail to refresh leader for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 07:48:35,733 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=258, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:48:35,744 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=265, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:48:35,756 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=256, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:48:35,757 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=260, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 07:48:35,759 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:05:01,647 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=260, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:05:01,748 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:05:01,804 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:05:01,810 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=266, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:05:01,817 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=259, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:05:01,820 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=261, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:05:01,832 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=257, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:20:07,352 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=266, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:20:07,422 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:20:07,437 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:20:07,447 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:20:07,464 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:20:07,534 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=258, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:20:07,542 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=267, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:20:07,545 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=262, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:20:07,566 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=260, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:20:33,606 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=258, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:20:33,624 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=262, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:20:33,627 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=260, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:20:33,732 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:20:33,754 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:20:33,845 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 08:20:33,866 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:20:33,875 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=263, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:20:33,884 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=259, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:20:33,984 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=261, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:20:33,991 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=268, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:36:51,128 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=259, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:36:51,233 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=263, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:36:51,362 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:36:51,450 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=264, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:36:51,466 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 08:36:51,466 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:36:51,483 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=269, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:36:51,503 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:36:51,503 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=262, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:36:51,557 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=260, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:53:06,405 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=264, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:53:06,435 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=262, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:53:06,494 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=269, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:53:06,543 ERROR Fail to refresh leader for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 08:53:06,556 ERROR Fail to refresh route configuration for group : naming_instance_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:53:06,568 ERROR Fail to refresh leader for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: Unknown leader, Unknown leader, Unknown leader]
+
+2024-05-26 08:53:06,577 ERROR Fail to refresh route configuration for group : naming_persistent_service_v2, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:53:06,589 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=261, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:53:06,593 ERROR Fail to refresh route configuration for group : naming_service_metadata, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:53:06,606 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=270, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:53:06,608 ERROR Fail to refresh route configuration for group : naming_persistent_service, status is : Status[UNKNOWN<-1>: handleRequest internal error]
+
+2024-05-26 08:53:06,641 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos3:7848', term=263, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:53:06,663 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=265, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:53:22,887 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos1:7848', term=262, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:53:22,926 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=266, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:53:22,930 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=271, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:53:22,934 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=266, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 08:53:22,966 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=264, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:10:11,363 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos1:7848', term=271, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:10:11,441 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos2:7848', term=266, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:10:11,505 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=264, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:10:11,559 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=265, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:10:11,583 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=272, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:10:11,585 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=263, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:10:11,599 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos1:7848', term=267, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:17:46,609 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos2:7848', term=263, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:17:46,652 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos2:7848', term=272, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:17:46,881 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service_v2', leader='nacos3:7848', term=268, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:17:46,928 INFO This Raft event changes : RaftEvent{groupId='naming_instance_metadata', leader='nacos3:7848', term=264, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:17:46,936 INFO This Raft event changes : RaftEvent{groupId='naming_persistent_service', leader='nacos3:7848', term=273, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:17:46,952 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=266, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:19:07,155 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos2:7848', term=266, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+
+2024-05-26 09:19:07,662 INFO This Raft event changes : RaftEvent{groupId='naming_service_metadata', leader='nacos1:7848', term=267, raftClusterInfo=[nacos3:7848, nacos1:7848, nacos2:7848]}
+

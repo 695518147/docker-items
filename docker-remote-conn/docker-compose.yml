@@ -1,0 +1,13 @@
+version: "3.8"
+name: docker-remote-conn
+# 定义服务，可以多个
+services:
+  docker-remote-conn:
+    image: alpine/socat
+    container_name: docker-remote-conn
+    restart: always
+    ports:
+      - 2375:2375
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    command: tcp-listen:2375,fork,reuseaddr unix-connect:/var/run/docker.sock

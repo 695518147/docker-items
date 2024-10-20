@@ -1,0 +1,591 @@
+2024-05-22 00:11:19,569 INFO Client remove for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=13}, 1716305707134_192.168.65.1_30234
+
+2024-05-22 00:11:19,610 INFO Client connection 1716305707134_192.168.65.1_30234 disconnect, remove instances and subscribers
+
+2024-05-22 00:11:20,047 INFO Client connection 1716305703957_192.168.65.1_45786 disconnect, remove instances and subscribers
+
+2024-05-22 00:11:28,259 INFO Client connection 1716307888244_192.168.65.1_62141 connect
+
+2024-05-22 00:11:28,378 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=14}, 1716307888244_192.168.65.1_62141
+
+2024-05-22 00:12:06,090 INFO Client connection 1716307884874_192.168.65.1_38740 disconnect, remove instances and subscribers
+
+2024-05-22 00:12:14,105 INFO Client connection 1716307888244_192.168.65.1_62141 disconnect, remove instances and subscribers
+
+2024-05-22 00:13:31,923 WARN namespace : 557ced9f-2063-474f-8907-c7cc2786d200, [ALIBABAGROUP@@product-one] services are automatically cleaned
+
+2024-05-22 00:18:28,572 INFO Client connection 1716308308561_192.168.65.1_31185 connect
+
+2024-05-22 00:18:31,544 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=0}, 1716308308561_192.168.65.1_31185
+
+2024-05-22 00:18:33,045 INFO Client remove for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=1}, 1716308308561_192.168.65.1_31185
+
+2024-05-22 00:18:33,054 INFO Client connection 1716308308561_192.168.65.1_31185 disconnect, remove instances and subscribers
+
+2024-05-22 00:18:33,456 INFO Client connection 1716308308560_192.168.65.1_16244 disconnect, remove instances and subscribers
+
+2024-05-22 00:18:40,947 INFO Client connection 1716308320937_192.168.65.1_43992 connect
+
+2024-05-22 00:18:41,077 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=2}, 1716308320937_192.168.65.1_43992
+
+2024-05-22 00:20:11,006 INFO Client connection 1716308317723_192.168.65.1_58376 disconnect, remove instances and subscribers
+
+2024-05-22 00:20:11,012 INFO Client connection 1716308320937_192.168.65.1_43992 disconnect, remove instances and subscribers
+
+2024-05-22 00:21:31,937 WARN namespace : 557ced9f-2063-474f-8907-c7cc2786d200, [ALIBABAGROUP@@product-one] services are automatically cleaned
+
+2024-05-22 00:32:44,148 INFO Client connection 1716309164118_192.168.65.1_62759 connect
+
+2024-05-22 00:32:47,081 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=0}, 1716309164118_192.168.65.1_62759
+
+2024-05-22 00:33:38,809 INFO Client connection 1716309164117_192.168.65.1_27509 disconnect, remove instances and subscribers
+
+2024-05-22 00:33:55,859 INFO Client connection 1716309164118_192.168.65.1_62759 disconnect, remove instances and subscribers
+
+2024-05-22 00:34:33,154 INFO Client connection 1716309273133_192.168.65.1_23071 connect
+
+2024-05-22 00:34:33,346 INFO Client connection 1716309273335_192.168.65.1_62949 connect
+
+2024-05-22 00:34:33,477 INFO Client connection 1716309273135_192.168.65.1_34567 disconnect, remove instances and subscribers
+
+2024-05-22 00:34:33,480 INFO Client connection 1716309273133_192.168.65.1_23071 disconnect, remove instances and subscribers
+
+2024-05-22 00:34:33,701 INFO Client remove for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=2}, 1716309273335_192.168.65.1_62949
+
+2024-05-22 00:34:33,727 INFO Client connection 1716309273335_192.168.65.1_62949 disconnect, remove instances and subscribers
+
+2024-05-22 00:34:34,195 INFO Client connection 1716309273334_192.168.65.1_22672 disconnect, remove instances and subscribers
+
+2024-05-22 00:34:41,995 INFO Client connection 1716309281989_192.168.65.1_27400 connect
+
+2024-05-22 00:34:42,122 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=2}, 1716309281989_192.168.65.1_27400
+
+2024-05-22 00:36:31,161 INFO Client connection 1716309281989_192.168.65.1_27400 disconnect, remove instances and subscribers
+
+2024-05-22 00:36:31,165 INFO Client connection 1716309278951_192.168.65.1_41523 disconnect, remove instances and subscribers
+
+2024-05-22 00:37:31,972 WARN namespace : 557ced9f-2063-474f-8907-c7cc2786d200, [ALIBABAGROUP@@product-one] services are automatically cleaned
+
+2024-05-22 00:41:30,613 INFO Client connection 1716309690606_192.168.65.1_37726 connect
+
+2024-05-22 00:41:30,748 INFO Client connection 1716309690731_192.168.65.1_24930 connect
+
+2024-05-22 00:41:30,879 WARN remove instance from non-exist service: Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=0}
+
+2024-05-22 00:41:30,897 WARN remove instance from non-exist service: Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=0}
+
+2024-05-22 00:41:30,897 INFO Client connection 1716309690548_192.168.65.1_45214 disconnect, remove instances and subscribers
+
+2024-05-22 00:41:30,901 INFO Client connection 1716309690606_192.168.65.1_37726 disconnect, remove instances and subscribers
+
+2024-05-22 00:41:30,929 INFO Client connection 1716309690731_192.168.65.1_24930 disconnect, remove instances and subscribers
+
+2024-05-22 00:41:31,427 INFO Client connection 1716309690731_192.168.65.1_64663 disconnect, remove instances and subscribers
+
+2024-05-22 00:41:39,764 INFO Client connection 1716309699756_192.168.65.1_36030 connect
+
+2024-05-22 00:41:39,890 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=0}, 1716309699756_192.168.65.1_36030
+
+2024-05-22 00:43:09,981 INFO Client connection 1716309699756_192.168.65.1_36030 disconnect, remove instances and subscribers
+
+2024-05-22 00:43:17,993 INFO Client connection 1716309696635_192.168.65.1_57029 disconnect, remove instances and subscribers
+
+2024-05-22 00:44:31,971 WARN namespace : 557ced9f-2063-474f-8907-c7cc2786d200, [ALIBABAGROUP@@product-one] services are automatically cleaned
+
+2024-05-22 00:49:29,822 INFO Client connection 1716310169815_192.168.65.1_31680 connect
+
+2024-05-22 00:49:30,181 INFO Client connection 1716310169810_192.168.65.1_50261 disconnect, remove instances and subscribers
+
+2024-05-22 00:49:32,605 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=0}, 1716310169815_192.168.65.1_31680
+
+2024-05-22 00:51:01,804 INFO Client remove for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=1}, 1716310169815_192.168.65.1_31680
+
+2024-05-22 00:51:01,816 INFO Client connection 1716310169815_192.168.65.1_31680 disconnect, remove instances and subscribers
+
+2024-05-22 00:51:02,267 INFO Client connection 1716310170039_192.168.65.1_65409 disconnect, remove instances and subscribers
+
+2024-05-22 00:51:09,945 INFO Client connection 1716310269938_192.168.65.1_52974 connect
+
+2024-05-22 00:51:10,074 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=2}, 1716310269938_192.168.65.1_52974
+
+2024-05-22 00:54:27,971 INFO Client remove for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=3}, 1716310269938_192.168.65.1_52974
+
+2024-05-22 00:54:27,992 INFO Client connection 1716310269938_192.168.65.1_52974 disconnect, remove instances and subscribers
+
+2024-05-22 00:54:28,420 INFO Client connection 1716310266783_192.168.65.1_17309 disconnect, remove instances and subscribers
+
+2024-05-22 00:54:36,456 INFO Client connection 1716310476451_192.168.65.1_32754 connect
+
+2024-05-22 00:54:36,582 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=4}, 1716310476451_192.168.65.1_32754
+
+2024-05-22 00:57:36,335 INFO Client remove for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=5}, 1716310476451_192.168.65.1_32754
+
+2024-05-22 00:57:36,347 INFO Client connection 1716310476451_192.168.65.1_32754 disconnect, remove instances and subscribers
+
+2024-05-22 00:57:36,759 INFO Client connection 1716310473134_192.168.65.1_51177 disconnect, remove instances and subscribers
+
+2024-05-22 00:57:43,913 INFO Client connection 1716310663905_192.168.65.1_45467 connect
+
+2024-05-22 00:57:44,047 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=6}, 1716310663905_192.168.65.1_45467
+
+2024-05-22 01:34:49,886 INFO Client remove for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=7}, 1716310663905_192.168.65.1_45467
+
+2024-05-22 01:34:49,940 INFO Client connection 1716310663905_192.168.65.1_45467 disconnect, remove instances and subscribers
+
+2024-05-22 01:34:50,418 INFO Client connection 1716310660799_192.168.65.1_27548 disconnect, remove instances and subscribers
+
+2024-05-22 01:34:58,492 INFO Client connection 1716312898482_192.168.65.1_40115 connect
+
+2024-05-22 01:34:58,618 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=8}, 1716312898482_192.168.65.1_40115
+
+2024-05-22 01:37:40,145 INFO Client connection 1716312898482_192.168.65.1_40115 disconnect, remove instances and subscribers
+
+2024-05-22 01:37:40,171 INFO Client connection 1716312895406_192.168.65.1_60630 disconnect, remove instances and subscribers
+
+2024-05-22 01:38:42,998 WARN namespace : 557ced9f-2063-474f-8907-c7cc2786d200, [ALIBABAGROUP@@product-one] services are automatically cleaned
+
+2024-05-22 01:41:00,451 INFO Client connection 1716313254434_192.168.65.1_39336 disconnect, remove instances and subscribers
+
+2024-05-22 01:45:14,055 INFO Client connection 1716313475058_192.168.65.1_22221 disconnect, remove instances and subscribers
+
+2024-05-22 01:46:46,714 INFO Client connection 1716313517467_192.168.65.1_59876 disconnect, remove instances and subscribers
+
+2024-05-22 01:58:23,779 INFO Client connection 1716314303771_192.168.65.1_47389 connect
+
+2024-05-22 01:58:23,909 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=0}, 1716314303771_192.168.65.1_47389
+
+2024-05-22 02:02:50,513 INFO Client remove for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=1}, 1716314303771_192.168.65.1_47389
+
+2024-05-22 02:02:50,549 INFO Client connection 1716314303771_192.168.65.1_47389 disconnect, remove instances and subscribers
+
+2024-05-22 02:02:50,949 INFO Client connection 1716314300442_192.168.65.1_50976 disconnect, remove instances and subscribers
+
+2024-05-22 02:02:57,645 INFO Client connection 1716314577634_192.168.65.1_17396 connect
+
+2024-05-22 02:02:57,772 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=2}, 1716314577634_192.168.65.1_17396
+
+2024-05-22 02:10:52,402 INFO Client connection 1716314577634_192.168.65.1_17396 disconnect, remove instances and subscribers
+
+2024-05-22 02:10:52,404 INFO Client connection 1716314574400_192.168.65.1_25680 disconnect, remove instances and subscribers
+
+2024-05-22 02:11:18,979 INFO Client connection 1716315078971_192.168.65.1_48630 connect
+
+2024-05-22 02:11:19,110 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=4}, 1716315078971_192.168.65.1_48630
+
+2024-05-22 02:36:08,327 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 02:36:27,432 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 02:36:27,458 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 02:36:28,350 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 02:36:28,584 INFO Client connection 1716315075801_192.168.65.1_24835 disconnect, remove instances and subscribers
+
+2024-05-22 02:36:29,396 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 02:36:29,478 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848]
+
+2024-05-22 02:36:29,489 INFO Client connection 1716315078971_192.168.65.1_48630 disconnect, remove instances and subscribers
+
+2024-05-22 02:36:29,521 INFO Client connection 1716304068642_172.25.0.5_39020 disconnect, remove instances and subscribers
+
+2024-05-22 02:36:30,149 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=6}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 02:36:32,471 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 02:52:28,295 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 02:52:30,929 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 02:52:41,012 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 02:52:43,002 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 02:52:43,464 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos3:8848]
+
+2024-05-22 02:52:46,939 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 05:14:36,142 INFO Client connection 1716316588166_172.25.0.5_45032 disconnect, remove instances and subscribers
+
+2024-05-22 05:15:14,205 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 05:15:18,517 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 05:15:21,059 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 05:15:21,361 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 05:15:23,396 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 05:15:25,615 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 05:15:28,016 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos3:8848]
+
+2024-05-22 05:15:29,746 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos3:8848], new: [nacos1:8848, nacos3:8848]
+
+2024-05-22 05:15:29,959 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos3:8848], new: [nacos1:8848]
+
+2024-05-22 05:15:41,174 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848], new: [nacos1:8848, nacos3:8848]
+
+2024-05-22 05:15:41,448 INFO Client connection 1716326076239_172.25.0.5_44912 disconnect, remove instances and subscribers
+
+2024-05-22 05:15:41,697 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 05:21:26,585 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 05:21:28,416 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 06:22:25,637 INFO Client connection 1716304069010_172.25.0.4_42884 disconnect, remove instances and subscribers
+
+2024-05-22 06:39:46,732 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 06:39:54,753 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 06:39:55,208 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos3:8848]
+
+2024-05-22 06:39:58,549 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos3:8848], new: [nacos1:8848, nacos3:8848]
+
+2024-05-22 06:40:01,374 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 06:40:03,389 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 08:42:51,604 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 08:42:58,403 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 08:43:00,739 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 08:43:03,284 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 08:43:09,859 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848]
+
+2024-05-22 08:43:10,059 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848], new: [nacos1:8848, nacos2:8848]
+
+2024-05-22 08:43:10,543 INFO Client connection 1716316587923_192.168.65.1_25514 disconnect, remove instances and subscribers
+
+2024-05-22 08:43:10,628 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 08:43:10,790 INFO Client connection 1716338590080_192.168.65.1_23841 disconnect, remove instances and subscribers
+
+2024-05-22 08:43:10,991 INFO Client connection 1716338590868_192.168.65.1_25679 connect
+
+2024-05-22 08:43:11,061 INFO Client connection 1716326140934_172.25.0.5_47374 disconnect, remove instances and subscribers
+
+2024-05-22 08:43:11,484 INFO Client connection 1716330140268_172.25.0.4_34846 disconnect, remove instances and subscribers
+
+2024-05-22 08:43:12,072 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 08:58:38,004 WARN namespace : 557ced9f-2063-474f-8907-c7cc2786d200, [ALIBABAGROUP@@product-one] services are automatically cleaned
+
+2024-05-22 08:58:39,458 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=0}, 1716338590868_192.168.65.1_25679
+
+2024-05-22 09:15:30,254 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 09:15:38,523 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848]
+
+2024-05-22 09:15:41,422 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 09:15:44,411 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 09:15:50,315 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848]
+
+2024-05-22 09:15:51,322 INFO Client connection 1716340551244_192.168.65.1_57914 connect
+
+2024-05-22 09:15:51,634 INFO Client connection 1716338590868_192.168.65.1_25679 disconnect, remove instances and subscribers
+
+2024-05-22 09:15:51,771 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848], new: [nacos1:8848, nacos2:8848]
+
+2024-05-22 09:15:52,429 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 09:15:52,848 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=2}, 1716340551244_192.168.65.1_57914
+
+2024-05-22 10:15:17,813 INFO Client connection 1716338590557_192.168.65.1_18543 disconnect, remove instances and subscribers
+
+2024-05-22 10:15:17,821 INFO Client connection 1716340551244_192.168.65.1_57914 disconnect, remove instances and subscribers
+
+2024-05-22 10:17:07,415 WARN namespace : 557ced9f-2063-474f-8907-c7cc2786d200, [ALIBABAGROUP@@product-one] services are automatically cleaned
+
+2024-05-22 18:44:35,784 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2024-05-22 18:44:36,025 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2024-05-22 18:44:36,171 INFO Client connection 1716338590524_172.25.0.5_34778 disconnect, remove instances and subscribers
+
+2024-05-22 18:44:36,177 INFO Client connection 1716338590401_172.25.0.4_33460 disconnect, remove instances and subscribers
+
+2024-05-22 18:44:37,378 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-22 23:25:19,386 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:25:26,137 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:25:26,137 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:25:26,138 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:25:36,416 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:25:43,051 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:25:43,052 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:25:43,051 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:25:52,973 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:25:59,505 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:25:59,506 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:25:59,509 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:25:59,509 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:26:09,530 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:26:16,304 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:26:16,305 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:26:27,480 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:26:35,372 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:26:35,372 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:26:53,167 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:27:00,899 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:27:00,899 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:27:14,130 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:27:20,968 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:27:20,968 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:27:20,972 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:27:38,575 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:27:45,999 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:27:45,999 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:27:46,001 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:27:57,068 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:28:03,813 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:28:03,813 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:28:03,813 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:28:03,813 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:28:18,134 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:28:26,420 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:28:26,421 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:28:26,420 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:28:43,075 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:28:50,698 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:28:50,698 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:28:50,698 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-22 23:29:26,839 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:29:43,568 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-05-22 23:29:43,568 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-05-22 23:29:43,570 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-05-22 23:29:43,570 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-05-22 23:29:44,830 INFO Load instance extension handler []
+
+2024-05-22 23:29:53,850 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:29:54,729 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+

@@ -1,0 +1,203 @@
+1:C 22 Aug 2024 14:05:03.257 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 22 Aug 2024 14:05:03.259 * Redis version=7.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 22 Aug 2024 14:05:03.260 * Configuration loaded
+1:M 22 Aug 2024 14:05:03.262 * monotonic clock: POSIX clock_gettime
+1:M 22 Aug 2024 14:05:03.265 * Running mode=standalone, port=36379.
+1:M 22 Aug 2024 14:05:03.268 * Server initialized
+1:M 22 Aug 2024 14:05:03.274 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+1:M 22 Aug 2024 14:05:03.283 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 22 Aug 2024 14:05:03.283 * Ready to accept connections tcp
+1:M 22 Aug 2024 14:05:03.607 - Accepted 172.26.0.3:37984
+1:M 22 Aug 2024 14:05:03.615 - Accepted 172.26.0.4:48214
+1:M 22 Aug 2024 14:05:03.618 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 22 Aug 2024 14:05:03.619 * Full resync requested by replica 192.168.0.105:36381
+1:M 22 Aug 2024 14:05:03.620 * Replication backlog created, my new replication IDs are 'ee8d9ecb4d277bed41d9e0fe9a7c06b5459da92a' and '0000000000000000000000000000000000000000'
+1:M 22 Aug 2024 14:05:03.622 * Delay next BGSAVE for diskless SYNC
+1:M 22 Aug 2024 14:05:03.627 * Replica 192.168.0.105:36380 asks for synchronization
+1:M 22 Aug 2024 14:05:03.628 * Full resync requested by replica 192.168.0.105:36380
+1:M 22 Aug 2024 14:05:03.628 * Delay next BGSAVE for diskless SYNC
+1:M 22 Aug 2024 14:05:08.512 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 22 Aug 2024 14:05:08.514 * Background RDB transfer started by pid 11
+11:C 22 Aug 2024 14:05:08.515 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 22 Aug 2024 14:05:08.517 * Diskless rdb transfer, done reading from pipe, 2 replicas still up.
+1:M 22 Aug 2024 14:05:08.532 * Background RDB transfer terminated with success
+1:M 22 Aug 2024 14:05:08.533 * Streamed RDB transfer with replica 192.168.0.105:36381 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 22 Aug 2024 14:05:08.534 * Synchronization with replica 192.168.0.105:36381 succeeded
+1:M 22 Aug 2024 14:05:08.535 * Streamed RDB transfer with replica 192.168.0.105:36380 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 22 Aug 2024 14:05:08.537 * Synchronization with replica 192.168.0.105:36380 succeeded
+1:M 22 Aug 2024 18:33:16.060 - Client closed connection id=4 addr=172.26.0.4:48214 laddr=172.26.0.2:36379 fd=10 name= age=16092 idle=1131 flags=S db=0 sub=0 psub=0 ssub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=1 omem=20504 tot-mem=42904 events=r cmd=replconf user=default redir=-1 resp=2 lib-name= lib-ver=
+1:M 22 Aug 2024 18:33:16.072 * Connection with replica 192.168.0.105:36380 lost.
+1:M 22 Aug 2024 18:33:16.155 - Accepted 172.26.0.4:47668
+1:M 22 Aug 2024 18:33:16.162 - Client closed connection id=3 addr=172.26.0.3:37984 laddr=172.26.0.2:36379 fd=9 name= age=16093 idle=1132 flags=S db=0 sub=0 psub=0 ssub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=1 omem=20504 tot-mem=42904 events=r cmd=replconf user=default redir=-1 resp=2 lib-name= lib-ver=
+1:M 22 Aug 2024 18:33:16.175 * Connection with replica 192.168.0.105:36381 lost.
+1:M 22 Aug 2024 18:33:16.179 - Accepted 172.26.0.3:40674
+1:M 22 Aug 2024 18:33:16.200 * Replica 192.168.0.105:36380 asks for synchronization
+1:M 22 Aug 2024 18:33:16.204 * Partial resynchronization request from 192.168.0.105:36380 accepted. Sending 0 bytes of backlog starting from offset 20553.
+1:M 22 Aug 2024 18:33:16.219 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 22 Aug 2024 18:33:16.221 * Partial resynchronization request from 192.168.0.105:36381 accepted. Sending 0 bytes of backlog starting from offset 20553.
+1:M 22 Aug 2024 20:13:47.741 - Client closed connection id=6 addr=172.26.0.3:40674 laddr=172.26.0.2:36379 fd=9 name= age=6031 idle=5986 flags=S db=0 sub=0 psub=0 ssub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=1 omem=20504 tot-mem=42904 events=r cmd=replconf user=default redir=-1 resp=2 lib-name= lib-ver=
+1:M 22 Aug 2024 20:13:47.763 * Connection with replica 192.168.0.105:36381 lost.
+1:M 22 Aug 2024 20:13:47.805 - Accepted 172.26.0.3:33362
+1:M 22 Aug 2024 20:13:47.819 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 22 Aug 2024 20:13:47.823 * Partial resynchronization request from 192.168.0.105:36381 accepted. Sending 0 bytes of backlog starting from offset 20595.
+1:M 22 Aug 2024 20:13:47.975 # Disconnecting timedout replica (streaming sync): 192.168.0.105:36380
+1:M 22 Aug 2024 20:13:47.981 * Connection with replica 192.168.0.105:36380 lost.
+1:M 22 Aug 2024 20:13:48.030 - Accepted 172.26.0.4:36300
+1:M 22 Aug 2024 20:13:48.052 * Replica 192.168.0.105:36380 asks for synchronization
+1:M 22 Aug 2024 20:13:48.058 * Partial resynchronization request from 192.168.0.105:36380 accepted. Sending 14 bytes of backlog starting from offset 20595.
+1:M 22 Aug 2024 21:14:49.118 - Client closed connection id=7 addr=172.26.0.3:33362 laddr=172.26.0.2:36379 fd=9 name= age=3662 idle=3607 flags=S db=0 sub=0 psub=0 ssub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=1 omem=20504 tot-mem=42904 events=r cmd=replconf user=default redir=-1 resp=2 lib-name= lib-ver=
+1:M 22 Aug 2024 21:14:49.122 * Connection with replica 192.168.0.105:36381 lost.
+1:M 22 Aug 2024 21:14:49.126 - Accepted 172.26.0.3:37180
+1:M 22 Aug 2024 21:14:49.174 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 22 Aug 2024 21:14:49.177 * Partial resynchronization request from 192.168.0.105:36381 accepted. Sending 0 bytes of backlog starting from offset 20651.
+1:M 22 Aug 2024 21:14:49.385 # Disconnecting timedout replica (streaming sync): 192.168.0.105:36380
+1:M 22 Aug 2024 21:14:49.388 * Connection with replica 192.168.0.105:36380 lost.
+1:M 22 Aug 2024 21:14:49.401 - Accepted 172.26.0.4:33004
+1:M 22 Aug 2024 21:14:49.410 * Replica 192.168.0.105:36380 asks for synchronization
+1:M 22 Aug 2024 21:14:49.413 * Partial resynchronization request from 192.168.0.105:36380 accepted. Sending 0 bytes of backlog starting from offset 20651.
+1:M 22 Aug 2024 22:00:02.621 - Client closed connection id=9 addr=172.26.0.3:37180 laddr=172.26.0.2:36379 fd=9 name= age=2713 idle=2669 flags=S db=0 sub=0 psub=0 ssub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=1 omem=20504 tot-mem=42904 events=r cmd=replconf user=default redir=-1 resp=2 lib-name= lib-ver=
+1:M 22 Aug 2024 22:00:02.624 * Connection with replica 192.168.0.105:36381 lost.
+1:M 22 Aug 2024 22:00:02.626 - Accepted 172.26.0.3:51528
+1:M 22 Aug 2024 22:00:02.633 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 22 Aug 2024 22:00:02.635 * Partial resynchronization request from 192.168.0.105:36381 accepted. Sending 0 bytes of backlog starting from offset 20707.
+1:M 22 Aug 2024 22:15:51.426 # Disconnecting timedout replica (streaming sync): 192.168.0.105:36380
+1:M 22 Aug 2024 22:15:51.461 * Connection with replica 192.168.0.105:36380 lost.
+1:M 22 Aug 2024 22:15:51.472 # Disconnecting timedout replica (streaming sync): 192.168.0.105:36381
+1:M 22 Aug 2024 22:15:51.475 * Connection with replica 192.168.0.105:36381 lost.
+1:M 22 Aug 2024 22:15:51.481 - Accepted 172.26.0.3:46136
+1:M 22 Aug 2024 22:15:51.488 - Accepted 172.26.0.4:42882
+1:M 22 Aug 2024 22:15:51.513 * Replica 192.168.0.105:36380 asks for synchronization
+1:M 22 Aug 2024 22:15:51.515 * Partial resynchronization request from 192.168.0.105:36380 accepted. Sending 0 bytes of backlog starting from offset 20735.
+1:M 22 Aug 2024 22:15:51.530 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 22 Aug 2024 22:15:51.534 * Partial resynchronization request from 192.168.0.105:36381 accepted. Sending 0 bytes of backlog starting from offset 20735.
+1:M 22 Aug 2024 22:55:37.591 # Disconnecting timedout replica (streaming sync): 192.168.0.105:36380
+1:M 22 Aug 2024 22:55:37.605 * Connection with replica 192.168.0.105:36380 lost.
+1:M 22 Aug 2024 22:55:37.716 # Disconnecting timedout replica (streaming sync): 192.168.0.105:36381
+1:M 22 Aug 2024 22:55:38.017 * Connection with replica 192.168.0.105:36381 lost.
+1:M 22 Aug 2024 22:55:38.189 - Accepted 172.26.0.4:41986
+1:M 22 Aug 2024 22:55:38.208 - Accepted 172.26.0.3:49674
+1:M 22 Aug 2024 22:55:38.224 * Replica 192.168.0.105:36380 asks for synchronization
+1:M 22 Aug 2024 22:55:38.230 * Partial resynchronization request from 192.168.0.105:36380 accepted. Sending 0 bytes of backlog starting from offset 20777.
+1:M 22 Aug 2024 22:55:38.258 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 22 Aug 2024 22:55:38.262 * Partial resynchronization request from 192.168.0.105:36381 accepted. Sending 0 bytes of backlog starting from offset 20777.
+1:signal-handler (1724338561) Received SIGTERM scheduling shutdown...
+1:M 22 Aug 2024 22:56:01.660 * User requested shutdown...
+1:M 22 Aug 2024 22:56:01.664 * Waiting for replicas before shutting down.
+1:M 22 Aug 2024 22:56:02.104 - Reading from client: Connection reset by peer
+1:M 22 Aug 2024 22:56:02.136 * Connection with replica 192.168.0.105:36380 lost.
+1:M 22 Aug 2024 22:56:03.221 * 1 of 1 replicas are in sync when shutting down.
+1:M 22 Aug 2024 22:56:03.224 * Calling fsync() on the AOF file.
+1:M 22 Aug 2024 22:56:03.234 * Saving the final RDB snapshot before exiting.
+1:M 22 Aug 2024 22:56:03.338 * DB saved on disk
+1:M 22 Aug 2024 22:56:03.340 # Redis is now ready to exit, bye bye...
+1:C 23 Aug 2024 09:02:05.592 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 23 Aug 2024 09:02:05.593 * Redis version=7.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 23 Aug 2024 09:02:05.598 * Configuration loaded
+1:M 23 Aug 2024 09:02:05.600 * monotonic clock: POSIX clock_gettime
+1:M 23 Aug 2024 09:02:05.603 * Running mode=standalone, port=36379.
+1:M 23 Aug 2024 09:02:05.606 * Server initialized
+1:M 23 Aug 2024 09:02:05.617 * Reading RDB base file on AOF loading...
+1:M 23 Aug 2024 09:02:05.619 * Loading RDB produced by version 7.2.4
+1:M 23 Aug 2024 09:02:05.620 * RDB age 68222 seconds
+1:M 23 Aug 2024 09:02:05.621 * RDB memory usage when created 0.83 Mb
+1:M 23 Aug 2024 09:02:05.622 * RDB is base AOF
+1:M 23 Aug 2024 09:02:05.623 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 23 Aug 2024 09:02:05.624 * DB loaded from base file appendonly.aof.1.base.rdb: 0.008 seconds
+1:M 23 Aug 2024 09:02:05.625 * DB loaded from append only file: 0.011 seconds
+1:M 23 Aug 2024 09:02:05.626 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+1:M 23 Aug 2024 09:02:05.627 * Ready to accept connections tcp
+1:M 23 Aug 2024 09:02:06.861 - Accepted 172.26.0.4:46896
+1:M 23 Aug 2024 09:02:06.871 * Replica 192.168.0.105:36380 asks for synchronization
+1:M 23 Aug 2024 09:02:06.874 * Full resync requested by replica 192.168.0.105:36380
+1:M 23 Aug 2024 09:02:06.875 * Replication backlog created, my new replication IDs are 'e95eea4f504d84a2797c00c95bbe1b9403b61571' and '0000000000000000000000000000000000000000'
+1:M 23 Aug 2024 09:02:06.877 * Delay next BGSAVE for diskless SYNC
+1:M 23 Aug 2024 09:02:06.879 - Accepted 172.26.0.3:42314
+1:M 23 Aug 2024 09:02:06.888 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 23 Aug 2024 09:02:06.890 * Full resync requested by replica 192.168.0.105:36381
+1:M 23 Aug 2024 09:02:06.891 * Delay next BGSAVE for diskless SYNC
+1:M 23 Aug 2024 09:02:11.602 * Starting BGSAVE for SYNC with target: replicas sockets
+1:M 23 Aug 2024 09:02:11.603 * Background RDB transfer started by pid 11
+11:C 23 Aug 2024 09:02:11.604 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 23 Aug 2024 09:02:11.605 * Diskless rdb transfer, done reading from pipe, 2 replicas still up.
+1:M 23 Aug 2024 09:02:11.625 * Background RDB transfer terminated with success
+1:M 23 Aug 2024 09:02:11.628 * Streamed RDB transfer with replica 192.168.0.105:36380 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 23 Aug 2024 09:02:11.629 * Synchronization with replica 192.168.0.105:36380 succeeded
+1:M 23 Aug 2024 09:02:11.630 * Streamed RDB transfer with replica 192.168.0.105:36381 succeeded (socket). Waiting for REPLCONF ACK from replica to enable streaming
+1:M 23 Aug 2024 09:02:11.631 * Synchronization with replica 192.168.0.105:36381 succeeded
+1:M 23 Aug 2024 18:10:48.683 # Disconnecting timedout replica (streaming sync): 192.168.0.105:36380
+1:M 23 Aug 2024 18:10:48.692 * Connection with replica 192.168.0.105:36380 lost.
+1:M 23 Aug 2024 18:10:48.727 # Disconnecting timedout replica (streaming sync): 192.168.0.105:36381
+1:M 23 Aug 2024 18:10:48.736 * Connection with replica 192.168.0.105:36381 lost.
+1:M 23 Aug 2024 18:10:48.884 - Accepted 172.26.0.3:42666
+1:M 23 Aug 2024 18:10:48.888 - Accepted 172.26.0.4:57164
+1:M 23 Aug 2024 18:10:48.952 * Replica 192.168.0.105:36380 asks for synchronization
+1:M 23 Aug 2024 18:10:49.041 * Partial resynchronization request from 192.168.0.105:36380 accepted. Sending 14 bytes of backlog starting from offset 45249.
+1:M 23 Aug 2024 18:10:49.091 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 23 Aug 2024 18:10:49.094 * Partial resynchronization request from 192.168.0.105:36381 accepted. Sending 14 bytes of backlog starting from offset 45249.
+1:M 23 Aug 2024 18:12:49.717 - Client closed connection id=6 addr=172.26.0.3:42666 laddr=172.26.0.2:36379 fd=9 name= age=121 idle=2 flags=S db=0 sub=0 psub=0 ssub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=1 omem=20504 tot-mem=42904 events=r cmd=replconf user=default redir=-1 resp=2 lib-name= lib-ver=
+1:M 23 Aug 2024 18:12:49.723 * Connection with replica 192.168.0.105:36381 lost.
+1:M 23 Aug 2024 18:12:49.732 - Accepted 172.26.0.3:58180
+1:M 23 Aug 2024 18:12:49.794 - Client closed connection id=7 addr=172.26.0.4:57164 laddr=172.26.0.2:36379 fd=10 name= age=121 idle=2 flags=S db=0 sub=0 psub=0 ssub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=1 omem=20504 tot-mem=42904 events=r cmd=replconf user=default redir=-1 resp=2 lib-name= lib-ver=
+1:M 23 Aug 2024 18:12:49.803 * Connection with replica 192.168.0.105:36380 lost.
+1:M 23 Aug 2024 18:12:49.814 - Accepted 172.26.0.4:58242
+1:M 23 Aug 2024 18:12:49.825 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 23 Aug 2024 18:12:49.830 * Partial resynchronization request from 192.168.0.105:36381 accepted. Sending 0 bytes of backlog starting from offset 45291.
+1:M 23 Aug 2024 18:12:49.839 * Replica 192.168.0.105:36380 asks for synchronization
+1:M 23 Aug 2024 18:12:49.842 * Partial resynchronization request from 192.168.0.105:36380 accepted. Sending 0 bytes of backlog starting from offset 45291.
+1:M 23 Aug 2024 18:27:51.745 - Client closed connection id=8 addr=172.26.0.3:58180 laddr=172.26.0.2:36379 fd=9 name= age=902 idle=860 flags=S db=0 sub=0 psub=0 ssub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=1 omem=20504 tot-mem=42904 events=r cmd=replconf user=default redir=-1 resp=2 lib-name= lib-ver=
+1:M 23 Aug 2024 18:27:51.749 * Connection with replica 192.168.0.105:36381 lost.
+1:M 23 Aug 2024 18:27:51.759 - Accepted 172.26.0.3:58474
+1:M 23 Aug 2024 18:27:51.772 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 23 Aug 2024 18:27:51.774 * Partial resynchronization request from 192.168.0.105:36381 accepted. Sending 0 bytes of backlog starting from offset 45333.
+1:M 23 Aug 2024 18:27:52.010 - Client closed connection id=9 addr=172.26.0.4:58242 laddr=172.26.0.2:36379 fd=10 name= age=903 idle=861 flags=S db=0 sub=0 psub=0 ssub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=1 omem=20504 tot-mem=42904 events=r cmd=replconf user=default redir=-1 resp=2 lib-name= lib-ver=
+1:M 23 Aug 2024 18:27:52.012 * Connection with replica 192.168.0.105:36380 lost.
+1:M 23 Aug 2024 18:27:52.015 - Accepted 172.26.0.4:51342
+1:M 23 Aug 2024 18:27:52.032 * Replica 192.168.0.105:36380 asks for synchronization
+1:M 23 Aug 2024 18:27:52.038 * Partial resynchronization request from 192.168.0.105:36380 accepted. Sending 0 bytes of backlog starting from offset 45333.
+1:M 23 Aug 2024 20:10:13.403 # Disconnecting timedout replica (streaming sync): 192.168.0.105:36381
+1:M 23 Aug 2024 20:10:13.745 * Connection with replica 192.168.0.105:36381 lost.
+1:M 23 Aug 2024 20:10:13.922 # Disconnecting timedout replica (streaming sync): 192.168.0.105:36380
+1:M 23 Aug 2024 20:10:13.925 * Connection with replica 192.168.0.105:36380 lost.
+1:M 23 Aug 2024 20:10:13.934 - Accepted 172.26.0.4:52456
+1:M 23 Aug 2024 20:10:13.939 - Accepted 172.26.0.3:43228
+1:M 23 Aug 2024 20:10:13.946 * Replica 192.168.0.105:36380 asks for synchronization
+1:M 23 Aug 2024 20:10:13.947 * Partial resynchronization request from 192.168.0.105:36380 accepted. Sending 0 bytes of backlog starting from offset 45361.
+1:M 23 Aug 2024 20:10:13.963 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 23 Aug 2024 20:10:14.048 * Partial resynchronization request from 192.168.0.105:36381 accepted. Sending 0 bytes of backlog starting from offset 45361.
+1:M 23 Aug 2024 21:11:16.604 - Client closed connection id=13 addr=172.26.0.3:43228 laddr=172.26.0.2:36379 fd=10 name= age=3663 idle=3609 flags=S db=0 sub=0 psub=0 ssub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=1 omem=20504 tot-mem=42904 events=r cmd=replconf user=default redir=-1 resp=2 lib-name= lib-ver=
+1:M 23 Aug 2024 21:11:16.676 * Connection with replica 192.168.0.105:36381 lost.
+1:M 23 Aug 2024 21:11:16.678 - Accepted 172.26.0.3:35886
+1:M 23 Aug 2024 21:11:16.681 - Client closed connection id=12 addr=172.26.0.4:52456 laddr=172.26.0.2:36379 fd=9 name= age=3663 idle=3609 flags=S db=0 sub=0 psub=0 ssub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=1 omem=20504 tot-mem=42904 events=r cmd=replconf user=default redir=-1 resp=2 lib-name= lib-ver=
+1:M 23 Aug 2024 21:11:16.683 * Connection with replica 192.168.0.105:36380 lost.
+1:M 23 Aug 2024 21:11:16.686 - Accepted 172.26.0.4:34778
+1:M 23 Aug 2024 21:11:16.691 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 23 Aug 2024 21:11:16.693 * Partial resynchronization request from 192.168.0.105:36381 accepted. Sending 0 bytes of backlog starting from offset 45403.
+1:M 23 Aug 2024 21:11:16.697 * Replica 192.168.0.105:36380 asks for synchronization
+1:M 23 Aug 2024 21:11:16.701 * Partial resynchronization request from 192.168.0.105:36380 accepted. Sending 0 bytes of backlog starting from offset 45403.
+1:M 23 Aug 2024 22:00:02.303 # Disconnecting timedout replica (streaming sync): 192.168.0.105:36381
+1:M 23 Aug 2024 22:00:02.365 * Connection with replica 192.168.0.105:36381 lost.
+1:M 23 Aug 2024 22:00:02.373 # Disconnecting timedout replica (streaming sync): 192.168.0.105:36380
+1:M 23 Aug 2024 22:00:02.473 * Connection with replica 192.168.0.105:36380 lost.
+1:M 23 Aug 2024 22:00:02.488 - Accepted 172.26.0.4:38054
+1:M 23 Aug 2024 22:00:02.628 - Accepted 172.26.0.3:46956
+1:M 23 Aug 2024 22:00:02.649 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 23 Aug 2024 22:00:02.651 * Partial resynchronization request from 192.168.0.105:36381 accepted. Sending 0 bytes of backlog starting from offset 45459.
+1:M 23 Aug 2024 22:00:02.656 * Replica 192.168.0.105:36380 asks for synchronization
+1:M 23 Aug 2024 22:00:02.659 * Partial resynchronization request from 192.168.0.105:36380 accepted. Sending 0 bytes of backlog starting from offset 45459.
+1:M 23 Aug 2024 22:08:03.389 - Client closed connection id=16 addr=172.26.0.4:38054 laddr=172.26.0.2:36379 fd=9 name= age=481 idle=440 flags=S db=0 sub=0 psub=0 ssub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=1 omem=20504 tot-mem=42904 events=r cmd=replconf user=default redir=-1 resp=2 lib-name= lib-ver=
+1:M 23 Aug 2024 22:08:03.391 * Connection with replica 192.168.0.105:36380 lost.
+1:M 23 Aug 2024 22:08:03.427 - Accepted 172.26.0.4:57460
+1:M 23 Aug 2024 22:08:03.460 * Replica 192.168.0.105:36380 asks for synchronization
+1:M 23 Aug 2024 22:08:03.465 * Partial resynchronization request from 192.168.0.105:36380 accepted. Sending 0 bytes of backlog starting from offset 45501.
+1:M 23 Aug 2024 22:08:03.612 - Client closed connection id=17 addr=172.26.0.3:46956 laddr=172.26.0.2:36379 fd=10 name= age=481 idle=440 flags=S db=0 sub=0 psub=0 ssub=0 multi=-1 qbuf=0 qbuf-free=20474 argv-mem=0 multi-mem=0 rbs=1024 rbp=0 obl=0 oll=1 omem=20504 tot-mem=42904 events=r cmd=replconf user=default redir=-1 resp=2 lib-name= lib-ver=
+1:M 23 Aug 2024 22:08:03.614 * Connection with replica 192.168.0.105:36381 lost.
+1:M 23 Aug 2024 22:08:03.619 - Accepted 172.26.0.3:53488
+1:M 23 Aug 2024 22:08:03.639 * Replica 192.168.0.105:36381 asks for synchronization
+1:M 23 Aug 2024 22:08:03.642 * Partial resynchronization request from 192.168.0.105:36381 accepted. Sending 0 bytes of backlog starting from offset 45501.
+1:signal-handler (1724422149) Received SIGTERM scheduling shutdown...
+1:M 23 Aug 2024 22:09:09.878 * User requested shutdown...
+1:M 23 Aug 2024 22:09:09.881 * 2 of 2 replicas are in sync when shutting down.
+1:M 23 Aug 2024 22:09:09.883 * Calling fsync() on the AOF file.
+1:M 23 Aug 2024 22:09:09.888 * Saving the final RDB snapshot before exiting.
+1:M 23 Aug 2024 22:09:09.906 * DB saved on disk
+1:M 23 Aug 2024 22:09:09.912 # Redis is now ready to exit, bye bye...

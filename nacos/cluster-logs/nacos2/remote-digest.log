@@ -1,0 +1,99 @@
+2024-05-27 14:55:36,577 INFO Connection transportReady,connectionId = 1716792936577_172.25.0.5_56200 
+
+2024-05-27 14:55:37,033 INFO Connection transportTerminated,connectionId = 1716571496073_172.25.0.5_34904 
+
+2024-05-27 14:55:37,063 WARN [1716571496073_172.25.0.5_34904] connection  close bi stream exception  : {}
+
+java.lang.IllegalStateException: call already closed
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at io.grpc.internal.ServerCallImpl.closeInternal(ServerCallImpl.java:212)
+	at io.grpc.internal.ServerCallImpl.close(ServerCallImpl.java:207)
+	at io.grpc.stub.ServerCalls$ServerCallStreamObserverImpl.onCompleted(ServerCalls.java:395)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.closeBiStream(GrpcConnection.java:205)
+	at com.alibaba.nacos.core.remote.grpc.GrpcConnection.close(GrpcConnection.java:190)
+	at com.alibaba.nacos.core.remote.ConnectionManager.unregister(ConnectionManager.java:158)
+	at com.alibaba.nacos.core.remote.grpc.AddressTransportFilter.transportTerminated(AddressTransportFilter.java:77)
+	at io.grpc.internal.ServerImpl$ServerTransportListenerImpl.transportTerminated(ServerImpl.java:456)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.notifyTerminated(NettyServerTransport.java:207)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport.access$100(NettyServerTransport.java:51)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:141)
+	at io.grpc.netty.shaded.io.grpc.netty.NettyServerTransport$1TerminationNotifier.operationComplete(NettyServerTransport.java:134)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:583)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:559)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:625)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:105)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1164)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:755)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.handleWriteError(AbstractChannel.java:950)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.flush0(AbstractChannel.java:933)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.flush0(AbstractEpollChannel.java:557)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannel$AbstractUnsafe.flush(AbstractChannel.java:895)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline$HeadContext.flush(DefaultChannelPipeline.java:1372)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeFlush0(AbstractChannelHandlerContext.java:921)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeFlush(AbstractChannelHandlerContext.java:907)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.flush(AbstractChannelHandlerContext.java:893)
+	at io.grpc.netty.shaded.io.netty.handler.codec.http2.Http2ConnectionHandler.onError(Http2ConnectionHandler.java:656)
+	at io.grpc.netty.shaded.io.grpc.netty.AbstractNettyHandler.exceptionCaught(AbstractNettyHandler.java:99)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at io.grpc.netty.shaded.io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at io.grpc.netty.shaded.io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:728)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:826)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe.epollRdHupReady(AbstractEpollChannel.java:480)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:506)
+	at io.grpc.netty.shaded.io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.grpc.netty.shaded.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.grpc.netty.shaded.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-27 14:55:37,091 INFO [1716571496073_172.25.0.5_34904]client disconnected,clear config listen context
+
+2024-05-27 16:10:48,857 INFO Connection transportReady,connectionId = 1716797448842_172.25.0.5_40898 
+
+2024-05-27 16:10:51,750 INFO Connection transportTerminated,connectionId = 1716797448842_172.25.0.5_40898 
+
+2024-05-27 16:10:52,009 INFO Connection transportReady,connectionId = 1716797452009_172.25.0.5_40906 
+
+2024-05-27 16:10:54,452 INFO Connection transportReady,connectionId = 1716797454451_172.25.0.3_35594 
+
+2024-05-27 16:10:58,153 INFO Connection transportTerminated,connectionId = 1716797454451_172.25.0.3_35594 
+
+2024-05-27 16:10:59,446 INFO Connection transportTerminated,connectionId = 1716797452009_172.25.0.5_40906 
+
+2024-05-27 16:11:04,685 INFO Connection transportReady,connectionId = 1716797464684_172.25.0.5_37336 
+
+2024-05-27 16:11:08,178 INFO [1716792936577_172.25.0.5_56200]client disconnected,clear config listen context
+
+2024-05-27 16:11:08,333 INFO [1716580247474_172.25.0.3_44060]client disconnected,clear config listen context
+
+2024-05-27 16:11:08,367 WARN Ack receive on a outdated request ,connection id=1716580247474_172.25.0.3_44060,requestId=377 
+
+2024-05-27 16:11:08,856 INFO Connection transportTerminated,connectionId = 1716797464684_172.25.0.5_37336 
+
+2024-05-27 16:11:09,534 INFO Connection transportReady,connectionId = 1716797469534_172.25.0.3_42668 
+
+2024-05-27 16:11:09,618 INFO Connection transportReady,connectionId = 1716797469618_172.25.0.5_37348 
+
+2024-05-27 16:11:09,719 INFO Connection transportTerminated,connectionId = 1716580247474_172.25.0.3_44060 
+
+2024-05-27 16:11:09,796 INFO Connection transportTerminated,connectionId = 1716792936577_172.25.0.5_56200 
+
+2024-05-27 16:11:12,314 INFO Connection transportTerminated,connectionId = 1716797469534_172.25.0.3_42668 
+
+2024-05-27 16:11:17,255 INFO Connection transportTerminated,connectionId = 1716797469618_172.25.0.5_37348 
+
+2024-05-27 16:11:17,528 INFO [1716797469618_172.25.0.5_37348]client disconnected,clear config listen context
+
+2024-05-27 16:11:17,548 INFO Connection transportReady,connectionId = 1716797477548_172.25.0.3_39890 
+
+2024-05-27 16:11:17,670 INFO Connection transportReady,connectionId = 1716797477670_172.25.0.5_47672 
+

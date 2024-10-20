@@ -1,0 +1,285 @@
+1:C 22 Aug 2024 14:05:04.262 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 22 Aug 2024 14:05:04.268 * Redis version=7.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 22 Aug 2024 14:05:04.275 * Configuration loaded
+1:S 22 Aug 2024 14:05:04.282 * monotonic clock: POSIX clock_gettime
+1:S 22 Aug 2024 14:05:04.376 * Running mode=standalone, port=36382.
+1:S 22 Aug 2024 14:05:04.474 * Server initialized
+1:S 22 Aug 2024 14:05:04.492 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+1:S 22 Aug 2024 14:05:04.498 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1:S 22 Aug 2024 14:05:04.499 * Ready to accept connections tcp
+1:S 22 Aug 2024 14:05:04.501 * Connecting to MASTER redis-36381:36381
+1:S 22 Aug 2024 14:05:04.510 * MASTER <-> REPLICA sync started
+1:S 22 Aug 2024 14:05:04.512 * Non blocking connect for SYNC fired the event.
+1:S 22 Aug 2024 14:05:04.514 * Master replied to PING, replication can continue...
+1:S 22 Aug 2024 14:05:04.516 * Partial resynchronization not possible (no cached master)
+1:S 22 Aug 2024 14:05:04.518 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+1:S 22 Aug 2024 14:05:05.526 * Connecting to MASTER redis-36381:36381
+1:S 22 Aug 2024 14:05:05.528 * MASTER <-> REPLICA sync started
+1:S 22 Aug 2024 14:05:05.529 * Non blocking connect for SYNC fired the event.
+1:S 22 Aug 2024 14:05:05.531 * Master replied to PING, replication can continue...
+1:S 22 Aug 2024 14:05:05.532 * Partial resynchronization not possible (no cached master)
+1:S 22 Aug 2024 14:05:05.533 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+1:S 22 Aug 2024 14:05:06.543 * Connecting to MASTER redis-36381:36381
+1:S 22 Aug 2024 14:05:06.547 * MASTER <-> REPLICA sync started
+1:S 22 Aug 2024 14:05:06.549 * Non blocking connect for SYNC fired the event.
+1:S 22 Aug 2024 14:05:06.552 * Master replied to PING, replication can continue...
+1:S 22 Aug 2024 14:05:06.554 * Partial resynchronization not possible (no cached master)
+1:S 22 Aug 2024 14:05:06.557 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+1:S 22 Aug 2024 14:05:07.560 * Connecting to MASTER redis-36381:36381
+1:S 22 Aug 2024 14:05:07.562 * MASTER <-> REPLICA sync started
+1:S 22 Aug 2024 14:05:07.563 * Non blocking connect for SYNC fired the event.
+1:S 22 Aug 2024 14:05:07.564 * Master replied to PING, replication can continue...
+1:S 22 Aug 2024 14:05:07.565 * Partial resynchronization not possible (no cached master)
+1:S 22 Aug 2024 14:05:07.566 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+1:S 22 Aug 2024 14:05:08.573 * Connecting to MASTER redis-36381:36381
+1:S 22 Aug 2024 14:05:08.574 * MASTER <-> REPLICA sync started
+1:S 22 Aug 2024 14:05:08.575 * Non blocking connect for SYNC fired the event.
+1:S 22 Aug 2024 14:05:08.576 * Master replied to PING, replication can continue...
+1:S 22 Aug 2024 14:05:08.577 * Partial resynchronization not possible (no cached master)
+1:S 22 Aug 2024 14:05:13.895 * Full resync from master: ee8d9ecb4d277bed41d9e0fe9a7c06b5459da92a:14
+1:S 22 Aug 2024 14:05:13.899 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+1:S 22 Aug 2024 14:05:13.904 * MASTER <-> REPLICA sync: Flushing old data
+1:S 22 Aug 2024 14:05:13.907 * MASTER <-> REPLICA sync: Loading DB in memory
+1:S 22 Aug 2024 14:05:13.914 * Loading RDB produced by version 7.2.4
+1:S 22 Aug 2024 14:05:13.916 * RDB age 0 seconds
+1:S 22 Aug 2024 14:05:13.917 * RDB memory usage when created 0.95 Mb
+1:S 22 Aug 2024 14:05:13.919 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 22 Aug 2024 14:05:13.922 * MASTER <-> REPLICA sync: Finished with success
+1:S 22 Aug 2024 14:05:13.925 * Creating AOF incr file temp-appendonly.aof.incr on background rewrite
+1:S 22 Aug 2024 14:05:13.928 * Background append only file rewriting started by pid 12
+12:C 22 Aug 2024 14:05:13.932 * Successfully created the temporary AOF base file temp-rewriteaof-bg-12.aof
+12:C 22 Aug 2024 14:05:13.933 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+1:S 22 Aug 2024 14:05:13.991 * Background AOF rewrite terminated with success
+1:S 22 Aug 2024 14:05:13.994 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-12.aof into appendonly.aof.2.base.rdb
+1:S 22 Aug 2024 14:05:13.997 * Successfully renamed the temporary AOF incr file temp-appendonly.aof.incr into appendonly.aof.2.incr.aof
+1:S 22 Aug 2024 14:05:14.003 * Removing the history file appendonly.aof.1.incr.aof in the background
+1:S 22 Aug 2024 14:05:14.006 * Removing the history file appendonly.aof.1.base.rdb in the background
+1:S 22 Aug 2024 14:05:14.014 * Background AOF rewrite finished successfully
+1:S 22 Aug 2024 14:05:14.015 - Background AOF rewrite signal handler took 24105us
+1:S 22 Aug 2024 18:33:15.966 # MASTER timeout: no data nor PING received...
+1:S 22 Aug 2024 18:33:15.974 * Connection with master lost.
+1:S 22 Aug 2024 18:33:15.982 * Caching the disconnected master state.
+1:S 22 Aug 2024 18:33:15.986 * Reconnecting to MASTER redis-36381:36381
+1:S 22 Aug 2024 18:33:16.130 * MASTER <-> REPLICA sync started
+1:S 22 Aug 2024 18:33:16.149 * Non blocking connect for SYNC fired the event.
+1:S 22 Aug 2024 18:33:16.201 * Master replied to PING, replication can continue...
+1:S 22 Aug 2024 18:33:16.205 * Trying a partial resynchronization (request ee8d9ecb4d277bed41d9e0fe9a7c06b5459da92a:20553).
+1:S 22 Aug 2024 18:33:16.215 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+1:S 22 Aug 2024 18:33:17.194 * Connecting to MASTER redis-36381:36381
+1:S 22 Aug 2024 18:33:17.200 * MASTER <-> REPLICA sync started
+1:S 22 Aug 2024 18:33:17.202 * Non blocking connect for SYNC fired the event.
+1:S 22 Aug 2024 18:33:17.207 * Master replied to PING, replication can continue...
+1:S 22 Aug 2024 18:33:17.213 * Trying a partial resynchronization (request ee8d9ecb4d277bed41d9e0fe9a7c06b5459da92a:20553).
+1:S 22 Aug 2024 18:33:17.223 * Successful partial resynchronization with master.
+1:S 22 Aug 2024 18:33:17.227 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 22 Aug 2024 20:13:47.532 # MASTER timeout: no data nor PING received...
+1:S 22 Aug 2024 20:13:47.569 * Connection with master lost.
+1:S 22 Aug 2024 20:13:47.579 * Caching the disconnected master state.
+1:S 22 Aug 2024 20:13:47.581 * Reconnecting to MASTER redis-36381:36381
+1:S 22 Aug 2024 20:13:47.602 * MASTER <-> REPLICA sync started
+1:S 22 Aug 2024 20:13:47.604 * Non blocking connect for SYNC fired the event.
+1:S 22 Aug 2024 20:13:47.813 * Master replied to PING, replication can continue...
+1:S 22 Aug 2024 20:13:47.816 * Trying a partial resynchronization (request ee8d9ecb4d277bed41d9e0fe9a7c06b5459da92a:20595).
+1:S 22 Aug 2024 20:13:47.820 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+1:S 22 Aug 2024 20:13:48.690 * Connecting to MASTER redis-36381:36381
+1:S 22 Aug 2024 20:13:48.694 * MASTER <-> REPLICA sync started
+1:S 22 Aug 2024 20:13:48.696 * Non blocking connect for SYNC fired the event.
+1:S 22 Aug 2024 20:13:48.700 * Master replied to PING, replication can continue...
+1:S 22 Aug 2024 20:13:48.703 * Trying a partial resynchronization (request ee8d9ecb4d277bed41d9e0fe9a7c06b5459da92a:20595).
+1:S 22 Aug 2024 20:13:48.707 * Successful partial resynchronization with master.
+1:S 22 Aug 2024 20:13:48.711 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 22 Aug 2024 21:14:48.289 # MASTER timeout: no data nor PING received...
+1:S 22 Aug 2024 21:14:49.108 * Connection with master lost.
+1:S 22 Aug 2024 21:14:49.112 * Caching the disconnected master state.
+1:S 22 Aug 2024 21:14:49.116 * Reconnecting to MASTER redis-36381:36381
+1:S 22 Aug 2024 21:14:49.122 * MASTER <-> REPLICA sync started
+1:S 22 Aug 2024 21:14:49.126 * Non blocking connect for SYNC fired the event.
+1:S 22 Aug 2024 21:14:49.186 * Master replied to PING, replication can continue...
+1:S 22 Aug 2024 21:14:49.195 * Trying a partial resynchronization (request ee8d9ecb4d277bed41d9e0fe9a7c06b5459da92a:20651).
+1:S 22 Aug 2024 21:14:49.200 * Successful partial resynchronization with master.
+1:S 22 Aug 2024 21:14:49.202 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 22 Aug 2024 22:15:51.426 # MASTER timeout: no data nor PING received...
+1:S 22 Aug 2024 22:15:51.456 * Connection with master lost.
+1:S 22 Aug 2024 22:15:51.468 * Caching the disconnected master state.
+1:S 22 Aug 2024 22:15:51.473 * Reconnecting to MASTER redis-36381:36381
+1:S 22 Aug 2024 22:15:51.490 * MASTER <-> REPLICA sync started
+1:S 22 Aug 2024 22:15:51.495 * Non blocking connect for SYNC fired the event.
+1:S 22 Aug 2024 22:15:51.522 * Master replied to PING, replication can continue...
+1:S 22 Aug 2024 22:15:51.526 * Trying a partial resynchronization (request ee8d9ecb4d277bed41d9e0fe9a7c06b5459da92a:20735).
+1:S 22 Aug 2024 22:15:51.760 * Successful partial resynchronization with master.
+1:S 22 Aug 2024 22:15:51.768 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 22 Aug 2024 22:55:36.511 # MASTER timeout: no data nor PING received...
+1:S 22 Aug 2024 22:55:37.687 * Connection with master lost.
+1:S 22 Aug 2024 22:55:38.003 * Caching the disconnected master state.
+1:S 22 Aug 2024 22:55:38.006 * Reconnecting to MASTER redis-36381:36381
+1:S 22 Aug 2024 22:55:38.014 * MASTER <-> REPLICA sync started
+1:S 22 Aug 2024 22:55:38.017 * Non blocking connect for SYNC fired the event.
+1:S 22 Aug 2024 22:55:38.255 * Master replied to PING, replication can continue...
+1:S 22 Aug 2024 22:55:38.259 * Trying a partial resynchronization (request ee8d9ecb4d277bed41d9e0fe9a7c06b5459da92a:20777).
+1:S 22 Aug 2024 22:55:38.500 * Successful partial resynchronization with master.
+1:S 22 Aug 2024 22:55:38.547 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:signal-handler (1724338561) Received SIGTERM scheduling shutdown...
+1:S 22 Aug 2024 22:56:02.171 * User requested shutdown...
+1:S 22 Aug 2024 22:56:02.229 * Calling fsync() on the AOF file.
+1:S 22 Aug 2024 22:56:02.659 * Saving the final RDB snapshot before exiting.
+1:S 22 Aug 2024 22:56:03.132 * DB saved on disk
+1:S 22 Aug 2024 22:56:03.133 # Redis is now ready to exit, bye bye...
+1:C 23 Aug 2024 09:02:06.939 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 23 Aug 2024 09:02:06.941 * Redis version=7.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 23 Aug 2024 09:02:06.943 * Configuration loaded
+1:S 23 Aug 2024 09:02:06.945 * monotonic clock: POSIX clock_gettime
+1:S 23 Aug 2024 09:02:06.948 * Running mode=standalone, port=36382.
+1:S 23 Aug 2024 09:02:06.950 * Server initialized
+1:S 23 Aug 2024 09:02:06.956 * Reading RDB base file on AOF loading...
+1:S 23 Aug 2024 09:02:06.956 * Loading RDB produced by version 7.2.4
+1:S 23 Aug 2024 09:02:06.957 * RDB age 68213 seconds
+1:S 23 Aug 2024 09:02:06.958 * RDB memory usage when created 0.84 Mb
+1:S 23 Aug 2024 09:02:06.960 * RDB is base AOF
+1:S 23 Aug 2024 09:02:06.969 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 23 Aug 2024 09:02:06.970 * DB loaded from base file appendonly.aof.2.base.rdb: 0.015 seconds
+1:S 23 Aug 2024 09:02:06.971 * DB loaded from append only file: 0.017 seconds
+1:S 23 Aug 2024 09:02:06.972 * Opening AOF incr file appendonly.aof.2.incr.aof on server start
+1:S 23 Aug 2024 09:02:06.973 * Ready to accept connections tcp
+1:S 23 Aug 2024 09:02:07.883 * Connecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 09:02:07.885 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 09:02:07.887 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 09:02:07.888 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 09:02:07.890 * Partial resynchronization not possible (no cached master)
+1:S 23 Aug 2024 09:02:07.891 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+1:S 23 Aug 2024 09:02:08.900 * Connecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 09:02:08.903 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 09:02:08.904 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 09:02:08.906 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 09:02:08.908 * Partial resynchronization not possible (no cached master)
+1:S 23 Aug 2024 09:02:08.909 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+1:S 23 Aug 2024 09:02:09.917 * Connecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 09:02:09.920 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 09:02:09.921 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 09:02:09.923 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 09:02:09.925 * Partial resynchronization not possible (no cached master)
+1:S 23 Aug 2024 09:02:09.927 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+1:S 23 Aug 2024 09:02:10.932 * Connecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 09:02:10.935 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 09:02:10.937 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 09:02:10.938 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 09:02:10.940 * Partial resynchronization not possible (no cached master)
+1:S 23 Aug 2024 09:02:10.941 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+1:S 23 Aug 2024 09:02:11.947 * Connecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 09:02:11.949 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 09:02:11.950 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 09:02:11.952 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 09:02:11.953 * Partial resynchronization not possible (no cached master)
+1:S 23 Aug 2024 09:02:16.004 * Full resync from master: e95eea4f504d84a2797c00c95bbe1b9403b61571:0
+1:S 23 Aug 2024 09:02:16.005 * MASTER <-> REPLICA sync: receiving streamed RDB from master with EOF to disk
+1:S 23 Aug 2024 09:02:16.008 * MASTER <-> REPLICA sync: Flushing old data
+1:S 23 Aug 2024 09:02:16.009 * MASTER <-> REPLICA sync: Loading DB in memory
+1:S 23 Aug 2024 09:02:16.013 * Loading RDB produced by version 7.2.4
+1:S 23 Aug 2024 09:02:16.014 * RDB age 0 seconds
+1:S 23 Aug 2024 09:02:16.016 * RDB memory usage when created 0.90 Mb
+1:S 23 Aug 2024 09:02:16.016 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:S 23 Aug 2024 09:02:16.020 * MASTER <-> REPLICA sync: Finished with success
+1:S 23 Aug 2024 09:02:16.021 * Creating AOF incr file temp-appendonly.aof.incr on background rewrite
+1:S 23 Aug 2024 09:02:16.023 * Background append only file rewriting started by pid 12
+12:C 23 Aug 2024 09:02:16.027 * Successfully created the temporary AOF base file temp-rewriteaof-bg-12.aof
+12:C 23 Aug 2024 09:02:16.029 * Fork CoW for AOF rewrite: current 0 MB, peak 0 MB, average 0 MB
+1:S 23 Aug 2024 09:02:16.093 * Background AOF rewrite terminated with success
+1:S 23 Aug 2024 09:02:16.094 * Successfully renamed the temporary AOF base file temp-rewriteaof-bg-12.aof into appendonly.aof.3.base.rdb
+1:S 23 Aug 2024 09:02:16.096 * Successfully renamed the temporary AOF incr file temp-appendonly.aof.incr into appendonly.aof.3.incr.aof
+1:S 23 Aug 2024 09:02:16.100 * Removing the history file appendonly.aof.2.incr.aof in the background
+1:S 23 Aug 2024 09:02:16.103 * Removing the history file appendonly.aof.2.base.rdb in the background
+1:S 23 Aug 2024 09:02:16.108 * Background AOF rewrite finished successfully
+1:S 23 Aug 2024 09:02:16.109 - Background AOF rewrite signal handler took 16052us
+1:S 23 Aug 2024 18:10:48.887 # MASTER timeout: no data nor PING received...
+1:S 23 Aug 2024 18:10:48.893 * Connection with master lost.
+1:S 23 Aug 2024 18:10:48.896 * Caching the disconnected master state.
+1:S 23 Aug 2024 18:10:48.901 * Reconnecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 18:10:49.041 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 18:10:49.088 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 18:10:49.094 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 18:10:49.112 * Trying a partial resynchronization (request e95eea4f504d84a2797c00c95bbe1b9403b61571:45249).
+1:S 23 Aug 2024 18:10:49.124 * Successful partial resynchronization with master.
+1:S 23 Aug 2024 18:10:49.125 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 23 Aug 2024 18:12:48.835 # MASTER timeout: no data nor PING received...
+1:S 23 Aug 2024 18:12:48.873 * Connection with master lost.
+1:S 23 Aug 2024 18:12:49.036 * Caching the disconnected master state.
+1:S 23 Aug 2024 18:12:49.040 * Reconnecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 18:12:49.045 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 18:12:49.050 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 18:12:49.212 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 18:12:49.219 * Trying a partial resynchronization (request e95eea4f504d84a2797c00c95bbe1b9403b61571:45291).
+1:S 23 Aug 2024 18:12:49.229 * Successful partial resynchronization with master.
+1:S 23 Aug 2024 18:12:49.285 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 23 Aug 2024 18:27:51.602 # MASTER timeout: no data nor PING received...
+1:S 23 Aug 2024 18:27:51.607 * Connection with master lost.
+1:S 23 Aug 2024 18:27:51.613 * Caching the disconnected master state.
+1:S 23 Aug 2024 18:27:51.617 * Reconnecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 18:27:51.633 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 18:27:51.642 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 18:27:51.703 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 18:27:51.712 * Trying a partial resynchronization (request e95eea4f504d84a2797c00c95bbe1b9403b61571:45333).
+1:S 23 Aug 2024 18:27:51.721 * Successful partial resynchronization with master.
+1:S 23 Aug 2024 18:27:51.724 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 23 Aug 2024 20:10:13.436 # MASTER timeout: no data nor PING received...
+1:S 23 Aug 2024 20:10:13.935 * Connection with master lost.
+1:S 23 Aug 2024 20:10:13.956 * Caching the disconnected master state.
+1:S 23 Aug 2024 20:10:13.962 * Reconnecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 20:10:14.017 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 20:10:14.025 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 20:10:14.034 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 20:10:14.041 * Trying a partial resynchronization (request e95eea4f504d84a2797c00c95bbe1b9403b61571:45361).
+1:S 23 Aug 2024 20:10:14.051 * Successful partial resynchronization with master.
+1:S 23 Aug 2024 20:10:14.056 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 23 Aug 2024 21:11:16.428 # MASTER timeout: no data nor PING received...
+1:S 23 Aug 2024 21:11:16.433 * Connection with master lost.
+1:S 23 Aug 2024 21:11:16.436 * Caching the disconnected master state.
+1:S 23 Aug 2024 21:11:16.439 * Reconnecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 21:11:16.444 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 21:11:16.447 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 21:11:16.681 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 21:11:16.688 * Trying a partial resynchronization (request e95eea4f504d84a2797c00c95bbe1b9403b61571:45403).
+1:S 23 Aug 2024 21:11:16.694 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+1:S 23 Aug 2024 21:11:17.477 * Connecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 21:11:17.479 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 21:11:17.481 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 21:11:17.485 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 21:11:17.487 * Trying a partial resynchronization (request e95eea4f504d84a2797c00c95bbe1b9403b61571:45403).
+1:S 23 Aug 2024 21:11:17.490 * Successful partial resynchronization with master.
+1:S 23 Aug 2024 21:11:17.492 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 23 Aug 2024 22:00:02.304 # MASTER timeout: no data nor PING received...
+1:S 23 Aug 2024 22:00:02.480 * Connection with master lost.
+1:S 23 Aug 2024 22:00:02.481 * Caching the disconnected master state.
+1:S 23 Aug 2024 22:00:02.486 * Reconnecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 22:00:02.492 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 22:00:02.493 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 22:00:02.581 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 22:00:02.586 * Trying a partial resynchronization (request e95eea4f504d84a2797c00c95bbe1b9403b61571:45459).
+1:S 23 Aug 2024 22:00:02.598 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+1:S 23 Aug 2024 22:00:03.519 * Connecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 22:00:03.522 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 22:00:03.524 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 22:00:03.526 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 22:00:03.528 * Trying a partial resynchronization (request e95eea4f504d84a2797c00c95bbe1b9403b61571:45459).
+1:S 23 Aug 2024 22:00:03.532 * Successful partial resynchronization with master.
+1:S 23 Aug 2024 22:00:03.534 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:S 23 Aug 2024 22:08:02.715 # MASTER timeout: no data nor PING received...
+1:S 23 Aug 2024 22:08:03.103 * Connection with master lost.
+1:S 23 Aug 2024 22:08:03.385 * Caching the disconnected master state.
+1:S 23 Aug 2024 22:08:03.420 * Reconnecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 22:08:03.436 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 22:08:03.443 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 22:08:03.634 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 22:08:03.636 * Trying a partial resynchronization (request e95eea4f504d84a2797c00c95bbe1b9403b61571:45501).
+1:S 23 Aug 2024 22:08:03.639 * Master is currently unable to PSYNC but should be in the future: -NOMASTERLINK Can't SYNC while not connected with my master
+1:S 23 Aug 2024 22:08:04.514 * Connecting to MASTER redis-36381:36381
+1:S 23 Aug 2024 22:08:04.516 * MASTER <-> REPLICA sync started
+1:S 23 Aug 2024 22:08:04.518 * Non blocking connect for SYNC fired the event.
+1:S 23 Aug 2024 22:08:04.520 * Master replied to PING, replication can continue...
+1:S 23 Aug 2024 22:08:04.523 * Trying a partial resynchronization (request e95eea4f504d84a2797c00c95bbe1b9403b61571:45501).
+1:S 23 Aug 2024 22:08:04.529 * Successful partial resynchronization with master.
+1:S 23 Aug 2024 22:08:04.531 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+1:signal-handler (1724422149) Received SIGTERM scheduling shutdown...
+1:S 23 Aug 2024 22:09:09.891 * User requested shutdown...
+1:S 23 Aug 2024 22:09:09.896 * Calling fsync() on the AOF file.
+1:S 23 Aug 2024 22:09:09.900 * Saving the final RDB snapshot before exiting.
+1:S 23 Aug 2024 22:09:09.948 * DB saved on disk
+1:S 23 Aug 2024 22:09:09.951 # Redis is now ready to exit, bye bye...

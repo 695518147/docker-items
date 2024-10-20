@@ -1,0 +1,117 @@
+# 描述 Compose 文件的版本信息
+version: "3.8"
+name: cluster-manual-6380
+# 定义服务，可以多个
+services:
+  redis-manual-1: # 服务名称
+    image: redis:latest # 创建容器时所需的镜像
+    container_name: redis-manual-1 # 容器名称
+    restart: "no" # 容器总是重新启动
+    networks:
+      redis-manual:
+        ipv4_address: 172.18.0.11
+    ports:
+      - "6381:6379"
+      - "16381:16379"
+    volumes: # 数据卷，目录挂载
+      - ./container/redis-manual-1/conf/redis.conf:/etc/redis/redis.conf
+      - redis_data_6381:/data
+      - redis_logs_6381:/var/redis/log
+    command: redis-server /etc/redis/redis.conf # 覆盖容器启动后默认执行的命令
+
+  redis-manual-2:
+    image: redis:latest
+    container_name: redis-manual-2
+    networks:
+      redis-manual:
+        ipv4_address: 172.18.0.12
+    ports:
+      - "6382:6379"
+      - "16382:16379"
+    volumes:
+      - ./container/redis-manual-2/conf/redis.conf:/etc/redis/redis.conf
+      - redis_data_6382:/data
+      - redis_logs_6382:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+  redis-manual-3:
+    image: redis:latest
+    container_name: redis-manual-3
+    networks:
+      redis-manual:
+        ipv4_address: 172.18.0.13
+    ports:
+      - "6383:6379"
+      - "16383:16379"
+    volumes:
+      - ./container/redis-manual-3/conf/redis.conf:/etc/redis/redis.conf
+      - redis_data_6383:/data
+      - redis_logs_6383:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+  redis-manual-4:
+    image: redis:latest
+    container_name: redis-manual-4
+    networks:
+      redis-manual:
+        ipv4_address: 172.18.0.14
+    ports:
+      - "6384:6379"
+      - "16384:16379"
+    volumes:
+      - ./container/redis-manual-4/conf/redis.conf:/etc/redis/redis.conf
+      - redis_data_6384:/data
+      - redis_logs_6384:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+  redis-manual-5:
+    image: redis:latest
+    container_name: redis-manual-5
+    networks:
+      redis-manual:
+        ipv4_address: 172.18.0.15
+    ports:
+      - "6385:6379"
+      - "16385:16379"
+    volumes:
+      - ./container/redis-manual-5/conf/redis.conf:/etc/redis/redis.conf
+      - redis_data_6385:/data
+      - redis_logs_6385:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+  redis-manual-6:
+    image: redis:latest
+    container_name: redis-manual-6
+    networks:
+      redis-manual:
+        ipv4_address: 172.18.0.16
+    ports:
+      - "6386:6379"
+      - "16386:16379"
+    volumes:
+      - ./container/redis-manual-6/conf/redis.conf:/etc/redis/redis.conf
+      - redis_data_6386:/data
+      - redis_logs_6386:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+
+volumes:
+  redis_data_6381:
+  redis_data_6382:
+  redis_data_6383:
+  redis_data_6384:
+  redis_data_6385:
+  redis_data_6386:
+  redis_logs_6381:
+  redis_logs_6382:
+  redis_logs_6383:
+  redis_logs_6384:
+  redis_logs_6385:
+  redis_logs_6386:
+
+# 自动创建网络，并手动指定IP网段
+networks:
+  redis-manual:
+    ipam:
+      config:
+        - subnet: 172.18.0.0/16

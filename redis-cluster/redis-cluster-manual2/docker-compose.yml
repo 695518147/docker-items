@@ -1,0 +1,123 @@
+# 描述 Compose 文件的版本信息
+name: cluster-manual2-5379
+# 定义服务，可以多个
+services:
+  redis-5379: # 服务名称
+    image: redis:latest # 创建容器时所需的镜像
+    container_name: redis-5379 # 容器名称
+    restart: "no" # 容器总是重新启动
+    networks:
+      redis-manual1:
+        ipv4_address: 172.16.0.4
+    ports:
+      - "5379:6379"
+      - "15379:16379"
+    volumes: # 数据卷，目录挂载
+      - ./container/etc_rc.local:/etc/rc.local
+      - ./container/5379/conf/redis.conf:/etc/redis/redis.conf
+      - redis-data_5379:/data
+      - redis_log_5379:/var/redis/log
+    command: redis-server /etc/redis/redis.conf # 覆盖容器启动后默认执行的命令
+
+  redis-5380:
+    image: redis:latest
+    container_name: redis-5380
+    networks:
+      redis-manual1:
+        ipv4_address: 172.16.0.5
+    ports:
+      - "5380:6379"
+      - "15380:16379"
+    volumes:
+      - ./container/etc_rc.local:/etc/rc.local
+      - ./container/5380/conf/redis.conf:/etc/redis/redis.conf
+      - redis-data_5380:/data
+      - redis_log_5380:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+  redis-5381:
+    image: redis:latest
+    container_name: redis-5381
+    networks:
+      redis-manual1:
+        ipv4_address: 172.16.0.6
+    ports:
+      - "5381:6379"
+      - "15381:16379"
+    volumes:
+      - ./container/etc_rc.local:/etc/rc.local
+      - ./container/5381/conf/redis.conf:/etc/redis/redis.conf
+      - redis-data_5381:/data
+      - redis_log_5381:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+  redis-5382:
+    image: redis:latest
+    container_name: redis-5382
+    networks:
+      redis-manual1:
+        ipv4_address: 172.16.0.7
+    ports:
+      - "5382:6379"
+      - "15382:16379"
+    volumes:
+      - ./container/etc_rc.local:/etc/rc.local
+      - ./container/5382/conf/redis.conf:/etc/redis/redis.conf
+      - redis-data_5382:/data
+      - redis_log_5382:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+  redis-5383:
+    image: redis:latest
+    container_name: redis-5383
+    networks:
+      redis-manual1:
+        ipv4_address: 172.16.0.8
+    ports:
+      - "5383:6379"
+      - "15383:16379"
+    volumes:
+      - ./container/etc_rc.local:/etc/rc.local
+      - ./container/5383/conf/redis.conf:/etc/redis/redis.conf
+      - redis-data_5383:/data
+      - redis_log_5383:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+  redis-5384:
+    image: redis:latest
+    container_name: redis-5384
+    networks:
+      redis-manual1:
+        ipv4_address: 172.16.0.9
+    ports:
+      - "5384:6379"
+      - "15384:16379"
+    volumes:
+      - ./container/etc_rc.local:/etc/rc.local
+      - ./container/5384/conf/redis.conf:/etc/redis/redis.conf
+      - redis-data_5384:/data
+      - redis_log_5384:/var/redis/log
+    command: redis-server /etc/redis/redis.conf
+
+
+volumes:
+  redis-data_5379:
+  redis-data_5380:
+  redis-data_5381:
+  redis-data_5382:
+  redis-data_5383:
+  redis-data_5384:
+  redis_log_5379:
+  redis_log_5380:
+  redis_log_5381:
+  redis_log_5382:
+  redis_log_5383:
+  redis_log_5384:
+
+
+# 自动创建网络，并手动指定IP网段
+networks:
+  redis-manual1:
+    ipam:
+      config:
+        - subnet: 172.16.0.0/16

@@ -1,0 +1,1383 @@
+2024-05-21 00:58:21,480 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 00:58:21,480 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 00:58:21,480 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 00:58:21,480 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 00:58:21,480 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 00:58:21,480 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 00:58:21,480 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 00:58:22,536 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 00:58:22,536 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=46}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 00:58:22,536 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 00:58:22,537 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=20}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 00:58:22,547 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 00:58:22,547 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=47}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 00:58:22,549 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 00:58:22,549 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=48}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 00:58:22,552 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 00:58:22,558 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=49}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 00:58:22,564 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 00:58:22,564 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=21}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 00:58:22,565 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 00:58:22,566 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=12}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 01:17:49,460 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 01:17:49,473 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 01:17:49,474 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 01:17:49,475 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 01:17:49,475 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 01:17:49,475 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 01:17:49,476 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 01:17:50,219 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 01:17:50,219 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 01:17:50,221 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 01:17:50,221 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=54}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 01:17:50,221 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=54}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 01:17:50,221 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 01:17:50,221 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=54}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 01:17:50,223 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=14}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 01:17:50,223 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 01:17:50,223 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=24}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 01:17:50,224 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 01:17:50,224 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=57}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 01:17:50,225 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 01:17:50,226 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=25}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 01:52:42,427 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 01:52:42,433 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 01:52:42,434 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 01:52:42,434 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 01:52:42,434 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 01:52:42,434 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 01:52:42,434 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 01:52:42,738 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 01:52:42,738 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 01:52:42,738 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 01:52:42,740 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=62}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 01:52:42,740 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=62}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 01:52:42,740 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=28}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 01:52:42,740 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 01:52:42,740 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=62}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 01:52:42,743 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 01:52:42,743 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=29}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 01:52:42,744 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 01:52:42,744 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=16}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 01:52:42,747 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 01:52:42,747 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=65}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 01:59:37,720 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 01:59:37,725 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 01:59:37,725 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 01:59:37,725 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 01:59:37,725 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 01:59:37,725 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 01:59:37,725 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 01:59:38,301 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 01:59:38,302 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=70}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 01:59:38,308 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 01:59:38,308 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=71}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 01:59:38,315 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 01:59:38,315 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=32}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 01:59:38,317 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 01:59:38,317 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=72}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 01:59:38,319 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 01:59:38,319 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=18}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 01:59:38,321 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 01:59:38,321 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=73}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 01:59:38,330 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 01:59:38,330 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=33}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 02:16:04,174 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 02:16:04,179 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 02:16:04,179 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 02:16:04,179 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 02:16:04,179 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 02:16:04,179 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 02:16:04,179 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 02:16:04,355 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 02:16:04,357 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=78}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 02:16:04,362 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 02:16:04,363 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=36}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 02:16:04,365 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 02:16:04,365 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=79}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 02:16:04,369 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 02:16:04,370 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=80}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 02:16:04,372 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 02:16:04,372 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=37}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 02:16:04,381 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 02:16:04,381 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=81}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 02:16:04,382 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 02:16:04,382 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=20}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 03:00:58,111 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 03:00:58,114 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 03:00:58,114 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 03:00:58,114 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 03:00:58,114 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 03:00:58,114 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 03:00:58,114 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 03:00:59,103 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 03:00:59,103 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=86}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 03:00:59,104 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 03:00:59,104 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=40}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 03:00:59,104 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 03:00:59,104 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=87}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 03:00:59,113 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 03:00:59,113 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 03:00:59,113 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=41}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 03:00:59,113 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=22}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 03:00:59,123 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 03:00:59,123 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=88}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 03:00:59,125 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 03:00:59,125 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=89}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 03:17:23,412 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 03:17:23,414 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 03:17:23,414 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 03:17:23,414 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 03:17:23,414 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 03:17:23,415 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 03:17:23,415 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 03:17:23,508 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 03:17:23,508 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=94}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 03:17:23,509 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 03:17:23,509 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=95}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 03:17:23,515 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 03:17:23,515 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 03:17:23,515 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=96}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 03:17:23,516 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=44}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 03:17:23,523 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 03:17:23,524 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=45}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 03:17:23,538 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 03:17:23,538 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=97}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 03:17:23,538 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 03:17:23,538 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=24}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 03:33:30,262 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 03:33:30,447 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 03:33:30,455 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 03:33:30,455 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 03:33:30,455 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 03:33:30,455 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 03:33:30,456 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 03:33:31,349 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 03:33:31,350 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=102}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 03:33:31,355 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 03:33:31,358 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=102}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 03:33:31,359 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 03:33:31,359 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=102}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 03:33:31,359 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 03:33:31,359 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=102}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 03:33:31,360 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 03:33:31,360 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=48}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 03:33:31,359 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 03:33:31,361 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=26}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 03:33:31,364 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 03:33:31,364 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=48}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 03:50:18,828 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 03:50:18,829 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 03:50:18,829 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 03:50:18,829 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 03:50:18,829 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 03:50:18,829 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 03:50:18,829 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 03:50:19,096 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 03:50:19,096 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 03:50:19,096 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=52}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 03:50:19,096 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=110}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 03:50:19,096 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 03:50:19,097 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=110}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 03:50:19,099 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 03:50:19,099 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=112}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 03:50:19,100 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 03:50:19,100 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=28}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 03:50:19,101 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 03:50:19,101 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=53}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 03:50:19,103 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 03:50:19,103 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=113}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 04:01:59,637 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 04:01:59,640 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 04:01:59,640 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 04:01:59,640 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 04:01:59,640 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 04:01:59,640 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 04:01:59,640 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 04:01:59,995 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 04:01:59,995 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=118}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 04:02:00,001 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 04:02:00,001 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=119}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 04:02:00,009 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 04:02:00,009 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=120}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 04:02:00,011 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 04:02:00,012 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=30}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 04:02:00,014 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 04:02:00,015 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 04:02:00,015 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=121}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 04:02:00,015 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=56}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 04:02:00,020 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 04:02:00,021 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=57}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 04:18:29,284 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 04:18:29,286 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 04:18:29,286 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 04:18:29,286 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 04:18:29,286 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 04:18:29,286 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 04:18:29,286 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 04:18:29,923 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 04:18:29,923 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=126}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 04:18:29,939 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 04:18:29,939 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=60}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 04:18:29,939 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 04:18:29,939 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=127}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 04:18:29,942 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 04:18:29,942 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=32}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 04:18:29,943 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 04:18:29,943 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=128}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 04:18:29,943 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 04:18:29,944 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=61}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 04:18:29,944 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 04:18:29,946 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=129}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 04:35:35,194 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 04:35:35,195 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 04:35:35,195 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 04:35:35,195 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 04:35:35,195 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 04:35:35,195 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 04:35:35,195 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 04:35:35,470 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 04:35:35,471 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=134}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 04:35:35,471 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 04:35:35,471 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=134}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 04:35:35,481 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 04:35:35,481 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=34}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 04:35:35,493 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 04:35:35,493 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=136}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 04:35:35,494 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 04:35:35,494 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=137}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 04:35:35,496 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 04:35:35,496 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=64}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 04:35:35,503 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 04:35:35,504 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=65}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 05:03:00,443 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 05:03:00,445 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 05:03:00,445 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 05:03:00,445 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 05:03:00,445 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 05:03:00,445 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 05:03:00,446 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 05:03:00,945 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 05:03:00,945 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=142}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 05:03:00,967 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 05:03:00,968 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=68}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 05:03:00,969 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 05:03:00,972 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=69}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 05:03:00,977 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 05:03:00,978 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=143}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 05:03:00,985 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 05:03:00,985 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=36}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 05:03:00,987 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 05:03:00,987 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=144}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 05:03:00,992 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 05:03:00,993 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=145}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 05:52:24,391 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 05:52:24,393 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 05:52:24,393 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 05:52:24,393 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 05:52:24,394 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 05:52:24,394 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 05:52:24,395 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 05:52:24,825 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 05:52:24,826 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=150}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 05:52:24,827 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 05:52:24,827 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=151}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 05:52:24,833 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 05:52:24,833 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=72}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 05:52:24,837 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 05:52:24,837 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=73}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 05:52:24,837 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 05:52:24,838 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=152}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 05:52:24,840 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 05:52:24,841 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=38}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 05:52:24,844 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 05:52:24,844 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=153}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 06:04:06,263 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 06:04:06,267 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 06:04:06,267 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 06:04:06,268 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 06:04:06,268 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 06:04:06,268 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 06:04:06,268 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 06:04:06,580 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 06:04:06,580 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=158}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 06:04:06,601 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 06:04:06,601 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=159}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 06:04:06,601 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 06:04:06,601 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=76}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 06:04:06,604 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 06:04:06,604 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=160}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 06:04:06,609 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 06:04:06,610 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 06:04:06,610 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=77}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 06:04:06,610 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=40}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 06:04:06,614 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 06:04:06,614 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=161}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 06:10:40,385 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 06:10:40,389 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 06:10:40,389 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 06:10:40,389 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 06:10:40,389 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 06:10:40,391 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 06:10:40,391 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 06:10:41,080 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 06:10:41,080 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=166}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 06:10:41,085 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 06:10:41,085 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=80}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 06:10:41,091 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 06:10:41,091 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=81}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 06:10:41,097 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 06:10:41,097 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=167}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 06:10:41,098 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 06:10:41,099 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 06:10:41,099 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=42}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 06:10:41,101 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=168}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 06:10:41,103 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 06:10:41,106 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=169}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 06:27:10,970 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 06:27:10,973 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 06:27:10,973 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 06:27:10,973 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 06:27:10,973 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 06:27:10,973 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 06:27:10,973 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 06:27:11,458 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 06:27:11,458 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=174}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 06:27:11,459 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 06:27:11,459 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=84}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 06:27:11,458 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 06:27:11,459 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=175}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 06:27:11,461 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 06:27:11,463 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=176}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 06:27:11,463 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 06:27:11,464 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=85}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 06:27:11,466 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 06:27:11,466 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=177}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 06:27:11,470 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 06:27:11,471 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=44}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 06:44:36,335 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 06:44:36,336 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 06:44:36,336 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 06:44:36,336 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 06:44:36,336 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 06:44:36,336 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 06:44:36,336 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 06:44:36,715 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 06:44:36,715 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=88}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 06:44:36,718 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 06:44:36,718 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=182}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 06:44:36,717 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 06:44:36,723 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 06:44:36,723 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=183}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 06:44:36,721 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=183}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 06:44:36,725 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 06:44:36,725 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=185}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 06:44:36,726 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 06:44:36,726 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=89}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 06:44:36,732 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 06:44:36,732 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=46}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 07:00:34,300 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 07:00:34,302 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 07:00:34,302 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 07:00:34,302 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 07:00:34,302 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 07:00:34,303 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 07:00:34,303 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 07:00:35,042 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 07:00:35,042 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=190}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 07:00:35,043 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 07:00:35,043 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=92}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 07:00:35,043 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 07:00:35,044 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=48}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 07:00:35,045 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 07:00:35,045 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=191}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 07:00:35,052 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 07:00:35,052 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=93}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 07:00:35,054 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 07:00:35,054 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=192}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 07:00:35,058 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 07:00:35,059 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=193}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 07:05:16,795 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 07:05:16,796 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 07:05:16,796 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 07:05:16,796 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 07:05:16,796 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 07:05:16,797 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 07:05:16,797 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 07:05:17,419 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 07:05:17,419 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=198}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 07:05:17,419 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 07:05:17,419 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=198}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 07:05:17,425 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 07:05:17,425 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=96}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 07:05:17,428 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 07:05:17,428 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=97}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 07:05:17,432 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 07:05:17,432 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 07:05:17,432 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=200}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 07:05:17,432 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=50}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 07:05:17,432 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 07:05:17,432 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=201}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 07:22:10,865 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 07:22:10,866 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 07:22:10,866 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 07:22:10,866 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 07:22:10,866 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 07:22:10,866 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 07:22:10,866 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 07:22:11,067 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 07:22:11,069 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=206}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 07:22:11,076 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 07:22:11,076 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=100}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 07:22:11,078 INFO Client connection 1716210265037_192.168.65.1_47312 connect
+
+2024-05-21 07:22:11,079 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=101}, 1716210265037_192.168.65.1_47312
+
+2024-05-21 07:22:11,079 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 07:22:11,079 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=207}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 07:22:11,083 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 07:22:11,084 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=52}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 07:22:11,086 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 07:22:11,086 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=208}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 07:22:11,095 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 07:22:11,095 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=209}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 07:54:37,822 INFO Client connection 1716210265037_192.168.65.1_47312 disconnect, remove instances and subscribers
+
+2024-05-21 07:54:38,630 INFO Client connection 1716249276825_192.168.65.1_41321 connect
+
+2024-05-21 07:54:38,632 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=103}, 1716249276825_192.168.65.1_41321
+
+2024-05-21 07:54:39,024 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 07:54:39,025 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 07:54:39,025 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 07:54:39,025 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 07:54:39,025 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 07:54:39,025 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 07:54:39,643 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 07:54:39,644 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=214}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 07:54:39,647 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 07:54:39,648 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=215}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 07:54:39,650 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 07:54:39,650 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=105}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 07:54:39,650 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 07:54:39,650 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=216}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 07:54:39,652 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 07:54:39,652 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=54}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 07:54:39,665 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 07:54:39,665 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=217}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 08:06:33,257 INFO Client connection 1716249276825_192.168.65.1_41321 disconnect, remove instances and subscribers
+
+2024-05-21 08:06:33,261 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 08:06:33,261 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 08:06:33,261 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 08:06:33,261 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 08:06:33,261 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 08:06:33,261 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 08:06:33,699 INFO Client connection 1716249276825_192.168.65.1_41321 connect
+
+2024-05-21 08:06:33,700 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=108}, 1716249276825_192.168.65.1_41321
+
+2024-05-21 08:06:33,789 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 08:06:33,790 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=222}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 08:06:33,791 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 08:06:33,791 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=223}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 08:06:33,792 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 08:06:33,792 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=109}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 08:06:33,796 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 08:06:33,796 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 08:06:33,796 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=56}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 08:06:33,796 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=224}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 08:06:33,798 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 08:06:33,798 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=225}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 08:20:16,446 INFO Client connection 1716249276825_192.168.65.1_41321 disconnect, remove instances and subscribers
+
+2024-05-21 08:20:16,448 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 08:20:16,448 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 08:20:16,449 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 08:20:16,449 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 08:20:16,452 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 08:20:16,452 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 08:20:16,716 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 08:20:16,716 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=230}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 08:20:16,720 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 08:20:16,723 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=112}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 08:20:16,724 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 08:20:16,730 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=231}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 08:20:16,731 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 08:20:16,731 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=231}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 08:20:16,732 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 08:20:16,732 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=233}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 08:20:16,737 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 08:20:16,737 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=58}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 08:20:16,740 INFO Client connection 1716249276825_192.168.65.1_41321 connect
+
+2024-05-21 08:20:16,740 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=113}, 1716249276825_192.168.65.1_41321
+
+2024-05-21 09:01:38,886 INFO Client connection 1716249276825_192.168.65.1_41321 disconnect, remove instances and subscribers
+
+2024-05-21 09:01:38,886 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 09:01:38,886 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 09:01:38,886 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 09:01:38,886 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 09:01:38,886 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 09:01:38,886 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 09:01:39,847 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 09:01:39,847 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=116}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 09:01:39,847 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 09:01:39,847 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=238}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 09:01:39,849 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 09:01:39,850 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=239}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 09:01:39,872 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 09:01:39,875 INFO Client connection 1716249276825_192.168.65.1_41321 connect
+
+2024-05-21 09:01:39,875 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=240}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 09:01:39,875 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 09:01:39,875 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=60}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 09:01:39,876 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=117}, 1716249276825_192.168.65.1_41321
+
+2024-05-21 09:01:39,882 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 09:01:39,882 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=241}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 10:10:33,729 INFO Client connection 1716249276825_192.168.65.1_41321 disconnect, remove instances and subscribers
+
+2024-05-21 10:10:33,729 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 10:10:33,729 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 10:10:33,729 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 10:10:33,729 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 10:10:33,729 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 10:10:33,729 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 10:10:35,035 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 10:10:35,036 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=120}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 10:10:35,038 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 10:10:35,041 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=246}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 10:10:35,049 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 10:10:35,049 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=247}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 10:10:35,054 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 10:10:35,054 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=248}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 10:10:35,059 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 10:10:35,061 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=62}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 10:10:35,064 INFO Client connection 1716249276825_192.168.65.1_41321 connect
+
+2024-05-21 10:10:35,064 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=121}, 1716249276825_192.168.65.1_41321
+
+2024-05-21 10:10:35,080 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 10:10:35,080 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=249}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 12:34:52,465 INFO Client connection 1716249276825_192.168.65.1_41321 disconnect, remove instances and subscribers
+
+2024-05-21 12:34:52,465 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 12:34:52,465 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 12:34:52,465 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 12:34:52,465 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 12:34:52,465 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 12:34:52,465 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 12:34:52,969 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 12:34:52,969 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=124}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 12:34:52,987 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 12:34:52,987 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=254}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 12:34:52,999 INFO Client connection 1716249276825_192.168.65.1_41321 connect
+
+2024-05-21 12:34:52,999 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=125}, 1716249276825_192.168.65.1_41321
+
+2024-05-21 12:34:53,012 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 12:34:53,012 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=255}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 12:34:53,016 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 12:34:53,017 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=64}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 12:34:53,019 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 12:34:53,019 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=256}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 12:34:53,032 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 12:34:53,033 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=257}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 12:51:57,255 INFO Client connection 1716249276825_192.168.65.1_41321 disconnect, remove instances and subscribers
+
+2024-05-21 12:51:57,255 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 12:51:57,255 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 12:51:57,255 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 12:51:57,255 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 12:51:57,255 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 12:51:57,255 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 12:51:58,748 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 12:51:58,748 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=66}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 12:51:58,784 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 12:51:58,784 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=262}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 12:51:58,798 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 12:51:58,798 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=263}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 12:51:58,804 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 12:51:58,813 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=264}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 12:51:58,871 INFO Client connection 1716249276825_192.168.65.1_41321 connect
+
+2024-05-21 12:51:58,871 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=128}, 1716249276825_192.168.65.1_41321
+
+2024-05-21 12:51:58,874 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 12:51:58,874 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=265}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 12:51:58,899 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 12:51:58,899 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=129}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 13:08:25,262 INFO Client connection 1716249276825_192.168.65.1_41321 disconnect, remove instances and subscribers
+
+2024-05-21 13:08:25,262 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 13:08:25,262 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 13:08:25,262 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 13:08:25,262 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 13:08:25,262 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 13:08:25,262 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 13:08:25,886 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 13:08:25,887 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=270}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 13:08:25,889 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 13:08:25,891 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=68}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 13:08:25,891 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 13:08:25,891 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=271}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 13:08:25,900 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 13:08:25,900 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=272}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 13:08:25,901 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 13:08:25,901 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=273}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 13:08:25,908 INFO Client connection 1716249276825_192.168.65.1_41321 connect
+
+2024-05-21 13:08:25,908 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=132}, 1716249276825_192.168.65.1_41321
+
+2024-05-21 13:08:25,932 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 13:08:25,932 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=133}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 13:24:05,673 INFO Client connection 1716249276825_192.168.65.1_41321 disconnect, remove instances and subscribers
+
+2024-05-21 13:24:05,673 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 13:24:05,673 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 13:24:05,673 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 13:24:05,673 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 13:24:05,673 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 13:24:05,673 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 13:24:07,649 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 13:24:07,650 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=278}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 13:24:07,652 INFO Client connection 1716249276825_192.168.65.1_41321 connect
+
+2024-05-21 13:24:07,652 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=136}, 1716249276825_192.168.65.1_41321
+
+2024-05-21 13:24:07,659 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 13:24:07,663 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 13:24:07,664 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=279}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 13:24:07,669 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=137}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 13:24:07,681 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 13:24:07,681 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=280}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 13:24:07,720 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 13:24:07,721 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=281}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 13:24:07,727 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 13:24:07,727 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=70}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 13:31:51,955 INFO Client connection 1716249276825_192.168.65.1_41321 disconnect, remove instances and subscribers
+
+2024-05-21 13:31:51,955 INFO Client connection 1716210265856_192.168.65.1_43311 disconnect, remove instances and subscribers
+
+2024-05-21 13:31:51,955 INFO Client connection 1716210267402_192.168.65.1_58597 disconnect, remove instances and subscribers
+
+2024-05-21 13:31:51,955 INFO Client connection 1716210266322_192.168.65.1_17663 disconnect, remove instances and subscribers
+
+2024-05-21 13:31:51,955 INFO Client connection 1716217030588_192.168.65.1_22667 disconnect, remove instances and subscribers
+
+2024-05-21 13:31:51,956 INFO Client connection 1716210267368_192.168.65.1_16100 disconnect, remove instances and subscribers
+
+2024-05-21 13:31:51,956 INFO Client connection 1716210265840_192.168.65.1_34766 disconnect, remove instances and subscribers
+
+2024-05-21 13:31:53,987 INFO Client connection 1716210266322_192.168.65.1_17663 connect
+
+2024-05-21 13:31:53,987 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=286}, 1716210266322_192.168.65.1_17663
+
+2024-05-21 13:31:54,033 INFO Client connection 1716210265840_192.168.65.1_34766 connect
+
+2024-05-21 13:31:54,033 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=286}, 1716210265840_192.168.65.1_34766
+
+2024-05-21 13:31:54,052 INFO Client connection 1716210265856_192.168.65.1_43311 connect
+
+2024-05-21 13:31:54,052 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=288}, 1716210265856_192.168.65.1_43311
+
+2024-05-21 13:31:54,065 INFO Client connection 1716210267368_192.168.65.1_16100 connect
+
+2024-05-21 13:31:54,065 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=140}, 1716210267368_192.168.65.1_16100
+
+2024-05-21 13:31:54,176 INFO Client connection 1716249276825_192.168.65.1_41321 connect
+
+2024-05-21 13:31:54,176 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=141}, 1716249276825_192.168.65.1_41321
+
+2024-05-21 13:31:54,203 INFO Client connection 1716217030588_192.168.65.1_22667 connect
+
+2024-05-21 13:31:54,203 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=72}, 1716217030588_192.168.65.1_22667
+
+2024-05-21 13:31:54,205 INFO Client connection 1716210267402_192.168.65.1_58597 connect
+
+2024-05-21 13:31:54,205 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=289}, 1716210267402_192.168.65.1_58597
+
+2024-05-21 15:37:40,616 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2024-05-21 15:37:40,990 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2024-05-21 15:37:41,252 INFO Client connection 1716210266055_172.25.0.2_41246 disconnect, remove instances and subscribers
+
+2024-05-21 15:37:41,302 INFO Client connection 1716210264224_172.25.0.3_48786 disconnect, remove instances and subscribers
+
+2024-05-21 15:37:41,361 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-21 15:37:42,581 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-21 23:07:26,123 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-21 23:07:41,755 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-05-21 23:07:41,755 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-05-21 23:07:41,840 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-05-21 23:07:41,840 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-05-21 23:07:43,518 INFO Load instance extension handler []
+
+2024-05-21 23:07:52,876 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-21 23:07:52,978 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-21 23:10:00,927 INFO Client connection 1716304199724_192.168.65.1_33675 connect
+
+2024-05-21 23:10:00,942 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=0}, 1716304199724_192.168.65.1_33675
+
+2024-05-21 23:12:32,875 INFO Client connection 1716304199724_192.168.65.1_33675 disconnect, remove instances and subscribers
+
+2024-05-21 23:13:27,059 INFO Client connection 1716304405544_192.168.65.1_37484 disconnect, remove instances and subscribers
+
+2024-05-21 23:13:46,252 INFO Client connection 1716304425083_192.168.65.1_63631 connect
+
+2024-05-21 23:13:46,252 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=2}, 1716304425083_192.168.65.1_63631
+
+2024-05-21 23:15:05,820 INFO Client connection 1716304425083_192.168.65.1_63631 disconnect, remove instances and subscribers
+
+2024-05-21 23:15:13,784 INFO Client connection 1716304512592_192.168.65.1_19168 connect
+
+2024-05-21 23:15:13,784 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=4}, 1716304512592_192.168.65.1_19168
+
+2024-05-21 23:17:43,709 INFO Client connection 1716304512592_192.168.65.1_19168 disconnect, remove instances and subscribers
+
+2024-05-21 23:17:51,186 INFO Client connection 1716304669946_192.168.65.1_22154 connect
+
+2024-05-21 23:17:51,186 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=6}, 1716304669946_192.168.65.1_22154
+
+2024-05-21 23:20:16,970 INFO Client connection 1716304669946_192.168.65.1_22154 disconnect, remove instances and subscribers
+
+2024-05-21 23:20:24,037 INFO Client connection 1716304822885_192.168.65.1_19755 connect
+
+2024-05-21 23:20:24,037 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=8}, 1716304822885_192.168.65.1_19755
+
+2024-05-21 23:27:42,695 INFO Client connection 1716304822885_192.168.65.1_19755 disconnect, remove instances and subscribers
+
+2024-05-21 23:27:50,679 INFO Client connection 1716305269505_192.168.65.1_49939 connect
+
+2024-05-21 23:27:50,679 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=10}, 1716305269505_192.168.65.1_49939
+
+2024-05-21 23:34:59,749 INFO Client connection 1716305269505_192.168.65.1_49939 disconnect, remove instances and subscribers
+
+2024-05-21 23:35:07,608 INFO Client connection 1716305707134_192.168.65.1_30234 connect
+
+2024-05-21 23:35:07,608 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=12}, 1716305707134_192.168.65.1_30234
+

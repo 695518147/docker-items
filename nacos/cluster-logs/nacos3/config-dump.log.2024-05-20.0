@@ -1,0 +1,66 @@
+2024-05-20 16:44:12,961 INFO [dump] add formal task. groupKey=consumer-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200
+
+2024-05-20 16:44:13,037 INFO [dump] process formal task. groupKey=consumer-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200
+
+2024-05-20 16:44:13,164 INFO [dump] md5 changed, save to disk cache ,groupKey=consumer-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=0a18b0fb516e42becfb68564ce650d8f,oldMd5=
+
+2024-05-20 16:44:13,166 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=consumer-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=0a18b0fb516e42becfb68564ce650d8f,oldMd5=,lastModifiedTs=1716194653000
+
+2024-05-20 17:02:16,764 INFO [dump] add formal task. groupKey=consumer-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200
+
+2024-05-20 17:02:16,839 INFO [dump] process formal task. groupKey=consumer-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200
+
+2024-05-20 17:02:16,853 INFO [dump] md5 changed, save to disk cache ,groupKey=consumer-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=a040b942c39f2371bb6f63cc90f14f70,oldMd5=0a18b0fb516e42becfb68564ce650d8f
+
+2024-05-20 17:02:16,854 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=consumer-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=a040b942c39f2371bb6f63cc90f14f70,oldMd5=0a18b0fb516e42becfb68564ce650d8f,lastModifiedTs=1716195737000
+
+2024-05-20 17:11:43,758 INFO [dump] add formal task. groupKey=consumer-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200
+
+2024-05-20 17:11:43,826 INFO [dump] process formal task. groupKey=consumer-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200
+
+2024-05-20 17:11:43,846 INFO [dump] md5 changed, save to disk cache ,groupKey=consumer-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=cf28d8f7e8f9b7932360d441094cb058,oldMd5=a040b942c39f2371bb6f63cc90f14f70
+
+2024-05-20 17:11:43,847 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=consumer-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=cf28d8f7e8f9b7932360d441094cb058,oldMd5=a040b942c39f2371bb6f63cc90f14f70,lastModifiedTs=1716196304000
+
+2024-05-20 17:30:23,776 INFO [dump] add formal task. groupKey=consumer-two.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200
+
+2024-05-20 17:30:23,919 INFO [dump] process formal task. groupKey=consumer-two.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200
+
+2024-05-20 17:30:23,996 INFO [dump] md5 changed, save to disk cache ,groupKey=consumer-two.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=ebf819967548b9201759e5eaf8423a13,oldMd5=
+
+2024-05-20 17:30:23,999 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=consumer-two.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=ebf819967548b9201759e5eaf8423a13,oldMd5=,lastModifiedTs=1716197424000
+
+2024-05-20 17:56:18,444 INFO [dump] add formal task. groupKey=consumer-two.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200
+
+2024-05-20 17:56:18,454 INFO [dump] process formal task. groupKey=consumer-two.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200
+
+2024-05-20 17:56:18,492 INFO [dump] md5 changed, save to disk cache ,groupKey=consumer-two.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=af6301ef86d126bc1d932b92b27c479a,oldMd5=ebf819967548b9201759e5eaf8423a13
+
+2024-05-20 17:56:18,495 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=consumer-two.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=af6301ef86d126bc1d932b92b27c479a,oldMd5=ebf819967548b9201759e5eaf8423a13,lastModifiedTs=1716198978000
+
+2024-05-20 17:58:50,088 INFO [dump] add formal task. groupKey=product-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200
+
+2024-05-20 17:58:50,297 INFO [dump] process formal task. groupKey=product-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200
+
+2024-05-20 17:58:50,405 INFO [dump] md5 changed, save to disk cache ,groupKey=product-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=2ed1c931d486061e41b9943cc5e44c3f,oldMd5=
+
+2024-05-20 17:58:50,409 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=product-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=2ed1c931d486061e41b9943cc5e44c3f,oldMd5=,lastModifiedTs=1716199130000
+
+2024-05-20 20:30:39,907 INFO [dump] md5 changed, save to disk cache ,groupKey=consumer-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=cf28d8f7e8f9b7932360d441094cb058,oldMd5=
+
+2024-05-20 20:30:39,908 INFO [dump] md5 changed, save to disk cache ,groupKey=product-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=2ed1c931d486061e41b9943cc5e44c3f,oldMd5=
+
+2024-05-20 20:30:39,907 INFO [dump] md5 changed, save to disk cache ,groupKey=consumer-two.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=af6301ef86d126bc1d932b92b27c479a,oldMd5=
+
+2024-05-20 20:30:39,910 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=consumer-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=cf28d8f7e8f9b7932360d441094cb058,oldMd5=,lastModifiedTs=1716196304000
+
+2024-05-20 20:30:39,911 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=product-one.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=2ed1c931d486061e41b9943cc5e44c3f,oldMd5=,lastModifiedTs=1716199130000
+
+2024-05-20 20:30:39,912 INFO [dump] md5 changed, update md5 and timestamp in jvm cache ,groupKey=consumer-two.yml+ALIBABAGROUP+557ced9f-2063-474f-8907-c7cc2786d200, newMd5=af6301ef86d126bc1d932b92b27c479a,oldMd5=,lastModifiedTs=1716198978000
+
+2024-05-20 20:30:39,913 INFO [dump-all-ok] consumer-one.yml+ALIBABAGROUP, 1716196304000, length=13,md5UTF8=cf28d8f7e8f9b7932360d441094cb058
+
+2024-05-20 20:30:39,914 INFO [dump-all-ok] consumer-two.yml+ALIBABAGROUP, 1716198978000, length=13,md5UTF8=af6301ef86d126bc1d932b92b27c479a
+
+2024-05-20 20:30:39,914 INFO [dump-all-ok] product-one.yml+ALIBABAGROUP, 1716199130000, length=12,md5UTF8=2ed1c931d486061e41b9943cc5e44c3f
+

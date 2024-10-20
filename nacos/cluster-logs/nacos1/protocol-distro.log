@@ -1,0 +1,8 @@
+2024-05-24 01:22:02,513 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-24 01:22:02,513 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-24 01:22:02,592 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-24 01:22:02,610 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+

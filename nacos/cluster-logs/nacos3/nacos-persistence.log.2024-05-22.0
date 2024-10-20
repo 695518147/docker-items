@@ -1,0 +1,4 @@
+2024-05-22 09:15:38,004 ERROR [db-error] master db 192.168.0.100 down.
+
+2024-05-22 23:29:37,169 WARN [master-db] jdbc:mysql://192.168.0.100:2306/nacos_devtest?characterEncoding=utf8&connectTimeout=20000&socketTimeout=30000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+

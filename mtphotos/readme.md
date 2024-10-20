@@ -1,0 +1,1 @@
+/Users/zhangpeiyu/OrbStack/docker/containers/mtphotos/upload/zhangpeiyu/动漫

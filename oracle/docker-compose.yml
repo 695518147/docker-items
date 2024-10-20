@@ -1,0 +1,35 @@
+name: oracle
+services:
+  oracle11gr2:
+    image: wnameless/oracle-xe-11g-r2
+    container_name: oracle11gr2
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+      - "8080:8080"
+      - "1521:1521"
+    volumes:
+      - oracle_vol:/u01/app/oracle
+      - ./container-entrypoint-initdb.d:/docker-entrypoint-initdb.d/
+    privileged: true
+    # restart: always
+    networks:
+      - my_net
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+        reservations:
+          cpus: 0.8
+          memory: 4G
+
+volumes:
+  oracle_vol:
+
+networks:
+  my_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.30.0.0/16

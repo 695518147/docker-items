@@ -1,0 +1,502 @@
+2024-05-20 04:03:14,084 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-05-20 04:03:15,112 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-05-20 04:03:16,114 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-05-20 04:03:17,118 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2024-05-20 04:03:17,119 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos1:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-20 04:03:17,123 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2024-05-20 04:03:17,126 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos2:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-20 04:03:19,084 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-05-20 04:03:24,091 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-05-20 04:03:29,109 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-05-20 04:03:34,113 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-05-20 04:03:39,116 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-05-20 04:03:44,121 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-05-20 04:03:47,129 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2024-05-20 04:03:47,174 INFO [DISTRO-INIT] it took 45 ms to load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 and snapshot size is 25.
+
+2024-05-20 04:03:47,183 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 result: true
+
+2024-05-20 04:03:47,184 INFO [DISTRO-INIT] load snapshot data success
+
+2024-05-20 13:41:39,335 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-20 13:41:39,339 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-20 13:41:39,339 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-20 13:41:39,335 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-20 16:42:27,309 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-05-20 16:42:28,312 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-05-20 16:42:29,319 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-05-20 16:42:30,332 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2024-05-20 16:42:30,338 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos1:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-20 16:42:30,348 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848
+
+2024-05-20 16:42:30,349 ERROR [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos2:8848 failed.
+
+com.alibaba.nacos.core.distributed.distro.exception.DistroException: [DISTRO-EXCEPTION][DISTRO] Cancel get snapshot caused by target server nacos2:8848 unhealthy
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.v2.DistroClientTransportAgent.getDatumSnapshot(DistroClientTransportAgent.java:190)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.loadAllDataSnapshotFromRemote(DistroLoadDataTask.java:104)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.load(DistroLoadDataTask.java:87)
+	at com.alibaba.nacos.core.distributed.distro.task.load.DistroLoadDataTask.run(DistroLoadDataTask.java:63)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-20 16:42:32,309 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-05-20 16:42:37,314 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-05-20 16:42:42,333 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-05-20 16:42:47,336 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-05-20 16:42:52,341 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-05-20 16:42:57,343 WARN data storage DistroClientDataProcessor has not finished initial step, do not send verify data
+
+2024-05-20 16:43:00,353 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2024-05-20 16:43:00,379 INFO [DISTRO-INIT] it took 26 ms to load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 and snapshot size is 25.
+
+2024-05-20 16:43:00,391 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 result: true
+
+2024-05-20 16:43:00,392 INFO [DISTRO-INIT] load snapshot data success
+
+2024-05-20 16:48:22,549 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716194901369_192.168.65.1_40604', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 16:49:05,197 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716194901369_192.168.65.1_40604', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 16:49:09,441 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716194948870_192.168.65.1_33612', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 16:50:18,203 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716194948870_192.168.65.1_33612', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 16:50:23,362 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716195022142_192.168.65.1_31957', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 16:55:26,548 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716195022142_192.168.65.1_31957', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 16:56:34,242 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716195393073_192.168.65.1_27088', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:03:30,053 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716195393073_192.168.65.1_27088', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:07:09,733 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716196029571_192.168.65.1_45477', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:07:10,856 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716196029571_192.168.65.1_45477', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:07:13,481 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716196029703_192.168.65.1_42007', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:07:54,274 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716196029703_192.168.65.1_42007', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:07:59,724 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716196079322_192.168.65.1_38711', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:24:51,483 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716196079322_192.168.65.1_38711', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:24:56,940 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716197095798_192.168.65.1_25874', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:32:52,759 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716197571564_192.168.65.1_60664', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:34:19,367 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716197095798_192.168.65.1_25874', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:34:24,822 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716197663656_192.168.65.1_37269', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:34:30,281 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716197669291_192.168.65.1_28479', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:37:15,078 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716197833907_192.168.65.1_46870', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:37:18,915 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716197837755_192.168.65.1_24305', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:37:24,882 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716197843671_192.168.65.1_64986', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:37:38,627 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716197857428_192.168.65.1_44903', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:55:26,128 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716197843671_192.168.65.1_64986', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:55:26,231 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716197857428_192.168.65.1_44903', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:55:26,232 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716197571564_192.168.65.1_60664', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:55:26,234 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716197669291_192.168.65.1_28479', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:55:26,238 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716197833907_192.168.65.1_46870', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:55:26,244 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716197837755_192.168.65.1_24305', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:56:37,953 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716198996755_192.168.65.1_63415', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:56:40,174 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716198998944_192.168.65.1_60283', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:56:43,214 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716199001978_192.168.65.1_52153', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:56:57,870 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716199016651_192.168.65.1_40154', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:57:20,647 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716199039463_192.168.65.1_36636', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:57:23,944 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716199042727_192.168.65.1_32356', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 17:57:25,872 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716199044778_192.168.65.1_29728', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:00:00,831 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716199200219_192.168.65.1_39841', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:03:28,343 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716199200219_192.168.65.1_39841', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:03:35,922 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716199415358_192.168.65.1_41642', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:06:37,087 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716199415358_192.168.65.1_41642', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:09:16,603 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716199755212_192.168.65.1_23097', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:09:16,905 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716199755391_192.168.65.1_43199', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:09:22,767 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716199761604_192.168.65.1_64811', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:17:36,407 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716199761604_192.168.65.1_64811', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:18:53,175 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716200331869_192.168.65.1_48027', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:18:55,906 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716200332015_192.168.65.1_48305', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:22:10,027 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716200332015_192.168.65.1_48305', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:22:16,197 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716200535527_192.168.65.1_20316', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:23:18,130 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716200535527_192.168.65.1_20316', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:24:48,610 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716200687126_192.168.65.1_29604', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:24:51,037 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716200687251_192.168.65.1_23537', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:25:27,968 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716200687251_192.168.65.1_23537', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:25:34,638 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716200733414_192.168.65.1_45886', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:26:02,055 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716200733414_192.168.65.1_45886', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:26:06,301 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716200765029_192.168.65.1_46935', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:26:09,028 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716200765029_192.168.65.1_46935', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:34:58,809 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716200765029_192.168.65.1_46935', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:35:13,052 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716201311865_192.168.65.1_53489', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:39:10,570 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716201311865_192.168.65.1_53489', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:39:17,945 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716201556807_192.168.65.1_59489', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:40:05,005 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716201556807_192.168.65.1_59489', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:42:55,755 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716201771769_192.168.65.1_36590', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:47:50,556 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716201771769_192.168.65.1_36590', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:47:58,245 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716202077070_192.168.65.1_49595', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:50:48,780 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716202077070_192.168.65.1_49595', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:50:56,456 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716202255251_192.168.65.1_36414', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:51:52,923 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716202255251_192.168.65.1_36414', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:52:11,931 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716202328080_192.168.65.1_45210', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:53:18,252 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716202328080_192.168.65.1_45210', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:53:26,214 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716202405009_192.168.65.1_61363', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:54:07,187 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716202405009_192.168.65.1_61363', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:07,176 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716202506760_192.168.65.1_34438', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:08,269 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716202506760_192.168.65.1_34438', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:09,172 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716202506938_192.168.65.1_16711', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:10,846 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716199042727_192.168.65.1_32356', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:10,835 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716199001978_192.168.65.1_52153', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:11,084 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716199016651_192.168.65.1_40154', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:11,185 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716199039463_192.168.65.1_36636', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:11,385 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716199044778_192.168.65.1_29728', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:11,487 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716198996755_192.168.65.1_63415', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:11,588 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716198998944_192.168.65.1_60283', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:29,779 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716202528590_192.168.65.1_17431', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:31,906 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716202530764_192.168.65.1_64461', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:34,735 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716202533589_192.168.65.1_43586', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:36,856 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716202535993_192.168.65.1_21171', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:46,882 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716202546622_192.168.65.1_50284', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:55:51,935 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716202551398_192.168.65.1_18847', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:56:22,094 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716202581330_192.168.65.1_60788', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:56:59,943 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716202581330_192.168.65.1_60788', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 18:57:06,815 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716202625661_192.168.65.1_56916', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 19:16:52,175 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716202625661_192.168.65.1_56916', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 19:16:57,324 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716203817190_192.168.65.1_38234', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 19:16:58,338 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716203817190_192.168.65.1_38234', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 19:47:19,556 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716203817190_192.168.65.1_38234', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 19:47:27,033 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716205645850_192.168.65.1_45625', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:04:39,347 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716205645850_192.168.65.1_45625', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:18:40,111 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716207518895_192.168.65.1_40925', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:28:53,184 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-20 20:28:53,187 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-20 20:28:53,187 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-20 20:28:53,193 ERROR [TASK-FAILED] java.lang.InterruptedException
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2048)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at com.alibaba.nacos.common.task.engine.TaskExecuteWorker$InnerWorker.run(TaskExecuteWorker.java:118)
+2024-05-20 20:30:41,060 INFO [DISTRO-INIT] waiting distro data storage register...
+
+2024-05-20 20:30:42,061 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848
+
+2024-05-20 20:30:42,095 INFO [DISTRO-INIT] it took 34 ms to load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 and snapshot size is 3583.
+
+2024-05-20 20:30:42,124 INFO [DISTRO-INIT] load snapshot Nacos:Naming:v2:ClientData from nacos1:8848 result: true
+
+2024-05-20 20:30:42,125 INFO [DISTRO-INIT] load snapshot data success
+
+2024-05-20 20:30:46,837 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716208237347_192.168.65.1_26871', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:30:47,132 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716208237398_192.168.65.1_53925', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:30:47,235 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716208236819_192.168.65.1_34914', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:30:47,432 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716208237470_192.168.65.1_34557', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:30:47,736 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716208237308_192.168.65.1_46215', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:30:47,737 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716208237208_192.168.65.1_59166', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:30:47,747 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716208237260_192.168.65.1_57281', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:30:47,837 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716208236947_192.168.65.1_56292', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:30:47,837 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716208237375_192.168.65.1_57988', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:30:47,939 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716208237486_192.168.65.1_28540', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:30:47,940 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716208237634_192.168.65.1_54278', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:30:48,038 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716208237586_192.168.65.1_36163', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:30:48,846 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716208237722_192.168.65.1_20355', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:30:49,047 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716208237579_192.168.65.1_18235', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:43:41,470 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716208237347_192.168.65.1_26871', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 20:43:56,351 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716209035141_192.168.65.1_30868', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:03:21,762 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716208237398_192.168.65.1_53925', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:03:21,777 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716208237579_192.168.65.1_18235', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:03:21,838 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716208237634_192.168.65.1_54278', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:03:21,934 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716208237470_192.168.65.1_34557', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:03:21,991 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716209035141_192.168.65.1_30868', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:03:21,992 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716208236947_192.168.65.1_56292', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:04:27,616 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716208237398_192.168.65.1_53925', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:04:27,646 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716208236947_192.168.65.1_56292', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:04:27,799 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210265840_192.168.65.1_34766', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:04:27,807 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210265856_192.168.65.1_43311', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:04:27,898 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716209035141_192.168.65.1_30868', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:04:27,904 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210265037_192.168.65.1_47312', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:04:27,925 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716208237634_192.168.65.1_54278', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:04:27,998 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210266322_192.168.65.1_17663', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:04:28,401 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716208237722_192.168.65.1_20355', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:04:28,408 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716208237579_192.168.65.1_18235', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:04:28,700 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716208237470_192.168.65.1_34557', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:10:50,229 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210267402_192.168.65.1_58597', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:10:50,264 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210267368_192.168.65.1_16100', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:10:50,266 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210266322_192.168.65.1_17663', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:10:50,281 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210265037_192.168.65.1_47312', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:10:50,315 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210265840_192.168.65.1_34766', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:10:50,352 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210265856_192.168.65.1_43311', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:10:50,424 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210266585_192.168.65.1_54744', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:10:51,214 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210267402_192.168.65.1_58597', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:10:51,224 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210267368_192.168.65.1_16100', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 21:10:51,315 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210266585_192.168.65.1_54744', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 22:41:40,298 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716210266585_192.168.65.1_54744', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 22:41:54,349 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716216113148_192.168.65.1_39862', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 22:44:02,983 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716216113148_192.168.65.1_39862', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 22:44:13,818 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716216252600_192.168.65.1_60382', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 22:56:56,046 INFO [DISTRO] Receive distro data type: DELETE, key: DistroKey{resourceKey='1716216252600_192.168.65.1_60382', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 22:57:11,722 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716217030588_192.168.65.1_22667', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 23:13:29,540 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210266322_192.168.65.1_17663', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 23:13:29,543 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210265840_192.168.65.1_34766', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 23:13:29,542 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210267368_192.168.65.1_16100', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 23:13:29,545 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716217030588_192.168.65.1_22667', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 23:13:29,545 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210267402_192.168.65.1_58597', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 23:13:29,549 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210265037_192.168.65.1_47312', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 23:13:29,589 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210265856_192.168.65.1_43311', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 23:29:57,659 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210267402_192.168.65.1_58597', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 23:29:57,662 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210265037_192.168.65.1_47312', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 23:29:57,675 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210267368_192.168.65.1_16100', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 23:29:57,691 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716217030588_192.168.65.1_22667', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 23:29:57,679 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210266322_192.168.65.1_17663', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 23:29:57,680 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210265840_192.168.65.1_34766', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-20 23:29:57,712 INFO [DISTRO] Receive distro data type: CHANGE, key: DistroKey{resourceKey='1716210265856_192.168.65.1_43311', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+

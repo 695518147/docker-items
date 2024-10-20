@@ -1,0 +1,387 @@
+2024-05-22 00:00:31,614 INFO Client connection 1716305707134_192.168.65.1_30234 disconnect, remove instances and subscribers
+
+2024-05-22 00:00:32,648 INFO Client connection 1716305707134_192.168.65.1_30234 connect
+
+2024-05-22 00:00:32,648 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=14}, 1716305707134_192.168.65.1_30234
+
+2024-05-22 00:11:20,641 INFO Client connection 1716305707134_192.168.65.1_30234 disconnect, remove instances and subscribers
+
+2024-05-22 00:11:29,436 INFO Client connection 1716307888244_192.168.65.1_62141 connect
+
+2024-05-22 00:11:29,436 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=16}, 1716307888244_192.168.65.1_62141
+
+2024-05-22 00:12:15,117 INFO Client connection 1716307888244_192.168.65.1_62141 disconnect, remove instances and subscribers
+
+2024-05-22 00:13:31,733 WARN namespace : 557ced9f-2063-474f-8907-c7cc2786d200, [ALIBABAGROUP@@product-one] services are automatically cleaned
+
+2024-05-22 00:18:32,180 INFO Client connection 1716308308561_192.168.65.1_31185 connect
+
+2024-05-22 00:18:32,180 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=0}, 1716308308561_192.168.65.1_31185
+
+2024-05-22 00:18:34,095 INFO Client connection 1716308308561_192.168.65.1_31185 disconnect, remove instances and subscribers
+
+2024-05-22 00:18:42,181 INFO Client connection 1716308320937_192.168.65.1_43992 connect
+
+2024-05-22 00:18:42,181 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=2}, 1716308320937_192.168.65.1_43992
+
+2024-05-22 00:20:12,024 INFO Client connection 1716308320937_192.168.65.1_43992 disconnect, remove instances and subscribers
+
+2024-05-22 00:21:31,748 WARN namespace : 557ced9f-2063-474f-8907-c7cc2786d200, [ALIBABAGROUP@@product-one] services are automatically cleaned
+
+2024-05-22 00:32:47,360 INFO Client connection 1716309164118_192.168.65.1_62759 connect
+
+2024-05-22 00:32:47,360 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=0}, 1716309164118_192.168.65.1_62759
+
+2024-05-22 00:33:56,975 INFO Client connection 1716309164118_192.168.65.1_62759 disconnect, remove instances and subscribers
+
+2024-05-22 00:34:34,554 INFO Client connection 1716309273133_192.168.65.1_23071 disconnect, remove instances and subscribers
+
+2024-05-22 00:34:34,756 INFO Client connection 1716309273335_192.168.65.1_62949 disconnect, remove instances and subscribers
+
+2024-05-22 00:34:42,434 INFO Client connection 1716309281989_192.168.65.1_27400 connect
+
+2024-05-22 00:34:42,434 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=2}, 1716309281989_192.168.65.1_27400
+
+2024-05-22 00:36:32,230 INFO Client connection 1716309281989_192.168.65.1_27400 disconnect, remove instances and subscribers
+
+2024-05-22 00:38:31,778 WARN namespace : 557ced9f-2063-474f-8907-c7cc2786d200, [ALIBABAGROUP@@product-one] services are automatically cleaned
+
+2024-05-22 00:41:31,914 INFO Client connection 1716309690606_192.168.65.1_37726 disconnect, remove instances and subscribers
+
+2024-05-22 00:41:32,061 INFO Client connection 1716309690731_192.168.65.1_24930 disconnect, remove instances and subscribers
+
+2024-05-22 00:41:40,905 INFO Client connection 1716309699756_192.168.65.1_36030 connect
+
+2024-05-22 00:41:40,905 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=0}, 1716309699756_192.168.65.1_36030
+
+2024-05-22 00:43:11,013 INFO Client connection 1716309699756_192.168.65.1_36030 disconnect, remove instances and subscribers
+
+2024-05-22 00:44:31,774 WARN namespace : 557ced9f-2063-474f-8907-c7cc2786d200, [ALIBABAGROUP@@product-one] services are automatically cleaned
+
+2024-05-22 00:49:32,752 INFO Client connection 1716310169815_192.168.65.1_31680 connect
+
+2024-05-22 00:49:32,752 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=0}, 1716310169815_192.168.65.1_31680
+
+2024-05-22 00:51:02,848 INFO Client connection 1716310169815_192.168.65.1_31680 disconnect, remove instances and subscribers
+
+2024-05-22 00:51:11,165 INFO Client connection 1716310269938_192.168.65.1_52974 connect
+
+2024-05-22 00:51:11,165 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=2}, 1716310269938_192.168.65.1_52974
+
+2024-05-22 00:54:28,989 INFO Client connection 1716310269938_192.168.65.1_52974 disconnect, remove instances and subscribers
+
+2024-05-22 00:54:37,686 INFO Client connection 1716310476451_192.168.65.1_32754 connect
+
+2024-05-22 00:54:37,686 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=4}, 1716310476451_192.168.65.1_32754
+
+2024-05-22 00:57:37,363 INFO Client connection 1716310476451_192.168.65.1_32754 disconnect, remove instances and subscribers
+
+2024-05-22 00:57:45,149 INFO Client connection 1716310663905_192.168.65.1_45467 connect
+
+2024-05-22 00:57:45,149 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=6}, 1716310663905_192.168.65.1_45467
+
+2024-05-22 01:19:43,192 INFO Client connection 1716310663905_192.168.65.1_45467 disconnect, remove instances and subscribers
+
+2024-05-22 01:19:43,834 INFO Client connection 1716310663905_192.168.65.1_45467 connect
+
+2024-05-22 01:19:43,834 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=8}, 1716310663905_192.168.65.1_45467
+
+2024-05-22 01:34:50,919 INFO Client connection 1716310663905_192.168.65.1_45467 disconnect, remove instances and subscribers
+
+2024-05-22 01:34:59,711 INFO Client connection 1716312898482_192.168.65.1_40115 connect
+
+2024-05-22 01:34:59,711 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=10}, 1716312898482_192.168.65.1_40115
+
+2024-05-22 01:37:41,204 INFO Client connection 1716312898482_192.168.65.1_40115 disconnect, remove instances and subscribers
+
+2024-05-22 01:38:44,355 WARN namespace : 557ced9f-2063-474f-8907-c7cc2786d200, [ALIBABAGROUP@@product-one] services are automatically cleaned
+
+2024-05-22 01:58:25,034 INFO Client connection 1716314303771_192.168.65.1_47389 connect
+
+2024-05-22 01:58:25,037 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=0}, 1716314303771_192.168.65.1_47389
+
+2024-05-22 02:02:51,611 INFO Client connection 1716314303771_192.168.65.1_47389 disconnect, remove instances and subscribers
+
+2024-05-22 02:02:58,787 INFO Client connection 1716314577634_192.168.65.1_17396 connect
+
+2024-05-22 02:02:58,788 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=2}, 1716314577634_192.168.65.1_17396
+
+2024-05-22 02:10:53,447 INFO Client connection 1716314577634_192.168.65.1_17396 disconnect, remove instances and subscribers
+
+2024-05-22 02:11:20,145 INFO Client connection 1716315078971_192.168.65.1_48630 connect
+
+2024-05-22 02:11:20,145 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=4}, 1716315078971_192.168.65.1_48630
+
+2024-05-22 02:35:20,306 INFO Client connection 1716315078971_192.168.65.1_48630 disconnect, remove instances and subscribers
+
+2024-05-22 02:35:20,812 INFO Client connection 1716315078971_192.168.65.1_48630 connect
+
+2024-05-22 02:35:20,812 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=6}, 1716315078971_192.168.65.1_48630
+
+2024-05-22 02:36:27,563 INFO Client connection 1716304068298_172.25.0.3_39006 disconnect, remove instances and subscribers
+
+2024-05-22 02:36:29,096 INFO Client connection 1716304068790_172.25.0.5_43614 disconnect, remove instances and subscribers
+
+2024-05-22 02:36:32,673 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 02:36:32,674 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=7}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 02:36:33,560 INFO Client connection 1716315078971_192.168.65.1_48630 disconnect, remove instances and subscribers
+
+2024-05-22 02:52:44,149 INFO Client connection 1716316587413_172.25.0.5_39296 disconnect, remove instances and subscribers
+
+2024-05-22 03:18:56,112 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 03:18:57,445 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 03:18:57,446 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=10}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 03:35:28,304 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 03:35:29,010 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 03:35:29,011 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=12}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 03:51:59,266 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 03:52:00,645 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 03:52:00,645 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=14}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 04:08:33,039 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 04:08:33,726 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 04:08:33,726 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=16}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 04:19:23,487 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 04:19:24,012 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 04:19:24,014 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=18}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 04:42:11,517 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 04:42:12,229 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 04:42:12,238 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=20}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 04:58:10,442 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 04:58:11,059 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 04:58:11,252 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 04:58:11,253 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=22}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 04:58:12,950 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 05:14:35,882 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 05:14:36,203 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 05:14:36,203 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=24}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 05:15:25,654 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 05:15:36,349 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos3:8848]
+
+2024-05-22 05:15:38,783 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos3:8848], new: [nacos1:8848, nacos3:8848]
+
+2024-05-22 05:15:41,467 INFO Client connection 1716317563457_172.25.0.5_60578 disconnect, remove instances and subscribers
+
+2024-05-22 05:15:41,570 INFO Client connection 1716316588365_172.25.0.3_42332 disconnect, remove instances and subscribers
+
+2024-05-22 05:15:43,407 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 05:20:23,777 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 05:20:25,191 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 05:20:25,191 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=26}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 05:53:29,558 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 05:53:30,111 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 05:53:30,111 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=28}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 06:10:01,641 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 06:10:02,955 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 06:10:02,956 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=30}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 06:21:26,750 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 06:21:27,517 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 06:21:27,517 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=32}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 06:22:10,118 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 06:22:18,550 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 06:38:56,566 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 06:38:57,111 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 06:38:57,111 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=34}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 06:48:46,715 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 06:48:47,519 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 06:48:47,519 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=36}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 07:06:19,379 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 07:06:20,784 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 07:06:20,784 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=38}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 07:22:28,799 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 07:22:29,689 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 07:22:29,690 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=40}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 07:40:01,863 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 07:40:03,065 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 07:40:03,066 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=42}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 07:56:32,666 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 07:56:33,992 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 07:56:33,993 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=44}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 08:13:03,816 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 08:13:04,788 INFO Client connection 1716326141090_172.25.0.3_58652 disconnect, remove instances and subscribers
+
+2024-05-22 08:13:08,967 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 08:13:08,967 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=46}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 08:20:01,727 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 08:20:03,024 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 08:20:03,024 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=48}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 08:42:05,909 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 08:42:06,765 INFO Client connection 1716316589241_192.168.65.1_31952 connect
+
+2024-05-22 08:42:06,768 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=50}, 1716316589241_192.168.65.1_31952
+
+2024-05-22 08:42:57,710 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 08:43:00,923 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 08:43:10,802 INFO Client connection 1716326141211_172.25.0.5_33306 disconnect, remove instances and subscribers
+
+2024-05-22 08:43:11,602 INFO Client connection 1716336785143_172.25.0.3_57112 disconnect, remove instances and subscribers
+
+2024-05-22 08:43:12,084 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 08:58:38,787 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 08:58:39,411 INFO Client connection 1716316589241_192.168.65.1_31952 disconnect, remove instances and subscribers
+
+2024-05-22 08:58:39,570 INFO Client connection 1716338590868_192.168.65.1_25679 connect
+
+2024-05-22 08:58:39,570 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=52}, 1716338590868_192.168.65.1_25679
+
+2024-05-22 09:14:44,712 INFO Client connection 1716338590868_192.168.65.1_25679 disconnect, remove instances and subscribers
+
+2024-05-22 09:14:45,090 INFO Client connection 1716338590868_192.168.65.1_25679 connect
+
+2024-05-22 09:14:45,091 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=54}, 1716338590868_192.168.65.1_25679
+
+2024-05-22 09:15:50,416 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 09:15:51,392 INFO Client connection 1716338590156_172.25.0.5_40532 disconnect, remove instances and subscribers
+
+2024-05-22 09:15:51,625 INFO Client connection 1716338591020_172.25.0.3_51936 disconnect, remove instances and subscribers
+
+2024-05-22 09:15:52,361 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 09:15:52,688 INFO Client connection 1716338590868_192.168.65.1_25679 disconnect, remove instances and subscribers
+
+2024-05-22 09:15:53,918 INFO Client connection 1716340551244_192.168.65.1_57914 connect
+
+2024-05-22 09:15:53,934 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=56}, 1716340551244_192.168.65.1_57914
+
+2024-05-22 09:24:31,668 INFO Client connection 1716340551244_192.168.65.1_57914 disconnect, remove instances and subscribers
+
+2024-05-22 09:24:32,714 INFO Client connection 1716340551244_192.168.65.1_57914 connect
+
+2024-05-22 09:24:32,714 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=58}, 1716340551244_192.168.65.1_57914
+
+2024-05-22 09:25:19,243 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 09:25:19,291 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 09:42:09,222 INFO Client connection 1716340551244_192.168.65.1_57914 disconnect, remove instances and subscribers
+
+2024-05-22 09:42:10,620 INFO Client connection 1716340551244_192.168.65.1_57914 connect
+
+2024-05-22 09:42:10,620 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=60}, 1716340551244_192.168.65.1_57914
+
+2024-05-22 09:58:46,099 INFO Client connection 1716340551244_192.168.65.1_57914 disconnect, remove instances and subscribers
+
+2024-05-22 09:58:47,406 INFO Client connection 1716340551244_192.168.65.1_57914 connect
+
+2024-05-22 09:58:47,406 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=62}, 1716340551244_192.168.65.1_57914
+
+2024-05-22 10:15:06,654 INFO Client connection 1716340551244_192.168.65.1_57914 disconnect, remove instances and subscribers
+
+2024-05-22 10:15:08,650 INFO Client connection 1716340551244_192.168.65.1_57914 connect
+
+2024-05-22 10:15:08,668 INFO Client change for service Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=64}, 1716340551244_192.168.65.1_57914
+
+2024-05-22 10:15:18,911 INFO Client connection 1716340551244_192.168.65.1_57914 disconnect, remove instances and subscribers
+
+2024-05-22 10:17:06,746 WARN namespace : 557ced9f-2063-474f-8907-c7cc2786d200, [ALIBABAGROUP@@product-one] services are automatically cleaned
+
+2024-05-22 18:44:35,744 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2024-05-22 18:44:36,187 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2024-05-22 18:44:36,260 INFO Client connection 1716340550968_172.25.0.3_35062 disconnect, remove instances and subscribers
+
+2024-05-22 18:44:36,351 INFO Client connection 1716340551073_172.25.0.5_57670 disconnect, remove instances and subscribers
+
+2024-05-22 18:44:37,680 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-22 23:29:26,484 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:29:42,511 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-05-22 23:29:42,511 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-05-22 23:29:42,512 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-05-22 23:29:42,512 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-05-22 23:29:43,746 INFO Load instance extension handler []
+
+2024-05-22 23:29:52,679 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2024-05-22 23:29:53,831 INFO [NACOS-DISTRO] healthy server list changed, old: [nacos1:8848, nacos2:8848, nacos3:8848], new: [nacos1:8848, nacos2:8848, nacos3:8848]
+

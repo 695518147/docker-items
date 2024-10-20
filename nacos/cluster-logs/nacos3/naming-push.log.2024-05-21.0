@@ -1,0 +1,588 @@
+2024-05-21 00:58:21,481 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=46}
+
+2024-05-21 00:58:21,714 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=46}
+
+2024-05-21 00:58:21,741 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=20}
+
+2024-05-21 00:58:21,742 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=46}
+
+2024-05-21 00:58:22,547 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=48}
+
+2024-05-21 00:58:22,549 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=49}
+
+2024-05-21 00:58:22,558 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=50}
+
+2024-05-21 00:58:22,567 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=22}
+
+2024-05-21 01:17:49,483 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=54}
+
+2024-05-21 01:17:49,491 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=54}
+
+2024-05-21 01:17:49,492 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=24}
+
+2024-05-21 01:17:49,493 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=54}
+
+2024-05-21 01:17:50,224 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=58}
+
+2024-05-21 01:17:50,224 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=58}
+
+2024-05-21 01:17:50,225 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=58}
+
+2024-05-21 01:17:50,226 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=26}
+
+2024-05-21 01:52:42,436 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=62}
+
+2024-05-21 01:52:42,441 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=62}
+
+2024-05-21 01:52:42,443 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=28}
+
+2024-05-21 01:52:42,444 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=62}
+
+2024-05-21 01:52:42,740 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=65}
+
+2024-05-21 01:52:42,746 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=65}
+
+2024-05-21 01:52:42,748 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=30}
+
+2024-05-21 01:52:42,751 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=66}
+
+2024-05-21 01:52:42,752 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=30}
+
+2024-05-21 01:52:42,752 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=17}
+
+2024-05-21 01:52:42,754 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=66}
+
+2024-05-21 01:59:37,729 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=70}
+
+2024-05-21 01:59:37,732 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=70}
+
+2024-05-21 01:59:37,733 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=32}
+
+2024-05-21 01:59:37,734 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=70}
+
+2024-05-21 01:59:38,309 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=72}
+
+2024-05-21 01:59:38,319 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=73}
+
+2024-05-21 01:59:38,323 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=74}
+
+2024-05-21 01:59:38,330 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=34}
+
+2024-05-21 02:16:04,183 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=78}
+
+2024-05-21 02:16:04,187 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=78}
+
+2024-05-21 02:16:04,188 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=36}
+
+2024-05-21 02:16:04,190 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=78}
+
+2024-05-21 02:16:04,361 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=79}
+
+2024-05-21 02:16:04,366 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=80}
+
+2024-05-21 02:16:04,366 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=37}
+
+2024-05-21 02:16:04,371 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=81}
+
+2024-05-21 02:16:04,372 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=38}
+
+2024-05-21 02:16:04,382 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=82}
+
+2024-05-21 02:16:04,384 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=21}
+
+2024-05-21 03:00:58,116 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=86}
+
+2024-05-21 03:00:58,117 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=86}
+
+2024-05-21 03:00:58,118 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=40}
+
+2024-05-21 03:00:58,118 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=86}
+
+2024-05-21 03:00:59,107 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=88}
+
+2024-05-21 03:00:59,114 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=42}
+
+2024-05-21 03:00:59,123 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=89}
+
+2024-05-21 03:00:59,126 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=90}
+
+2024-05-21 03:17:23,425 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=94}
+
+2024-05-21 03:17:23,427 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=94}
+
+2024-05-21 03:17:23,428 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=44}
+
+2024-05-21 03:17:23,431 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=94}
+
+2024-05-21 03:17:23,510 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=96}
+
+2024-05-21 03:17:23,514 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=96}
+
+2024-05-21 03:17:23,515 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=97}
+
+2024-05-21 03:17:23,517 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=45}
+
+2024-05-21 03:17:23,529 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=46}
+
+2024-05-21 03:17:23,538 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=98}
+
+2024-05-21 03:17:23,539 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=25}
+
+2024-05-21 03:33:30,538 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=102}
+
+2024-05-21 03:33:30,547 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=102}
+
+2024-05-21 03:33:30,564 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=48}
+
+2024-05-21 03:33:30,651 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=102}
+
+2024-05-21 03:33:31,364 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=104}
+
+2024-05-21 03:33:31,365 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=106}
+
+2024-05-21 03:33:31,368 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=106}
+
+2024-05-21 03:33:31,368 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=50}
+
+2024-05-21 03:50:18,830 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=110}
+
+2024-05-21 03:50:18,832 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=110}
+
+2024-05-21 03:50:18,833 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=52}
+
+2024-05-21 03:50:18,834 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=110}
+
+2024-05-21 03:50:19,097 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=53}
+
+2024-05-21 03:50:19,098 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=112}
+
+2024-05-21 03:50:19,100 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=113}
+
+2024-05-21 03:50:19,101 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=113}
+
+2024-05-21 03:50:19,102 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=29}
+
+2024-05-21 03:50:19,103 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=54}
+
+2024-05-21 03:50:19,104 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=114}
+
+2024-05-21 04:01:59,644 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=118}
+
+2024-05-21 04:01:59,648 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=118}
+
+2024-05-21 04:01:59,649 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=56}
+
+2024-05-21 04:01:59,650 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=118}
+
+2024-05-21 04:01:59,995 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=119}
+
+2024-05-21 04:02:00,003 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=120}
+
+2024-05-21 04:02:00,009 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=121}
+
+2024-05-21 04:02:00,013 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=31}
+
+2024-05-21 04:02:00,016 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=122}
+
+2024-05-21 04:02:00,017 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=57}
+
+2024-05-21 04:02:00,021 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=58}
+
+2024-05-21 04:18:29,289 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=126}
+
+2024-05-21 04:18:29,291 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=126}
+
+2024-05-21 04:18:29,292 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=60}
+
+2024-05-21 04:18:29,292 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=126}
+
+2024-05-21 04:18:29,940 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=128}
+
+2024-05-21 04:18:29,944 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=129}
+
+2024-05-21 04:18:29,946 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=62}
+
+2024-05-21 04:18:29,946 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=130}
+
+2024-05-21 04:35:35,197 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=134}
+
+2024-05-21 04:35:35,199 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=134}
+
+2024-05-21 04:35:35,200 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=64}
+
+2024-05-21 04:35:35,201 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=134}
+
+2024-05-21 04:35:35,475 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=136}
+
+2024-05-21 04:35:35,476 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=136}
+
+2024-05-21 04:35:35,485 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=35}
+
+2024-05-21 04:35:35,493 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=137}
+
+2024-05-21 04:35:35,496 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=138}
+
+2024-05-21 04:35:35,497 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=65}
+
+2024-05-21 04:35:35,504 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=66}
+
+2024-05-21 05:03:00,449 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=140}
+
+2024-05-21 05:03:00,451 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=142}
+
+2024-05-21 05:03:00,451 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=68}
+
+2024-05-21 05:03:00,452 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=142}
+
+2024-05-21 05:03:00,946 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=143}
+
+2024-05-21 05:03:00,970 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=69}
+
+2024-05-21 05:03:00,974 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=70}
+
+2024-05-21 05:03:00,978 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=144}
+
+2024-05-21 05:03:00,987 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=145}
+
+2024-05-21 05:03:00,989 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=37}
+
+2024-05-21 05:03:00,996 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=146}
+
+2024-05-21 05:52:24,397 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=150}
+
+2024-05-21 05:52:24,400 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=150}
+
+2024-05-21 05:52:24,401 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=72}
+
+2024-05-21 05:52:24,402 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=150}
+
+2024-05-21 05:52:24,828 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=152}
+
+2024-05-21 05:52:24,829 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=152}
+
+2024-05-21 05:52:24,834 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=73}
+
+2024-05-21 05:52:24,837 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=74}
+
+2024-05-21 05:52:24,838 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=153}
+
+2024-05-21 05:52:24,842 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=39}
+
+2024-05-21 05:52:24,845 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=154}
+
+2024-05-21 06:04:06,271 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=158}
+
+2024-05-21 06:04:06,275 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=158}
+
+2024-05-21 06:04:06,276 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=76}
+
+2024-05-21 06:04:06,281 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=158}
+
+2024-05-21 06:04:06,582 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=159}
+
+2024-05-21 06:04:06,602 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=77}
+
+2024-05-21 06:04:06,603 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=160}
+
+2024-05-21 06:04:06,605 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=161}
+
+2024-05-21 06:04:06,610 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=78}
+
+2024-05-21 06:04:06,611 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=41}
+
+2024-05-21 06:04:06,614 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=162}
+
+2024-05-21 06:10:40,390 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=166}
+
+2024-05-21 06:10:40,393 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=166}
+
+2024-05-21 06:10:40,395 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=80}
+
+2024-05-21 06:10:40,396 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=166}
+
+2024-05-21 06:10:41,092 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=82}
+
+2024-05-21 06:10:41,098 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=168}
+
+2024-05-21 06:10:41,103 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=170}
+
+2024-05-21 06:10:41,107 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=170}
+
+2024-05-21 06:27:10,976 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=174}
+
+2024-05-21 06:27:10,979 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=174}
+
+2024-05-21 06:27:10,980 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=84}
+
+2024-05-21 06:27:10,981 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=174}
+
+2024-05-21 06:27:11,459 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=175}
+
+2024-05-21 06:27:11,460 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=85}
+
+2024-05-21 06:27:11,460 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=176}
+
+2024-05-21 06:27:11,464 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=177}
+
+2024-05-21 06:27:11,465 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=86}
+
+2024-05-21 06:27:11,467 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=178}
+
+2024-05-21 06:27:11,471 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=45}
+
+2024-05-21 06:44:36,339 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=182}
+
+2024-05-21 06:44:36,340 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=182}
+
+2024-05-21 06:44:36,341 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=88}
+
+2024-05-21 06:44:36,342 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=182}
+
+2024-05-21 06:44:36,717 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=89}
+
+2024-05-21 06:44:36,720 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=183}
+
+2024-05-21 06:44:36,724 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=185}
+
+2024-05-21 06:44:36,726 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=185}
+
+2024-05-21 06:44:36,728 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=186}
+
+2024-05-21 06:44:36,729 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=90}
+
+2024-05-21 06:44:36,733 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=47}
+
+2024-05-21 07:00:34,306 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=190}
+
+2024-05-21 07:00:34,308 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=190}
+
+2024-05-21 07:00:34,309 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=92}
+
+2024-05-21 07:00:34,311 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=190}
+
+2024-05-21 07:00:35,046 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=192}
+
+2024-05-21 07:00:35,053 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=94}
+
+2024-05-21 07:00:35,055 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=193}
+
+2024-05-21 07:00:35,059 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=194}
+
+2024-05-21 07:05:16,798 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=198}
+
+2024-05-21 07:05:16,800 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=198}
+
+2024-05-21 07:05:16,800 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=96}
+
+2024-05-21 07:05:16,802 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=198}
+
+2024-05-21 07:05:17,420 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=200}
+
+2024-05-21 07:05:17,429 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=98}
+
+2024-05-21 07:05:17,433 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=201}
+
+2024-05-21 07:05:17,435 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=202}
+
+2024-05-21 07:22:10,868 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=206}
+
+2024-05-21 07:22:10,869 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=206}
+
+2024-05-21 07:22:10,870 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=100}
+
+2024-05-21 07:22:10,871 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=206}
+
+2024-05-21 07:22:11,072 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=207}
+
+2024-05-21 07:22:11,077 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=101}
+
+2024-05-21 07:22:11,079 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=102}
+
+2024-05-21 07:22:11,081 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=208}
+
+2024-05-21 07:22:11,084 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=53}
+
+2024-05-21 07:22:11,087 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=209}
+
+2024-05-21 07:22:11,096 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=210}
+
+2024-05-21 07:54:39,025 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=214}
+
+2024-05-21 07:54:39,027 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=214}
+
+2024-05-21 07:54:39,027 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=105}
+
+2024-05-21 07:54:39,028 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=214}
+
+2024-05-21 07:54:39,649 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=216}
+
+2024-05-21 07:54:39,654 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=217}
+
+2024-05-21 07:54:39,666 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=218}
+
+2024-05-21 08:06:33,265 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=222}
+
+2024-05-21 08:06:33,269 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=222}
+
+2024-05-21 08:06:33,270 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=108}
+
+2024-05-21 08:06:33,271 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=222}
+
+2024-05-21 08:06:33,701 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=109}
+
+2024-05-21 08:06:33,791 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=223}
+
+2024-05-21 08:06:33,793 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=224}
+
+2024-05-21 08:06:33,793 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=110}
+
+2024-05-21 08:06:33,798 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=57}
+
+2024-05-21 08:06:33,798 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=225}
+
+2024-05-21 08:06:33,798 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=226}
+
+2024-05-21 08:20:16,452 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=230}
+
+2024-05-21 08:20:16,455 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=230}
+
+2024-05-21 08:20:16,457 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=112}
+
+2024-05-21 08:20:16,459 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=230}
+
+2024-05-21 08:20:16,718 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=231}
+
+2024-05-21 08:20:16,724 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=113}
+
+2024-05-21 08:20:16,732 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=233}
+
+2024-05-21 08:20:16,732 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=233}
+
+2024-05-21 08:20:16,733 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=234}
+
+2024-05-21 08:20:16,738 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=59}
+
+2024-05-21 08:20:16,740 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=114}
+
+2024-05-21 09:01:39,008 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=238}
+
+2024-05-21 09:01:39,243 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=238}
+
+2024-05-21 09:01:39,245 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=116}
+
+2024-05-21 09:01:39,253 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=238}
+
+2024-05-21 09:01:39,851 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=240}
+
+2024-05-21 09:01:39,875 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=241}
+
+2024-05-21 09:01:39,880 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=118}
+
+2024-05-21 09:01:39,884 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=242}
+
+2024-05-21 10:10:33,738 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=246}
+
+2024-05-21 10:10:34,023 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=246}
+
+2024-05-21 10:10:34,035 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=120}
+
+2024-05-21 10:10:34,035 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=246}
+
+2024-05-21 10:10:35,051 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=248}
+
+2024-05-21 10:10:35,058 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=249}
+
+2024-05-21 10:10:35,064 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=122}
+
+2024-05-21 10:10:35,080 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=250}
+
+2024-05-21 12:34:52,500 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=254}
+
+2024-05-21 12:34:52,545 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=254}
+
+2024-05-21 12:34:52,518 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=124}
+
+2024-05-21 12:34:52,525 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=254}
+
+2024-05-21 12:34:52,970 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=125}
+
+2024-05-21 12:34:52,988 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=255}
+
+2024-05-21 12:34:53,002 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=126}
+
+2024-05-21 12:34:53,023 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=257}
+
+2024-05-21 12:34:53,024 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=65}
+
+2024-05-21 12:34:53,025 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=257}
+
+2024-05-21 12:34:53,034 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=258}
+
+2024-05-21 12:51:57,897 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=262}
+
+2024-05-21 12:51:58,187 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=262}
+
+2024-05-21 12:51:58,188 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=128}
+
+2024-05-21 12:51:58,189 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=262}
+
+2024-05-21 12:51:58,749 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=67}
+
+2024-05-21 12:51:58,799 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=264}
+
+2024-05-21 12:51:58,873 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=266}
+
+2024-05-21 12:51:58,875 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=266}
+
+2024-05-21 12:51:58,899 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=130}
+
+2024-05-21 13:08:25,262 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=270}
+
+2024-05-21 13:08:25,648 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=270}
+
+2024-05-21 13:08:25,651 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=132}
+
+2024-05-21 13:08:25,653 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=270}
+
+2024-05-21 13:08:25,891 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='product-one', ephemeral=true, revision=69}
+
+2024-05-21 13:08:25,892 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=272}
+
+2024-05-21 13:08:25,901 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=273}
+
+2024-05-21 13:08:25,903 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=274}
+
+2024-05-21 13:08:25,932 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=134}
+
+2024-05-21 13:24:06,412 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=278}
+
+2024-05-21 13:24:06,890 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=278}
+
+2024-05-21 13:24:06,899 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=136}
+
+2024-05-21 13:24:06,900 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=278}
+
+2024-05-21 13:24:07,665 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=280}
+
+2024-05-21 13:24:07,670 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=138}
+
+2024-05-21 13:24:07,681 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=281}
+
+2024-05-21 13:24:07,722 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=282}
+
+2024-05-21 13:31:51,955 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=286}
+
+2024-05-21 13:31:52,578 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=286}
+
+2024-05-21 13:31:52,585 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=140}
+
+2024-05-21 13:31:52,585 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=286}
+
+2024-05-21 13:31:54,052 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=289}
+
+2024-05-21 13:31:54,053 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=289}
+
+2024-05-21 13:31:54,196 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=142}
+
+2024-05-21 13:31:54,205 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=290}
+

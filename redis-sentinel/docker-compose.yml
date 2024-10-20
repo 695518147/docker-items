@@ -1,0 +1,137 @@
+version: "3"
+name: redis-sentinel-36379
+
+services:
+  redis-36379:
+    image: redis:latest
+    container_name: redis-36379
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+      - 36379:36379
+    entrypoint: ["redis-server", "/etc/redis/redis.conf"]
+    command: --requirepass redis_pwd --masterauth redis_pwd
+    volumes:
+      - ./container/redis-36379/data:/data
+      - ./container/redis-36379/conf/redis.conf:/etc/redis/redis.conf
+      - ./logs/redis-36379:/var/redis/log
+
+  redis-36380:
+    image: redis:latest
+    container_name: redis-36380
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+      - 36380:36380
+    entrypoint: ["redis-server", "/etc/redis/redis.conf"]
+    command: --replicaof redis-36379 36379  --requirepass redis_pwd --masterauth redis_pwd
+    volumes:
+      - ./container/redis-36380/data:/data
+      - ./container/redis-36380/conf/redis.conf:/etc/redis/redis.conf
+      - ./logs/redis-36380:/var/redis/log
+    depends_on:
+      - redis-36379
+
+  redis-36381:
+    image: redis:latest
+    container_name: redis-36381
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+      - 36381:36381
+    entrypoint: ["redis-server", "/etc/redis/redis.conf"]
+    command: --replicaof redis-36379 36379  --requirepass redis_pwd --masterauth redis_pwd
+    volumes:
+      - ./container/redis-36381/data:/data
+      - ./container/redis-36381/conf/redis.conf:/etc/redis/redis.conf
+      - ./logs/redis-36381:/var/redis/log
+    depends_on:
+      - redis-36379
+
+  redis-36382:
+    image: redis:latest
+    container_name: redis-36382
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+      - 36382:36382
+    entrypoint: ["redis-server", "/etc/redis/redis.conf"]
+    command: --replicaof redis-36381 36381  --requirepass redis_pwd --masterauth redis_pwd
+    volumes:
+      - ./container/redis-36382/data:/data
+      - ./container/redis-36382/conf/redis.conf:/etc/redis/redis.conf
+      - ./logs/redis-36382:/var/redis/log
+    depends_on:
+      - redis-36381
+
+  redis-36383:
+    image: redis:latest
+    container_name: redis-36383
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+      - 36383:36383
+    entrypoint: ["redis-server", "/etc/redis/redis.conf"]
+    command: --replicaof redis-36381 36381  --requirepass redis_pwd --masterauth redis_pwd
+    volumes:
+      - ./container/redis-36383/data:/data
+      - ./container/redis-36383/conf/redis.conf:/etc/redis/redis.conf
+      - ./logs/redis-36383:/var/redis/log
+    depends_on:
+      - redis-36381
+
+  sentinel-26379:
+    image: redis:latest
+    container_name: sentinel-26379
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+      - 26379:26379
+    command: redis-sentinel /etc/redis/sentinel.conf
+    volumes:
+      - ./container/sentinel-26379/conf:/etc/redis
+      - ./logs/sentinel-26379:/var/redis/log
+    depends_on:
+      - redis-36379
+      - redis-36380
+      - redis-36381
+
+  sentinel-26380:
+    image: redis:latest
+    container_name: sentinel-26380
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+      - 26380:26380
+    command: redis-sentinel /etc/redis/sentinel.conf
+    volumes:
+      - ./container/sentinel-26380/conf:/etc/redis
+      - ./logs/sentinel-26380:/var/redis/log
+    depends_on:
+      - redis-36379
+      - redis-36380
+      - redis-36381
+
+  sentinel-26381:
+    image: redis:latest
+    container_name: sentinel-26381
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+    ports:
+      - 26381:26381
+    command: redis-sentinel /etc/redis/sentinel.conf
+    volumes:
+      - ./container/sentinel-26381/conf:/etc/redis
+      - ./logs/sentinel-26381:/var/redis/log
+    depends_on:
+      - redis-36379
+      - redis-36380
+      - redis-36381

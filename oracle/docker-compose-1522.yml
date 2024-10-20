@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  oraclefree:
+    image: gvenzl/oracle-free:latest
+    volumes:
+      - ./oracle-volume:/opt/oracle/oradata
+      - ./container-entrypoint-initdb.d:/container-entrypoint-initdb.d
+    tmpfs:
+      - /run
+    environment:
+      - "ORACLE_PASSWORD=mm006489"
+      - "APP_USER=scott"
+      - "APP_USER_PASSWORD=tiger"
+    ports:
+      - 1522:1521
+
+volumes:
+  oracle-volume:
+
+

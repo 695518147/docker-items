@@ -1,0 +1,538 @@
+2024-05-23 02:34:11,834 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716402850541_192.168.65.1_46260', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 02:34:11,837 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716402850541_192.168.65.1_46260', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 02:34:12,005 INFO [DISTRO-END] DistroKey{resourceKey='1716402850541_192.168.65.1_46260', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 02:34:12,007 INFO [DISTRO-END] DistroKey{resourceKey='1716402850541_192.168.65.1_46260', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 03:10:46,194 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716402850541_192.168.65.1_46260', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 03:10:46,194 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716402850541_192.168.65.1_46260', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 03:10:46,220 INFO [DISTRO-END] DistroKey{resourceKey='1716402850541_192.168.65.1_46260', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 03:10:46,224 INFO [DISTRO-END] DistroKey{resourceKey='1716402850541_192.168.65.1_46260', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 03:10:57,000 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716405055816_192.168.65.1_43410', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 03:10:57,000 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716405055816_192.168.65.1_43410', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 03:10:57,032 INFO [DISTRO-END] DistroKey{resourceKey='1716405055816_192.168.65.1_43410', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 03:10:57,036 INFO [DISTRO-END] DistroKey{resourceKey='1716405055816_192.168.65.1_43410', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 03:15:10,593 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716405055816_192.168.65.1_43410', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 03:15:10,593 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716405055816_192.168.65.1_43410', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 03:15:10,598 INFO [DISTRO-END] DistroKey{resourceKey='1716405055816_192.168.65.1_43410', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 03:15:10,599 INFO [DISTRO-END] DistroKey{resourceKey='1716405055816_192.168.65.1_43410', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 03:15:18,777 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716405317554_192.168.65.1_48035', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 03:15:18,777 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716405317554_192.168.65.1_48035', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 03:15:18,784 INFO [DISTRO-END] DistroKey{resourceKey='1716405317554_192.168.65.1_48035', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 03:15:18,785 INFO [DISTRO-END] DistroKey{resourceKey='1716405317554_192.168.65.1_48035', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 03:39:10,595 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716405317554_192.168.65.1_48035', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 03:39:10,595 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716405317554_192.168.65.1_48035', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 03:39:10,630 INFO [DISTRO-END] DistroKey{resourceKey='1716405317554_192.168.65.1_48035', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 03:39:10,676 INFO [DISTRO-END] DistroKey{resourceKey='1716405317554_192.168.65.1_48035', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 03:39:37,239 WARN task com.alibaba.nacos.core.distributed.distro.task.verify.DistroVerifyExecuteTask@c703407 takes 2042ms
+
+2024-05-23 03:43:46,855 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716405317554_192.168.65.1_48035', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 03:43:46,861 INFO [DISTRO-END] DistroKey{resourceKey='1716405317554_192.168.65.1_48035', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 03:43:46,956 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716405317554_192.168.65.1_48035', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 03:43:46,982 INFO [DISTRO-END] DistroKey{resourceKey='1716405317554_192.168.65.1_48035', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 03:43:47,325 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 03:43:47,325 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 03:43:47,450 INFO [DISTRO-END] DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 03:43:47,453 INFO [DISTRO-END] DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 03:54:16,131 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 03:54:16,132 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 03:54:16,194 INFO [DISTRO-END] DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 03:54:16,230 INFO [DISTRO-END] DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 04:16:56,228 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 04:16:56,229 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 04:16:56,343 INFO [DISTRO-END] DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 04:16:56,361 INFO [DISTRO-END] DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 04:17:30,731 WARN task com.alibaba.nacos.core.distributed.distro.task.verify.DistroVerifyExecuteTask@567b251a takes 2528ms
+
+2024-05-23 04:17:31,185 WARN task com.alibaba.nacos.core.distributed.distro.task.verify.DistroVerifyExecuteTask@20e5cf2 takes 3045ms
+
+2024-05-23 04:34:39,730 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 04:34:39,730 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 04:34:39,739 INFO [DISTRO-END] DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 04:34:39,744 INFO [DISTRO-END] DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 04:36:13,124 WARN task com.alibaba.nacos.core.distributed.distro.task.verify.DistroVerifyExecuteTask@5b403fa0 takes 2385ms
+
+2024-05-23 04:51:54,218 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 04:51:54,358 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 04:51:54,366 INFO [DISTRO-END] DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: false
+
+2024-05-23 04:51:54,367 INFO [DISTRO-END] DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: false
+
+2024-05-23 04:51:55,790 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 04:51:55,790 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 04:51:55,806 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: false
+
+2024-05-23 04:51:55,858 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 04:51:57,419 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 04:51:57,419 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 04:51:57,420 INFO [DISTRO-END] DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: false
+
+2024-05-23 04:51:57,423 INFO [DISTRO-END] DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 04:51:58,834 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 04:51:58,840 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 04:52:00,451 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 04:52:00,457 INFO [DISTRO-END] DistroKey{resourceKey='1716407025628_192.168.65.1_41689', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 05:08:59,905 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 05:08:59,905 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 05:08:59,921 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 05:08:59,950 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 05:25:27,042 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 05:25:27,042 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 05:25:27,051 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: false
+
+2024-05-23 05:25:27,075 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 05:25:30,091 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 05:25:30,097 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 05:25:58,224 WARN task com.alibaba.nacos.core.distributed.distro.task.verify.DistroVerifyExecuteTask@5ffa892f takes 1380ms
+
+2024-05-23 05:41:55,085 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 05:41:55,085 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 05:41:55,169 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 05:41:55,211 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 05:58:24,450 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 05:58:24,450 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 05:58:24,473 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 05:58:24,524 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 06:18:20,525 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 06:18:20,528 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 06:18:20,576 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 06:18:20,660 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 06:34:42,309 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 06:34:42,484 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 06:34:42,532 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 06:34:42,566 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 06:51:07,119 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 06:51:07,140 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 06:51:11,557 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 06:51:11,566 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 07:01:31,123 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 07:01:31,131 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 07:02:31,497 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 07:02:31,548 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 07:19:29,611 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 07:19:29,611 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 07:19:29,625 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 07:19:29,635 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 07:37:25,864 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 07:37:25,875 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 07:53:26,455 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 07:53:26,467 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 08:04:54,171 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 08:04:54,185 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 08:20:22,477 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 08:20:22,489 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 08:53:17,716 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 08:53:17,736 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 09:05:16,531 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 09:05:16,543 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 09:21:17,147 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 09:21:17,147 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 09:21:17,160 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 09:21:17,162 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 09:37:43,407 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 09:37:43,424 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 09:54:16,019 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 09:54:16,019 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 09:54:16,026 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 09:54:16,032 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 10:06:02,536 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 10:06:02,547 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 10:22:28,114 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 10:22:28,114 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 10:22:28,128 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 10:22:28,129 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 10:35:38,456 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 10:35:38,473 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 11:10:15,832 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 11:10:16,014 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 11:10:16,045 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 11:10:16,140 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 11:11:12,845 WARN task com.alibaba.nacos.core.distributed.distro.task.verify.DistroVerifyExecuteTask@6da07476 takes 1321ms
+
+2024-05-23 11:12:37,218 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 11:12:37,218 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 11:12:37,220 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: false
+
+2024-05-23 11:12:37,229 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 11:12:39,745 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 11:12:39,746 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 11:12:39,750 INFO [DISTRO-END] DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 11:12:39,751 INFO [DISTRO-END] DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 11:12:40,249 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 11:12:40,255 INFO [DISTRO-END] DistroKey{resourceKey='1716410184755_192.168.65.1_57422', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 11:28:44,329 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 11:28:44,404 INFO [DISTRO-END] DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 11:28:44,431 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 11:28:44,471 INFO [DISTRO-END] DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 11:45:11,363 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 11:45:11,363 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 11:45:11,370 INFO [DISTRO-END] DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 11:45:11,376 INFO [DISTRO-END] DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 12:01:37,801 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 12:01:37,803 INFO [DISTRO-END] DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: false
+
+2024-05-23 12:01:37,802 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 12:01:37,805 INFO [DISTRO-END] DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: false
+
+2024-05-23 12:01:40,530 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716436896612_192.168.65.1_39427', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 12:01:40,530 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716436896612_192.168.65.1_39427', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 12:01:40,535 INFO [DISTRO-END] DistroKey{resourceKey='1716436896612_192.168.65.1_39427', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 12:01:40,536 INFO [DISTRO-END] DistroKey{resourceKey='1716436896612_192.168.65.1_39427', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 12:01:40,833 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 12:01:40,833 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 12:01:40,839 INFO [DISTRO-END] DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 12:01:40,843 INFO [DISTRO-END] DistroKey{resourceKey='1716433956004_192.168.65.1_52701', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 12:13:44,438 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716436896612_192.168.65.1_39427', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 12:13:44,449 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716436896612_192.168.65.1_39427', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 12:13:44,493 INFO [DISTRO-END] DistroKey{resourceKey='1716436896612_192.168.65.1_39427', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 12:13:44,505 INFO [DISTRO-END] DistroKey{resourceKey='1716436896612_192.168.65.1_39427', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 12:15:08,772 WARN task com.alibaba.nacos.core.distributed.distro.task.verify.DistroVerifyExecuteTask@6f32084d takes 2962ms
+
+2024-05-23 12:15:44,127 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716436896612_192.168.65.1_39427', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 12:15:44,127 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716436896612_192.168.65.1_39427', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 12:15:44,131 INFO [DISTRO-END] DistroKey{resourceKey='1716436896612_192.168.65.1_39427', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 12:15:44,132 INFO [DISTRO-END] DistroKey{resourceKey='1716436896612_192.168.65.1_39427', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 12:15:44,329 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 12:15:44,330 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 12:15:44,334 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 12:15:44,335 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 12:15:46,854 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 12:15:46,854 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 12:15:46,864 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 12:15:46,864 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 12:31:57,117 WARN task com.alibaba.nacos.core.distributed.distro.task.verify.DistroVerifyExecuteTask@209ab33e takes 927311ms
+
+2024-05-23 12:31:57,336 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 12:31:57,336 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 12:31:57,343 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 12:31:57,382 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 12:48:18,834 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 12:48:18,842 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: false
+
+2024-05-23 12:48:21,857 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 12:48:21,862 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 12:48:23,776 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 12:48:23,781 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 13:08:15,711 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 13:08:15,711 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 13:08:15,714 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: false
+
+2024-05-23 13:08:15,746 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 13:08:18,740 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 13:08:18,748 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 13:17:46,820 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 13:17:46,841 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 15:02:17,429 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 15:02:17,429 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 15:02:17,438 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 15:02:17,440 INFO [DISTRO-END] DistroKey{resourceKey='1716437711029_192.168.65.1_39939', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 15:02:28,545 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447747356_192.168.65.1_63525', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 15:02:28,545 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447747356_192.168.65.1_63525', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 15:02:28,550 INFO [DISTRO-END] DistroKey{resourceKey='1716447747356_192.168.65.1_63525', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 15:02:28,551 INFO [DISTRO-END] DistroKey{resourceKey='1716447747356_192.168.65.1_63525', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 15:04:03,976 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716447747356_192.168.65.1_63525', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 15:04:03,976 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716447747356_192.168.65.1_63525', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 15:04:03,990 INFO [DISTRO-END] DistroKey{resourceKey='1716447747356_192.168.65.1_63525', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 15:04:03,992 INFO [DISTRO-END] DistroKey{resourceKey='1716447747356_192.168.65.1_63525', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 15:04:14,707 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447853549_192.168.65.1_34637', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 15:04:14,707 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447853549_192.168.65.1_34637', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 15:04:14,714 INFO [DISTRO-END] DistroKey{resourceKey='1716447853549_192.168.65.1_34637', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 15:04:14,716 INFO [DISTRO-END] DistroKey{resourceKey='1716447853549_192.168.65.1_34637', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 15:05:17,143 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716447853549_192.168.65.1_34637', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 15:05:17,144 INFO [DISTRO-START] DistroSyncDeleteTask for DistroKey{resourceKey='1716447853549_192.168.65.1_34637', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 15:05:17,152 INFO [DISTRO-END] DistroKey{resourceKey='1716447853549_192.168.65.1_34637', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 15:05:17,153 INFO [DISTRO-END] DistroKey{resourceKey='1716447853549_192.168.65.1_34637', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 15:05:26,341 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 15:05:26,341 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 15:05:26,347 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 15:05:26,348 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 15:21:28,748 WARN task com.alibaba.nacos.core.distributed.distro.task.verify.DistroVerifyExecuteTask@128156d9 takes 1620ms
+
+2024-05-23 15:37:32,307 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 15:37:32,309 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 15:37:32,341 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 15:37:32,358 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 15:54:01,204 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 15:54:01,731 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 15:54:01,754 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 15:54:01,815 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 16:10:31,110 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 16:10:31,205 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 16:10:31,220 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 16:10:31,296 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 16:27:00,897 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 16:27:01,031 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 16:43:27,913 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 16:43:27,987 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 16:43:28,015 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 16:43:28,024 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 16:59:45,838 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 16:59:45,907 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 16:59:45,939 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 16:59:45,970 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 17:18:18,359 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 17:18:18,432 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 17:18:18,450 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 17:18:18,514 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 17:38:03,890 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 17:38:04,105 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 17:38:04,194 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 17:38:04,254 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 17:54:33,228 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 17:54:33,326 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 18:11:03,060 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 18:11:03,146 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 18:11:03,161 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 18:11:03,171 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+
+2024-05-23 18:20:54,894 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'}
+
+2024-05-23 18:20:54,895 INFO [DISTRO-START] DistroSyncChangeTask for DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'}
+
+2024-05-23 18:20:54,938 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos3:8848'} result: true
+
+2024-05-23 18:20:55,876 INFO [DISTRO-END] DistroKey{resourceKey='1716447925165_192.168.65.1_17379', resourceType='Nacos:Naming:v2:ClientData', targetServer='nacos2:8848'} result: true
+

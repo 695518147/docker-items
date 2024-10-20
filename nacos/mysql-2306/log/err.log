@@ -1,0 +1,401 @@
+2024-05-19T18:48:46.014423Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+2024-05-19T18:48:46.017609Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.3.0) initializing of server in progress as process 80
+2024-05-19T18:48:46.023762Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T18:48:46.038513Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T18:48:46.042671Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T18:48:47.983111Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T18:48:50.042159Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2024-05-19T18:49:00.255866Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+2024-05-19T18:49:00.291531Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T18:49:00.526939Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 140
+2024-05-19T18:49:00.539149Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T18:49:00.570755Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T18:49:00.576956Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T18:49:01.043342Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T18:49:01.314544Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T18:49:01.315085Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T18:49:01.342408Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T18:49:01.342868Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 0  MySQL Community Server - GPL.
+2024-05-19T18:49:14.967754Z 16 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T18:49:16.667424Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T18:49:16.667933Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T18:49:17.008350Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T18:49:17.281334Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-19T18:49:17.284535Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T18:49:17.295826Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T18:49:17.305806Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T18:49:18.683226Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T18:49:19.312812Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T18:49:19.313592Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T18:49:19.438903Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T18:49:19.439759Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-19T19:15:00.413386Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T19:15:02.014931Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T19:15:02.015323Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T19:15:05.139281Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T19:15:05.973436Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-19T19:15:05.977650Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T19:15:05.990042Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T19:15:06.000392Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T19:15:06.607102Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T19:15:06.885554Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T19:15:06.886180Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T19:15:06.928832Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T19:15:06.928988Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-19T19:18:00.031723Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T19:18:01.578202Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T19:18:01.578423Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T19:18:03.656605Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T19:18:03.904245Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-19T19:18:03.908059Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T19:18:03.916427Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T19:18:03.918483Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T19:18:04.201594Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T19:18:04.414007Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T19:18:04.414370Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T19:18:04.455332Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T19:18:04.455916Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-19T19:19:59.241639Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T19:20:00.015854Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T19:20:00.016901Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T19:20:02.255276Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T19:20:02.483846Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-19T19:20:02.488311Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T19:20:02.500284Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T19:20:02.504126Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T19:20:02.851785Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T19:20:03.120551Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T19:20:03.121072Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T19:20:03.164412Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T19:20:03.164638Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-19T19:27:35.468606Z 96 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-19T19:35:46.135828Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T19:35:48.146475Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 96  user: 'nacos'.
+2024-05-19T19:35:48.853496Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T19:35:48.853729Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T19:35:51.632900Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T19:35:51.940631Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-19T19:35:51.943819Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T19:35:51.950943Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T19:35:51.952954Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T19:35:52.292513Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T19:35:52.539623Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T19:35:52.540137Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T19:35:52.582361Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T19:35:52.582621Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-19T19:39:48.868455Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T19:39:50.170911Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T19:39:50.174092Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T19:39:57.969520Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T19:39:58.170162Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-19T19:39:58.174220Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T19:39:58.181239Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T19:39:58.183470Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T19:39:58.432486Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T19:39:58.611577Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T19:39:58.611981Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T19:39:58.639716Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T19:39:58.639907Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-19T19:42:08.607461Z 32 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-19T19:42:37.634756Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T19:42:38.394210Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T19:42:38.394501Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T19:42:43.961097Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T19:42:44.173492Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-19T19:42:44.177278Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T19:42:44.185612Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T19:42:44.188347Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T19:42:44.530042Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T19:42:44.741350Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T19:42:44.741712Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T19:42:44.781675Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T19:42:44.781886Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-19T19:44:23.195330Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T19:44:24.317119Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T19:44:24.319196Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T19:44:35.827447Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T19:44:36.038864Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-19T19:44:36.042663Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T19:44:36.050427Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T19:44:36.053204Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T19:44:36.400532Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T19:44:36.583040Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T19:44:36.583590Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T19:44:36.628939Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T19:44:36.629079Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-19T19:45:24.943446Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T19:45:26.133322Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T19:45:26.134386Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T19:45:27.956298Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T19:45:28.161781Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-19T19:45:28.165673Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T19:45:28.175837Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T19:45:28.178489Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T19:45:28.487761Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T19:45:28.687558Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T19:45:28.688262Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T19:45:28.730453Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T19:45:28.730620Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-19T19:52:47.717635Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T19:52:48.170179Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.170525Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.171493Z 0 [ERROR] [MY-012646] [InnoDB] File .//ib_buffer_pool: 'file_exists_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.175845Z 0 [ERROR] [MY-011945] [InnoDB] Cannot delete '/data/ib_buffer_pool': Operation not permitted
+2024-05-19T19:52:48.769209Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.774320Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.774756Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_1.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.775176Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.775438Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.775762Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_1.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.776018Z 0 [Warning] [MY-012570] [InnoDB] './#innodb_temp/temp_1.ibt' get file type failed, won't delete!
+2024-05-19T19:52:48.776583Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.776853Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.777154Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_2.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.777722Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.777972Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.778206Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_2.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.778562Z 0 [Warning] [MY-012570] [InnoDB] './#innodb_temp/temp_2.ibt' get file type failed, won't delete!
+2024-05-19T19:52:48.779218Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.779524Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.779816Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_3.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.780188Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.781892Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.782200Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_3.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.782443Z 0 [Warning] [MY-012570] [InnoDB] './#innodb_temp/temp_3.ibt' get file type failed, won't delete!
+2024-05-19T19:52:48.782956Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.783211Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.783494Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_4.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.783882Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.784109Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.784336Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_4.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.784560Z 0 [Warning] [MY-012570] [InnoDB] './#innodb_temp/temp_4.ibt' get file type failed, won't delete!
+2024-05-19T19:52:48.785095Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.785339Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.785566Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_5.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.785966Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.786194Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.786428Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_5.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.786695Z 0 [Warning] [MY-012570] [InnoDB] './#innodb_temp/temp_5.ibt' get file type failed, won't delete!
+2024-05-19T19:52:48.787335Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.787596Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.787833Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_6.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.788200Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.788424Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.788676Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_6.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.788892Z 0 [Warning] [MY-012570] [InnoDB] './#innodb_temp/temp_6.ibt' get file type failed, won't delete!
+2024-05-19T19:52:48.789395Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.789648Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.789994Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_7.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.790850Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.791160Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.791567Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_7.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.791979Z 0 [Warning] [MY-012570] [InnoDB] './#innodb_temp/temp_7.ibt' get file type failed, won't delete!
+2024-05-19T19:52:48.793079Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.793814Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.794861Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_8.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.796730Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.797183Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.797913Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_8.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.798359Z 0 [Warning] [MY-012570] [InnoDB] './#innodb_temp/temp_8.ibt' get file type failed, won't delete!
+2024-05-19T19:52:48.802109Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.802745Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.803623Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_9.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.804675Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.806837Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.809203Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_9.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.810714Z 0 [Warning] [MY-012570] [InnoDB] './#innodb_temp/temp_9.ibt' get file type failed, won't delete!
+2024-05-19T19:52:48.814568Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.815103Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.815564Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_10.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.816218Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.816631Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.816991Z 0 [ERROR] [MY-012646] [InnoDB] File ./#innodb_temp/temp_10.ibt: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.817395Z 0 [Warning] [MY-012570] [InnoDB] './#innodb_temp/temp_10.ibt' get file type failed, won't delete!
+2024-05-19T19:52:48.840540Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.840974Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.841686Z 0 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.842411Z 0 [ERROR] [MY-012592] [InnoDB] Operating system error number 1 in a file operation.
+2024-05-19T19:52:48.842734Z 0 [ERROR] [MY-012596] [InnoDB] Error number 1 means 'Operation not permitted'
+2024-05-19T19:52:48.843194Z 0 [ERROR] [MY-012646] [InnoDB] File ./ibtmp1: 'file_status_posix_stat' returned OS error 101.
+2024-05-19T19:52:48.843821Z 0 [Warning] [MY-012570] [InnoDB] './ibtmp1' get file type failed, won't delete!
+2024-05-19T19:52:48.851271Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T19:52:48.852965Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T19:52:52.272197Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+2024-05-19T19:52:52.274329Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.3.0) initializing of server in progress as process 81
+2024-05-19T19:52:52.282299Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T19:52:52.296387Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T19:52:52.298608Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T19:52:53.043229Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T19:52:54.919713Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2024-05-19T19:53:01.424242Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+2024-05-19T19:53:01.465532Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T19:53:01.667126Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 131
+2024-05-19T19:53:01.671423Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T19:53:01.683642Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T19:53:01.686070Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T19:53:01.924532Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T19:53:02.184307Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T19:53:02.184664Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T19:53:02.220766Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T19:53:02.220950Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 0  MySQL Community Server - GPL.
+2024-05-19T19:53:09.959662Z 15 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T19:53:11.245528Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T19:53:11.246515Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T19:53:12.017163Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T19:53:12.324926Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-19T19:53:12.333144Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T19:53:12.347409Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T19:53:12.352485Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T19:53:12.980707Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T19:53:13.545695Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T19:53:13.546285Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T19:53:13.618966Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T19:53:13.619011Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-19T19:58:26.242540Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T19:58:27.302420Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T19:58:27.303210Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T19:58:34.726555Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T19:58:34.933574Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-19T19:58:34.936673Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T19:58:34.947444Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T19:58:34.951637Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T19:58:35.322424Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T19:58:35.568300Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T19:58:35.569043Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T19:58:35.618447Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T19:58:35.618479Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-19T19:59:29.636556Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T19:59:31.040942Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T19:59:31.041483Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T19:59:33.032480Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T19:59:33.232752Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-19T19:59:33.237926Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T19:59:33.251002Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T19:59:33.253537Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T19:59:33.530263Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T19:59:33.768061Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T19:59:33.768459Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T19:59:33.807620Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T19:59:33.807687Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-19T20:01:04.586583Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T20:01:05.337582Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T20:01:05.338034Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T20:01:10.248389Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T20:01:10.453811Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-19T20:01:10.458042Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T20:01:10.467064Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T20:01:10.469240Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T20:01:10.736143Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T20:01:10.986228Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T20:01:10.986898Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T20:01:11.027705Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T20:01:11.027831Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-19T20:01:39.404844Z 12 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-19T20:01:40.027566Z 13 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-19T20:01:40.614043Z 14 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-19T20:02:38.226142Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-19T20:02:39.476615Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-19T20:02:39.477135Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-19T20:02:43.595106Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-19T20:02:43.812037Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-19T20:02:43.815701Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-19T20:02:43.823480Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-19T20:02:43.825524Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-19T20:02:44.075046Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-19T20:02:44.267772Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-19T20:02:44.268231Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-19T20:02:44.312950Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-19T20:02:44.313087Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-19T20:03:07.886349Z 13 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-19T20:03:07.886910Z 12 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-20T05:41:37.572423Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-20T05:41:39.621606Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 1584  user: 'nacos'.
+2024-05-20T05:41:39.625630Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 1624  user: 'nacos'.
+2024-05-20T05:41:39.627367Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 1625  user: 'nacos'.
+2024-05-20T05:41:39.632293Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 1586  user: 'nacos'.
+2024-05-20T05:41:39.633720Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 1626  user: 'nacos'.
+2024-05-20T05:41:39.636132Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 1587  user: 'nacos'.
+2024-05-20T05:41:39.640760Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 1627  user: 'nacos'.
+2024-05-20T05:41:39.644342Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 1588  user: 'nacos'.
+2024-05-20T05:41:39.645043Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 1622  user: 'nacos'.
+2024-05-20T05:41:39.649745Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 1583  user: 'nacos'.
+2024-05-20T05:41:40.706041Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-20T05:41:40.710237Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-20T08:42:08.247795Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-20T08:42:08.558501Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-20T08:42:08.566432Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-20T08:42:08.588229Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-20T08:42:08.594888Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-20T08:42:09.479481Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-20T08:42:09.989978Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-20T08:42:09.990383Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-20T08:42:10.057224Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-20T08:42:10.057414Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-20T08:42:19.186716Z 8 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-20T08:42:19.329205Z 9 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-20T12:28:51.309801Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-20T12:28:53.582849Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 2618  user: 'nacos'.
+2024-05-20T12:28:53.587023Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 2419  user: 'nacos'.
+2024-05-20T12:28:53.587658Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 2516  user: 'nacos'.
+2024-05-20T12:28:53.590730Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 2501  user: 'nacos'.
+2024-05-20T12:28:53.591113Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 2518  user: 'nacos'.
+2024-05-20T12:28:55.728519Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-20T12:28:55.731169Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-20T12:30:06.523431Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-20T12:30:06.748801Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-20T12:30:06.753159Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-20T12:30:06.765142Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-20T12:30:06.770245Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-20T12:30:07.260054Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-20T12:30:07.755864Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-20T12:30:07.756423Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-20T12:30:07.827747Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-20T12:30:07.828377Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-20T12:30:16.295706Z 8 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-20T12:30:17.841537Z 9 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-21T07:37:40.538961Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-21T07:37:42.613059Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 5209  user: 'nacos'.
+2024-05-21T07:37:42.613668Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 5210  user: 'nacos'.
+2024-05-21T07:37:42.614141Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 2908  user: 'nacos'.
+2024-05-21T07:37:42.615921Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 5308  user: 'nacos'.
+2024-05-21T07:37:42.617530Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 5204  user: 'nacos'.
+2024-05-21T07:37:42.620671Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 5301  user: 'nacos'.
+2024-05-21T07:37:42.621707Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 5198  user: 'nacos'.
+2024-05-21T07:37:42.622611Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 2911  user: 'nacos'.
+2024-05-21T07:37:44.816772Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-21T07:37:44.817136Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-21T15:07:06.923775Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-21T15:07:07.322588Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-21T15:07:07.328744Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-21T15:07:07.340713Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-21T15:07:07.342974Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-21T15:07:07.817251Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-21T15:07:08.202058Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-21T15:07:08.203158Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-21T15:07:08.287324Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-21T15:07:08.287453Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-21T15:07:36.316243Z 12 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-21T15:07:36.491900Z 13 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-21T15:07:36.939746Z 14 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-22T10:44:35.711317Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.3.0).
+2024-05-22T10:44:37.824807Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 8304  user: 'nacos'.
+2024-05-22T10:44:37.827251Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 8313  user: 'nacos'.
+2024-05-22T10:44:37.829134Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 8553  user: 'nacos'.
+2024-05-22T10:44:37.831939Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 8465  user: 'nacos'.
+2024-05-22T10:44:37.835003Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 8289  user: 'nacos'.
+2024-05-22T10:44:37.836791Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 8315  user: 'nacos'.
+2024-05-22T10:44:39.946889Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.3.0)  MySQL Community Server - GPL.
+2024-05-22T10:44:39.949070Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-05-22T15:29:06.904966Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-05-22T15:29:07.111885Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.3.0) starting as process 1
+2024-05-22T15:29:07.116186Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /data/ is case insensitive
+2024-05-22T15:29:07.126163Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=201326592. Please use innodb_redo_log_capacity instead.
+2024-05-22T15:29:07.128430Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-22T15:29:07.394919Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-22T15:29:07.584727Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-22T15:29:07.585075Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-22T15:29:07.626011Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-05-22T15:29:07.626225Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.3.0'  socket: '/data/mysql.sock'  port: 2306  MySQL Community Server - GPL.
+2024-05-22T15:29:37.020193Z 12 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-22T15:29:37.313434Z 13 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known
+2024-05-22T15:29:38.390396Z 14 [Warning] [MY-010055] [Server] IP address '192.168.65.1' could not be resolved: Name or service not known

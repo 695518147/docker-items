@@ -1,0 +1,153 @@
+2024-05-20 17:34:23,847 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=8}
+
+2024-05-20 17:55:25,162 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=14}
+
+2024-05-20 17:55:25,179 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=15}
+
+2024-05-20 17:55:25,181 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=16}
+
+2024-05-20 17:55:25,218 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=4}
+
+2024-05-20 18:04:21,500 INFO [PUSH-SUCC] 45ms, all delay time 585ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, originalSize=3, DataSize=3
+
+2024-05-20 18:16:10,698 INFO [PUSH-SUCC] 41ms, all delay time 570ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, originalSize=3, DataSize=3
+
+2024-05-20 18:18:55,423 INFO [PUSH-SUCC] 25ms, all delay time 595ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, originalSize=3, DataSize=3
+
+2024-05-20 18:22:35,818 INFO [PUSH-SUCC] 24ms, all delay time 573ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, originalSize=3, DataSize=3
+
+2024-05-20 18:24:50,590 INFO [PUSH-SUCC] 14ms, all delay time 551ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, originalSize=3, DataSize=3
+
+2024-05-20 18:26:06,009 INFO [PUSH-SUCC] 18ms, all delay time 519ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, originalSize=3, DataSize=3
+
+2024-05-20 18:36:02,971 INFO [PUSH-SUCC] 38ms, all delay time 613ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, originalSize=3, DataSize=3
+
+2024-05-20 18:42:52,924 INFO [PUSH-SUCC] 35ms, all delay time 611ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=8}, originalSize=4, DataSize=4
+
+2024-05-20 18:48:12,263 INFO [PUSH-SUCC] 35ms, all delay time 551ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=8}, originalSize=4, DataSize=4
+
+2024-05-20 18:51:27,256 ERROR [PUSH-FAIL] 5003ms, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, reason=Timeout After 5000 milliseconds, requestId=26, connectionId=1716202255251_192.168.65.1_36414, target=192.168.0.100
+
+2024-05-20 18:51:27,274 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=26, connectionId=1716202255251_192.168.65.1_36414
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-20 18:51:33,320 ERROR [PUSH-FAIL] 5002ms, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, reason=Timeout After 5000 milliseconds, requestId=27, connectionId=1716202255251_192.168.65.1_36414, target=192.168.0.100
+
+2024-05-20 18:51:33,322 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=27, connectionId=1716202255251_192.168.65.1_36414
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-20 18:51:39,385 ERROR [PUSH-FAIL] 5002ms, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, reason=Timeout After 5000 milliseconds, requestId=28, connectionId=1716202255251_192.168.65.1_36414, target=192.168.0.100
+
+2024-05-20 18:51:39,386 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=28, connectionId=1716202255251_192.168.65.1_36414
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-20 18:51:45,455 ERROR [PUSH-FAIL] 5002ms, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, reason=Timeout After 5000 milliseconds, requestId=30, connectionId=1716202255251_192.168.65.1_36414, target=192.168.0.100
+
+2024-05-20 18:51:45,459 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=30, connectionId=1716202255251_192.168.65.1_36414
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-20 18:51:51,844 ERROR [PUSH-FAIL] 5001ms, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, reason=Timeout After 5000 milliseconds, requestId=31, connectionId=1716202255251_192.168.65.1_36414, target=192.168.0.100
+
+2024-05-20 18:51:51,848 ERROR Reason detail: 
+
+java.util.concurrent.TimeoutException: Timeout After 5000 milliseconds, requestId=31, connectionId=1716202255251_192.168.65.1_36414
+	at com.alibaba.nacos.api.remote.DefaultRequestFuture$TimeoutHandler.run(DefaultRequestFuture.java:194)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-05-20 18:52:11,533 INFO [PUSH-SUCC] 6ms, all delay time 548ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, originalSize=3, DataSize=3
+
+2024-05-20 18:53:31,005 INFO [PUSH-SUCC] 22ms, all delay time 596ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, originalSize=3, DataSize=3
+
+2024-05-20 18:53:39,078 INFO [PUSH-SUCC] 10ms, all delay time 533ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=8}, originalSize=4, DataSize=4
+
+2024-05-20 18:55:10,074 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=10}
+
+2024-05-20 18:55:10,152 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=5}
+
+2024-05-20 18:55:10,512 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=12}
+
+2024-05-20 18:56:30,533 INFO [PUSH-SUCC] 36ms, all delay time 623ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=10}, originalSize=4, DataSize=4
+
+2024-05-20 18:56:36,538 INFO [PUSH-SUCC] 23ms, all delay time 551ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=14}, originalSize=2, DataSize=2
+
+2024-05-20 18:57:09,337 INFO [PUSH-SUCC] 25ms, all delay time 591ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=10}, originalSize=4, DataSize=4
+
+2024-05-20 18:57:09,751 INFO [PUSH-SUCC] 9ms, all delay time 554ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=14}, originalSize=2, DataSize=2
+
+2024-05-20 19:17:12,160 INFO [PUSH-SUCC] 21ms, all delay time 608ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=10}, originalSize=4, DataSize=4
+
+2024-05-20 20:18:52,755 INFO [PUSH-SUCC] 21ms, all delay time 583ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=10}, originalSize=4, DataSize=4
+
+2024-05-20 20:30:39,981 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}
+
+2024-05-20 20:30:40,285 INFO [PUSH-SUCC] 17ms, all delay time 571ms, SLA 304ms, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=3}, originalSize=3, DataSize=3, target=192.168.0.100
+
+2024-05-20 20:30:40,879 INFO [PUSH-SUCC] 6ms, all delay time 546ms, SLA 546ms, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=4}, originalSize=4, DataSize=4, target=192.168.0.100
+
+2024-05-20 20:43:59,339 INFO [PUSH-SUCC] 72ms, all delay time 573ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=4}, originalSize=4, DataSize=4
+
+2024-05-20 20:44:00,331 INFO [PUSH-SUCC] 26ms, all delay time 588ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=2}, originalSize=2, DataSize=2
+
+2024-05-20 21:04:26,792 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=7}
+
+2024-05-20 21:04:26,816 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=7}
+
+2024-05-20 21:04:26,850 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=8}
+
+2024-05-20 21:04:26,860 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=4}
+
+2024-05-20 21:04:26,973 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=9}
+
+2024-05-20 21:04:27,680 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=11}
+
+2024-05-20 21:10:50,384 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=12}
+
+2024-05-20 21:10:50,425 INFO [PUSH] Task merge for Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=6}
+
+2024-05-20 21:10:50,708 INFO [PUSH-SUCC] 17ms, all delay time 544ms, SLA 544ms, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=12}, originalSize=4, DataSize=4, target=192.168.0.100
+
+2024-05-20 21:10:50,792 INFO [PUSH-SUCC] 9ms, all delay time 603ms, SLA 604ms, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=6}, originalSize=2, DataSize=2, target=192.168.0.100
+
+2024-05-20 22:42:07,528 INFO [PUSH-SUCC] 37ms, all delay time 548ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=12}, originalSize=4, DataSize=4
+
+2024-05-20 22:44:16,772 INFO [PUSH-SUCC] 42ms, all delay time 587ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-one', ephemeral=true, revision=12}, originalSize=4, DataSize=4
+
+2024-05-20 22:44:16,956 INFO [PUSH-SUCC] 23ms, all delay time 588ms for subscriber 192.168.0.100, Service{namespace='557ced9f-2063-474f-8907-c7cc2786d200', group='ALIBABAGROUP', name='consumer-two', ephemeral=true, revision=6}, originalSize=2, DataSize=2
+

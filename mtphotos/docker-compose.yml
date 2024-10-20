@@ -1,0 +1,42 @@
+services:
+  mtphotos:
+    image: mtphotos/mt-photos:latest
+    container_name: mtphotos
+    restart: always
+    ports:
+      - 18063:8063            #左侧是自定义端口，不冲突即可，右侧不能变
+    volumes:
+      - mtphotos_config:/config         #配置文件
+      - mtphotos_upload:/upload       #上传照片目录
+      - mtphotos_photos:/photos  #这里可配置原有的家庭照片库
+    environment:
+      - TZ=Asia/Shanghai
+      - PUID=1026
+      - PGID=100
+    depends_on:
+      - mtphotos_ai
+
+  mtphotos_ai:
+    image: mtphotos/mt-photos-ai:onnx-latest
+    container_name: mtphotos_ai
+    restart: always
+    ports:
+      - 18062:8000          #左侧自定义端口
+    environment:
+      - API_AUTH_KEY=thisismyphoto         #api访问token，自己随便写就行了
+
+  mtphotos_face:      #这个是新的人脸识别AI，如果不想用，把这一段都删掉就行
+    # 如果处理器支持avx指令集的，则镜像使用mtphotos/mt-photos-deepface:latest
+    image: mtphotos/mt-photos-deepface:noavx-latest
+    container_name: mtphotos_face
+    restart: always
+    ports:
+      - 18061:8066          #左侧自定义端口
+    environment:
+      - API_AUTH_KEY=thisismyphoto            #api访问token，自己随便写就行了
+
+
+volumes:
+  mtphotos_upload:
+  mtphotos_config:
+  mtphotos_photos:

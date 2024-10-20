@@ -1,0 +1,40 @@
+version: "3"
+services:
+  seata-server:
+    image: seataio/seata-server:2.0.0
+    ports:
+      - "7091:7091"
+      - "8091:8091"
+    environment:
+      - STORE_MODE=db
+      # 以SEATA_IP作为host注册seata server
+      - SEATA_IP=192.168.0.105
+      - SEATA_PORT=8091
+    volumes:
+      - "./resources:/seata-server/resources"
+    container_name: seata-server
+    depends_on:
+      seata_mysql:
+        condition: service_healthy
+
+  seata_mysql:
+    container_name: seata_mysql
+    build:
+      context: .
+      dockerfile: ./mysql-1306/Dockerfile
+    image: mysql:v8.0
+    restart: always
+    env_file:
+      - ./env/mysql.env
+    volumes:
+      - ./mysql-1306/mysql:/var/lib/mysql
+      - ./init_mysql:/docker-entrypoint-initdb.d
+    ports:
+      - "1306:3306"
+    healthcheck:
+      test: [ "CMD", "mysqladmin" ,"ping", "-h", "localhost" ]
+      interval: 5s
+      timeout: 10s
+      retries: 10
+
+

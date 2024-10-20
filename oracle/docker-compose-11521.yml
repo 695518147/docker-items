@@ -1,0 +1,33 @@
+name: oracle
+services:
+  oracle12c:
+    image: truevoly/oracle-12c
+    container_name: oracle12c
+    environment:
+      # 时区上海
+      TZ: Asia/Shanghai
+      # IMPORT_FROM_VOLUME: true
+      ORACLE_ALLOW_REMOTE: "true"
+    ports:
+      - "11521:11521"
+      - "18080:18080"
+    volumes:
+      - ./data/oracle:/u01/app/oracle
+    privileged: true
+    # restart: always
+    networks:
+      - my_net
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+        reservations:
+          cpus: 0.8
+          memory: 4G
+
+networks:
+  my_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.30.0.0/16

@@ -1,0 +1,60 @@
+1:X 22 Aug 2024 14:05:04.554 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:X 22 Aug 2024 14:05:04.556 * Redis version=7.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:X 22 Aug 2024 14:05:04.562 * Configuration loaded
+1:X 22 Aug 2024 14:05:04.565 * monotonic clock: POSIX clock_gettime
+1:X 22 Aug 2024 14:05:04.567 * Running mode=sentinel, port=26380.
+1:X 22 Aug 2024 14:05:04.577 * Sentinel new configuration saved on disk
+1:X 22 Aug 2024 14:05:04.578 * Sentinel ID is 324f156dda813e6181fb48347c1417fb1ab989e3
+1:X 22 Aug 2024 14:05:04.579 # +monitor master mymaster 192.168.0.105 36379 quorum 2
+1:X 22 Aug 2024 14:05:34.582 # +sdown master mymaster 192.168.0.105 36379
+1:X 22 Aug 2024 16:10:11.683 # +tilt #tilt mode entered
+1:X 22 Aug 2024 16:10:41.697 # -tilt #tilt mode exited
+1:X 22 Aug 2024 18:13:43.634 # +tilt #tilt mode entered
+1:X 22 Aug 2024 18:14:12.822 # -tilt #tilt mode exited
+1:X 22 Aug 2024 18:33:15.232 # +tilt #tilt mode entered
+1:X 22 Aug 2024 18:33:45.232 # -tilt #tilt mode exited
+1:X 22 Aug 2024 20:13:47.352 # +tilt #tilt mode entered
+1:X 22 Aug 2024 20:14:17.061 # -tilt #tilt mode exited
+1:X 22 Aug 2024 21:14:49.105 # +tilt #tilt mode entered
+1:X 22 Aug 2024 21:15:19.233 # -tilt #tilt mode exited
+1:X 22 Aug 2024 22:00:02.026 # +tilt #tilt mode entered
+1:X 22 Aug 2024 22:00:30.716 # -tilt #tilt mode exited
+1:X 22 Aug 2024 22:15:50.707 # +tilt #tilt mode entered
+1:X 22 Aug 2024 22:16:20.966 # -tilt #tilt mode exited
+1:X 22 Aug 2024 22:55:36.511 # +tilt #tilt mode entered
+1:signal-handler (1724338562) Received SIGTERM scheduling shutdown...
+1:X 22 Aug 2024 22:56:02.259 * User requested shutdown...
+1:X 22 Aug 2024 22:56:02.343 # Sentinel is now ready to exit, bye bye...
+1:X 23 Aug 2024 09:02:06.758 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:X 23 Aug 2024 09:02:06.797 * Redis version=7.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:X 23 Aug 2024 09:02:06.802 * Configuration loaded
+1:X 23 Aug 2024 09:02:06.803 * monotonic clock: POSIX clock_gettime
+1:X 23 Aug 2024 09:02:06.807 * Running mode=sentinel, port=26380.
+1:X 23 Aug 2024 09:02:06.815 * Sentinel ID is 324f156dda813e6181fb48347c1417fb1ab989e3
+1:X 23 Aug 2024 09:02:06.821 # +monitor master mymaster 192.168.0.105 36379 quorum 2
+1:X 23 Aug 2024 09:02:36.762 # +sdown master mymaster 192.168.0.105 36379
+1:X 23 Aug 2024 09:07:34.625 # +tilt #tilt mode entered
+1:X 23 Aug 2024 09:08:04.644 # -tilt #tilt mode exited
+1:X 23 Aug 2024 10:54:04.728 # +tilt #tilt mode entered
+1:X 23 Aug 2024 10:54:34.788 # -tilt #tilt mode exited
+1:X 23 Aug 2024 13:44:35.248 # +tilt #tilt mode entered
+1:X 23 Aug 2024 13:45:05.291 # -tilt #tilt mode exited
+1:X 23 Aug 2024 18:02:35.843 # +tilt #tilt mode entered
+1:X 23 Aug 2024 18:03:05.845 # -tilt #tilt mode exited
+1:X 23 Aug 2024 18:10:48.559 # +tilt #tilt mode entered
+1:X 23 Aug 2024 18:11:19.088 # -tilt #tilt mode exited
+1:X 23 Aug 2024 18:12:48.826 # +tilt #tilt mode entered
+1:X 23 Aug 2024 18:13:18.519 # -tilt #tilt mode exited
+1:X 23 Aug 2024 18:27:51.141 # +tilt #tilt mode entered
+1:X 23 Aug 2024 18:28:21.258 # -tilt #tilt mode exited
+1:X 23 Aug 2024 20:10:13.404 # +tilt #tilt mode entered
+1:X 23 Aug 2024 20:10:43.215 # -tilt #tilt mode exited
+1:X 23 Aug 2024 21:11:15.507 # +tilt #tilt mode entered
+1:X 23 Aug 2024 21:11:45.441 # -tilt #tilt mode exited
+1:X 23 Aug 2024 22:00:02.303 # +tilt #tilt mode entered
+1:X 23 Aug 2024 22:00:31.471 # -tilt #tilt mode exited
+1:X 23 Aug 2024 22:08:02.709 # +tilt #tilt mode entered
+1:X 23 Aug 2024 22:08:32.018 # -tilt #tilt mode exited
+1:signal-handler (1724422149) Received SIGTERM scheduling shutdown...
+1:X 23 Aug 2024 22:09:09.872 * User requested shutdown...
+1:X 23 Aug 2024 22:09:09.874 # Sentinel is now ready to exit, bye bye...

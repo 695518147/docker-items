@@ -1,0 +1,71 @@
+version: "3"
+services:
+  nacos1:
+    hostname: nacos1
+    container_name: nacos1
+    # NACOS_VERSION=v2.3.1
+    # NACOS_VERSION=2.0.3
+    image: nacos/nacos-server:${NACOS_VERSION}
+    volumes:
+      - ./cluster-logs/nacos1:/home/nacos/logs
+      # - ./application.properties:/home/nacos/conf/application.properties
+    ports:
+      - "7848:7848"
+      - "8848:8848"
+      - "9848:9848"
+    env_file:
+      - ./env/nacos.env
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  nacos2:
+    hostname: nacos2
+    image: nacos/nacos-server:${NACOS_VERSION}
+    container_name: nacos2
+    volumes:
+      - ./cluster-logs/nacos2:/home/nacos/logs
+    ports:
+      - "7849:7848"
+      - "8849:8848"
+      - "9849:9848"
+    env_file:
+      - ./env/nacos.env
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  nacos3:
+    hostname: nacos3
+    image: nacos/nacos-server:${NACOS_VERSION}
+    container_name: nacos3
+    volumes:
+      - ./cluster-logs/nacos3:/home/nacos/logs
+    ports:
+      - "7850:7848"
+      - "8850:8848"
+      - "9850:9848"
+    env_file:
+      - ./env/nacos.env
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+  mysql:
+    container_name: mysql-nacos
+    image: mysql:8.3
+    env_file:
+      - ./env/mysql.env
+    volumes:
+      - ./mysql-2306/mysql:/data
+      - ./mysql-2306/conf/my.cnf:/etc/my.cnf    #配置文件挂载
+      - ./mysql-2306/log:/var/log/mysql            #日志文件挂载
+      - ./mysql-2306/init_nacos/init2.0.3:/docker-entrypoint-initdb.d
+    ports:
+      - "2306:2306"
+    healthcheck:
+      test: [ "CMD", "mysqladmin" ,"ping", "-h", "localhost", "-P", "2306" ]
+      interval: 5s
+      timeout: 10s
+      retries: 10
+
