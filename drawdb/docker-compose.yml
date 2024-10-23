@@ -1,0 +1,9 @@
+name: drawdb
+services:
+  drawdb:
+    image: xinsodev/drawdb
+    container_name: drawdb
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+
