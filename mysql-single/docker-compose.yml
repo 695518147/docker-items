@@ -1,3 +1,4 @@
+name: mysql-single
 services:
   mysql:                                            #mysql服务节点
     image: mysql:8.3                              #mysql镜像，如果镜像容器没有会去自动拉取
