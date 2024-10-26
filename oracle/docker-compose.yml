@@ -7,7 +7,7 @@ services:
       # 时区上海
       TZ: Asia/Shanghai
     ports:
-      - "8080:8080"
+      - "8180:8080"
       - "1521:1521"
     volumes:
       - oracle_vol:/u01/app/oracle
