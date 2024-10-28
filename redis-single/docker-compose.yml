@@ -7,14 +7,13 @@ services:
     environment:
       - TZ=Asia/Shanghai
     volumes:
-      - ./etc_rc.local:/etc/rc.local
       - ./redis.conf:/etc/redis/redis.conf
       - redis_data:/data
-      - redis_logs/redis-single:/var/redis/log
+      - ./logs:/var/redis/log
       - redis_run:/var/run
     ports:
       - 6179:6179
-    command: redis-server /etc/redis/redis.conf --port 6179 # 覆盖容器启动后默认执行的命令
+    command: redis-server /etc/redis/redis.conf --port 6179
 
 volumes:
   redis_data:

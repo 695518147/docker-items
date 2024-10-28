@@ -1,0 +1,89 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /snail-job
+
+spring:
+  main:
+    banner-mode: off
+  profiles:
+    active: dev
+  datasource:
+    name: snail_job
+    ## mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/snail_job?useSSL=false&characterEncoding=utf8&useUnicode=true
+    username: root
+    password: root
+    ## postgres
+    #    driver-class-name: org.postgresql.Driver
+    #    url: jdbc:postgresql://localhost:5432/snail_job?useUnicode=true&characterEncoding=utf8&useSSL=true&autoReconnect=true&reWriteBatchedInserts=true
+    #    username: root
+    #    password: root
+    ## Oracle
+    #    driver-class-name: oracle.jdbc.OracleDriver
+    #    url: jdbc:oracle:thin:@//localhost:1521/XEPDB1
+    #    username: snail_job
+    #    password: SnailJob
+    ## SQL Server 注意:由于system_user为SQLServer系统函数，因此SQLServer需要启用前缀配置，请配置mybatis-plus.global-config.db-config.table-prefix: er_
+    #    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    #    url: jdbc:sqlserver://localhost:1433;DatabaseName=snail_job;SelectMethod=cursor;encrypt=false;rewriteBatchedStatements=true
+    #    username: SA
+    #    password: SnailJob@24
+    ## mariadb
+    #    driver-class-name: org.mariadb.jdbc.Driver
+    #    url: jdbc:mariadb://localhost:3308/snail_job?useSSL=false&characterEncoding=utf8&useUnicode=true
+    #    username: root
+    #    password: root
+    ## dm8
+    #    driver-class-name: dm.jdbc.driver.DmDriver
+    #    url: jdbc:dm://127.0.0.1:5236
+    #    username: SYSDBA
+    #    password: SYSDBA001
+    # kingbase
+    #    driver-class-name: com.kingbase8.Driver
+    #    url: jdbc:kingbase8://localhost:54321/test
+    #    username: root
+    #    password: root
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      connection-timeout: 30000
+      minimum-idle: 5
+      maximum-pool-size: 20
+      auto-commit: true
+      idle-timeout: 30000
+      pool-name: snail_job
+      max-lifetime: 1800000
+  web:
+    resources:
+      static-locations: classpath:admin/
+
+mybatis-plus:
+  typeAliasesPackage: com.aizuda.snailjob.template.datasource.persistence.po
+  global-config:
+    db-config:
+      where-strategy: NOT_EMPTY
+      capital-mode: false
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: true
+
+logging:
+  config: classpath:logback-boot.xml
+#    level:
+#    ## 方便调试 SQL
+#        com.aizuda.snailjob.template.datasource.persistence.mapper: debug
+
+snail-job:
+  retry-pull-page-size: 1000 # 拉取重试数据的每批次的大小
+  job-pull-page-size: 1000 # 拉取重试数据的每批次的大小
+  netty-port: 1788  # 服务端netty端口
+  limiter: 1000 # 一个客户端每秒最多接收的重试数量指令
+  step: 100 # 号段模式下步长配置
+  log-storage: 45 # 日志保存时间(单位: day)
+  callback: # 回调配置
+    max-count: 288 #回调最大执行次数
+    trigger-interval: 900 #间隔时间
+  retry-max-pull-count: 10
