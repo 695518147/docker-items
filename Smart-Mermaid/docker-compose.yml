@@ -1,0 +1,15 @@
+name: Smart-Mermaid
+
+services:
+  smart-mermaid:
+    #第三方根据官方源码打包而成的镜像    
+    image: ghcr.io/luler/smart-mermaid-docker:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - AI_API_URL=https://api.deepseek.com
+      - AI_API_KEY=sk-f6b9b498638b455ea3ff745cb15449de
+      #- AI_MODEL_NAME=deepseek/deepseek-v3 #可选，服务端默认模型名，如果设置未授权用户默认选中此模型
+      - AI_MODELS=deepseek-reasoner,deepseek-chat # 前端授权用户可选模型，逗号分隔，未授权默认选中第一个模型
+      - ACCESS_PASSWORD=mm006489  # 可选
+    restart: unless-stopped
